@@ -30,17 +30,7 @@ public class GravityChange : MonoBehaviour
     void Update()
     {
 
-#if UNITY_ANDROID && !UNITY_EDITOR   
-        //gravity code for android phone
-        dir = Vector3.zero;
-        dir.x = PlayerInput.GetAcceleration().x;
-        dir.y = PlayerInput.GetAcceleration().y;
-        Physics.gravity = dir * gravityIntensity;
-        
-#endif
-
-
-#if UNITY_EDITOR    //gravity code for editor
+#if UNITY_EDITOR //gravity code for editor
         gravityY = 0;
         gravityX = 0;
         if (Input.GetKey(KeyCode.A))
@@ -66,6 +56,18 @@ public class GravityChange : MonoBehaviour
 
 
 #endif
+
+
+#if UNITY_ANDROID 
+        //gravity code for android phone
+        dir = Vector3.zero;
+        dir.x = PlayerInput.GetAcceleration().x;
+        dir.y = PlayerInput.GetAcceleration().y;
+        Physics.gravity = dir * gravityIntensity;
+
+#endif
+
+
 
 
     }
