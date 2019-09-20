@@ -28,15 +28,17 @@ public class PlayerInput : MonoBehaviour
 
         _instance = this;
         DontDestroyOnLoad(this.gameObject);
+
+
     }
 
     private void Start()
     {
-#if PLATFORM_ANDROID
+        #if PLATFORM_ANDROID
         //Set up and enable the gyroscope (check your device has one)
         gyroscope = Input.gyro;
         gyroscope.enabled = true;
-#endif
+        #endif
     }
 
     public static Quaternion GetAttitude()
