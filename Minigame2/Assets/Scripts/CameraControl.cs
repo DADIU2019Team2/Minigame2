@@ -12,7 +12,7 @@ public class CameraControl : MonoBehaviour
     void LateUpdate()
     {
         temp.x = targetTransform.position.x;
-        temp.y = this.transform.position.y;
+        temp.y = targetTransform.position.y;
         temp.z = this.transform.position.z;
         this.transform.position = temp;
     }
