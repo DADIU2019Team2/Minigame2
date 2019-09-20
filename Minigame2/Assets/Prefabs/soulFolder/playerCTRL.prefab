@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 2149598759369848053}
   - component: {fileID: 1284422577988935058}
   - component: {fileID: 8959295615853096639}
-  - component: {fileID: 6341449121055663531}
-  - component: {fileID: 2354843665617611306}
+  - component: {fileID: 7550297149397211525}
+  - component: {fileID: 8859657420090998506}
   m_Layer: 11
   m_Name: playerCTRL
   m_TagString: Untagged
@@ -65,7 +65,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &6341449121055663531
+--- !u!114 &7550297149397211525
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -74,10 +74,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6498891905812155943}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc9a86a53a2aac349a4fcef6fed52d56, type: 3}
+  m_Script: {fileID: 11500000, guid: 350533559da63c7448d92fa6e4770519, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2354843665617611306
+--- !u!114 &8859657420090998506
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -86,17 +86,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6498891905812155943}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2555b4922fff1a5488d375654ed9ca9d, type: 3}
+  m_Script: {fileID: 11500000, guid: a65b11f382621a340a68ecca0f167011, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gravityScaleModifier: 1
-  angleThreshhold: 5
-  gravityRampUpCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
+  gravityIntensity: 15
 --- !u!1001 &3229740719560672059
 PrefabInstance:
   m_ObjectHideFlags: 0
