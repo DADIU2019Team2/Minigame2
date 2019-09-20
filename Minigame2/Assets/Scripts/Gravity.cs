@@ -14,6 +14,7 @@ public class Gravity : MonoBehaviour
     private float threshHold = 5;
 
     [SerializeField]
+    [Tooltip("Y-axis is gravity-strength, X-axis is time it takes to reach that strength. 1 second ramp-up time.")]
     private AnimationCurve gravityRampUpCurve;
     
     [RangeAttribute(0,1)] 
@@ -22,6 +23,7 @@ public class Gravity : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
     }
 
 
@@ -51,13 +53,7 @@ public class Gravity : MonoBehaviour
         float gravModifier = gravityRampUpCurve.Evaluate(rampUpTime); 
 
         Debug.Log("AngleDiff: " + angleDiff);
-
-
-
         ChangeGravity(AndroidGyroAcceleration(), gravityScale * gravModifier);
-
-
-
 
     }
     Vector3 AndroidGyroAcceleration()
