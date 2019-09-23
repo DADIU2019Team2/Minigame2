@@ -96,7 +96,7 @@ namespace UnityEditor
 
             string[] everyLine = new string[2];
             TextAsset buildNRFile = Resources.Load("buildNumbers") as TextAsset;
-            if (buildNRFile == null)
+            if (buildNRFile != null)
             {
                 string allLines = buildNRFile.text;
                 if (allLines.Count<Char>() > 0)
