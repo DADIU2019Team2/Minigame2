@@ -2,6 +2,7 @@
 using UnityEngine;
 using System.Linq;
 using TMPro;
+using UnityEditor;
 
 public class ReadBuildNumber : MonoBehaviour
 {
@@ -22,16 +23,15 @@ public class ReadBuildNumber : MonoBehaviour
         TextAsset buildNRFile = Resources.Load("buildNumbers") as TextAsset;
         if (buildNRFile == null) {return "Build #null"; }
         string allLines = buildNRFile.text;
-        string[] everyLine = new string[2];
+        string[] everyLine = new string[3];
         if (allLines.Count<Char>() > 0)
         {
-
             everyLine = allLines.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.None);
         }
 
         if (everyLine.Length > 0)
         {
-            return "Build NR: " + everyLine[1];//the number should be in the second line always
+            return everyLine[2] + " Build NR: " + everyLine[1];//the number should be in the second line always
         }
         return "There is no build number to be found";
     }
