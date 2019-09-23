@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D2B83B49-2C61-4AD0-AB96-36C6020424B3}" SchemaVersion="94">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{D2B83B49-2C61-4AD0-AB96-36C6020424B3}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Music" ID="{31B56D7E-1A6F-478C-A722-9B4F05B3525E}"/>
+				<GameParameter Name="World" ID="{DCFDD614-00A7-45C5-B784-BF570902D5E0}"/>
+				<GameParameter Name="SoulMovement" ID="{6B0238A4-6DB2-4CDF-A0CE-410114A0C3F8}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="10"/>
+						<Property Name="Max" Type="Real64" Value="10"/>
+						<Property Name="RTPCRamping" Type="int16" Value="2"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

@@ -30,10 +30,11 @@ namespace AK
         static const AkUniqueID PLAY_MENU_MUSIC = 2228153899U;
         static const AkUniqueID PLAY_METAL_IMPACT = 26906972U;
         static const AkUniqueID PLAY_MONSTER_CRAWL_SCRAPE1 = 1470122796U;
-        static const AkUniqueID PLAY_MONSTER_IMPACT = 3939836301U;
+        static const AkUniqueID PLAY_MONSTER_IMPACT_01 = 852515177U;
         static const AkUniqueID PLAY_PHONE = 190234274U;
         static const AkUniqueID PLAY_PORTAL_ENTER_NEXT_LEVEL = 3255294874U;
         static const AkUniqueID PLAY_SMALLER_GLASS_BREAKING = 1720134853U;
+        static const AkUniqueID PLAY_SOULMOVEMENT = 230120564U;
         static const AkUniqueID PLAY_WOOD_IMPACT2 = 864292832U;
         static const AkUniqueID SET_GAME_PARAMETER_MUSIC = 236152504U;
         static const AkUniqueID SET_GAME_PARAMETER_WORLD = 4138451597U;
@@ -50,6 +51,7 @@ namespace AK
         static const AkUniqueID RPM = 796049864U;
         static const AkUniqueID RPM_FA_SSGRAIN = 1656280998U;
         static const AkUniqueID SIMULATION_FA_SSGRAIN = 2428833394U;
+        static const AkUniqueID SOULMOVEMENT = 3077794743U;
         static const AkUniqueID SS_AIR_FEAR = 1351367891U;
         static const AkUniqueID SS_AIR_FREEFALL = 3002758120U;
         static const AkUniqueID SS_AIR_FURY = 1029930033U;
