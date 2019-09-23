@@ -14,11 +14,11 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Environment
+  - Objects
+  - Player
+  - Monster
+  - Body
   - 
   - 
   - 
