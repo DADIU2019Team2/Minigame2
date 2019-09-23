@@ -18,6 +18,7 @@ public class CharacterMaterialShifter : MonoBehaviour
     public Material soulLowerMaterial;
     [Range(0, 10f)] public float thresholdOne;
     [Range(0, 10f)] public float thresholdTwo;
+    public bool enableShifting;
     private static readonly int RingSize = Shader.PropertyToID("_ringSize");
 
     // Start is called before the first frame update
@@ -31,6 +32,7 @@ public class CharacterMaterialShifter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!enableShifting) return;
         soulUpper.SetActive(effectPhase <= thresholdOne);
         soulUpperMaterial.SetFloat(RingSize, effectPhase);
         characterMaterial.SetFloat(RingSize, Mathf.Max(0f, effectPhase - thresholdOne));

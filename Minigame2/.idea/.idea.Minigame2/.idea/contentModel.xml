@@ -32,6 +32,7 @@
           <e p="Gravity.cs" t="Include" />
           <e p="GravityChange.cs" t="Include" />
           <e p="LightController.cs" t="Include" />
+          <e p="MonsterController.cs" t="Include" />
           <e p="PlayerInput.cs" t="Include" />
           <e p="ScriptableObjectScripts" t="Include">
             <e p="IntScriptableObject.cs" t="Include" />
