@@ -7,6 +7,12 @@ namespace UnityEditor
 {
     public class Pipeline
     {
+        [MenuItem("Pipeline/Test")]
+        public static void test()
+        {
+            UnityEngine.Debug.Log("test = " + repoBranchName);
+        }
+
         [MenuItem("Pipeline/Build: Android")]
         public static void BuildAndroid()
         {
@@ -62,7 +68,9 @@ namespace UnityEditor
                 ProcessStartInfo startInfo = new ProcessStartInfo("git.exe");
 
                 startInfo.UseShellExecute = false;
-                startInfo.WorkingDirectory = @"C:\Users\Dadiu student\DADIU Team 2 - Minigame 1\Minigame1";
+                //startInfo.WorkingDirectory = @"C:\Users\Dadiu student\DADIU Team 2 - Minigame 1\Minigame1";
+                startInfo.WorkingDirectory = "%WORKSPACE/Minigame2";
+                UnityEngine.Debug.LogError("The path to working directory: " + startInfo.WorkingDirectory);
                 startInfo.RedirectStandardInput = true;
                 startInfo.RedirectStandardOutput = true;
                 startInfo.Arguments = "rev-parse --abbrev-ref HEAD";
