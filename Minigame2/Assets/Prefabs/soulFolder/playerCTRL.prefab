@@ -62,15 +62,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2555b4922fff1a5488d375654ed9ca9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gravityScale: {x: 7, y: 7, z: 7}
+  gravityScale: {x: 10, y: 10, z: 10}
   gravityDir: {x: 0, y: 0, z: 0}
-  threshHold: 5
+  threshHold: 10
   gravityRampUpCurve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: -0.0048446655
-      value: 0.37417603
+      time: -0.0028839111
+      value: 0.2227478
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -78,14 +78,14 @@ MonoBehaviour:
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 0.9401877
-      value: 0.8212899
-      inSlope: 1.694734
-      outSlope: 1.694734
+      time: 0.6614863
+      value: 0.53358555
+      inSlope: 1.1790814
+      outSlope: 1.1790814
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.037431743
-      outWeight: 0.1465184
+      inWeight: 0.33333334
+      outWeight: 0.33333334
     - serializedVersion: 3
       time: 1
       value: 1
