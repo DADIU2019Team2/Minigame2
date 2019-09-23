@@ -11,13 +11,20 @@ public class ArtPipelineUpdateLiveVersion : MonoBehaviour
     [MenuItem("3D art team/Update Live")]
     static void updateLive()
     {
-        List<string> liveFolders = new List<string>();
+        //List<string> liveFolders = new List<string>();
         string artPath = Directory.GetCurrentDirectory() + @"\3DAssets";
         Debug.Log("Looking through: " + artPath + " and all its subfolders");
-        getAllLiveFolders(artPath, liveFolders);
-        printListContent(liveFolders);
+        string[] listOfSubDirs = Directory.GetDirectories(artPath);
+        int amountOfSubfolders = listOfSubDirs.Length;
+        //Debug.Log("Amount of directories = " + amountOfSubfolders);
+        string RelocationPath = Application.dataPath; // path to Assets folder
 
-        moveLiveModels(liveFolders);
+        DirectoryCopy(artPath, RelocationPath, true);
+
+        //getAllLiveFolders(artPath, liveFolders);
+        //printListContent(liveFolders);
+
+        //moveLiveModels(liveFolders);
         Debug.Log("i've updated the Live versions of all models");
     }
 
