@@ -69,7 +69,7 @@ namespace UnityEditor
 
                 startInfo.UseShellExecute = false;
                 //startInfo.WorkingDirectory = @"C:\Users\Dadiu student\DADIU Team 2 - Minigame 1\Minigame1";
-                startInfo.WorkingDirectory = "%WORKSPACE/Minigame2";
+                startInfo.WorkingDirectory = @"C:\Users\Dadiu student\.jenkins\workspace\master minigame2\Minigame2"; //hardcode path
                 UnityEngine.Debug.LogError("The path to working directory: " + startInfo.WorkingDirectory);
                 startInfo.RedirectStandardInput = true;
                 startInfo.RedirectStandardOutput = true;

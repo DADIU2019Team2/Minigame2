@@ -160,8 +160,13 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
+<<<<<<< HEAD
     Android: com.SealSideResort.Float
     Standalone: com.SealSideResort.Float
+=======
+    Android: ' com.SealSideResort.Float'
+    Standalone: com.SuperMoistBros.Gravity
+>>>>>>> parent of 7ff1e81... Revert "Merge branch 'leveldesign' into LevelDesign-Mort"
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 18
