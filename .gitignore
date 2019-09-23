@@ -42,3 +42,4 @@ sysinfo.txt
 # wwise stuff
 **/*.akd
 **/.cache
+Minigame2/Assets/Resources/buildNumbers.txt
