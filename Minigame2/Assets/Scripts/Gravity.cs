@@ -67,48 +67,78 @@ public class Gravity : MonoBehaviour
 
         float gravModifier = gravityRampUpCurve.Evaluate(rampUpTime);
 
-        Debug.Log("AngleDiff in degrees: " + angleDiff);
+        //Debug.Log("AngleDiff in degrees: " + angleDiff);
 
-#if UNITY_ANDROID && !UNITY_EDITOR
+
         ChangeGravity(AndroidGyroAcceleration(), gravityScale * gravModifier);
-#endif
-#if UNITY_EDITOR
-        gravityY = 0;
-        gravityX = 0;
-        if (Input.GetKey(KeyCode.A))
-        {
-            gravityX = -1;
-        }
-        if (Input.GetKey(KeyCode.D))
-        {
-            gravityX = 1;
-        }
-        if (Input.GetKey(KeyCode.W))
-        {
-            gravityY = 1;
-        }
-        if (Input.GetKey(KeyCode.S))
-        {
-            gravityY = -1;
-        }
-        dir = Vector3.zero;
-        dir.x = gravityX;
-        dir.y = gravityY;
-        ChangeGravity(new Vector3(gravityX, gravityY, 0), gravityScale * gravModifier);
-#endif
+
+        //gravityY = 0;
+        //gravityX = 0;
+        //if (Input.GetKey(KeyCode.A))
+        //{
+        //    gravityX = -1;
+        //}
+        //if (Input.GetKey(KeyCode.D))
+        //{
+        //    gravityX = 1;
+        //}
+        //if (Input.GetKey(KeyCode.W))
+        //{
+        //    gravityY = 1;
+        //}
+        //if (Input.GetKey(KeyCode.S))
+        //{
+        //    gravityY = -1;
+        //}
+        //dir = Vector3.zero;
+        //dir.x = gravityX;
+        //dir.y = gravityY;
+        //ChangeGravity(new Vector3(gravityX, gravityY, 0), gravityScale * gravModifier);
+
         //Debug.Log("Gravity modifier (place on gravity-curve: " + gravModifier);
 
     }
     Vector3 AndroidGyroAcceleration()
     {
         //return PlayerInput.GetGravity();
-#if UNITY_ANDROID && !UNITY_EDITOR
-        return new Vector3(Input.acceleration.x, Input.acceleration.y, -Input.acceleration.z);
+#if UNITY_ANDROID
+        if (Mathf.Abs(Input.acceleration.x) < 0.02 && Mathf.Abs(Input.acceleration.y) < 0.02)
+        {
+            gravityY = 0;
+            gravityX = 0;
+            if (Input.GetKey(KeyCode.A))
+            {
+                gravityX = -1;
+            }
+            if (Input.GetKey(KeyCode.D))
+            {
+                gravityX = 1;
+            }
+            if (Input.GetKey(KeyCode.W))
+            {
+                gravityY = 1;
+            }
+            if (Input.GetKey(KeyCode.S))
+            {
+                gravityY = -1;
+            }
+            Debug.Log(gravityY);
+            return new Vector3(gravityX,gravityY,0);
+        }
+        else
+        {
+            Debug.Log(Input.acceleration.x);
+            Debug.Log(Input.acceleration.y);
+            
+            return new Vector3(Input.acceleration.x, Input.acceleration.y, -Input.acceleration.z);
+
+        }
+
 #endif
-#if UNITY_EDITOR
-        //Debug.Log("AndroidInput: " + new Vector3(gravityX, gravityY, 0).normalized);
-        return new Vector3(gravityX, gravityY, 0).normalized;
-#endif
+        //#if UNITY_EDITOR
+        //        //Debug.Log("AndroidInput: " + new Vector3(gravityX, gravityY, 0).normalized);
+        //        return new Vector3(gravityX, gravityY, 0).normalized;
+        //#endif
     }
     void ChangeGravity(Vector3 gravityDir, Vector3 gravityScale)
     {
