@@ -7,12 +7,6 @@ namespace UnityEditor
 {
     public class Pipeline
     {
-        [MenuItem("Pipeline/Test")]
-        public static void test()
-        {
-            UnityEngine.Debug.Log("test = " + repoBranchName);
-        }
-
         [MenuItem("Pipeline/Build: Android")]
         public static void BuildAndroid()
         {
@@ -69,7 +63,7 @@ namespace UnityEditor
 
                 startInfo.UseShellExecute = false;
                 //startInfo.WorkingDirectory = @"C:\Users\Dadiu student\DADIU Team 2 - Minigame 1\Minigame1";
-                startInfo.WorkingDirectory = @"C:\Users\Dadiu student\.jenkins\workspace\master minigame2\Minigame2"; //hardcode path
+                startInfo.WorkingDirectory = @"C:\Users\Dadiu student\.jenkins\workspace\Minigame2\Minigame2"; //hardcode path
                 UnityEngine.Debug.LogError("The path to working directory: " + startInfo.WorkingDirectory);
                 startInfo.RedirectStandardInput = true;
                 startInfo.RedirectStandardOutput = true;
@@ -90,9 +84,10 @@ namespace UnityEditor
             int buildNum = getBuildNum();
             int curBuildNum = buildNum + 1; ;
 
-            string[] stuffToWrite = new string[2];
+            string[] stuffToWrite = new string[3];
             stuffToWrite[0] = "The current build number of the project is";
             stuffToWrite[1] = curBuildNum.ToString();
+            stuffToWrite[2] = repoBranchName;
 
             UnityEngine.Debug.Log("Cur build nr = " + curBuildNum);
             
@@ -142,7 +137,8 @@ namespace UnityEditor
             }
             if(number == "")
             {
-                buildNum = 1;                
+                buildNum = 1;
+                return buildNum;
             }
             return buildNum;
         }
