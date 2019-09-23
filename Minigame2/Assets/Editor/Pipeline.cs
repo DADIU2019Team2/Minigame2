@@ -62,7 +62,8 @@ namespace UnityEditor
                 ProcessStartInfo startInfo = new ProcessStartInfo("git.exe");
 
                 startInfo.UseShellExecute = false;
-                startInfo.WorkingDirectory = @"C:\Users\Dadiu student\DADIU Team 2 - Minigame 1\Minigame1";
+                //startInfo.WorkingDirectory = @"C:\Users\Dadiu student\DADIU Team 2 - Minigame 1\Minigame1";
+                startInfo.WorkingDirectory = "%WORKSPACE\Minigame2"
                 startInfo.RedirectStandardInput = true;
                 startInfo.RedirectStandardOutput = true;
                 startInfo.Arguments = "rev-parse --abbrev-ref HEAD";
