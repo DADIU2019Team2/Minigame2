@@ -15,10 +15,10 @@ TagManager:
   - 
   - PostProcessing
   - Environment
-  - Object
+  - Objects
   - Player
-  - Body
   - Monster
+  - Body
   - 
   - 
   - 
