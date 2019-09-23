@@ -16,7 +16,7 @@
             "typeInfo": {
                 "fullName": "UnityEditor.ShaderGraph.Vector1ShaderProperty"
             },
-            "JSONnodeData": "{\n    \"m_Name\": \"ringSize\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"976fdfaa-d4ff-48f3-a720-902701497bd3\"\n    },\n    \"m_DefaultReferenceName\": \"Vector1_57540A82\",\n    \"m_OverrideReferenceName\": \"\",\n    \"m_Value\": 3.0,\n    \"m_FloatType\": 1,\n    \"m_RangeValues\": {\n        \"x\": 0.0,\n        \"y\": 50.0\n    },\n    \"m_Hidden\": false\n}"
+            "JSONnodeData": "{\n    \"m_Name\": \"ringSize\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"976fdfaa-d4ff-48f3-a720-902701497bd3\"\n    },\n    \"m_DefaultReferenceName\": \"Vector1_57540A82\",\n    \"m_OverrideReferenceName\": \"_ringSize\",\n    \"m_Value\": 3.0,\n    \"m_FloatType\": 1,\n    \"m_RangeValues\": {\n        \"x\": 0.0,\n        \"y\": 50.0\n    },\n    \"m_Hidden\": false\n}"
         }
     ],
     "m_GUID": {
