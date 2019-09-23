@@ -1116,9 +1116,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2555b4922fff1a5488d375654ed9ca9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gravityScale: {x: 9.81, y: 9.81, z: 9.81}
-  gravityDir: {x: 0, y: 0, z: 0}
-  threshHold: 5
+  gravityScaleModifier: 1
+  angleThreshhold: 5
   gravityRampUpCurve:
     serializedVersion: 2
     m_Curve:
