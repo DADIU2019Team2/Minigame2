@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: orbA_Mat
-  m_Shader: {fileID: -6465566751694194690, guid: c8a2780e01b60234aaa8fd00b35dac9c,
+  m_Name: orbLower_Mat
+  m_Shader: {fileID: -6465566751694194690, guid: 561f44436f6790f4a85a0282a2e21694,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -63,7 +63,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_12328A7B: 221.9
-    - Vector1_57540A82: 2.5
+    - Vector1_57540A82: 0
     - Vector1_758F98EF: 23.4
     - Vector1_7C0A56F2: 50
     - Vector1_89A25D73: 5
@@ -93,7 +93,7 @@ Material:
     m_Colors:
     - Color_3FB6CEAB: {r: 1, g: 1, b: 1, a: 0}
     - Color_7F12D5CE: {r: 0.33255717, g: 0.7529412, b: 0.066666685, a: 0.019607844}
-    - Color_DC8A8BCF: {r: 0.65178454, g: 7.3229914, b: 1.5587596, a: 0}
+    - Color_DC8A8BCF: {r: 0.6517846, g: 7.3229914, b: 1.5719512, a: 0}
     - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

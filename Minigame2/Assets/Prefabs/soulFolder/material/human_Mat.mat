@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: orbB_Mat
+  m_Name: human_Mat
   m_Shader: {fileID: -6465566751694194690, guid: 561f44436f6790f4a85a0282a2e21694,
     type: 3}
   m_ShaderKeywords: 
@@ -63,7 +63,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_12328A7B: 221.9
-    - Vector1_57540A82: 1
+    - Vector1_57540A82: 0
     - Vector1_758F98EF: 23.4
     - Vector1_7C0A56F2: 50
     - Vector1_89A25D73: 5
