@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: orbA_Mat
+  m_Name: orbUpper_Mat
   m_Shader: {fileID: -6465566751694194690, guid: c8a2780e01b60234aaa8fd00b35dac9c,
     type: 3}
   m_ShaderKeywords: 
@@ -63,7 +63,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_12328A7B: 221.9
-    - Vector1_57540A82: 3
+    - Vector1_57540A82: 2.5
     - Vector1_758F98EF: 23.4
     - Vector1_7C0A56F2: 50
     - Vector1_89A25D73: 5
