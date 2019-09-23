@@ -17,7 +17,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-7</Value>
+										<Value>-3</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -43,7 +43,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-5</Value>
+										<Value>-1</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -69,12 +69,12 @@
 							<PropertyList>
 								<Property Name="Pitch" Type="int32">
 									<ValueList>
-										<Value>830</Value>
+										<Value>2000</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-1</Value>
+										<Value>12</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -367,6 +367,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Cardboard_impact" ID="{4A16D544-D755-43D5-8F3C-7C40D5F614B1}" ShortID="243013596">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C519D04C-0DFA-4CBB-A114-E1EC6EE706E2}"/>
