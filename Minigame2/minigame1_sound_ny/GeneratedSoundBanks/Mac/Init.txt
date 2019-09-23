@@ -1,3 +1,13 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1321655446	LevelMusic			\Default Work Unit\LevelMusic	
+
+State	ID	Name	State Group			Notes
+	0	None	LevelMusic			
+	447814771	Level1Music	LevelMusic			
+	922141326	Level2Music	LevelMusic			
+	1420457448	Level4Music	LevelMusic			
+	2030041701	Level3Music	LevelMusic			
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	504532776	Brick			\Factory Reflect Acoustic Textures\Textures\Brick	
 	513139656	Mountain			\Factory Reflect Acoustic Textures\Textures\Mountain	

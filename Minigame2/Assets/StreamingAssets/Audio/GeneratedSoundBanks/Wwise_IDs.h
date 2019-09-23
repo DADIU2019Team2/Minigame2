@@ -40,6 +40,23 @@ namespace AK
         static const AkUniqueID SET_GAME_PARAMETER_WORLD = 4138451597U;
     } // namespace EVENTS
 
+    namespace STATES
+    {
+        namespace LEVELMUSIC
+        {
+            static const AkUniqueID GROUP = 1321655446U;
+
+            namespace STATE
+            {
+                static const AkUniqueID LEVEL1MUSIC = 447814771U;
+                static const AkUniqueID LEVEL2MUSIC = 922141326U;
+                static const AkUniqueID LEVEL3MUSIC = 2030041701U;
+                static const AkUniqueID LEVEL4MUSIC = 1420457448U;
+            } // namespace STATE
+        } // namespace LEVELMUSIC
+
+    } // namespace STATES
+
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID DENSITY_FA_SSGRAIN = 2715217995U;
