@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
 	<RootPaths>
-		<ProjectRoot>/Users/fredo/Library/Application Support/Wwise2019/Bottles/wwise/dosdevices/y:/Documents/GitHub/Minigame1/minigame1_sound_ny/</ProjectRoot>
-		<SourceFilesRoot>/Users/fredo/Library/Application Support/Wwise2019/Bottles/wwise/dosdevices/y:/Documents/GitHub/Minigame1/minigame1_sound_ny/.cache/Windows/</SourceFilesRoot>
-		<SoundBanksRoot>/Users/fredo/Library/Application Support/Wwise2019/Bottles/wwise/dosdevices/y:/Documents/GitHub/Minigame1/minigame1_sound_ny/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ProjectRoot>/Users/fredo/Library/Application Support/Wwise2019/Bottles/wwise/dosdevices/y:/Documents/GitHub/Minigame2/Minigame2/Minigame2_sound/</ProjectRoot>
+		<SourceFilesRoot>/Users/fredo/Library/Application Support/Wwise2019/Bottles/wwise/dosdevices/y:/Documents/GitHub/Minigame2/Minigame2/Minigame2_sound/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/fredo/Library/Application Support/Wwise2019/Bottles/wwise/dosdevices/y:/Documents/GitHub/Minigame2/Minigame2/Minigame2_sound/GeneratedSoundBanks/Windows/</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>/Users/fredo/Library/Application Support/Wwise2019/Bottles/wwise/dosdevices/y:/Documents/GitHub/Minigame1/minigame1_sound_ny/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>/Users/fredo/Library/Application Support/Wwise2019/Bottles/wwise/dosdevices/y:/Documents/GitHub/Minigame2/Minigame2/Minigame2_sound/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
