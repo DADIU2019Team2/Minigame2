@@ -16,7 +16,7 @@ namespace UnityEditor
         [MenuItem("Pipeline/Build: Android")]
         public static void BuildAndroid()
         {
-            updateBuildNumberIdentifier(); //update our build number file
+            setBuildNum(); //update our build number file
             Directory.CreateDirectory(pathname);
             var report = BuildPipeline.BuildPlayer(new BuildPlayerOptions
             {
@@ -57,7 +57,7 @@ namespace UnityEditor
         {
             get
             {
-                return (DateTime.Now.ToString("yyyyMMddHHmm") + repoBranchName + ".apk");
+                return (DateTime.Now.ToString("MMddHHmm-") + repoBranchName + "-" + getBuildNum().ToString() + ".apk");
             }
         }
 
@@ -85,7 +85,27 @@ namespace UnityEditor
         }
         
         //[MenuItem("Pipeline/Build: update build number")]
-        public static void updateBuildNumberIdentifier()
+        public static void setBuildNum()
+        {
+            int buildNum = getBuildNum();
+            int curBuildNum = buildNum + 1; ;
+
+            string[] stuffToWrite = new string[2];
+            stuffToWrite[0] = "The current build number of the project is";
+            stuffToWrite[1] = curBuildNum.ToString();
+
+            UnityEngine.Debug.Log("Cur build nr = " + curBuildNum);
+            
+            string buildNumFilePath = Application.dataPath + "/Resources/buildNumbers.txt";
+            FileStream file = File.Open(buildNumFilePath, FileMode.OpenOrCreate,FileAccess.ReadWrite);
+            file.Close();
+            
+            File.WriteAllLines(buildNumFilePath, stuffToWrite);
+
+            UnityEngine.Debug.Log("I have updated the build number");
+        }
+
+        public static int getBuildNum()
         {
             int buildNum = 0;
             string text = "";
@@ -101,7 +121,6 @@ namespace UnityEditor
                 string allLines = buildNRFile.text;
                 if (allLines.Count<Char>() > 0)
                 {
-
                     everyLine = allLines.Split(new[] { "\r\n", "\r", "\n" },StringSplitOptions.None);
                 }
             }
@@ -121,22 +140,11 @@ namespace UnityEditor
             {
                 UnityEngine.Debug.LogWarning(e);
             }
-
-            int curBuildNum = buildNum + 1; ;
             if(number == "")
             {
-                buildNum = 1;
+                buildNum = 1;                
             }
-
-            string[] stuffToWrite = new string[2];
-            stuffToWrite[0] = "The current build number of the project is";
-            stuffToWrite[1] = curBuildNum.ToString();
-
-            UnityEngine.Debug.Log("Cur build nr = " + curBuildNum);
-
-            File.WriteAllLines(buildNumFilePath, stuffToWrite);
-
-            UnityEngine.Debug.Log("I have updated the build number");
+            return buildNum;
         }
     }
 }
