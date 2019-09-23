@@ -94,13 +94,16 @@ namespace UnityEditor
             FileStream file = File.Open(buildNumFilePath, FileMode.OpenOrCreate,FileAccess.ReadWrite);
             file.Close();
 
-            TextAsset buildNRFile = Resources.Load("buildNumbers") as TextAsset;
-            string allLines = buildNRFile.text;
             string[] everyLine = new string[2];
-            if (allLines.Count<Char>() > 0)
+            TextAsset buildNRFile = Resources.Load("buildNumbers") as TextAsset;
+            if (buildNRFile == null)
             {
+                string allLines = buildNRFile.text;
+                if (allLines.Count<Char>() > 0)
+                {
 
-                everyLine = allLines.Split(new[] { "\r\n", "\r", "\n" },StringSplitOptions.None);
+                    everyLine = allLines.Split(new[] { "\r\n", "\r", "\n" },StringSplitOptions.None);
+                }
             }
             
             //string[] everyLine = File.ReadAllLines(buildNumFilePath);
@@ -116,7 +119,7 @@ namespace UnityEditor
             }
             catch (Exception e)
             {
-                
+                UnityEngine.Debug.LogWarning(e);
             }
 
             int curBuildNum = buildNum + 1; ;
