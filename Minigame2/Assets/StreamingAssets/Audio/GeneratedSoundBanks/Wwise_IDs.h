@@ -16,12 +16,19 @@ namespace AK
         static const AkUniqueID PLAY_BOX_PLASTIC_IMPACT_1 = 2306258661U;
         static const AkUniqueID PLAY_BOX_PLASTIC_IMPACT_2 = 2306258662U;
         static const AkUniqueID PLAY_CARDBOARD_IMPACT = 2048554185U;
+        static const AkUniqueID PLAY_CARDBOARDBIG1 = 1373189451U;
+        static const AkUniqueID PLAY_CARDBOARDBIG2 = 1373189448U;
+        static const AkUniqueID PLAY_CARDBOARDSMALL1 = 681628994U;
+        static const AkUniqueID PLAY_CARDBOARDSMALL2 = 681628993U;
+        static const AkUniqueID PLAY_CARDBOARDSMALL3 = 681628992U;
         static const AkUniqueID PLAY_COUCH_IMPACT = 2776670769U;
         static const AkUniqueID PLAY_DRUM_COLLISION = 2072427939U;
         static const AkUniqueID PLAY_FLOAT_THEME = 2142485738U;
         static const AkUniqueID PLAY_FRIDGE_IMPACT = 785252386U;
         static const AkUniqueID PLAY_GLASS_BREAKING = 2424027906U;
         static const AkUniqueID PLAY_GRAVITY_SHIFT = 3025114257U;
+        static const AkUniqueID PLAY_GUITARIMPACT = 3390222318U;
+        static const AkUniqueID PLAY_LAMPIMPACT = 3061002342U;
         static const AkUniqueID PLAY_LEVEL1MUSIC = 3605952550U;
         static const AkUniqueID PLAY_LEVEL2MUSIC = 565626987U;
         static const AkUniqueID PLAY_LEVEL3MUSIC = 1946308780U;
@@ -29,15 +36,32 @@ namespace AK
         static const AkUniqueID PLAY_LEVEL4MUSICLOOP = 839894203U;
         static const AkUniqueID PLAY_MENU_MUSIC = 2228153899U;
         static const AkUniqueID PLAY_METAL_IMPACT = 26906972U;
+        static const AkUniqueID PLAY_METALIMPACT = 1144615181U;
+        static const AkUniqueID PLAY_METALIMPACT2 = 1936521029U;
         static const AkUniqueID PLAY_MONSTER_CRAWL_SCRAPE1 = 1470122796U;
+        static const AkUniqueID PLAY_MONSTER_IMPACT = 3939836301U;
         static const AkUniqueID PLAY_MONSTER_IMPACT_01 = 852515177U;
         static const AkUniqueID PLAY_PHONE = 190234274U;
         static const AkUniqueID PLAY_PORTAL_ENTER_NEXT_LEVEL = 3255294874U;
+        static const AkUniqueID PLAY_PORTAL_ENTER_NEXT_LEVEL_01 = 3500064728U;
         static const AkUniqueID PLAY_SMALLER_GLASS_BREAKING = 1720134853U;
+        static const AkUniqueID PLAY_SMALLMETAL1 = 1389736157U;
+        static const AkUniqueID PLAY_SMALLMETAL2 = 1389736158U;
         static const AkUniqueID PLAY_SOULMOVEMENT = 230120564U;
+        static const AkUniqueID PLAY_SOULMOVEMENT_01 = 4243950682U;
+        static const AkUniqueID PLAY_TEMPIMPACT = 1978530290U;
         static const AkUniqueID PLAY_WOOD_IMPACT2 = 864292832U;
+        static const AkUniqueID PLAY_WOODBIG1 = 913814822U;
+        static const AkUniqueID PLAY_WOODBIG2 = 913814821U;
+        static const AkUniqueID PLAY_WOODBIG3 = 913814820U;
+        static const AkUniqueID PLAY_WOODMEDIUM = 2361306256U;
+        static const AkUniqueID PLAY_WOODVERYSMALL = 2934994294U;
         static const AkUniqueID SET_GAME_PARAMETER_MUSIC = 236152504U;
         static const AkUniqueID SET_GAME_PARAMETER_WORLD = 4138451597U;
+        static const AkUniqueID SET_STATE_LEVEL1MUSIC = 2795236840U;
+        static const AkUniqueID SET_STATE_LEVEL2MUSIC = 2076178249U;
+        static const AkUniqueID SET_STATE_LEVEL3MUSIC = 1016171890U;
+        static const AkUniqueID SET_STATE_LEVEL4MUSIC = 1822594163U;
     } // namespace EVENTS
 
     namespace STATES
