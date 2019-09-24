@@ -44,16 +44,13 @@ namespace AK
         static const AkUniqueID PLAY_METALIMPACT2 = 1936521029U;
         static const AkUniqueID PLAY_MONSTER_CRAWL_SCRAPE1 = 1470122796U;
         static const AkUniqueID PLAY_MONSTER_IMPACT = 3939836301U;
-        static const AkUniqueID PLAY_MONSTER_IMPACT_01 = 852515177U;
-        static const AkUniqueID PLAY_PHONE = 190234274U;
+        static const AkUniqueID PLAY_MONSTERIDLE = 2899271694U;
         static const AkUniqueID PLAY_PORTAL_ENTER_NEXT_LEVEL = 3255294874U;
-        static const AkUniqueID PLAY_PORTAL_ENTER_NEXT_LEVEL_01 = 3500064728U;
         static const AkUniqueID PLAY_SMALLER_GLASS_BREAKING = 1720134853U;
         static const AkUniqueID PLAY_SMALLMETAL1 = 1389736157U;
         static const AkUniqueID PLAY_SMALLMETAL2 = 1389736158U;
         static const AkUniqueID PLAY_SOUL_THEME = 1894735553U;
         static const AkUniqueID PLAY_SOULMOVEMENT = 230120564U;
-        static const AkUniqueID PLAY_SOULMOVEMENT_01 = 4243950682U;
         static const AkUniqueID PLAY_TEMPIMPACT = 1978530290U;
         static const AkUniqueID PLAY_WOOD_IMPACT2 = 864292832U;
         static const AkUniqueID PLAY_WOODBIG1 = 913814822U;
