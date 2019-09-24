@@ -2405,17 +2405,17 @@ PrefabInstance:
     - target: {fileID: 3482798472496301321, guid: 5b006143a93c39c47b41f52aa7059a0c,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3482798472496301321, guid: 5b006143a93c39c47b41f52aa7059a0c,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3482798472496301321, guid: 5b006143a93c39c47b41f52aa7059a0c,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3482798472496301321, guid: 5b006143a93c39c47b41f52aa7059a0c,
         type: 3}
@@ -2442,21 +2442,24 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4835763955123894228, guid: 5b006143a93c39c47b41f52aa7059a0c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6208729817045904754, guid: 5b006143a93c39c47b41f52aa7059a0c,
         type: 3}
       propertyPath: m_Height
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 471329367, guid: 5b006143a93c39c47b41f52aa7059a0c, type: 3}
-      propertyPath: playerTransform
-      value: 
-      objectReference: {fileID: 1097035922}
-    - target: {fileID: 471329367, guid: 5b006143a93c39c47b41f52aa7059a0c, type: 3}
-      propertyPath: monsterGravity
-      value: 200
+    - target: {fileID: 6208729817045904754, guid: 5b006143a93c39c47b41f52aa7059a0c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 471329367, guid: 5b006143a93c39c47b41f52aa7059a0c, type: 3}
-      propertyPath: monsterGravityDirection
+    - target: {fileID: 7888320376829534924, guid: 5b006143a93c39c47b41f52aa7059a0c,
+        type: 3}
+      propertyPath: m_IsKinematic
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []

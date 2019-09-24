@@ -48,8 +48,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 0}
   monsterCapsuleTransform: {fileID: 3441539870221421454}
-  monsterGravityDirection: 2
-  monsterGravity: 20
+  monsterGravityDirection: 1
+  monsterGravity: 200
   maxSpeed: 3
 --- !u!143 &6208729817045904754
 CharacterController:

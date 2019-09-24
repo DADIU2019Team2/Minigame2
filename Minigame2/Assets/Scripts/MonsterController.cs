@@ -21,7 +21,7 @@ public class MonsterController : MonoBehaviour
 
     private bool isMovingInXaxis;
 
-    private CharacterController _controller;
+    //private CharacterController _controller;
     public float monsterGravity;
     private Vector3 gravityDirVector;
     [Range(0, 10f)] public float maxSpeed;
@@ -30,7 +30,7 @@ public class MonsterController : MonoBehaviour
     // Start is called before the first frame update
     private void Awake()
     {
-        _controller = GetComponent<CharacterController>();
+        //_controller = GetComponent<CharacterController>();
         playerTransform = GameObject.FindWithTag("Player").transform;
 
         SetMonsterGravityDirection(monsterGravityDirection);
@@ -54,7 +54,7 @@ public class MonsterController : MonoBehaviour
         _moveDirection *= maxSpeed;
 
         _moveDirection += gravityDirVector * monsterGravity * Time.fixedDeltaTime;
-        _controller.Move(_moveDirection * Time.fixedDeltaTime);
+        transform.Translate(_moveDirection * Time.fixedDeltaTime);
 
     }
 
@@ -75,13 +75,13 @@ public class MonsterController : MonoBehaviour
                 return;
 
             case gravityDirection.Left:
-                transform.rotation = Quaternion.Euler(0, 0, 180);
+                transform.rotation = Quaternion.Euler(0, 0, 90);
                 monsterCapsuleTransform.rotation = Quaternion.Euler(0, 0, 90);
                 gravityDirVector = Vector3.left;
                 isMovingInXaxis = false;
                 return;
             case gravityDirection.Right:
-                transform.rotation = Quaternion.Euler(0, 0, 180);
+                transform.rotation = Quaternion.Euler(0, 0, -90);
                 monsterCapsuleTransform.rotation = Quaternion.Euler(0, 0, -90);
                 gravityDirVector = Vector3.right;
                 isMovingInXaxis = false;
