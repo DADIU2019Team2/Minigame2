@@ -9,16 +9,16 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2149598759369848053}
-  - component: {fileID: 889864217594383516}
   - component: {fileID: 6324998430446531049}
   - component: {fileID: 4584584439404932307}
   - component: {fileID: 7484849343169710093}
   - component: {fileID: 4988710803042995878}
   - component: {fileID: 6735970744030879793}
   - component: {fileID: 7599784756280825166}
+  - component: {fileID: 1736216239}
   m_Layer: 11
   m_Name: playerCTRL
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41,53 +41,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &889864217594383516
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6498891905812155943}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2555b4922fff1a5488d375654ed9ca9d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gravityScaleModifier: 1
-  angleThreshhold: 5
-  gravityRampUpCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: -0.0048446655
-      value: 0.37417603
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 0.9401877
-      value: 0.8212899
-      inSlope: 1.694734
-      outSlope: 1.694734
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.037431743
-      outWeight: 0.1465184
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 2
-      outSlope: 2
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!54 &6324998430446531049
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -102,7 +55,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 112
+  m_Constraints: 120
   m_CollisionDetection: 0
 --- !u!135 &4584584439404932307
 SphereCollider:
@@ -193,6 +146,53 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc9a86a53a2aac349a4fcef6fed52d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1736216239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6498891905812155943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2555b4922fff1a5488d375654ed9ca9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gravityScaleModifier: 1
+  angleThreshhold: 2
+  gravityRampUpCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.01184845
+      value: 0.49432373
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.6530812
+      value: 0.6184027
+      inSlope: 0.39982656
+      outSlope: 0.39982656
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 1
+    - serializedVersion: 3
+      time: 1
+      value: 0.982666
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &2524113447368688645
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -263,6 +263,11 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: afb7061e92cda034eaa2a0e75290a6ce,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: afb7061e92cda034eaa2a0e75290a6ce,
+        type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: afb7061e92cda034eaa2a0e75290a6ce,
@@ -352,6 +357,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 255211197148127704, guid: 77e4e19b6e1d7c04594a0316e6a775e1,
         type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 255211197148127704, guid: 77e4e19b6e1d7c04594a0316e6a775e1,
+        type: 3}
       propertyPath: ShapeModule.m_MeshRenderer
       value: 
       objectReference: {fileID: 1686942246170214972}
@@ -379,6 +389,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 453a24babbfccaf47ae7511ea6020094,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -2204989635355473734, guid: 453a24babbfccaf47ae7511ea6020094,
         type: 3}
@@ -678,6 +693,11 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: afb7061e92cda034eaa2a0e75290a6ce,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: afb7061e92cda034eaa2a0e75290a6ce,
+        type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: afb7061e92cda034eaa2a0e75290a6ce,

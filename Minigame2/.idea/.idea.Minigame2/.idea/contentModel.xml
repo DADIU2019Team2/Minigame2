@@ -27,6 +27,7 @@
           <e p="Empty.txt" t="Include" />
         </e>
         <e p="Scripts" t="Include">
+          <e p="asd.cs" t="Include" />
           <e p="CameraControl.cs" t="Include" />
           <e p="CharacterMaterialShifter.cs" t="Include" />
           <e p="Gravity.cs" t="Include" />

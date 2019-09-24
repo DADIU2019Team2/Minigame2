@@ -31,8 +31,11 @@ public class GravityChange : MonoBehaviour
     {
 
 #if UNITY_EDITOR //gravity code for editor
+        
         gravityY = 0;
         gravityX = 0;
+
+        dir = Vector3.zero;
         if (Input.GetKey(KeyCode.A))
         {
             gravityX = -1;
@@ -48,7 +51,7 @@ public class GravityChange : MonoBehaviour
         if (Input.GetKey(KeyCode.S))
         {
             gravityY = -1;
-        }
+        }      
         dir = Vector3.zero;
         dir.x = gravityX;
         dir.y = gravityY;
@@ -60,10 +63,18 @@ public class GravityChange : MonoBehaviour
 
 #if UNITY_ANDROID 
         //gravity code for android phone
-        dir = Vector3.zero;
-        dir.x = PlayerInput.GetAcceleration().x;
-        dir.y = PlayerInput.GetAcceleration().y;
-        Physics.gravity = dir * gravityIntensity;
+        Debug.Log(PlayerInput.GetAcceleration().x);
+        if (Mathf.Abs(PlayerInput.GetAcceleration().x) < 0.02 && Mathf.Abs(PlayerInput.GetAcceleration().y) < 0.02)
+        {
+            
+        }
+        else
+        {
+
+            dir.x = PlayerInput.GetAcceleration().x;
+            dir.y = PlayerInput.GetAcceleration().y;
+            Physics.gravity = dir * gravityIntensity;
+        }
 
 #endif
 

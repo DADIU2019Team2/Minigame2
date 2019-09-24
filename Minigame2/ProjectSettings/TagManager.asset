@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Object
   layers:
   - Default
   - TransparentFX
@@ -14,12 +15,12 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Environment
+  - Objects
+  - Player
+  - Monster
+  - Body
+  - Invisible
   - 
   - 
   - 

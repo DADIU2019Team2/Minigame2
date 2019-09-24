@@ -21,6 +21,7 @@ public class CharacterMaterialShifter : MonoBehaviour
     public bool enableShifting;
     private static readonly int RingSize = Shader.PropertyToID("_ringSize");
 
+
     // Start is called before the first frame update
     private void Awake()
     {
@@ -30,7 +31,7 @@ public class CharacterMaterialShifter : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         if (!enableShifting) return;
         soulUpper.SetActive(effectPhase <= thresholdOne);
