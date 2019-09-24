@@ -122,13 +122,13 @@ public class Gravity : MonoBehaviour
             {
                 gravityY = -1;
             }
-            Debug.Log(gravityY);
+            //Debug.Log(gravityY);
             return new Vector3(gravityX,gravityY,0);
         }
         else
         {
-            Debug.Log(Input.acceleration.x);
-            Debug.Log(Input.acceleration.y);
+            //Debug.Log(Input.acceleration.x);
+            //Debug.Log(Input.acceleration.y);
             
             return new Vector3(Input.acceleration.x, Input.acceleration.y, -Input.acceleration.z);
 

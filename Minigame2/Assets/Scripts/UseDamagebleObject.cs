@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using MiniGame2.Events;
 public class UseDamagebleObject : MonoBehaviour
 {
     public DamagebleObject obj;
@@ -11,6 +11,8 @@ public class UseDamagebleObject : MonoBehaviour
     private int health;
     private int dmgToTake;
     private string tagToLookFor;
+    [SerializeField] private VoidEvent onHealthZero;
+
 
     private void Start()
     {
@@ -34,6 +36,12 @@ public class UseDamagebleObject : MonoBehaviour
         if(health <= 0)
         {
             //do event healt has depleted...
+            onHealthZero.Raise();
         }
     }
+    public void Death()
+    {
+        Debug.Log(gameObject.name+" Died");
+    }
+
 }
