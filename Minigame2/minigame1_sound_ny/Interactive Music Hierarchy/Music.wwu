@@ -220,6 +220,10 @@
 					</Playlist>
 				</MusicPlaylistContainer>
 				<MusicSwitchContainer Name="LevelsMusic" ID="{3D0888EF-A785-4EDD-9B2E-B1F824394AA5}" ShortID="322495553">
+					<PropertyList>
+						<Property Name="GridOffsetPreset" Type="int16" Value="52"/>
+						<Property Name="Mode" Type="int16" Value="1"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C519D04C-0DFA-4CBB-A114-E1EC6EE706E2}"/>
@@ -1505,8 +1509,22 @@
 							<ReferenceList/>
 							<ChildrenList>
 								<MusicTransition Name="Transition" ID="{F8FC6515-F59F-40BD-9CC7-F1AA0A3ED138}">
+									<PropertyList>
+										<Property Name="DestinationJumpPositionPreset" Type="int16" Value="4"/>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+									</PropertyList>
 									<ReferenceList/>
-									<TransitionInfo/>
+									<TransitionInfo>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{D52089AB-97B7-41FB-8BC9-A7ECF596F717}">
+												<PropertyList>
+													<Property Name="FadeOffset" Type="Real64" Value="-0.6"/>
+													<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+												</PropertyList>
+											</MusicFade>
+										</DestinationFadeIn>
+									</TransitionInfo>
 								</MusicTransition>
 							</ChildrenList>
 							<TransitionInfo/>

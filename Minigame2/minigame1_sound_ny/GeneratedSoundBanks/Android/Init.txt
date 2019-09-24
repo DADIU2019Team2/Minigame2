@@ -1,3 +1,11 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2018623641	Weight			\Default Work Unit\Weight	
+
+Switch	ID	Name	Switch Group			Notes
+	647611021	Big	Weight			
+	1846755610	Small	Weight			
+	2849147824	Medium	Weight			
+
 State Group	ID	Name			Wwise Object Path	Notes
 	1321655446	LevelMusic			\Default Work Unit\LevelMusic	
 

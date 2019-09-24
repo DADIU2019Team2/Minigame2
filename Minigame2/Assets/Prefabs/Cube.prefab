@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53510122f7d5a4994af8d4ec1052df0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerList: f7e1664c
+  triggerList: d1bbb3b5
   useOtherObject: 0
   actionOnEventType: 0
   curveInterpolation: 4
