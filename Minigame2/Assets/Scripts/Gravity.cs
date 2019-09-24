@@ -101,7 +101,6 @@ public class Gravity : MonoBehaviour
     Vector3 AndroidGyroAcceleration()
     {
         //return PlayerInput.GetGravity();
-#if UNITY_ANDROID
         if (Mathf.Abs(Input.acceleration.x) < 0.02 && Mathf.Abs(Input.acceleration.y) < 0.02)
         {
             gravityY = 0;
@@ -122,23 +121,20 @@ public class Gravity : MonoBehaviour
             {
                 gravityY = -1;
             }
-            //Debug.Log(gravityY);
-            return new Vector3(gravityX,gravityY,0);
-        }
-        else
+            Debug.Log(gravityY);
+            return new Vector3(gravityX,gravityY,0).normalized;
+        }else
         {
-            //Debug.Log(Input.acceleration.x);
-            //Debug.Log(Input.acceleration.y);
-            
-            return new Vector3(Input.acceleration.x, Input.acceleration.y, -Input.acceleration.z);
-
+            #if UNITY_ANDROID
+            Debug.Log(Input.acceleration.x);
+            Debug.Log(Input.acceleration.y);   
+            return new Vector3(Input.acceleration.x, Input.acceleration.y, -Input.acceleration.z).normalized;
+            #endif
         }
 
-#endif
-        //#if UNITY_EDITOR
-        //        //Debug.Log("AndroidInput: " + new Vector3(gravityX, gravityY, 0).normalized);
-        //        return new Vector3(gravityX, gravityY, 0).normalized;
-        //#endif
+        //Necessary to have a return in all cases, although this should never be relevant really.
+        Debug.Log("Returning non-UNITY_ANDROID inputs to gravity.cs");
+        return new Vector3(gravityX, gravityY, 0).normalized;
     }
     void ChangeGravity(Vector3 gravityDir, Vector3 gravityScale)
     {
