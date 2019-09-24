@@ -55,7 +55,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 112
+  m_Constraints: 120
   m_CollisionDetection: 0
 --- !u!135 &4584584439404932307
 SphereCollider:
@@ -159,13 +159,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gravityScaleModifier: 1
-  angleThreshhold: 5
+  angleThreshhold: 2
   gravityRampUpCurve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0
-      value: 0.4979248
+      time: -0.01184845
+      value: 0.49432373
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -173,17 +173,17 @@ MonoBehaviour:
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 0.7616056
-      value: 0.7663081
-      inSlope: 0.54124624
-      outSlope: 0.54124624
+      time: 0.6530812
+      value: 0.6184027
+      inSlope: 0.39982656
+      outSlope: 0.39982656
       tangentMode: 0
       weightedMode: 0
       inWeight: 0.33333334
-      outWeight: 0.330197
+      outWeight: 1
     - serializedVersion: 3
       time: 1
-      value: 1.0218811
+      value: 0.982666
       inSlope: 2
       outSlope: 2
       tangentMode: 0
