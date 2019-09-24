@@ -12,6 +12,12 @@ public class MonsterController : MonoBehaviour
 {
     public Transform playerTransform;
 
+    public gravityDirection monsterGravityDirection;
+    public enum gravityDirection
+    {
+        Up, Down, Left, Right
+    };
+
     private CharacterController _controller;
     public float monsterGravity;
     [Range(0,10f)] public float maxSpeed;
