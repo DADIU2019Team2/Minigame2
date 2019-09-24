@@ -1,6 +1,6 @@
 //Maya ASCII 2019 scene
 //Name: humanA.ma
-//Last modified: Tue, Sep 24, 2019 04:08:31 PM
+//Last modified: Tue, Sep 24, 2019 04:20:24 PM
 //Codeset: 1252
 requires maya "2019";
 requires "mtoa" "3.1.2";
@@ -15,13 +15,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "6E8325B9-4218-246E-7B1F-FAA86D5A2A69";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -40.469347228235463 125.38159951393594 111.66452383547698 ;
-	setAttr ".r" -type "double3" 4659.2616475330224 10780.599999986753 -4.21501044175931e-16 ;
+	setAttr ".t" -type "double3" 241.04733768934497 208.82687673454018 75.697808042335623 ;
+	setAttr ".r" -type "double3" 4662.8616475330809 10869.399999985917 4.51986666985692e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "5BC84C78-470A-9647-FE14-728653DFD0C7";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 123.19426023803405;
+	setAttr ".coi" 281.72609038262669;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -15425,19 +15425,19 @@ createNode mesh -n "humanA_geoShape" -p "humanA_geo";
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 	setAttr ".ai_translator" -type "string" "polymesh";
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "F2520C2F-4028-54C4-11E1-44893DAA584F";
+	rename -uid "3E9F2340-4A01-6689-5900-E6AFA35EEAC4";
 	setAttr -s 4 ".lnk";
 	setAttr -s 4 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "EDBD0666-481D-CF36-AE6A-33AA7194D417";
+	rename -uid "DBD5575D-4139-8B1D-DB79-5BB64458D45E";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "B29731BB-4AE8-D10D-6D53-FDB3BB1773E0";
+	rename -uid "085E1233-48AA-C936-DFEB-92BDA7F138C8";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "04D1C343-4CAB-73F4-468D-BDB7F91293A5";
+	rename -uid "32AEA20A-43E0-2AE1-3694-53B84C805B97";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "15024D53-47CA-EE76-1674-EF945F976286";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "3E0520C3-4741-FF75-E487-0EA459C2EFF2";
+	rename -uid "0EDC8D90-4D5F-39D3-1B17-16858C77BB9E";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "7C355166-4D71-7F50-C6B6-38BE55D7F33A";
 	setAttr ".g" yes;
