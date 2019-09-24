@@ -1,6 +1,6 @@
 //Maya ASCII 2019 scene
 //Name: humanA_v005_EL.ma
-//Last modified: Tue, Sep 24, 2019 03:15:24 PM
+//Last modified: Tue, Sep 24, 2019 03:16:53 PM
 //Codeset: 1252
 requires maya "2019";
 requires "mtoa" "3.1.2";
