@@ -21,8 +21,11 @@ namespace AK
         static const AkUniqueID PLAY_CARDBOARDSMALL1 = 681628994U;
         static const AkUniqueID PLAY_CARDBOARDSMALL2 = 681628993U;
         static const AkUniqueID PLAY_CARDBOARDSMALL3 = 681628992U;
+        static const AkUniqueID PLAY_CERAMICSRANDOM = 2062815940U;
         static const AkUniqueID PLAY_COUCH_IMPACT = 2776670769U;
+        static const AkUniqueID PLAY_COUCHRANDOM = 904426889U;
         static const AkUniqueID PLAY_DRUM_COLLISION = 2072427939U;
+        static const AkUniqueID PLAY_FANANDLAMPRANDOM = 2414642255U;
         static const AkUniqueID PLAY_FLOAT_THEME = 2142485738U;
         static const AkUniqueID PLAY_FRIDGE_IMPACT = 785252386U;
         static const AkUniqueID PLAY_GLASS_BREAKING = 2424027906U;
@@ -34,6 +37,7 @@ namespace AK
         static const AkUniqueID PLAY_LEVEL3MUSIC = 1946308780U;
         static const AkUniqueID PLAY_LEVEL4MUSIC = 3045698593U;
         static const AkUniqueID PLAY_LEVEL4MUSICLOOP = 839894203U;
+        static const AkUniqueID PLAY_MAIN_THEME = 3568813383U;
         static const AkUniqueID PLAY_MENU_MUSIC = 2228153899U;
         static const AkUniqueID PLAY_METAL_IMPACT = 26906972U;
         static const AkUniqueID PLAY_METALIMPACT = 1144615181U;
@@ -47,6 +51,7 @@ namespace AK
         static const AkUniqueID PLAY_SMALLER_GLASS_BREAKING = 1720134853U;
         static const AkUniqueID PLAY_SMALLMETAL1 = 1389736157U;
         static const AkUniqueID PLAY_SMALLMETAL2 = 1389736158U;
+        static const AkUniqueID PLAY_SOUL_THEME = 1894735553U;
         static const AkUniqueID PLAY_SOULMOVEMENT = 230120564U;
         static const AkUniqueID PLAY_SOULMOVEMENT_01 = 4243950682U;
         static const AkUniqueID PLAY_TEMPIMPACT = 1978530290U;
@@ -81,6 +86,22 @@ namespace AK
 
     } // namespace STATES
 
+    namespace SWITCHES
+    {
+        namespace WEIGHT
+        {
+            static const AkUniqueID GROUP = 2018623641U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID BIG = 647611021U;
+                static const AkUniqueID MEDIUM = 2849147824U;
+                static const AkUniqueID SMALL = 1846755610U;
+            } // namespace SWITCH
+        } // namespace WEIGHT
+
+    } // namespace SWITCHES
+
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID DENSITY_FA_SSGRAIN = 2715217995U;
@@ -103,6 +124,7 @@ namespace AK
         static const AkUniqueID SS_AIR_STORM = 3715662592U;
         static const AkUniqueID SS_AIR_TIMEOFDAY = 3203397129U;
         static const AkUniqueID SS_AIR_TURBULENCE = 4160247818U;
+        static const AkUniqueID WEIGHT = 2018623641U;
         static const AkUniqueID WORLD = 2609808943U;
     } // namespace GAME_PARAMETERS
 

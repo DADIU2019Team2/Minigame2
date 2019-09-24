@@ -12,6 +12,7 @@
 						<Property Name="RTPCRamping" Type="int16" Value="2"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="Weight" ID="{0FE6F053-3430-4CBC-92F4-5A142BA73F59}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>
