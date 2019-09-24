@@ -37,6 +37,7 @@ namespace AK
         static const AkUniqueID PLAY_LEVEL3MUSIC = 1946308780U;
         static const AkUniqueID PLAY_LEVEL4MUSIC = 3045698593U;
         static const AkUniqueID PLAY_LEVEL4MUSICLOOP = 839894203U;
+        static const AkUniqueID PLAY_MAIN_THEME = 3568813383U;
         static const AkUniqueID PLAY_MENU_MUSIC = 2228153899U;
         static const AkUniqueID PLAY_METAL_IMPACT = 26906972U;
         static const AkUniqueID PLAY_METALIMPACT = 1144615181U;
@@ -50,6 +51,7 @@ namespace AK
         static const AkUniqueID PLAY_SMALLER_GLASS_BREAKING = 1720134853U;
         static const AkUniqueID PLAY_SMALLMETAL1 = 1389736157U;
         static const AkUniqueID PLAY_SMALLMETAL2 = 1389736158U;
+        static const AkUniqueID PLAY_SOUL_THEME = 1894735553U;
         static const AkUniqueID PLAY_SOULMOVEMENT = 230120564U;
         static const AkUniqueID PLAY_SOULMOVEMENT_01 = 4243950682U;
         static const AkUniqueID PLAY_TEMPIMPACT = 1978530290U;

@@ -604,6 +604,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Main_Theme" ID="{07ABFA8F-94D6-48F5-A6BC-9018CC654FFF}">
+					<ChildrenList>
+						<Action Name="" ID="{08133336-0477-4059-A33D-962485FB1BA0}" ShortID="748068067">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Main Theme" ID="{2432F10E-05AB-4FA8-B83C-BD6E485F8144}" WorkUnitID="{B275BE2C-211A-498B-AEB5-B3A279B58F59}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Soul_Theme" ID="{51FF5351-0196-4F60-8284-4A15F66478AA}">
+					<ChildrenList>
+						<Action Name="" ID="{C50B5930-BEF7-4098-AF8D-9A6609F2B7E8}" ShortID="550404803">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Soul Theme" ID="{9811CAD0-B0A6-4FCA-B841-AF876082C0D8}" WorkUnitID="{B275BE2C-211A-498B-AEB5-B3A279B58F59}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

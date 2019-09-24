@@ -54,6 +54,7 @@
 				<Event Id="1946308780" Name="Play_Level3music" ObjectPath="\Events\Default Work Unit\Play_Level3music" DurationType="Infinite"/>
 				<Event Id="3045698593" Name="Play_Level4music" ObjectPath="\Events\Default Work Unit\Play_Level4music" DurationType="Infinite"/>
 				<Event Id="839894203" Name="Play_Level4musicloop" ObjectPath="\Events\Default Work Unit\Play_Level4musicloop" DurationType="Infinite"/>
+				<Event Id="3568813383" Name="Play_Main_Theme" ObjectPath="\Events\Default Work Unit\Play_Main_Theme" DurationType="Infinite"/>
 				<Event Id="2228153899" Name="Play_Menu_Music" ObjectPath="\Events\Default Work Unit\Play_Menu_Music" DurationType="OneShot" DurationMin="32.000000" DurationMax="32.000000"/>
 				<Event Id="26906972" Name="Play_Metal_impact" ObjectPath="\Events\Default Work Unit\Play_Metal_impact" DurationType="OneShot" DurationMin="0.650000" DurationMax="0.650000"/>
 				<Event Id="1144615181" Name="Play_MetalImpact" ObjectPath="\Events\Default Work Unit\Play_MetalImpact" DurationType="OneShot" DurationMin="0.716232" DurationMax="0.716232"/>
@@ -67,6 +68,7 @@
 				<Event Id="1720134853" Name="Play_Smaller_glass_breaking" ObjectPath="\Events\Default Work Unit\Play_Smaller_glass_breaking" DurationType="OneShot" DurationMin="2.000000" DurationMax="2.000000"/>
 				<Event Id="1389736157" Name="Play_SmallMetal1" ObjectPath="\Events\Default Work Unit\Play_SmallMetal1" DurationType="OneShot" DurationMin="0.719281" DurationMax="0.719281"/>
 				<Event Id="1389736158" Name="Play_SmallMetal2" ObjectPath="\Events\Default Work Unit\Play_SmallMetal2" DurationType="OneShot" DurationMin="0.641729" DurationMax="0.641729"/>
+				<Event Id="1894735553" Name="Play_Soul_Theme" ObjectPath="\Events\Default Work Unit\Play_Soul_Theme" DurationType="Infinite"/>
 				<Event Id="230120564" Name="Play_SoulMovement" ObjectPath="\Events\Default Work Unit\Play_SoulMovement" DurationType="Infinite"/>
 				<Event Id="4243950682" Name="Play_SoulMovement_01" ObjectPath="\Events\Default Work Unit\Play_SoulMovement_01" DurationType="OneShot" DurationMin="4.250000" DurationMax="4.250000"/>
 				<Event Id="1978530290" Name="Play_TempImpact" ObjectPath="\Events\Default Work Unit\Play_TempImpact" DurationType="OneShot" DurationMin="0.464366" DurationMax="1.952925"/>
@@ -135,6 +137,10 @@
 				<File Id="284439750" Language="SFX">
 					<ShortName>Level2music.wav</ShortName>
 					<Path>SFX/Level2music_9B96ECC7.wem</Path>
+				</File>
+				<File Id="299816113" Language="SFX">
+					<ShortName>SoulTheme.wav</ShortName>
+					<Path>SFX/SoulTheme_D79FB2B7.wem</Path>
 				</File>
 				<File Id="312113423" Language="SFX">
 					<ShortName>Ceramic3.wav</ShortName>
@@ -223,6 +229,10 @@
 				<File Id="905019507" Language="SFX">
 					<ShortName>GuitarImpact.wav</ShortName>
 					<Path>SFX/GuitarImpact_10C4C929.wem</Path>
+				</File>
+				<File Id="908763424" Language="SFX">
+					<ShortName>Minigame2MainTheme.wav</ShortName>
+					<Path>SFX/Minigame2MainTheme_D79FB2B7.wem</Path>
 				</File>
 				<File Id="922497341" Language="SFX">
 					<ShortName>Monster impact.wav</ShortName>

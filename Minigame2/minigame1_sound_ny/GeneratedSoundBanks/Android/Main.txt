@@ -24,6 +24,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1470122796	Play_Monster_crawl_scrape1			\Default Work Unit\Play_Monster_crawl_scrape1	
 	1720134853	Play_Smaller_glass_breaking			\Default Work Unit\Play_Smaller_glass_breaking	
 	1822594163	Set_State_Level4Music			\Default Work Unit\Set_State_Level4Music	
+	1894735553	Play_Soul_Theme			\Default Work Unit\Play_Soul_Theme	
 	1936521029	Play_MetalImpact2			\Default Work Unit\Play_MetalImpact2	
 	1946308780	Play_Level3music			\Default Work Unit\Play_Level3music	
 	1978530290	Play_TempImpact			\Default Work Unit\Play_TempImpact	
@@ -47,6 +48,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3255294874	Play_Portal_enter_next_level			\Default Work Unit\Play_Portal_enter_next_level	
 	3390222318	Play_GuitarImpact			\Default Work Unit\Play_GuitarImpact	
 	3500064728	Play_Portal_enter_next_level_01			\Default Work Unit\Play_Portal_enter_next_level_01	
+	3568813383	Play_Main_Theme			\Default Work Unit\Play_Main_Theme	
 	3605952550	Play_Level1music			\Default Work Unit\Play_Level1music	
 	3939836301	Play_Monster_impact			\Default Work Unit\Play_Monster_impact	
 	4138451597	Set_Game_Parameter_World			\Default Work Unit\Set_Game_Parameter_World	
@@ -68,6 +70,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	175084499	Ceramic2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\Ceramic2_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Impact\CeramicsRandom\Ceramic2		57324
 	223459621	WoodBig1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\WoodBig1_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Impact\CouchRandom\WoodBig1		161556
 	284439750	Level2music	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\Level2music_9B96ECC7.wem		\Actor-Mixer Hierarchy\Music\Music\Level2music		412664
+	299816113	SoulTheme	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\SoulTheme_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Soul Theme\SoulTheme\SoulTheme		6773824
 	312113423	Ceramic3	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\Ceramic3_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Impact\CeramicsRandom\Ceramic3		61732
 	328393997	Level4music	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\Level4music_9B96ECC7.wem		\Actor-Mixer Hierarchy\Music\Music\Level4music		422335
 	340749903	Level3music	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\Level3music_9B96ECC7.wem		\Actor-Mixer Hierarchy\Music\Music\Level3music		433949
@@ -90,6 +93,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	811404097	CardboardBig1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\CardboardBig1_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Impact\CardboardBig1		156688
 	815449528	Portal enter next level	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\Portal enter next level_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\World\Portal enter next level		452532
 	905019507	Temp3	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\GuitarImpact_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\TempImpact\Temp3		344560
+	908763424	Minigame2MainTheme	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\Minigame2MainTheme_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Main Theme\Minigame2MainTheme\Minigame2MainTheme		6773824
 	922497341	Monster impact	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\Monster impact_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\World\Monster impact		309648
 	955037914	Fridge impact	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\Fridge impact_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\World\Fridge impact		121892
 	962014589	Float theme	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\Float theme_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\World\Float theme		11289664

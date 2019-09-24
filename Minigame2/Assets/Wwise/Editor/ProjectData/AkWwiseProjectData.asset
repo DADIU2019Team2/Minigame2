@@ -191,7 +191,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: f92c26f321240f4f9309ee83162c4682
     GuidInternal: 
-    m_lastTime: -8586323608214775808
+    m_lastTime: -8586322767884775808
     List:
     - name: Main
       guid: 27021db6c3a9b64b929f67caad76d52f
@@ -207,7 +207,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 5d06e612f0eec94ab85bb5de10ac826d
     GuidInternal: 
-    m_lastTime: -8586323584074775808
+    m_lastTime: -8586322767884775808
     List:
     - name: Play_Box_plastic_impact_1
       guid: 9db3e28a319b724f8654b55212d56b77
@@ -497,6 +497,18 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Main_Theme
+      guid: 8ffaab07d694f548a6bc9018cc654fff
+      id: 3568813383
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Main_Theme
+        ObjectType: 3
+      Path: Default Work Unit/Play_Main_Theme
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Menu_Music
       guid: 33663cf5f8b7904aa57037c19e104e0e
       id: 2228153899
@@ -653,6 +665,18 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.641729
       minDuration: 0.641729
+    - name: Play_Soul_Theme
+      guid: 5153ff519601604f82844a15f66478aa
+      id: 1894735553
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Soul_Theme
+        ObjectType: 3
+      Path: Default Work Unit/Play_Soul_Theme
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_SoulMovement
       guid: 5822bcc2a250424c93504156caf49829
       id: 230120564

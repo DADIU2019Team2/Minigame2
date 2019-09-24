@@ -32,6 +32,7 @@
 						<ObjectRef Name="Play_CardboardBig2" ID="{46E29D06-CE65-4603-8FAD-3AC160042BD1}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Fridge_impact" ID="{E1188F74-5E13-474A-84BA-2B5EE607F2B4}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_FanAndLampRandom" ID="{258A32DF-617A-4846-8F18-2A8E44033C79}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Main_Theme" ID="{07ABFA8F-94D6-48F5-A6BC-9018CC654FFF}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Set_State_Level1Music" ID="{73A2468E-7A7B-4977-B59A-51ECA3E3EC50}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Monster_impact" ID="{3D7DC1E8-0C61-49AC-8977-5FB8B0BCFAAC}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Wood_impact2" ID="{F6F168F2-9C90-49E0-BDE5-3338971BA44E}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
@@ -54,6 +55,7 @@
 						<ObjectRef Name="Play_GuitarImpact" ID="{7E926601-2164-4EEF-AB41-0864F37B2054}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_CouchRandom" ID="{B3301AE1-47EB-4F13-92EE-A41F576AC29C}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Monster_impact_01" ID="{303018DD-B4F6-4F43-B4AB-E95133C9224E}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Soul_Theme" ID="{51FF5351-0196-4F60-8284-4A15F66478AA}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Box_plastic_impact_1" ID="{8AE2B39D-9B31-4F72-8654-B55212D56B77}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Smaller_glass_breaking" ID="{B9402A9D-2F45-4FD5-9230-E334B5F15C90}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Cardboard_impact" ID="{F92A1BAA-A1F1-4FEC-80C1-F8938FC3DA94}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
