@@ -1,5 +1,5 @@
 //Maya ASCII 2019 scene
-//Name: humanA.ma
+//Name: humanA_v006_AD.ma
 //Last modified: Tue, Sep 24, 2019 04:08:31 PM
 //Codeset: 1252
 requires maya "2019";
@@ -15566,4 +15566,4 @@ connectAttr "lambert2.msg" ":defaultShaderList1.s" -na;
 connectAttr "lambert3.msg" ":defaultShaderList1.s" -na;
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "humanA_geoShape.iog" ":initialShadingGroup.dsm" -na;
-// End of humanA.ma
+// End of humanA_v006_AD.ma
