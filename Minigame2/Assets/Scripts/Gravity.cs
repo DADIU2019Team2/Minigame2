@@ -121,7 +121,7 @@ public class Gravity : MonoBehaviour
             {
                 gravityY = -1;
             }
-            Debug.Log(gravityY);
+            //Debug.Log(gravityY);
             return new Vector3(gravityX,gravityY,0).normalized;
         }else
         {
