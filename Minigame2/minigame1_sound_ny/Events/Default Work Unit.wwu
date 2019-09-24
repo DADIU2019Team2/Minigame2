@@ -278,7 +278,7 @@
 						<Action Name="" ID="{21033B0D-59C2-44C1-9052-AE09AB861E60}" ShortID="85898457">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Monster impact" ID="{5BA08353-5984-4879-B82D-6AC708A08E27}" WorkUnitID="{E12F50C6-1E4A-42B5-8A22-9CBCFAB5E575}"/>
+									<ObjectRef Name="Monster impact" ID="{5BA08353-5984-4879-B82D-6AC708A08E27}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -289,7 +289,7 @@
 						<Action Name="" ID="{D7429466-667D-45DC-9398-B38D75C28D03}" ShortID="336041076">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SoulMovement" ID="{669E60D3-8BD7-4720-A02F-A5A1E3BAED28}" WorkUnitID="{E12F50C6-1E4A-42B5-8A22-9CBCFAB5E575}"/>
+									<ObjectRef Name="SoulMovement" ID="{669E60D3-8BD7-4720-A02F-A5A1E3BAED28}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -356,7 +356,7 @@
 						<Action Name="" ID="{F2375E73-F38F-4DD5-BC65-180F622C87AC}" ShortID="579704997">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="CardboardBig1" ID="{B7A98529-7E1A-4F75-88B9-982EC9E3765E}" WorkUnitID="{E12F50C6-1E4A-42B5-8A22-9CBCFAB5E575}"/>
+									<ObjectRef Name="CardboardBig1" ID="{B7A98529-7E1A-4F75-88B9-982EC9E3765E}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -367,7 +367,18 @@
 						<Action Name="" ID="{F9754331-85A4-4B05-BC92-27F7BA6553C6}" ShortID="932283635">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="CardboardBig2" ID="{E0C2D6AB-5635-4709-A0B4-B5768C85B314}" WorkUnitID="{E12F50C6-1E4A-42B5-8A22-9CBCFAB5E575}"/>
+									<ObjectRef Name="CardboardBig2" ID="{E0C2D6AB-5635-4709-A0B4-B5768C85B314}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{11756E49-0382-4547-A842-2BF016D90E47}" ShortID="814891817">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+								<Property Name="PauseDelayedResumeAction" Type="bool" Value="False"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CardboardBig2" ID="{E0C2D6AB-5635-4709-A0B4-B5768C85B314}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -378,7 +389,7 @@
 						<Action Name="" ID="{E98832B5-06BC-4708-8CF9-DC9EA180EFEA}" ShortID="919464529">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="CardboardSmall1" ID="{ECBFEF46-F009-4EF8-B06F-2A43D1F114BD}" WorkUnitID="{E12F50C6-1E4A-42B5-8A22-9CBCFAB5E575}"/>
+									<ObjectRef Name="CardboardSmall1" ID="{ECBFEF46-F009-4EF8-B06F-2A43D1F114BD}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -389,7 +400,7 @@
 						<Action Name="" ID="{26E3B362-E8EB-4954-BD6C-7D82C4F8F31D}" ShortID="738667887">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="CardboardSmall2" ID="{0E2B6C59-386A-47A7-A7ED-88C4538A1F79}" WorkUnitID="{E12F50C6-1E4A-42B5-8A22-9CBCFAB5E575}"/>
+									<ObjectRef Name="CardboardSmall2" ID="{0E2B6C59-386A-47A7-A7ED-88C4538A1F79}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -400,7 +411,7 @@
 						<Action Name="" ID="{568D7ABB-3089-45A2-BC9E-C89ADE6DE889}" ShortID="617156907">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="CardboardSmall3" ID="{3F72019C-2FC4-479C-BAA5-C9A907AF0409}" WorkUnitID="{E12F50C6-1E4A-42B5-8A22-9CBCFAB5E575}"/>
+									<ObjectRef Name="CardboardSmall3" ID="{3F72019C-2FC4-479C-BAA5-C9A907AF0409}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -411,7 +422,7 @@
 						<Action Name="" ID="{3978ECCA-6543-43A1-B966-72691D36A61D}" ShortID="305685886">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="GuitarImpact" ID="{91F2A35D-2A1F-4898-9DB5-59155247D983}" WorkUnitID="{E12F50C6-1E4A-42B5-8A22-9CBCFAB5E575}"/>
+									<ObjectRef Name="GuitarImpact" ID="{91F2A35D-2A1F-4898-9DB5-59155247D983}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -422,7 +433,7 @@
 						<Action Name="" ID="{E9BF3F78-44B9-4525-AFEC-4ADE864F6DE3}" ShortID="735901243">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="LampImpact" ID="{F14BF11E-C79D-45B3-83D9-EC46DB448832}" WorkUnitID="{E12F50C6-1E4A-42B5-8A22-9CBCFAB5E575}"/>
+									<ObjectRef Name="LampImpact" ID="{F14BF11E-C79D-45B3-83D9-EC46DB448832}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -433,7 +444,7 @@
 						<Action Name="" ID="{880BBAF4-7D73-4BF8-8CBF-6F6C747EB5A4}" ShortID="387777391">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="MetalImpact" ID="{F5F165B7-CE9E-41C4-A6E8-45163065985E}" WorkUnitID="{E12F50C6-1E4A-42B5-8A22-9CBCFAB5E575}"/>
+									<ObjectRef Name="MetalImpact" ID="{F5F165B7-CE9E-41C4-A6E8-45163065985E}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -444,7 +455,7 @@
 						<Action Name="" ID="{BA77C810-291B-469A-B5CC-6C156401C507}" ShortID="623063170">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="MetalImpact2" ID="{7A9EF14A-C757-4052-9F16-D498BE43AB63}" WorkUnitID="{E12F50C6-1E4A-42B5-8A22-9CBCFAB5E575}"/>
+									<ObjectRef Name="MetalImpact2" ID="{7A9EF14A-C757-4052-9F16-D498BE43AB63}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -455,7 +466,7 @@
 						<Action Name="" ID="{E615CB80-0C29-4DFB-8D3F-50B7BC2F31E1}" ShortID="384742189">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Portal enter next level" ID="{AD3A8E3C-491D-497D-BF87-F41ADD003BAA}" WorkUnitID="{E12F50C6-1E4A-42B5-8A22-9CBCFAB5E575}"/>
+									<ObjectRef Name="Portal enter next level" ID="{AD3A8E3C-491D-497D-BF87-F41ADD003BAA}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -466,7 +477,7 @@
 						<Action Name="" ID="{B46C03E2-FB0A-4CB0-A975-003FEB0486CA}" ShortID="26353419">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SmallMetal1" ID="{130113A5-2C05-4176-9F6F-5A4F7F129E16}" WorkUnitID="{E12F50C6-1E4A-42B5-8A22-9CBCFAB5E575}"/>
+									<ObjectRef Name="SmallMetal1" ID="{130113A5-2C05-4176-9F6F-5A4F7F129E16}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -477,7 +488,7 @@
 						<Action Name="" ID="{FEA0B37F-6547-4731-A9E3-10334128626F}" ShortID="979564555">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SmallMetal2" ID="{B1DFF307-02EF-4755-9F4A-444873748544}" WorkUnitID="{E12F50C6-1E4A-42B5-8A22-9CBCFAB5E575}"/>
+									<ObjectRef Name="SmallMetal2" ID="{B1DFF307-02EF-4755-9F4A-444873748544}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -488,7 +499,7 @@
 						<Action Name="" ID="{5F32AA24-A959-4ACA-9CA9-C51CB1FBC5B9}" ShortID="678671609">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SoulMovement" ID="{6101BDD1-03D9-4FD2-91A0-6A3DBF30B484}" WorkUnitID="{E12F50C6-1E4A-42B5-8A22-9CBCFAB5E575}"/>
+									<ObjectRef Name="SoulMovement" ID="{6101BDD1-03D9-4FD2-91A0-6A3DBF30B484}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -499,7 +510,7 @@
 						<Action Name="" ID="{C5EE16B3-7C6D-4D59-9B6F-454EF1CFE386}" ShortID="300043878">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="WoodBig1" ID="{EAC63F48-F60F-473C-8091-CF89AE14C362}" WorkUnitID="{E12F50C6-1E4A-42B5-8A22-9CBCFAB5E575}"/>
+									<ObjectRef Name="WoodBig1" ID="{EAC63F48-F60F-473C-8091-CF89AE14C362}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -510,7 +521,7 @@
 						<Action Name="" ID="{204974D0-2470-483D-AAA4-59CB6DC86D77}" ShortID="104132329">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="WoodBig2" ID="{B7817442-E6C1-4396-AFEF-9BF6EA6E16F4}" WorkUnitID="{E12F50C6-1E4A-42B5-8A22-9CBCFAB5E575}"/>
+									<ObjectRef Name="WoodBig2" ID="{B7817442-E6C1-4396-AFEF-9BF6EA6E16F4}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -521,7 +532,7 @@
 						<Action Name="" ID="{9E0DEC22-86F3-42CB-8885-7FA6CBF370E4}" ShortID="600403820">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="WoodBig3" ID="{A16DDFF8-CFB6-4627-8584-1B848D2B7815}" WorkUnitID="{E12F50C6-1E4A-42B5-8A22-9CBCFAB5E575}"/>
+									<ObjectRef Name="WoodBig3" ID="{A16DDFF8-CFB6-4627-8584-1B848D2B7815}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -532,7 +543,7 @@
 						<Action Name="" ID="{5C7B2509-1BE8-4F81-B1FF-CF28EA8F67FB}" ShortID="686769900">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="WoodMedium" ID="{AE9F1D25-0DDC-47AB-9237-1F706F72353C}" WorkUnitID="{E12F50C6-1E4A-42B5-8A22-9CBCFAB5E575}"/>
+									<ObjectRef Name="WoodMedium" ID="{AE9F1D25-0DDC-47AB-9237-1F706F72353C}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -543,7 +554,7 @@
 						<Action Name="" ID="{3B1FBFAE-2D8F-4315-90E3-8876AEC104C2}" ShortID="892485107">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="WoodVerySmall" ID="{818EC29F-4704-46F3-A0BA-703D13EFC176}" WorkUnitID="{E12F50C6-1E4A-42B5-8A22-9CBCFAB5E575}"/>
+									<ObjectRef Name="WoodVerySmall" ID="{818EC29F-4704-46F3-A0BA-703D13EFC176}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -554,7 +565,62 @@
 						<Action Name="" ID="{CAAEF230-8A82-4D79-A3FD-6575B5499517}" ShortID="602124887">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="TempImpact" ID="{6BE26B29-FED6-4CD2-9A6F-B0CF16C01E8A}" WorkUnitID="{E12F50C6-1E4A-42B5-8A22-9CBCFAB5E575}"/>
+									<ObjectRef Name="TempImpact" ID="{6BE26B29-FED6-4CD2-9A6F-B0CF16C01E8A}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_CeramicsRandom" ID="{D731210F-2600-4547-B1E0-D7A0520F64C2}">
+					<ChildrenList>
+						<Action Name="" ID="{BB5F7298-E6E4-47D4-A625-E6F5E70DCAB7}" ShortID="328704787">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CeramicsRandom" ID="{4CB4F51A-91AC-483A-9624-CC4E91752DB4}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_CouchRandom" ID="{B3301AE1-47EB-4F13-92EE-A41F576AC29C}">
+					<ChildrenList>
+						<Action Name="" ID="{F9EBAD08-57A9-42C3-8E03-89D20E6CDCF8}" ShortID="1002100032">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CouchRandom" ID="{2E33C394-18AA-4EE1-A73F-0F12092366FD}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FanAndLampRandom" ID="{258A32DF-617A-4846-8F18-2A8E44033C79}">
+					<ChildrenList>
+						<Action Name="" ID="{693D3C1D-556F-4318-A78F-A92E01B02932}" ShortID="83880156">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FanAndLampRandom" ID="{2E4BE718-4BB0-4988-A838-68E4BF80F6F0}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Main_Theme" ID="{07ABFA8F-94D6-48F5-A6BC-9018CC654FFF}">
+					<ChildrenList>
+						<Action Name="" ID="{08133336-0477-4059-A33D-962485FB1BA0}" ShortID="748068067">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Main Theme" ID="{2432F10E-05AB-4FA8-B83C-BD6E485F8144}" WorkUnitID="{B275BE2C-211A-498B-AEB5-B3A279B58F59}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Soul_Theme" ID="{51FF5351-0196-4F60-8284-4A15F66478AA}">
+					<ChildrenList>
+						<Action Name="" ID="{C50B5930-BEF7-4098-AF8D-9A6609F2B7E8}" ShortID="550404803">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Soul Theme" ID="{9811CAD0-B0A6-4FCA-B841-AF876082C0D8}" WorkUnitID="{B275BE2C-211A-498B-AEB5-B3A279B58F59}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
