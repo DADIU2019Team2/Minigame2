@@ -1,0 +1,20 @@
+﻿KEYS;DANISH;ENGLISH
+UI_MENU_NEWGAME;New Game but in Danish;New Game
+UI_MENU_CONTINUE;Continue Game but in Danish;Continue Game
+UI_MENU_OPTIONS;Options but in Danish;Options
+UI_MENU_MASTERVOLUME;Master Volume but in Danish;Master Volume
+UI_MENU_SFXVOLUME;Sound Effects Volume but in Danish;Sound Effects Volume
+UI_MENU_MUSICVOLUME;Music Volume but in Danish;Music Volume
+UI_TRANSITION_DIALOGUE_0-1;Min nakke er øm... Hvor er jeg?;My.. neck.. Where am I?
+UI_TRANSITION_DIALOGUE_1-2;Den seng kan jeg godt huske. Vi lå altid her og hviskede i timevis. Mor opdagede det aldrig.;I remember that bed. We would lie here. Whispering for hours. Mom never found out.
+UI_TRANSITION_DIALOGUE_2-3;Den her lejlighed.. Det var her, jeg fik opkaldet. Jeg håber, at jeg aldrig skal se det sted igen.;his flat.. This is where I got the call. I never want to see this place again.
+UI_TRANSITION_DIALOGUE_3-4;Nej.. Nej! Alle andre steder.. Please!;No! No! Anywhere else.. please...
+UI_TRANSITION_DIALOGUE_4-END;Tak.;Thank you.
+UI_RELOAD_SCENE;Genstart Nivaue;Reload Level
+UI_RESET_SCENE;Reset;Reset
+UI_MUSIC_sLIDER;Musik;Music
+UI_LANGUAGE_BUTTON_DANISH;Dansk;Danish
+UI_LANGUAGE_BUTTON_ENGLISH;Engelsk;English
+
+
+
