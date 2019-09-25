@@ -6,12 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: d1c3109bdb54ad54c8a2b2838528e640
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 1
     path: Assets/Scenes/Level testing/Long room test.unity
     guid: 894857cbd5664db4e8690f6de73d7658
+  - enabled: 1
+    path: Assets/Scenes/Level testing/Showcase functionality test.unity
+    guid: de45264d9301d2b46991d35425c881db
   m_configObjects: {}
