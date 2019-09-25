@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee55fcb02b1d74851893429fa4089be4, type: 3}
+  m_Name: CFC1D1DC-B002-40A1-8AF0-A455F8A83DA4
+  m_EditorClassIdentifier: 
+  objectName: Level1Music
+  id: 447814771
+  guid: CFC1D1DC-B002-40A1-8AF0-A455F8A83DA4
+  WwiseStateGroupReference: {fileID: 11400000, guid: 0d5b93abf8af0425db5f00e0058a5360,
+    type: 2}
