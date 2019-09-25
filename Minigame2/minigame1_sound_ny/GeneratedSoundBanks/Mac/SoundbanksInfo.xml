@@ -8,16 +8,7 @@
 		<ExternalSourcesOutputRoot>/Users/fredo/Library/Application Support/Wwise2019/Bottles/wwise/dosdevices/y:/Documents/GitHub/Minigame2/Minigame2/minigame1_sound_ny/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
-	<StreamedFiles>
-		<File Id="791523558" Language="SFX">
-			<ShortName>Silence.wav</ShortName>
-			<Path>SFX/Silence_CB105973.wem</Path>
-		</File>
-		<File Id="905005226" Language="SFX">
-			<ShortName>Phone ringing.wav</ShortName>
-			<Path>SFX/Phone ringing_CB105973.wem</Path>
-		</File>
-	</StreamedFiles>
+	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
 		<SoundBank Id="1355168291" Language="SFX">
@@ -61,16 +52,13 @@
 				<Event Id="1936521029" Name="Play_MetalImpact2" ObjectPath="\Events\Default Work Unit\Play_MetalImpact2" DurationType="OneShot" DurationMin="0.950957" DurationMax="0.950957"/>
 				<Event Id="1470122796" Name="Play_Monster_crawl_scrape1" ObjectPath="\Events\Default Work Unit\Play_Monster_crawl_scrape1" DurationType="OneShot" DurationMin="0.666803" DurationMax="0.666803"/>
 				<Event Id="3939836301" Name="Play_Monster_impact" ObjectPath="\Events\Default Work Unit\Play_Monster_impact" DurationType="OneShot" DurationMin="1.755011" DurationMax="1.755011"/>
-				<Event Id="852515177" Name="Play_Monster_impact_01" ObjectPath="\Events\Default Work Unit\Play_Monster_impact_01" DurationType="OneShot" DurationMin="1.755011" DurationMax="1.755011"/>
-				<Event Id="190234274" Name="Play_Phone" ObjectPath="\Events\Default Work Unit\Play_Phone" DurationType="Infinite"/>
+				<Event Id="2899271694" Name="Play_MonsterIdle" ObjectPath="\Events\Default Work Unit\Play_MonsterIdle" DurationType="Infinite"/>
 				<Event Id="3255294874" Name="Play_Portal_enter_next_level" ObjectPath="\Events\Default Work Unit\Play_Portal_enter_next_level" DurationType="OneShot" DurationMin="2.565011" DurationMax="2.565011"/>
-				<Event Id="3500064728" Name="Play_Portal_enter_next_level_01" ObjectPath="\Events\Default Work Unit\Play_Portal_enter_next_level_01" DurationType="OneShot" DurationMin="2.565011" DurationMax="2.565011"/>
 				<Event Id="1720134853" Name="Play_Smaller_glass_breaking" ObjectPath="\Events\Default Work Unit\Play_Smaller_glass_breaking" DurationType="OneShot" DurationMin="2.000000" DurationMax="2.000000"/>
 				<Event Id="1389736157" Name="Play_SmallMetal1" ObjectPath="\Events\Default Work Unit\Play_SmallMetal1" DurationType="OneShot" DurationMin="0.719281" DurationMax="0.719281"/>
 				<Event Id="1389736158" Name="Play_SmallMetal2" ObjectPath="\Events\Default Work Unit\Play_SmallMetal2" DurationType="OneShot" DurationMin="0.641729" DurationMax="0.641729"/>
 				<Event Id="1894735553" Name="Play_Soul_Theme" ObjectPath="\Events\Default Work Unit\Play_Soul_Theme" DurationType="Infinite"/>
 				<Event Id="230120564" Name="Play_SoulMovement" ObjectPath="\Events\Default Work Unit\Play_SoulMovement" DurationType="Infinite"/>
-				<Event Id="4243950682" Name="Play_SoulMovement_01" ObjectPath="\Events\Default Work Unit\Play_SoulMovement_01" DurationType="OneShot" DurationMin="4.250000" DurationMax="4.250000"/>
 				<Event Id="1978530290" Name="Play_TempImpact" ObjectPath="\Events\Default Work Unit\Play_TempImpact" DurationType="OneShot" DurationMin="0.464366" DurationMax="1.952925"/>
 				<Event Id="864292832" Name="Play_Wood_impact2" ObjectPath="\Events\Default Work Unit\Play_Wood_impact2" DurationType="OneShot" DurationMin="0.674059" DurationMax="0.674059"/>
 				<Event Id="913814822" Name="Play_WoodBig1" ObjectPath="\Events\Default Work Unit\Play_WoodBig1" DurationType="OneShot" DurationMin="0.841104" DurationMax="0.841104"/>
@@ -85,10 +73,6 @@
 				<Event Id="1016171890" Name="Set_State_Level3Music" ObjectPath="\Events\Default Work Unit\Set_State_Level3Music" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1822594163" Name="Set_State_Level4Music" ObjectPath="\Events\Default Work Unit\Set_State_Level4Music" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
-			<ReferencedStreamedFiles>
-				<File Id="791523558"/>
-				<File Id="905005226"/>
-			</ReferencedStreamedFiles>
 			<IncludedMemoryFiles>
 				<File Id="19848566" Language="SFX">
 					<ShortName>Gravity shift.wav</ShortName>
@@ -162,10 +146,6 @@
 					<ShortName>Menu Music.wav</ShortName>
 					<Path>SFX/Menu Music_6296B0F9.wem</Path>
 				</File>
-				<File Id="400314997" Language="SFX">
-					<ShortName>SoulMovement.wav</ShortName>
-					<Path>SFX/SoulMovement_10C4C929.wem</Path>
-				</File>
 				<File Id="404359527" Language="SFX">
 					<ShortName>Ceramic1.wav</ShortName>
 					<Path>SFX/Ceramic1_10C4C929.wem</Path>
@@ -225,6 +205,10 @@
 				<File Id="815449528" Language="SFX">
 					<ShortName>Portal enter next level.wav</ShortName>
 					<Path>SFX/Portal enter next level_10C4C929.wem</Path>
+				</File>
+				<File Id="826230485" Language="SFX">
+					<ShortName>MonsterIdle.wav</ShortName>
+					<Path>SFX/MonsterIdle_D79FB2B7.wem</Path>
 				</File>
 				<File Id="905019507" Language="SFX">
 					<ShortName>GuitarImpact.wav</ShortName>
