@@ -9,7 +9,7 @@ public class ShowSliderValue : MonoBehaviour
 {
     private TextMeshProUGUI text;
 
-    private void Start()
+    private void Awake()
     {
         text = GetComponent<TextMeshProUGUI>();
         text.text = "update value to show";

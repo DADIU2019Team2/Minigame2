@@ -955,7 +955,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &8820120955196204106
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1044,17 +1044,6 @@ MonoBehaviour:
       - m_Target: {fileID: 358570585254544455}
         m_MethodName: showSliderValue
         m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 5393146725966237752}
-        m_MethodName: initialiseGravModifier
-        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1719,7 +1708,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1925646542941648786
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1816,17 +1805,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2081650957412103831}
-        m_MethodName: initialiseAngleThreshold
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
     m_TypeName: UnityEngine.UI.Slider+SliderEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &2081650957412103831
@@ -1843,7 +1821,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gravGlobal: {fileID: 11400000, guid: 135e561a6c85cff419b842cce055cb1f, type: 2}
   gravModSlider: {fileID: 7421892395838404888}
-  angleThreshSlider: {fileID: 7421892395838404888}
+  angleThreshSlider: {fileID: 8317479128343330723}
 --- !u!1 &6229692319916355465
 GameObject:
   m_ObjectHideFlags: 0
@@ -2976,11 +2954,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2555b4922fff1a5488d375654ed9ca9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gravityScaleModifier: 0.1
-  angleThreshhold: 5
+  gravGlobalValues: {fileID: 11400000, guid: 135e561a6c85cff419b842cce055cb1f, type: 2}
+  gravityScaleModifier: 1
+  angleThreshhold: 2
   gravityRampUpCurve:
     serializedVersion: 2
-    m_Curve: []
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.01184845
+      value: 0.49432373
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.6530812
+      value: 0.6184027
+      inSlope: 0.39982656
+      outSlope: 0.39982656
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 1
+    - serializedVersion: 3
+      time: 1
+      value: 0.982666
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4

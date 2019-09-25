@@ -5,7 +5,7 @@ using System.Linq;
 
 public class Gravity : MonoBehaviour
 {
-    //public GravityGlobalValues gravGlobalValues;
+    public GravityGlobalValues gravGlobalValues;
     [Range(0.1f, 50)]
     public float gravityScaleModifier = 1;
     private float tempGravityScaleModifier;
@@ -37,7 +37,7 @@ public class Gravity : MonoBehaviour
         tempAngleThreshold = angleThreshhold;
         tempGravityScaleModifier = gravityScaleModifier;
 
-        //initialiseGlobalGravVariables();
+        initialiseGlobalGravVariables();
     }
     // Start is called before the first frame update
     void Start()
@@ -152,7 +152,7 @@ public class Gravity : MonoBehaviour
         Physics.gravity = Vector3.Scale(gravityDir, gravityScale);
     }
 
-    /*private void initialiseGlobalGravVariables()
+    private void initialiseGlobalGravVariables()
     {
         if (gravGlobalValues.getAngleThreshold() == 0)
         {
@@ -183,5 +183,5 @@ public class Gravity : MonoBehaviour
     {
         tempGravityScaleModifier = value;
         gravGlobalValues.setGravityModifier(value);
-    }*/
+    }
 }
