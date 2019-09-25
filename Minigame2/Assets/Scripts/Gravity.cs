@@ -5,8 +5,10 @@ using System.Linq;
 
 public class Gravity : MonoBehaviour
 {
+    public GravityGlobalValues gravGlobalValues;
     [Range(0.1f, 50)]
     public float gravityScaleModifier = 1;
+    private float tempGravityScaleModifier;
     private Vector3 originalGravityScale = new Vector3(9.81f, 9.81f, 9.81f);
     private Vector3 gravityScale = new Vector3(9.81f, 9.81f, 9.81f);
     private Vector3 gravityDir = new Vector3(0, 0, 0);
@@ -18,6 +20,7 @@ public class Gravity : MonoBehaviour
 
     [SerializeField]
     private float angleThreshhold = 5;
+    private float tempAngleThreshold;
 
     private float threshholdRadians;
 
@@ -28,17 +31,25 @@ public class Gravity : MonoBehaviour
     [RangeAttribute(0, 1)]
     private float rampUpTime;
 
+
+    private void Awake()
+    {
+        tempAngleThreshold = angleThreshhold;
+        tempGravityScaleModifier = gravityScaleModifier;
+
+        initialiseGlobalGravVariables();
+    }
     // Start is called before the first frame update
     void Start()
     {
-        threshholdRadians = Mathf.Deg2Rad*angleThreshhold;
-        gravityScale = originalGravityScale * gravityScaleModifier;
+        threshholdRadians = Mathf.Deg2Rad*tempAngleThreshold;
+        gravityScale = originalGravityScale * tempGravityScaleModifier;
     }
 
 
     void FixedUpdate()
     {
-        gravityScale = originalGravityScale * gravityScaleModifier;
+        gravityScale = originalGravityScale * tempGravityScaleModifier;
 
         rampUpTime += Time.fixedDeltaTime;
 
@@ -63,55 +74,114 @@ public class Gravity : MonoBehaviour
 
         float angleDiff = Vector3.Angle(sumVector, AndroidGyroAcceleration());
 
-        if (angleDiff >= angleThreshhold) { rampUpTime = 0; }
+        if (angleDiff >= tempAngleThreshold) { rampUpTime = 0; }
 
         float gravModifier = gravityRampUpCurve.Evaluate(rampUpTime);
 
-        Debug.Log("AngleDiff in degrees: " + angleDiff);
+        //Debug.Log("AngleDiff in degrees: " + angleDiff);
 
-#if UNITY_ANDROID && !UNITY_EDITOR
+
         ChangeGravity(AndroidGyroAcceleration(), gravityScale * gravModifier);
-#endif
-#if UNITY_EDITOR
-        gravityY = 0;
-        gravityX = 0;
-        if (Input.GetKey(KeyCode.A))
-        {
-            gravityX = -1;
-        }
-        if (Input.GetKey(KeyCode.D))
-        {
-            gravityX = 1;
-        }
-        if (Input.GetKey(KeyCode.W))
-        {
-            gravityY = 1;
-        }
-        if (Input.GetKey(KeyCode.S))
-        {
-            gravityY = -1;
-        }
-        dir = Vector3.zero;
-        dir.x = gravityX;
-        dir.y = gravityY;
-        ChangeGravity(new Vector3(gravityX, gravityY, 0), gravityScale * gravModifier);
-#endif
+
+        //gravityY = 0;
+        //gravityX = 0;
+        //if (Input.GetKey(KeyCode.A))
+        //{
+        //    gravityX = -1;
+        //}
+        //if (Input.GetKey(KeyCode.D))
+        //{
+        //    gravityX = 1;
+        //}
+        //if (Input.GetKey(KeyCode.W))
+        //{
+        //    gravityY = 1;
+        //}
+        //if (Input.GetKey(KeyCode.S))
+        //{
+        //    gravityY = -1;
+        //}
+        //dir = Vector3.zero;
+        //dir.x = gravityX;
+        //dir.y = gravityY;
+        //ChangeGravity(new Vector3(gravityX, gravityY, 0), gravityScale * gravModifier);
+
         //Debug.Log("Gravity modifier (place on gravity-curve: " + gravModifier);
 
     }
     Vector3 AndroidGyroAcceleration()
     {
         //return PlayerInput.GetGravity();
-#if UNITY_ANDROID && !UNITY_EDITOR
-        return new Vector3(Input.acceleration.x, Input.acceleration.y, -Input.acceleration.z);
-#endif
-#if UNITY_EDITOR
-        //Debug.Log("AndroidInput: " + new Vector3(gravityX, gravityY, 0).normalized);
+        if (Mathf.Abs(Input.acceleration.x) < 0.02 && Mathf.Abs(Input.acceleration.y) < 0.02)
+        {
+            gravityY = 0;
+            gravityX = 0;
+            if (Input.GetKey(KeyCode.A))
+            {
+                gravityX = -1;
+            }
+            if (Input.GetKey(KeyCode.D))
+            {
+                gravityX = 1;
+            }
+            if (Input.GetKey(KeyCode.W))
+            {
+                gravityY = 1;
+            }
+            if (Input.GetKey(KeyCode.S))
+            {
+                gravityY = -1;
+            }
+            Debug.Log(gravityY);
+            return new Vector3(gravityX,gravityY,0).normalized;
+        }else
+        {
+            #if UNITY_ANDROID
+            Debug.Log(Input.acceleration.x);
+            Debug.Log(Input.acceleration.y);   
+            return new Vector3(Input.acceleration.x, Input.acceleration.y, -Input.acceleration.z).normalized;
+            #endif
+        }
+
+        //Necessary to have a return in all cases, although this should never be relevant really.
+        Debug.Log("Returning non-UNITY_ANDROID inputs to gravity.cs");
         return new Vector3(gravityX, gravityY, 0).normalized;
-#endif
     }
     void ChangeGravity(Vector3 gravityDir, Vector3 gravityScale)
     {
         Physics.gravity = Vector3.Scale(gravityDir, gravityScale);
+    }
+
+    private void initialiseGlobalGravVariables()
+    {
+        if (gravGlobalValues.getAngleThreshold() == 0)
+        {
+            gravGlobalValues.setAngleThreshold(angleThreshhold);
+        }
+        else
+        {
+            tempAngleThreshold = gravGlobalValues.getAngleThreshold();
+        }
+
+        if (gravGlobalValues.getgravityModifier() == 0)
+        {
+            gravGlobalValues.setGravityModifier(gravityScaleModifier);
+        }
+        else
+        {
+            tempGravityScaleModifier = gravGlobalValues.getgravityModifier();
+        }
+    }
+
+    public void updateAngleThreshold(float value)
+    {
+        tempAngleThreshold = value;
+        gravGlobalValues.setAngleThreshold(value);
+    }
+
+    public void updateGravModifier(float value)
+    {
+        tempGravityScaleModifier = value;
+        gravGlobalValues.setGravityModifier(value);
     }
 }
