@@ -11,8 +11,6 @@ using UnityEngine;
 public class MonsterController : MonoBehaviour
 {
     public Transform playerTransform;
-    public Transform monsterCapsuleTransform;
-
     public gravityDirection monsterGravityDirection;
     public enum gravityDirection
     {
@@ -21,16 +19,16 @@ public class MonsterController : MonoBehaviour
 
     private bool isMovingInXaxis;
 
-    //private CharacterController _controller;
+    private CharacterController _controller;
     public float monsterGravity;
     private Vector3 gravityDirVector;
     [Range(0, 10f)] public float maxSpeed;
 
-    private Vector3 _moveDirection;
+    private Vector3 _moveDirection, _gravDirection;
     // Start is called before the first frame update
     private void Awake()
     {
-        //_controller = GetComponent<CharacterController>();
+        _controller = GetComponent<CharacterController>();
         playerTransform = GameObject.FindWithTag("Player").transform;
 
         SetMonsterGravityDirection(monsterGravityDirection);
@@ -53,8 +51,12 @@ public class MonsterController : MonoBehaviour
         _moveDirection = isMovingInXaxis ? Vector3.right * moveSign : Vector3.up * moveSign;
         _moveDirection *= maxSpeed;
 
-        _moveDirection += gravityDirVector * monsterGravity * Time.fixedDeltaTime;
-        transform.Translate(_moveDirection * Time.fixedDeltaTime);
+        _gravDirection = gravityDirVector * monsterGravity;
+        Debug.Log("Movedirection = " + _moveDirection);
+        //monsterRb.AddForce(_gravDirection, ForceMode.Acceleration);
+        _controller.Move(_moveDirection*Time.fixedDeltaTime + _gravDirection);
+
+
 
     }
 
@@ -64,25 +66,23 @@ public class MonsterController : MonoBehaviour
         switch (monsterGravityDirection)
         {
             case gravityDirection.Up:
-                monsterCapsuleTransform.rotation = Quaternion.Euler(0, 0, 180);
+                transform.rotation = Quaternion.Euler(0, 0, 180);
                 gravityDirVector = Vector3.up;
                 isMovingInXaxis = true;
                 return;
             case gravityDirection.Down:
-                monsterCapsuleTransform.rotation = Quaternion.Euler(0, 0, 0);
+                transform.rotation = Quaternion.Euler(0, 0, 0);
                 gravityDirVector = Vector3.down;
                 isMovingInXaxis = true;
                 return;
 
             case gravityDirection.Left:
-                transform.rotation = Quaternion.Euler(0, 0, 90);
-                monsterCapsuleTransform.rotation = Quaternion.Euler(0, 0, 90);
+                transform.rotation = Quaternion.Euler(0, 0, -90);
                 gravityDirVector = Vector3.left;
                 isMovingInXaxis = false;
                 return;
             case gravityDirection.Right:
-                transform.rotation = Quaternion.Euler(0, 0, -90);
-                monsterCapsuleTransform.rotation = Quaternion.Euler(0, 0, -90);
+                transform.rotation = Quaternion.Euler(0, 0, 90);
                 gravityDirVector = Vector3.right;
                 isMovingInXaxis = false;
                 return;
