@@ -48,6 +48,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3390222318	Play_GuitarImpact			\Default Work Unit\Play_GuitarImpact	
 	3568813383	Play_Main_Theme			\Default Work Unit\Play_Main_Theme	
 	3605952550	Play_Level1music			\Default Work Unit\Play_Level1music	
+	3917470406	Play_Rhythm			\Default Work Unit\Play_Rhythm	
 	3939836301	Play_Monster_impact			\Default Work Unit\Play_Monster_impact	
 	4138451597	Set_Game_Parameter_World			\Default Work Unit\Set_Game_Parameter_World	
 
@@ -55,6 +56,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	3077794743	SoulMovement			\Default Work Unit\SoulMovement	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	12698480	AccelRhythm	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\AccelRhythm_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Rhythm\AccelRhythm\AccelRhythm		6773824
 	19848566	Gravity shift	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\Gravity shift_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\World\Gravity shift		562176
 	49339866	Level4musicloop	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\Level4musicloop_9B96ECC7.wem		\Actor-Mixer Hierarchy\Music\Music\Level4musicloop		425134
 	55798599	CardboardSmall1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\CardboardSmall1_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Impact\CardboardSmall1		65492

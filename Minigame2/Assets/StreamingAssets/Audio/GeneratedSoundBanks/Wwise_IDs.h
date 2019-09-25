@@ -46,6 +46,7 @@ namespace AK
         static const AkUniqueID PLAY_MONSTER_IMPACT = 3939836301U;
         static const AkUniqueID PLAY_MONSTERIDLE = 2899271694U;
         static const AkUniqueID PLAY_PORTAL_ENTER_NEXT_LEVEL = 3255294874U;
+        static const AkUniqueID PLAY_RHYTHM = 3917470406U;
         static const AkUniqueID PLAY_SMALLER_GLASS_BREAKING = 1720134853U;
         static const AkUniqueID PLAY_SMALLMETAL1 = 1389736157U;
         static const AkUniqueID PLAY_SMALLMETAL2 = 1389736158U;
