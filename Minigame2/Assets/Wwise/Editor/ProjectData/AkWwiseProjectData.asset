@@ -191,7 +191,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: f92c26f321240f4f9309ee83162c4682
     GuidInternal: 
-    m_lastTime: -8586323647514775808
+    m_lastTime: -8586322767884775808
     List:
     - name: Main
       guid: 27021db6c3a9b64b929f67caad76d52f
@@ -207,7 +207,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 5d06e612f0eec94ab85bb5de10ac826d
     GuidInternal: 
-    m_lastTime: -8586323647514775808
+    m_lastTime: -8586322767884775808
     List:
     - name: Play_Box_plastic_impact_1
       guid: 9db3e28a319b724f8654b55212d56b77
@@ -305,6 +305,18 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.370907
       minDuration: 0.370907
+    - name: Play_CeramicsRandom
+      guid: 0f2131d700264745b1e0d7a0520f64c2
+      id: 2062815940
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_CeramicsRandom
+        ObjectType: 3
+      Path: Default Work Unit/Play_CeramicsRandom
+      maxAttenuation: 0
+      maxDuration: 0.399524
+      minDuration: 0.324603
     - name: Play_Couch_Impact
       guid: 8c2d6a65f3ef4b4b8f895719cb67cbe4
       id: 2776670769
@@ -317,6 +329,18 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.217536
       minDuration: 0.217536
+    - name: Play_CouchRandom
+      guid: e11a30b3eb47134f92eea41f576ac29c
+      id: 904426889
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_CouchRandom
+        ObjectType: 3
+      Path: Default Work Unit/Play_CouchRandom
+      maxAttenuation: 0
+      maxDuration: 1.032156
+      minDuration: 0.654839
     - name: Play_Drum_collision
       guid: 2e26be9b620ff4408822c5947ea89534
       id: 2072427939
@@ -329,6 +353,18 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.750624
       minDuration: 0.750624
+    - name: Play_FanAndLampRandom
+      guid: df328a257a6146488f182a8e44033c79
+      id: 2414642255
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_FanAndLampRandom
+        ObjectType: 3
+      Path: Default Work Unit/Play_FanAndLampRandom
+      maxAttenuation: 0
+      maxDuration: 0.950957
+      minDuration: 0.633026
     - name: Play_Float_theme
       guid: 331a05a941769241a0c7e24803f4c54c
       id: 2142485738
@@ -399,8 +435,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit/Play_LampImpact
       maxAttenuation: 0
-      maxDuration: 0.797562
-      minDuration: 0.797562
+      maxDuration: 0.633026
+      minDuration: 0.633026
     - name: Play_Level1music
       guid: 25372e25825aa74a8e193c089d868ee0
       id: 3605952550
@@ -461,6 +497,18 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Main_Theme
+      guid: 8ffaab07d694f548a6bc9018cc654fff
+      id: 3568813383
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Main_Theme
+        ObjectType: 3
+      Path: Default Work Unit/Play_Main_Theme
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Menu_Music
       guid: 33663cf5f8b7904aa57037c19e104e0e
       id: 2228153899
@@ -495,8 +543,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit/Play_MetalImpact
       maxAttenuation: 0
-      maxDuration: 0.961594
-      minDuration: 0.961594
+      maxDuration: 0.716232
+      minDuration: 0.716232
     - name: Play_MetalImpact2
       guid: 804db15ee11cad44bf4788b9eb7ec6dd
       id: 1936521029
@@ -507,8 +555,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit/Play_MetalImpact2
       maxAttenuation: 0
-      maxDuration: 1.276729
-      minDuration: 1.276729
+      maxDuration: 0.950957
+      minDuration: 0.950957
     - name: Play_Monster_crawl_scrape1
       guid: bd1dfb07432a1044908822269eb6e11e
       id: 1470122796
@@ -617,6 +665,18 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.641729
       minDuration: 0.641729
+    - name: Play_Soul_Theme
+      guid: 5153ff519601604f82844a15f66478aa
+      id: 1894735553
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Soul_Theme
+        ObjectType: 3
+      Path: Default Work Unit/Play_Soul_Theme
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_SoulMovement
       guid: 5822bcc2a250424c93504156caf49829
       id: 230120564
@@ -687,8 +747,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit/Play_WoodBig2
       maxAttenuation: 0
-      maxDuration: 0.77874
-      minDuration: 0.77874
+      maxDuration: 0.654839
+      minDuration: 0.654839
     - name: Play_WoodBig3
       guid: acb6a4e77f16a14bbe87338130e6d8aa
       id: 913814820
@@ -802,7 +862,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 493bb8d2612cd04aab9636c6020424b3
     GuidInternal: 
-    m_lastTime: -8586323740004775808
+    m_lastTime: -8586323586374775808
     List:
     - name: Music
       guid: 7e6db5316f1a8c47a7229b4f05b3525e
@@ -822,6 +882,15 @@ MonoBehaviour:
       - ElementName: SoulMovement
         ObjectType: 13
       Path: Default Work Unit/SoulMovement
+    - name: Weight
+      guid: 53f0e60f3034bc4c92f45a142ba73f59
+      id: 2018623641
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Weight
+        ObjectType: 13
+      Path: Default Work Unit/Weight
     - name: World
       guid: 14d6fddca700c545b784bf570902d5e0
       id: 2609808943
@@ -1072,8 +1141,39 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 33ec5e5dfa142f41a50479a839216276
     GuidInternal: 
-    m_lastTime: -8586328890334775808
-    List: []
+    m_lastTime: -8586323586374775808
+    List:
+    - name: Weight
+      guid: 94d50922573a8d489f45714979b9c308
+      id: 2018623641
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Weight
+        ObjectType: 11
+      Path: Default Work Unit/Weight
+      values:
+      - name: Big
+        guid: 1395dbc82ec5c443ad1e79d559f75c73
+        id: 647611021
+        PathAndIcons:
+        - ElementName: Big
+          ObjectType: 10
+      - name: Medium
+        guid: 2a3f69a9b2f4974c9549aba6402b9460
+        id: 2849147824
+        PathAndIcons:
+        - ElementName: Medium
+          ObjectType: 10
+      - name: Small
+        guid: 78262f53fec33f418a2e959eea324e17
+        id: 1846755610
+        PathAndIcons:
+        - ElementName: Small
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers/Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -1083,7 +1183,8 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /minigame1_sound_ny
-  - /minigame1_sound_ny/Events
-  - /minigame1_sound_ny/Events/Default Work Unit
+  - /minigame1_sound_ny/States
+  - /minigame1_sound_ny/States/Default Work Unit
+  - /minigame1_sound_ny/States/Default Work Unit/LevelMusic
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
