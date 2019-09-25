@@ -191,7 +191,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: f92c26f321240f4f9309ee83162c4682
     GuidInternal: 
-    m_lastTime: -8586322767884775808
+    m_lastTime: -8586322756674775808
     List:
     - name: Main
       guid: 27021db6c3a9b64b929f67caad76d52f
@@ -207,7 +207,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 5d06e612f0eec94ab85bb5de10ac826d
     GuidInternal: 
-    m_lastTime: -8586322767884775808
+    m_lastTime: -8586322756674775808
     List:
     - name: Play_Box_plastic_impact_1
       guid: 9db3e28a319b724f8654b55212d56b77
@@ -593,6 +593,18 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.755011
       minDuration: 1.755011
+    - name: Play_MonsterIdle
+      guid: a3cee47a642fc74e9ffa36a1a8dbffaa
+      id: 2899271694
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_MonsterIdle
+        ObjectType: 3
+      Path: Default Work Unit/Play_MonsterIdle
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Phone
       guid: 1147c759dfa7f04baee5b2c9e10f25b3
       id: 190234274
@@ -1183,8 +1195,7 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /minigame1_sound_ny
-  - /minigame1_sound_ny/States
-  - /minigame1_sound_ny/States/Default Work Unit
-  - /minigame1_sound_ny/States/Default Work Unit/LevelMusic
+  - /minigame1_sound_ny/Events
+  - /minigame1_sound_ny/Events/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
