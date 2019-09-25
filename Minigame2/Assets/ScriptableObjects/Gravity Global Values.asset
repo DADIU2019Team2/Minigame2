@@ -12,3 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d92db0893b69be646bbd30d86dd3926c, type: 3}
   m_Name: Gravity Global Values
   m_EditorClassIdentifier: 
+  gravityModifierValue: 1
+  angleThresholdValue: 5
