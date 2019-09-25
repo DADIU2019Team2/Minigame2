@@ -14,8 +14,6 @@ GameObject:
   - component: {fileID: 7484849343169710093}
   - component: {fileID: 4988710803042995878}
   - component: {fileID: 6735970744030879793}
-  - component: {fileID: 7599784756280825166}
-  - component: {fileID: 1736216239}
   - component: {fileID: 4749331271592716960}
   - component: {fileID: 8288979606149154376}
   m_Layer: 11
@@ -136,65 +134,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 234a92c85ff6d48bbb78261232c2b2dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &7599784756280825166
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6498891905812155943}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc9a86a53a2aac349a4fcef6fed52d56, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1736216239
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6498891905812155943}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2555b4922fff1a5488d375654ed9ca9d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gravityScaleModifier: 1
-  angleThreshhold: 2
-  gravityRampUpCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: -0.01184845
-      value: 0.49432373
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 0.6530812
-      value: 0.6184027
-      inSlope: 0.39982656
-      outSlope: 0.39982656
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 1
-    - serializedVersion: 3
-      time: 1
-      value: 0.982666
-      inSlope: 2
-      outSlope: 2
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!114 &4749331271592716960
 MonoBehaviour:
   m_ObjectHideFlags: 0

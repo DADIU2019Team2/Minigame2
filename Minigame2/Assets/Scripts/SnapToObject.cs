@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class SnapToObject : MonoBehaviour
 {
     public enum Filter{Tag, Object};
@@ -42,13 +41,23 @@ public class SnapToObject : MonoBehaviour
         {
             if (collision.gameObject.tag == tagName)
             {
+                if (collision.gameObject.GetComponent<PushAwayOnSnap>() == null)
+                {
+                    Debug.Log("Adding Game Component");
+                    collision.gameObject.AddComponent<PushAwayOnSnap>();
+                }
                 SnapToTarget(collision.gameObject, snapPosition);
+               
             }
         }
         else if (snapBy == Filter.Object)
         {
             if (collision.gameObject == objectToSnap)
             {
+                if (collision.gameObject.GetComponent<PushAwayOnSnap>() == null)
+                {
+                    collision.gameObject.AddComponent<PushAwayOnSnap>();
+                }
                 SnapToTarget(collision.gameObject, snapPosition);
             }
         }
@@ -59,6 +68,11 @@ public class SnapToObject : MonoBehaviour
         {
             if (other.gameObject.tag == tagName)
             {
+                if (other.gameObject.GetComponent<PushAwayOnSnap>() == null)
+                {
+                    Debug.Log("Adding Game Component");
+                    other.gameObject.AddComponent<PushAwayOnSnap>();
+                }
                 SnapToTarget(other.gameObject, snapPosition);
             }
         }
@@ -66,6 +80,11 @@ public class SnapToObject : MonoBehaviour
         {
             if (other.gameObject == objectToSnap)
             {
+                if (other.gameObject.GetComponent<PushAwayOnSnap>() == null)
+                {
+                    Debug.Log("Adding Game Component");
+                    other.gameObject.AddComponent<PushAwayOnSnap>();
+                }
                 SnapToTarget(other.gameObject, snapPosition);
             }
         }
