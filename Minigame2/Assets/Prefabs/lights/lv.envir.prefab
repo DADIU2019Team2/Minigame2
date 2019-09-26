@@ -139,6 +139,31 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 2.014
       objectReference: {fileID: 0}
+    - target: {fileID: 9199103277747800343, guid: 86b43dcf62c11f3479e662d50acc2eec,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9199103277747800341, guid: 86b43dcf62c11f3479e662d50acc2eec,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.840915
+      objectReference: {fileID: 0}
+    - target: {fileID: 9199103277747800341, guid: 86b43dcf62c11f3479e662d50acc2eec,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.23137254
+      objectReference: {fileID: 0}
+    - target: {fileID: 9199103277747800341, guid: 86b43dcf62c11f3479e662d50acc2eec,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.84313726
+      objectReference: {fileID: 0}
+    - target: {fileID: 9199103277747800341, guid: 86b43dcf62c11f3479e662d50acc2eec,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 738.4
+      objectReference: {fileID: 0}
     - target: {fileID: 9199103277641397104, guid: 86b43dcf62c11f3479e662d50acc2eec,
         type: 3}
       propertyPath: m_Color.g
