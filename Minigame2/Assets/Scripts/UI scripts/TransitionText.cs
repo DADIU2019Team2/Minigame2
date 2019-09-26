@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+[RequireComponent(typeof(LoadLevel))]
 public class TransitionText : MonoBehaviour
 {
+
     private GameObject currentTranistionObject;
     public GameObject[] textTranistionArr;
     public GameObject deathText;
@@ -40,12 +42,22 @@ public class TransitionText : MonoBehaviour
         }
     }
 
-    public void DeactivateText()
+    public void DeactivateDeathText()
     {
         if (currentTranistionObject != null)
         {
             currentTranistionObject.SetActive(false);
         }
         Time.timeScale = 1;
+        this.gameObject.GetComponent<LoadLevel>().reloadCurrentScene();
+    }
+    public void DeactivateLevelText()
+    {
+        if (currentTranistionObject != null)
+        {
+            currentTranistionObject.SetActive(false);
+        }
+        Time.timeScale = 1;
+        this.gameObject.GetComponent<LoadLevel>().loadNextLevel();
     }
 }
