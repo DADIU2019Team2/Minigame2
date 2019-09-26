@@ -10,7 +10,9 @@ namespace UnityEditor
         [MenuItem("Pipeline/Build: Android")]
         public static void BuildAndroid()
         {
-            setBuildNum(); //update our build number file
+            string localFilePath = @"C:\Users\Dadiu student\Desktop\buildNumbers.txt";
+            string filepathInResources = Application.dataPath + "/Resources/buildNumbers.txt";
+            setBuildNum(localFilePath, filepathInResources); //update our build number file
             Directory.CreateDirectory(pathname);
             var report = BuildPipeline.BuildPlayer(new BuildPlayerOptions
             {
@@ -51,7 +53,8 @@ namespace UnityEditor
         {
             get
             {
-                return (DateTime.Now.ToString("MMddHHmm-") + repoBranchName + "-" + getBuildNum().ToString() + ".apk");
+                string filepathInResources = Application.dataPath + "/Resources/buildNumbers.txt";
+                return (DateTime.Now.ToString("MMddHHmm-") + repoBranchName + "-" + getBuildNum(filepathInResources).ToString() + ".apk");
             }
         }
 
@@ -79,9 +82,9 @@ namespace UnityEditor
         }
         
         //[MenuItem("Pipeline/Build: update build number")]
-        public static void setBuildNum()
+        public static void setBuildNum(string pathToFile, string pathToResourcesFile)
         {
-            int buildNum = getBuildNum();
+            int buildNum = getBuildNum(pathToFile, pathToResourcesFile);
             int curBuildNum = buildNum + 1; ;
 
             string[] stuffToWrite = new string[3];
@@ -90,25 +93,23 @@ namespace UnityEditor
             stuffToWrite[2] = repoBranchName;
 
             UnityEngine.Debug.Log("Cur build nr = " + curBuildNum);
+
+            //string buildNumFilePath = Application.dataPath + "/Resources/buildNumbers.txt";
+            createOrReadBuildNumFile(pathToFile);
             
-            string buildNumFilePath = Application.dataPath + "/Resources/buildNumbers.txt";
-            FileStream file = File.Open(buildNumFilePath, FileMode.OpenOrCreate,FileAccess.ReadWrite);
-            file.Close();
-            
-            File.WriteAllLines(buildNumFilePath, stuffToWrite);
+            File.WriteAllLines(pathToFile, stuffToWrite);
 
             UnityEngine.Debug.Log("I have updated the build number");
         }
 
-        public static int getBuildNum()
+        public static int getBuildNum(string pathToFile, string pathToResourcesFile)
         {
             int buildNum = 0;
             string text = "";
             string number = "";
             string buildNumFilePath = Application.dataPath + "/Resources/buildNumbers.txt";
-            FileStream file = File.Open(buildNumFilePath, FileMode.OpenOrCreate,FileAccess.ReadWrite);
-            file.Close();
 
+            readdFileAndWriteToResourcesFile(pathToFile, pathToResourcesFile);
             string[] everyLine = new string[2];
             TextAsset buildNRFile = Resources.Load("buildNumbers") as TextAsset;
             if (buildNRFile != null)
@@ -141,6 +142,62 @@ namespace UnityEditor
                 return buildNum;
             }
             return buildNum;
+        }
+        public static int getBuildNum(string pathToResourcesFile)
+        {
+            int buildNum = 0;
+            string text = "";
+            string number = "";
+            string buildNumFilePath = Application.dataPath + "/Resources/buildNumbers.txt";
+
+            string[] everyLine = new string[2];
+            TextAsset buildNRFile = Resources.Load("buildNumbers") as TextAsset;
+            if (buildNRFile != null)
+            {
+                string allLines = buildNRFile.text;
+                if (allLines.Count<Char>() > 0)
+                {
+                    everyLine = allLines.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.None);
+                }
+            }
+
+            //string[] everyLine = File.ReadAllLines(buildNumFilePath);
+            if (everyLine.Length > 0)
+            {
+                UnityEngine.Debug.Log("The build number file contains: \n" + everyLine[0] + " " + everyLine[1]);
+                text = everyLine[0];
+                number = everyLine[1];
+            }
+            try
+            {
+                buildNum = int.Parse(number);
+            }
+            catch (Exception e)
+            {
+                UnityEngine.Debug.LogWarning(e);
+            }
+            if (number == "")
+            {
+                buildNum = 1;
+                return buildNum;
+            }
+            return buildNum;
+        }
+
+        public static void createOrReadBuildNumFile(string pathToFile)
+        {
+            FileStream file = File.Open(pathToFile, FileMode.OpenOrCreate, FileAccess.ReadWrite);
+            file.Close();
+        }
+
+        public static void readdFileAndWriteToResourcesFile(string pathToFile, string resourcesFile)
+        {
+            string[] everyLine = File.ReadAllLines(pathToFile);
+            if(everyLine.Length > 0)
+            {
+                string buildNumFilePath = Application.dataPath + "/Resources/buildNumbers.txt";
+                File.WriteAllLines(buildNumFilePath, everyLine);
+            }
         }
     }
 }
