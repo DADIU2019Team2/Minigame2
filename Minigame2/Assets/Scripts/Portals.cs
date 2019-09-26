@@ -7,7 +7,8 @@ public class Portals : MonoBehaviour
     public static float teleportCooldown = 1f;
     public static float entryTime = 0f;
     public GameObject Exit;
-    public GameObject monster;
+    //public GameObject monster;
+    public MonsterController.gravityDirection gravityDir;
 
     private void Start()
     {
@@ -67,6 +68,7 @@ public class Portals : MonoBehaviour
         child.transform.position= Exit.transform.position;
 
         child.GetComponent<CharacterController>().enabled = true;
+        child.GetComponent<MonsterController>().SetMonsterGravityDirection(gravityDir);
         entryTime = Time.time;
 
     }
