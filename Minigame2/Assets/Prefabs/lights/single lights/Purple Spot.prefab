@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &7253774755714392206
+--- !u!1 &9088362886101124718
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,50 +8,50 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8382682257384061413}
-  - component: {fileID: 4474931104801622356}
+  - component: {fileID: 9183476770267124827}
+  - component: {fileID: 6731057902458935181}
   m_Layer: 0
-  m_Name: Goal Light
+  m_Name: Purple Spot01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8382682257384061413
+--- !u!4 &9183476770267124827
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7253774755714392206}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.584305, y: 10.633688, z: -12.532949}
+  m_GameObject: {fileID: 9088362886101124718}
+  m_LocalRotation: {x: 0.09128867, y: -0.078452855, z: 0.001900444, w: 0.9927276}
+  m_LocalPosition: {x: -12.553694, y: 12.591687, z: -22.662949}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!108 &4474931104801622356
+  m_LocalEulerAnglesHint: {x: 10.46, y: -9.093, z: -0.615}
+--- !u!108 &6731057902458935181
 Light:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7253774755714392206}
+  m_GameObject: {fileID: 9088362886101124718}
   m_Enabled: 1
   serializedVersion: 9
-  m_Type: 2
-  m_Color: {r: 0.80392164, g: 0.45490196, b: 0.08235294, a: 1}
-  m_Intensity: 15.1
-  m_Range: 9.451024
-  m_SpotAngle: 30
+  m_Type: 0
+  m_Color: {r: 0.4339417, g: 0.2627451, b: 0.6509804, a: 1}
+  m_Intensity: 336.91
+  m_Range: 14.884288
+  m_SpotAngle: 68.815414
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 1
+    m_Strength: 0.177
     m_Bias: 0.02
     m_NormalBias: 0.1
     m_NearPlane: 0.1
@@ -79,7 +79,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 32567
+    m_Bits: 4294967295
   m_RenderingLayerMask: 1
   m_Lightmapping: 1
   m_LightShadowCasterMode: 0
