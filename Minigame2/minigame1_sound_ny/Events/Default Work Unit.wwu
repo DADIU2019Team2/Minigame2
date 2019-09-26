@@ -146,17 +146,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Monster_impact" ID="{3D7DC1E8-0C61-49AC-8977-5FB8B0BCFAAC}">
-					<ChildrenList>
-						<Action Name="" ID="{DEB74720-BEC0-414E-A6D6-1AE94C67C4A8}" ShortID="860731267">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Monster impact" ID="{B042A2B7-506B-41E1-8D96-8D5019328151}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_Portal_enter_next_level" ID="{C5D3DBD7-472A-4015-B0F0-A95D5D2AB5A4}">
 					<ChildrenList>
 						<Action Name="" ID="{E6FCA4BF-079D-41E6-A399-6265B4B5E92B}" ShortID="569713708">
@@ -251,34 +240,12 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Phone" ID="{59C74711-A7DF-4BF0-AEE5-B2C9E10F25B3}">
-					<ChildrenList>
-						<Action Name="" ID="{974F62AA-F9B1-4E38-AC76-BE4A7C70021F}" ShortID="925454903">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Phone" ID="{97F4A5BC-CB81-4A41-91D7-DBE8138E6EDA}" WorkUnitID="{B275BE2C-211A-498B-AEB5-B3A279B58F59}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_Menu_Music" ID="{F53C6633-B7F8-4A90-A570-37C19E104E0E}">
 					<ChildrenList>
 						<Action Name="" ID="{6AD66DA7-6545-4DB2-8386-3C46937CFFCB}" ShortID="856389047">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Menu Music" ID="{4F6AAA24-CB63-43A3-B4B6-558E1571949E}" WorkUnitID="{E12F50C6-1E4A-42B5-8A22-9CBCFAB5E575}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Monster_impact_01" ID="{303018DD-B4F6-4F43-B4AB-E95133C9224E}">
-					<ChildrenList>
-						<Action Name="" ID="{21033B0D-59C2-44C1-9052-AE09AB861E60}" ShortID="85898457">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Monster impact" ID="{5BA08353-5984-4879-B82D-6AC708A08E27}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -461,17 +428,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Portal_enter_next_level_01" ID="{89A32564-4B8B-4267-9D96-70620F0A1CE1}">
-					<ChildrenList>
-						<Action Name="" ID="{E615CB80-0C29-4DFB-8D3F-50B7BC2F31E1}" ShortID="384742189">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Portal enter next level" ID="{AD3A8E3C-491D-497D-BF87-F41ADD003BAA}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_SmallMetal1" ID="{A15AE684-FEDF-4272-830D-3208A34CFC80}">
 					<ChildrenList>
 						<Action Name="" ID="{B46C03E2-FB0A-4CB0-A975-003FEB0486CA}" ShortID="26353419">
@@ -489,17 +445,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="SmallMetal2" ID="{B1DFF307-02EF-4755-9F4A-444873748544}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_SoulMovement_01" ID="{47CC64B4-C8C4-4A07-967C-944ACCEC0958}">
-					<ChildrenList>
-						<Action Name="" ID="{5F32AA24-A959-4ACA-9CA9-C51CB1FBC5B9}" ShortID="678671609">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SoulMovement" ID="{6101BDD1-03D9-4FD2-91A0-6A3DBF30B484}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -621,6 +566,28 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Soul Theme" ID="{9811CAD0-B0A6-4FCA-B841-AF876082C0D8}" WorkUnitID="{B275BE2C-211A-498B-AEB5-B3A279B58F59}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MonsterIdle" ID="{7AE4CEA3-2F64-4EC7-9FFA-36A1A8DBFFAA}">
+					<ChildrenList>
+						<Action Name="" ID="{E3CEACCD-A0BA-4DF5-8DC2-4AF55EC85E1F}" ShortID="102765999">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MonsterIdle" ID="{9B2EC45C-562B-413E-B7A8-DE42EA4E6B31}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Monster_impact" ID="{0BBD2ED9-7094-4696-81B8-392D4C179567}">
+					<ChildrenList>
+						<Action Name="" ID="{C0B73B63-6FD5-4734-B055-92463ED0361E}" ShortID="532321843">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Monster impact" ID="{0E9B4D4C-8105-4DBE-BF91-C4E3BCB123F8}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

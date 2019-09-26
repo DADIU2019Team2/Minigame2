@@ -639,7 +639,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 263666451}
   m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0.3, y: 2.55, z: 13.706}
+  m_LocalPosition: {x: 0.3, y: 2.55, z: 13.73}
   m_LocalScale: {x: 1.2412299, y: 1.953601, z: 5.6366844}
   m_Children: []
   m_Father: {fileID: 557246422}
@@ -2479,6 +2479,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1943412834684121497, guid: 5b006143a93c39c47b41f52aa7059a0c,
+        type: 3}
+      propertyPath: triggerObject
+      value: 
+      objectReference: {fileID: 933821930}
     - target: {fileID: 298475453732957568, guid: 5b006143a93c39c47b41f52aa7059a0c,
         type: 3}
       propertyPath: m_Name
@@ -2719,8 +2724,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1736216239, guid: a5424fc3fee56924980b9ed0945d60f6, type: 3}
-      propertyPath: gravityScaleModifier
+    - target: {fileID: 8288979606149154376, guid: a5424fc3fee56924980b9ed0945d60f6,
+        type: 3}
+      propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
