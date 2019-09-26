@@ -240,6 +240,31 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 6536151434156940036}
+    - target: {fileID: 286424130666329155, guid: 7d3188a76c535854e84f45ec5c103ad4,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 684091266612274934, guid: 7d3188a76c535854e84f45ec5c103ad4,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4717574397162178564, guid: 7d3188a76c535854e84f45ec5c103ad4,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9032585162158728143, guid: 7d3188a76c535854e84f45ec5c103ad4,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376107594791346383, guid: 7d3188a76c535854e84f45ec5c103ad4,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d3188a76c535854e84f45ec5c103ad4, type: 3}
 --- !u!224 &7904061167214398445 stripped
