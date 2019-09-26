@@ -61,7 +61,8 @@ public class MonsterController : MonoBehaviour
     }
 
 
-    private void SetMonsterGravityDirection(gravityDirection monsterGravityDirection)
+    //Change direction of monsters gravity and its orientation in world space.
+    public void SetMonsterGravityDirection(gravityDirection monsterGravityDirection)
     {
         switch (monsterGravityDirection)
         {
