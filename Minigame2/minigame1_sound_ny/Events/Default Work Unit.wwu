@@ -417,17 +417,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_MetalImpact2" ID="{5EB14D80-1CE1-44AD-BF47-88B9EB7EC6DD}">
-					<ChildrenList>
-						<Action Name="" ID="{BA77C810-291B-469A-B5CC-6C156401C507}" ShortID="623063170">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="MetalImpact2" ID="{7A9EF14A-C757-4052-9F16-D498BE43AB63}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_SmallMetal1" ID="{A15AE684-FEDF-4272-830D-3208A34CFC80}">
 					<ChildrenList>
 						<Action Name="" ID="{B46C03E2-FB0A-4CB0-A975-003FEB0486CA}" ShortID="26353419">
@@ -668,6 +657,105 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="LEVEL4" ID="{5E644C91-CAB3-4804-82F6-3680F30BB02D}" WorkUnitID="{B275BE2C-211A-498B-AEB5-B3A279B58F59}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MonsterTheme" ID="{9D05EB98-52D0-45FD-9B18-C7AF83648D77}">
+					<ChildrenList>
+						<Action Name="" ID="{D65FFAD6-8CF6-4BA1-B228-B2DB7A2AFC2C}" ShortID="256337125">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MonsterTheme" ID="{20CCFD9A-F579-486C-933C-32538CEFCBE1}" WorkUnitID="{B275BE2C-211A-498B-AEB5-B3A279B58F59}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Human_Transform" ID="{AF01CE78-F645-4E79-892B-7A420FBFEA48}">
+					<ChildrenList>
+						<Action Name="" ID="{3259C3B1-7375-4584-9027-6072548637CE}" ShortID="728441155">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Human Transform" ID="{B6FA5C70-87E2-446B-878C-72085CAB7146}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HumanBreath" ID="{669D6F2E-8D65-4065-900C-9414C3F208D5}">
+					<ChildrenList>
+						<Action Name="" ID="{45B276DA-9EE4-4DB9-8BCD-BC7141C20427}" ShortID="1018196335">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HumanBreath" ID="{91C3DEB9-A23A-48C3-9345-76D2BEB47C3B}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HumanTransReverse" ID="{A77EB25F-899B-4DCB-8A0F-2331139AE4A6}">
+					<ChildrenList>
+						<Action Name="" ID="{9A86CAE1-9A65-4010-8208-1F30C363ED89}" ShortID="490573358">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HumanTransReverse" ID="{51622876-B535-4F24-9CEE-8C6129789DEA}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DeathAnimation" ID="{F2631E61-A71B-4143-9411-81F8D019A13D}">
+					<ChildrenList>
+						<Action Name="" ID="{A927D265-0F0C-4E27-9182-A3E4B18B1B7A}" ShortID="64017097">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DeathAnimation" ID="{8D3EDD46-70D9-4DD4-893F-97E6EA9D09CA}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MonsterHit1" ID="{E270C076-7E98-4ECB-9853-C7C7B948D6EF}">
+					<ChildrenList>
+						<Action Name="" ID="{B6B24030-FA9A-46E3-8480-B20D899D73CE}" ShortID="297046443">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MonsterHit1" ID="{6C3AD92D-DB95-49DE-B99E-FAA0FF939B73}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MonsterHit2" ID="{8E603516-A6D6-464D-B113-42EE96434AF7}">
+					<ChildrenList>
+						<Action Name="" ID="{94B8004B-0131-4522-9D1A-9F9BB26082DB}" ShortID="41838852">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MonsterHit2" ID="{EC9199D7-8FBC-44F1-9D6A-10EE332B06CF}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MonsterHit3" ID="{58E3E8DA-88DC-4DFA-9B6A-C8D2D78A191F}">
+					<ChildrenList>
+						<Action Name="" ID="{3282E3F5-75C2-4F7B-80CE-90AD18F1564F}" ShortID="557410877">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MonsterHit3" ID="{60C3D7E2-4E66-47C2-8E51-7ED4953B7126}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DeathAnimation_01" ID="{74D4371E-483C-4C18-9EC5-E42198F51438}">
+					<ChildrenList>
+						<Action Name="" ID="{CBB456A4-1559-4B2B-A6F8-B9D88296AA8E}" ShortID="103051998">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DeathAnimation" ID="{8D3EDD46-70D9-4DD4-893F-97E6EA9D09CA}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
