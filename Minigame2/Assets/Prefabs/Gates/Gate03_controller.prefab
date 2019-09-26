@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7190550783562565574}
   m_Layer: 0
-  m_Name: GateElevator_controller
+  m_Name: Gate03_controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
