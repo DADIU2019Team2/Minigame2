@@ -29,7 +29,7 @@ public class MonsterController : MonoBehaviour
     private void Awake()
     {
         _controller = GetComponent<CharacterController>();
-        playerTransform = GameObject.FindWithTag("Player").transform;
+//        playerTransform = GameObject.FindWithTag("Player").transform;
 
         SetMonsterGravityDirection(monsterGravityDirection);
     }
@@ -60,6 +60,10 @@ public class MonsterController : MonoBehaviour
 
     }
 
+    public Vector3 GetMoveDirection()
+    {
+        return _moveDirection;
+    }
 
     //Change direction of monsters gravity and its orientation in world space.
     public void SetMonsterGravityDirection(gravityDirection monsterGravityDirection)
