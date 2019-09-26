@@ -7,12 +7,18 @@
 				<GameParameter Name="World" ID="{DCFDD614-00A7-45C5-B784-BF570902D5E0}"/>
 				<GameParameter Name="SoulMovement" ID="{6B0238A4-6DB2-4CDF-A0CE-410114A0C3F8}">
 					<PropertyList>
-						<Property Name="InitialValue" Type="Real64" Value="8"/>
-						<Property Name="Max" Type="Real64" Value="8"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="6"/>
 						<Property Name="RTPCRamping" Type="int16" Value="2"/>
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="Weight" ID="{0FE6F053-3430-4CBC-92F4-5A142BA73F59}"/>
+				<GameParameter Name="NoHeadPhones" ID="{F17CE9FA-1BAB-4042-8FB9-95ED43558FA9}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>
