@@ -6,6 +6,7 @@ public class buttonSaveFunctions : MonoBehaviour
 {
     public void Save()
     {
+        Debug.Log("SAVE");
         SaveLoad.Save();
     }
     public void Load()

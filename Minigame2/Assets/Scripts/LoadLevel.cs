@@ -9,6 +9,12 @@ public class LoadLevel : MonoBehaviour
     {
         SceneManager.LoadScene(sceneIndex);
     }
+    public void LoadSavedLevel()
+    {
+        Debug.Log("LOADING SAVE AT " + SaveLoad.saveGame.lastLevelBeaten);
+        
+        loadLevel(SaveLoad.saveGame.lastLevelBeaten);
+    }
 
     public void loadPreviousLevel()
     {
@@ -21,9 +27,12 @@ public class LoadLevel : MonoBehaviour
 
     public void loadNextLevel()
     {
+        Debug.Log("LOADING NEXT");
         int curSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        if (curSceneIndex + 1 <= SceneManager.sceneCount-1)
+        Debug.Log(curSceneIndex +"current" + SceneManager.sceneCount.ToString() +" scenecount");
+        if (curSceneIndex + 1 <= SceneManager.sceneCountInBuildSettings - 1)
         {
+            Debug.Log("Loading scene index");
             loadLevel(curSceneIndex + 1);
         }
         else
