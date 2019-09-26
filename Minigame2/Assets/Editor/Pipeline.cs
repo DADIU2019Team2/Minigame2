@@ -10,7 +10,7 @@ namespace UnityEditor
         [MenuItem("Pipeline/Build: Android")]
         public static void BuildAndroid()
         {
-            string localFilePath = "your local path goes here!";
+            string localFilePath = @"C:\Users\Dadiu student\Desktop\buildNumbers.txt";
             string filepathInResources = Application.dataPath + "/Resources/buildNumbers.txt";
             setBuildNum(localFilePath, filepathInResources); //update our build number file
             Directory.CreateDirectory(pathname);
