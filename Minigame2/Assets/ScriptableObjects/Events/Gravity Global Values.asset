@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Gravity Global Values
   m_EditorClassIdentifier: 
   gravityModifierValue: 1
-  angleThresholdValue: 2
+  angleThresholdValue: 5

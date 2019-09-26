@@ -5,10 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/Level testing/Long room test.unity
-    guid: 894857cbd5664db4e8690f6de73d7658
+  - enabled: 1
+    path: Assets/Scenes/Level testing/Gate prototype_001.unity
+    guid: 55f6460c2a5f4254189d9a1d69c81ca6
   - enabled: 1
     path: Assets/Scenes/Level testing/Showcase functionality test.unity
     guid: de45264d9301d2b46991d35425c881db
+  - enabled: 1
+    path: Assets/Scenes/Level testing/Long room test.unity
+    guid: 894857cbd5664db4e8690f6de73d7658
   m_configObjects: {}
