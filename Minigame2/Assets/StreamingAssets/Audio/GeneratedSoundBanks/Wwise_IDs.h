@@ -41,11 +41,11 @@ namespace AK
         static const AkUniqueID PLAY_MENU_MUSIC = 2228153899U;
         static const AkUniqueID PLAY_METAL_IMPACT = 26906972U;
         static const AkUniqueID PLAY_METALIMPACT = 1144615181U;
-        static const AkUniqueID PLAY_METALIMPACT2 = 1936521029U;
         static const AkUniqueID PLAY_MONSTER_CRAWL_SCRAPE1 = 1470122796U;
         static const AkUniqueID PLAY_MONSTER_IMPACT = 3939836301U;
         static const AkUniqueID PLAY_MONSTERIDLE = 2899271694U;
         static const AkUniqueID PLAY_PORTAL_ENTER_NEXT_LEVEL = 3255294874U;
+        static const AkUniqueID PLAY_RHYTHM = 3917470406U;
         static const AkUniqueID PLAY_SMALLER_GLASS_BREAKING = 1720134853U;
         static const AkUniqueID PLAY_SMALLMETAL1 = 1389736157U;
         static const AkUniqueID PLAY_SMALLMETAL2 = 1389736158U;
@@ -105,6 +105,7 @@ namespace AK
         static const AkUniqueID IMMERSION_FA_SSGRAIN = 2481728872U;
         static const AkUniqueID INSTRUMENT_FA_SSGRAIN = 2317409760U;
         static const AkUniqueID MUSIC = 3991942870U;
+        static const AkUniqueID NOHEADPHONES = 2169551381U;
         static const AkUniqueID PLAYBACK_RATE = 1524500807U;
         static const AkUniqueID PROXIMITY_FA_SSGRAIN = 1791284502U;
         static const AkUniqueID RPM = 796049864U;
