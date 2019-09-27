@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID ENABLE_STATE_LEVELSMUSIC = 656382953U;
         static const AkUniqueID PLAY_BOX_PLASTIC_IMPACT_1 = 2306258661U;
         static const AkUniqueID PLAY_BOX_PLASTIC_IMPACT_2 = 2306258662U;
         static const AkUniqueID PLAY_CARDBOARD_IMPACT = 2048554185U;
@@ -24,6 +25,8 @@ namespace AK
         static const AkUniqueID PLAY_CERAMICSRANDOM = 2062815940U;
         static const AkUniqueID PLAY_COUCH_IMPACT = 2776670769U;
         static const AkUniqueID PLAY_COUCHRANDOM = 904426889U;
+        static const AkUniqueID PLAY_DEATHANIMATION = 2720241158U;
+        static const AkUniqueID PLAY_DEATHANIMATION_01 = 1896628372U;
         static const AkUniqueID PLAY_DRUM_COLLISION = 2072427939U;
         static const AkUniqueID PLAY_FANANDLAMPRANDOM = 2414642255U;
         static const AkUniqueID PLAY_FLOAT_THEME = 2142485738U;
@@ -31,19 +34,24 @@ namespace AK
         static const AkUniqueID PLAY_GLASS_BREAKING = 2424027906U;
         static const AkUniqueID PLAY_GRAVITY_SHIFT = 3025114257U;
         static const AkUniqueID PLAY_GUITARIMPACT = 3390222318U;
+        static const AkUniqueID PLAY_HUMAN_TRANSFORM = 1713691436U;
+        static const AkUniqueID PLAY_HUMANBREATH = 222374123U;
+        static const AkUniqueID PLAY_HUMANTRANSREVERSE = 1166548517U;
         static const AkUniqueID PLAY_LAMPIMPACT = 3061002342U;
-        static const AkUniqueID PLAY_LEVEL1MUSIC = 3605952550U;
-        static const AkUniqueID PLAY_LEVEL2MUSIC = 565626987U;
-        static const AkUniqueID PLAY_LEVEL3MUSIC = 1946308780U;
-        static const AkUniqueID PLAY_LEVEL4MUSIC = 3045698593U;
-        static const AkUniqueID PLAY_LEVEL4MUSICLOOP = 839894203U;
-        static const AkUniqueID PLAY_MAIN_THEME = 3568813383U;
-        static const AkUniqueID PLAY_MENU_MUSIC = 2228153899U;
+        static const AkUniqueID PLAY_LEVEL1 = 3659125941U;
+        static const AkUniqueID PLAY_LEVEL2 = 3659125942U;
+        static const AkUniqueID PLAY_LEVEL3 = 3659125943U;
+        static const AkUniqueID PLAY_LEVEL4 = 3659125936U;
+        static const AkUniqueID PLAY_LEVELSMUSIC = 4191183084U;
         static const AkUniqueID PLAY_METAL_IMPACT = 26906972U;
         static const AkUniqueID PLAY_METALIMPACT = 1144615181U;
         static const AkUniqueID PLAY_MONSTER_CRAWL_SCRAPE1 = 1470122796U;
         static const AkUniqueID PLAY_MONSTER_IMPACT = 3939836301U;
+        static const AkUniqueID PLAY_MONSTERHIT1 = 1511572556U;
+        static const AkUniqueID PLAY_MONSTERHIT2 = 1511572559U;
+        static const AkUniqueID PLAY_MONSTERHIT3 = 1511572558U;
         static const AkUniqueID PLAY_MONSTERIDLE = 2899271694U;
+        static const AkUniqueID PLAY_MONSTERTHEME = 125046271U;
         static const AkUniqueID PLAY_PORTAL_ENTER_NEXT_LEVEL = 3255294874U;
         static const AkUniqueID PLAY_RHYTHM = 3917470406U;
         static const AkUniqueID PLAY_SMALLER_GLASS_BREAKING = 1720134853U;
@@ -60,26 +68,27 @@ namespace AK
         static const AkUniqueID PLAY_WOODVERYSMALL = 2934994294U;
         static const AkUniqueID SET_GAME_PARAMETER_MUSIC = 236152504U;
         static const AkUniqueID SET_GAME_PARAMETER_WORLD = 4138451597U;
-        static const AkUniqueID SET_STATE_LEVEL1MUSIC = 2795236840U;
-        static const AkUniqueID SET_STATE_LEVEL2MUSIC = 2076178249U;
-        static const AkUniqueID SET_STATE_LEVEL3MUSIC = 1016171890U;
-        static const AkUniqueID SET_STATE_LEVEL4MUSIC = 1822594163U;
+        static const AkUniqueID SET_NOHEADPHONES = 2086049674U;
+        static const AkUniqueID SET_STATE_LEVEL1 = 2773202283U;
+        static const AkUniqueID SET_STATE_LEVEL2 = 2773202280U;
+        static const AkUniqueID SET_STATE_LEVEL3 = 2773202281U;
+        static const AkUniqueID SET_STATE_LEVEL4 = 2773202286U;
     } // namespace EVENTS
 
     namespace STATES
     {
-        namespace LEVELMUSIC
+        namespace LEVELSMUSIC
         {
-            static const AkUniqueID GROUP = 1321655446U;
+            static const AkUniqueID GROUP = 2871769893U;
 
             namespace STATE
             {
-                static const AkUniqueID LEVEL1MUSIC = 447814771U;
-                static const AkUniqueID LEVEL2MUSIC = 922141326U;
-                static const AkUniqueID LEVEL3MUSIC = 2030041701U;
-                static const AkUniqueID LEVEL4MUSIC = 1420457448U;
+                static const AkUniqueID LEVEL1 = 2678230382U;
+                static const AkUniqueID LEVEL2 = 2678230381U;
+                static const AkUniqueID LEVEL3 = 2678230380U;
+                static const AkUniqueID LEVEL4 = 2678230379U;
             } // namespace STATE
-        } // namespace LEVELMUSIC
+        } // namespace LEVELSMUSIC
 
     } // namespace STATES
 
