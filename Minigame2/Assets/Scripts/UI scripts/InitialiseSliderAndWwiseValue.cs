@@ -5,9 +5,10 @@ using UnityEngine.UI;
 using TMPro;
 
 [RequireComponent(typeof(Slider))]
-public class InitialiseSliderValue : MonoBehaviour
+public class InitialiseSliderAndWwiseValue : MonoBehaviour
 {
     [SerializeField] private IntVariable _int;
+    public string RTPCName = "";
     // input floatVariable here once that has been made at some point
 
     [SerializeField] private TextMeshProUGUI sliderValueText;
@@ -20,7 +21,13 @@ public class InitialiseSliderValue : MonoBehaviour
         if (_int != null)
         {
             slider.value = _int.GetInt();
+            SetRTCPValue();
         }
         sliderValueText.text = slider.value.ToString();
     }
+    public void SetRTCPValue()
+    {
+        AkSoundEngine.SetRTPCValue(RTPCName, _int.GetInt());
+    }
 }
+
