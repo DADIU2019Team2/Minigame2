@@ -47,9 +47,11 @@
 									<PropertyList>
 										<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
 										<Property Name="FilterTypeBand2" Type="int32" Value="0"/>
-										<Property Name="FrequencyBand1" Type="Real32" Value="433"/>
-										<Property Name="FrequencyBand2" Type="Real32" Value="2794"/>
+										<Property Name="FrequencyBand1" Type="Real32" Value="117"/>
+										<Property Name="FrequencyBand2" Type="Real32" Value="5091"/>
 										<Property Name="FrequencyBand3" Type="Real32" Value="20"/>
+										<Property Name="GainBand1" Type="Real32" Value="4"/>
+										<Property Name="GainBand2" Type="Real32" Value="2.5"/>
 										<Property Name="OnOffBand1" Type="bool">
 											<RTPCList>
 												<RTPC Name="" ID="{807DE48D-4F1A-45B5-9B42-139A107C7C91}" ShortID="523081435">
@@ -59,6 +61,34 @@
 														</Reference>
 													</ReferenceList>
 													<Curve Name="" ID="{03183B99-9723-4FE0-B59C-B43528094043}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>1</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="OnOffBand2" Type="bool">
+											<RTPCList>
+												<RTPC Name="" ID="{062229D0-D4D6-4C44-B677-EBFB2CC4AEFE}" ShortID="529541403">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="NoHeadPhones" ID="{F17CE9FA-1BAB-4042-8FB9-95ED43558FA9}" WorkUnitID="{D2B83B49-2C61-4AD0-AB96-36C6020424B3}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{703EE270-C1D9-44F9-934F-9B9C54D46CEB}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="65537"/>
 														</PropertyList>

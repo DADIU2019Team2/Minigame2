@@ -3,13 +3,13 @@
 	<States>
 		<WorkUnit Name="Default Work Unit" ID="{97152AF7-EE93-4947-AF10-AFAA9503E672}" PersistMode="Standalone">
 			<ChildrenList>
-				<StateGroup Name="LevelMusic" ID="{C83FFF08-E85B-4529-A5FC-00A1602748D9}">
+				<StateGroup Name="LevelsMusic" ID="{335A9F51-4490-4601-8046-0809C8683A2F}">
 					<ChildrenList>
-						<State Name="None" ID="{0339F19D-FE4F-4460-9991-D28979BDE680}"/>
-						<State Name="Level1Music" ID="{CFC1D1DC-B002-40A1-8AF0-A455F8A83DA4}"/>
-						<State Name="Level2Music" ID="{E113BA71-E2F9-4376-AD86-841DD0185BAF}"/>
-						<State Name="Level3Music" ID="{9A98CAC4-95A4-4C9D-985C-21B3427582A3}"/>
-						<State Name="Level4Music" ID="{30B3341C-5D6C-439C-89D6-DB2D7F647BA5}"/>
+						<State Name="None" ID="{43110BEA-030D-4DE1-A55E-957CBB8578DD}"/>
+						<State Name="LEVEL1" ID="{18BAF530-F1BF-458A-94B4-4627C00A2D82}"/>
+						<State Name="LEVEL2" ID="{B5F65403-2A25-4CB5-9C1C-F789E63D5F59}"/>
+						<State Name="LEVEL3" ID="{EA3EA3EB-C369-4E95-AA87-94FCA68C42A6}"/>
+						<State Name="LEVEL4" ID="{C1743C31-27A2-46B2-A164-0770DFEA68A0}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>
