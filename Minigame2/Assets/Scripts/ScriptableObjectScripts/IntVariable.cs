@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Variable/IntVar")]
-public class IntScriptableObject : ScriptableObject
+[CreateAssetMenu(menuName = "ScriptableObject/Variable/IntVar")]
+public class IntVariable : ScriptableObject
 {
     [SerializeField] private bool isSetting;
 
@@ -16,5 +16,8 @@ public class IntScriptableObject : ScriptableObject
         return myInt;
     }
 
-
+    public void setInt(int _int)
+    {
+        myInt = _int;
+    }
 }
