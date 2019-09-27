@@ -21,6 +21,7 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="656382953" Name="Enable_State_LevelsMusic" ObjectPath="\Events\Default Work Unit\Enable_State_LevelsMusic" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2306258661" Name="Play_Box_plastic_impact_1" ObjectPath="\Events\Default Work Unit\Play_Box_plastic_impact_1" DurationType="OneShot" DurationMin="1.244581" DurationMax="1.244581"/>
 				<Event Id="2306258662" Name="Play_Box_plastic_impact_2" ObjectPath="\Events\Default Work Unit\Play_Box_plastic_impact_2" DurationType="OneShot" DurationMin="0.905170" DurationMax="0.905170"/>
 				<Event Id="2048554185" Name="Play_Cardboard_impact" ObjectPath="\Events\Default Work Unit\Play_Cardboard_impact" DurationType="OneShot" DurationMin="0.990250" DurationMax="0.990250"/>
@@ -32,6 +33,8 @@
 				<Event Id="2062815940" Name="Play_CeramicsRandom" ObjectPath="\Events\Default Work Unit\Play_CeramicsRandom" DurationType="OneShot" DurationMin="0.324603" DurationMax="0.399524"/>
 				<Event Id="2776670769" Name="Play_Couch_Impact" ObjectPath="\Events\Default Work Unit\Play_Couch_Impact" DurationType="OneShot" DurationMin="0.217536" DurationMax="0.217536"/>
 				<Event Id="904426889" Name="Play_CouchRandom" ObjectPath="\Events\Default Work Unit\Play_CouchRandom" DurationType="OneShot" DurationMin="0.654839" DurationMax="1.032156"/>
+				<Event Id="2720241158" Name="Play_DeathAnimation" ObjectPath="\Events\Default Work Unit\Play_DeathAnimation" DurationType="OneShot" DurationMin="3.948776" DurationMax="3.948776"/>
+				<Event Id="1896628372" Name="Play_DeathAnimation_01" ObjectPath="\Events\Default Work Unit\Play_DeathAnimation_01" DurationType="OneShot" DurationMin="3.948776" DurationMax="3.948776"/>
 				<Event Id="2072427939" Name="Play_Drum_collision" ObjectPath="\Events\Default Work Unit\Play_Drum_collision" DurationType="OneShot" DurationMin="0.750624" DurationMax="0.750624"/>
 				<Event Id="2414642255" Name="Play_FanAndLampRandom" ObjectPath="\Events\Default Work Unit\Play_FanAndLampRandom" DurationType="OneShot" DurationMin="0.633026" DurationMax="0.950957"/>
 				<Event Id="2142485738" Name="Play_Float_theme" ObjectPath="\Events\Default Work Unit\Play_Float_theme" DurationType="OneShot" DurationMin="64.000000" DurationMax="64.000000"/>
@@ -39,21 +42,26 @@
 				<Event Id="2424027906" Name="Play_Glass_breaking" ObjectPath="\Events\Default Work Unit\Play_Glass_breaking" DurationType="OneShot" DurationMin="2.957347" DurationMax="2.957347"/>
 				<Event Id="3025114257" Name="Play_Gravity_shift" ObjectPath="\Events\Default Work Unit\Play_Gravity_shift" DurationType="OneShot" DurationMin="3.186576" DurationMax="3.186576"/>
 				<Event Id="3390222318" Name="Play_GuitarImpact" ObjectPath="\Events\Default Work Unit\Play_GuitarImpact" DurationType="OneShot" DurationMin="1.952925" DurationMax="1.952925"/>
+				<Event Id="1713691436" Name="Play_Human_Transform" ObjectPath="\Events\Default Work Unit\Play_Human_Transform" DurationType="OneShot" DurationMin="4.349093" DurationMax="4.349093"/>
+				<Event Id="222374123" Name="Play_HumanBreath" ObjectPath="\Events\Default Work Unit\Play_HumanBreath" DurationType="Infinite"/>
+				<Event Id="1166548517" Name="Play_HumanTransReverse" ObjectPath="\Events\Default Work Unit\Play_HumanTransReverse" DurationType="OneShot" DurationMin="4.349093" DurationMax="4.349093"/>
 				<Event Id="3061002342" Name="Play_LampImpact" ObjectPath="\Events\Default Work Unit\Play_LampImpact" DurationType="OneShot" DurationMin="0.633026" DurationMax="0.633026"/>
-				<Event Id="3605952550" Name="Play_Level1music" ObjectPath="\Events\Default Work Unit\Play_Level1music" DurationType="Infinite"/>
-				<Event Id="565626987" Name="Play_Level2music" ObjectPath="\Events\Default Work Unit\Play_Level2music" DurationType="Infinite"/>
-				<Event Id="1946308780" Name="Play_Level3music" ObjectPath="\Events\Default Work Unit\Play_Level3music" DurationType="Infinite"/>
-				<Event Id="3045698593" Name="Play_Level4music" ObjectPath="\Events\Default Work Unit\Play_Level4music" DurationType="Infinite"/>
-				<Event Id="839894203" Name="Play_Level4musicloop" ObjectPath="\Events\Default Work Unit\Play_Level4musicloop" DurationType="Infinite"/>
-				<Event Id="3568813383" Name="Play_Main_Theme" ObjectPath="\Events\Default Work Unit\Play_Main_Theme" DurationType="Infinite"/>
-				<Event Id="2228153899" Name="Play_Menu_Music" ObjectPath="\Events\Default Work Unit\Play_Menu_Music" DurationType="OneShot" DurationMin="32.000000" DurationMax="32.000000"/>
+				<Event Id="3659125941" Name="Play_LEVEL1" ObjectPath="\Events\Default Work Unit\Play_LEVEL1" DurationType="Infinite"/>
+				<Event Id="3659125942" Name="Play_LEVEL2" ObjectPath="\Events\Default Work Unit\Play_LEVEL2" DurationType="Infinite"/>
+				<Event Id="3659125943" Name="Play_LEVEL3" ObjectPath="\Events\Default Work Unit\Play_LEVEL3" DurationType="Infinite"/>
+				<Event Id="3659125936" Name="Play_LEVEL4" ObjectPath="\Events\Default Work Unit\Play_LEVEL4" DurationType="Infinite"/>
+				<Event Id="4191183084" Name="Play_LevelsMusic" ObjectPath="\Events\Default Work Unit\Play_LevelsMusic" DurationType="Infinite"/>
 				<Event Id="26906972" Name="Play_Metal_impact" ObjectPath="\Events\Default Work Unit\Play_Metal_impact" DurationType="OneShot" DurationMin="0.650000" DurationMax="0.650000"/>
 				<Event Id="1144615181" Name="Play_MetalImpact" ObjectPath="\Events\Default Work Unit\Play_MetalImpact" DurationType="OneShot" DurationMin="0.716232" DurationMax="0.716232"/>
-				<Event Id="1936521029" Name="Play_MetalImpact2" ObjectPath="\Events\Default Work Unit\Play_MetalImpact2" DurationType="OneShot" DurationMin="0.950957" DurationMax="0.950957"/>
 				<Event Id="1470122796" Name="Play_Monster_crawl_scrape1" ObjectPath="\Events\Default Work Unit\Play_Monster_crawl_scrape1" DurationType="OneShot" DurationMin="0.666803" DurationMax="0.666803"/>
 				<Event Id="3939836301" Name="Play_Monster_impact" ObjectPath="\Events\Default Work Unit\Play_Monster_impact" DurationType="OneShot" DurationMin="1.755011" DurationMax="1.755011"/>
+				<Event Id="1511572556" Name="Play_MonsterHit1" ObjectPath="\Events\Default Work Unit\Play_MonsterHit1" DurationType="OneShot" DurationMin="1.974399" DurationMax="1.974399"/>
+				<Event Id="1511572559" Name="Play_MonsterHit2" ObjectPath="\Events\Default Work Unit\Play_MonsterHit2" DurationType="OneShot" DurationMin="2.742200" DurationMax="2.742200"/>
+				<Event Id="1511572558" Name="Play_MonsterHit3" ObjectPath="\Events\Default Work Unit\Play_MonsterHit3" DurationType="OneShot" DurationMin="1.892132" DurationMax="1.892132"/>
 				<Event Id="2899271694" Name="Play_MonsterIdle" ObjectPath="\Events\Default Work Unit\Play_MonsterIdle" DurationType="Infinite"/>
+				<Event Id="125046271" Name="Play_MonsterTheme" ObjectPath="\Events\Default Work Unit\Play_MonsterTheme" DurationType="Infinite"/>
 				<Event Id="3255294874" Name="Play_Portal_enter_next_level" ObjectPath="\Events\Default Work Unit\Play_Portal_enter_next_level" DurationType="OneShot" DurationMin="2.565011" DurationMax="2.565011"/>
+				<Event Id="3917470406" Name="Play_Rhythm" ObjectPath="\Events\Default Work Unit\Play_Rhythm" DurationType="Infinite"/>
 				<Event Id="1720134853" Name="Play_Smaller_glass_breaking" ObjectPath="\Events\Default Work Unit\Play_Smaller_glass_breaking" DurationType="OneShot" DurationMin="2.000000" DurationMax="2.000000"/>
 				<Event Id="1389736157" Name="Play_SmallMetal1" ObjectPath="\Events\Default Work Unit\Play_SmallMetal1" DurationType="OneShot" DurationMin="0.719281" DurationMax="0.719281"/>
 				<Event Id="1389736158" Name="Play_SmallMetal2" ObjectPath="\Events\Default Work Unit\Play_SmallMetal2" DurationType="OneShot" DurationMin="0.641729" DurationMax="0.641729"/>
@@ -68,19 +76,20 @@
 				<Event Id="2934994294" Name="Play_WoodVerySmall" ObjectPath="\Events\Default Work Unit\Play_WoodVerySmall" DurationType="OneShot" DurationMin="0.379604" DurationMax="0.379604"/>
 				<Event Id="236152504" Name="Set_Game_Parameter_Music" ObjectPath="\Events\Default Work Unit\Set_Game_Parameter_Music" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="4138451597" Name="Set_Game_Parameter_World" ObjectPath="\Events\Default Work Unit\Set_Game_Parameter_World" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="2795236840" Name="Set_State_Level1Music" ObjectPath="\Events\Default Work Unit\Set_State_Level1Music" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="2076178249" Name="Set_State_Level2Music" ObjectPath="\Events\Default Work Unit\Set_State_Level2Music" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1016171890" Name="Set_State_Level3Music" ObjectPath="\Events\Default Work Unit\Set_State_Level3Music" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1822594163" Name="Set_State_Level4Music" ObjectPath="\Events\Default Work Unit\Set_State_Level4Music" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2086049674" Name="Set_NoHeadPhones" ObjectPath="\Events\Default Work Unit\Set_NoHeadPhones" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2773202283" Name="Set_State_LEVEL1" ObjectPath="\Events\Default Work Unit\Set_State_LEVEL1" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2773202280" Name="Set_State_LEVEL2" ObjectPath="\Events\Default Work Unit\Set_State_LEVEL2" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2773202281" Name="Set_State_LEVEL3" ObjectPath="\Events\Default Work Unit\Set_State_LEVEL3" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2773202286" Name="Set_State_LEVEL4" ObjectPath="\Events\Default Work Unit\Set_State_LEVEL4" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="12698480" Language="SFX">
+					<ShortName>AccelRhythm.wav</ShortName>
+					<Path>SFX/AccelRhythm_D79FB2B7.wem</Path>
+				</File>
 				<File Id="19848566" Language="SFX">
 					<ShortName>Gravity shift.wav</ShortName>
 					<Path>SFX/Gravity shift_10C4C929.wem</Path>
-				</File>
-				<File Id="49339866" Language="SFX">
-					<ShortName>Level4musicloop.wav</ShortName>
-					<Path>SFX/Level4musicloop_9B96ECC7.wem</Path>
 				</File>
 				<File Id="55798599" Language="SFX">
 					<ShortName>CardboardSmall1.wav</ShortName>
@@ -94,6 +103,10 @@
 					<ShortName>WoodBig3.wav</ShortName>
 					<Path>SFX/WoodBig3_10C4C929.wem</Path>
 				</File>
+				<File Id="85547061" Language="SFX">
+					<ShortName>HumanBreath.wav</ShortName>
+					<Path>SFX/HumanBreath_D79FB2B7.wem</Path>
+				</File>
 				<File Id="109745358" Language="SFX">
 					<ShortName>Drum collision.wav</ShortName>
 					<Path>SFX/Drum collision_10C4C929.wem</Path>
@@ -106,21 +119,21 @@
 					<ShortName>WoodMedium.wav</ShortName>
 					<Path>SFX/WoodMedium_10C4C929.wem</Path>
 				</File>
-				<File Id="154665354" Language="SFX">
-					<ShortName>SoulMovement.wav</ShortName>
-					<Path>SFX/SoulMovement_D79FB2B7.wem</Path>
-				</File>
 				<File Id="175084499" Language="SFX">
 					<ShortName>Ceramic2.wav</ShortName>
 					<Path>SFX/Ceramic2_10C4C929.wem</Path>
+				</File>
+				<File Id="222473481" Language="SFX">
+					<ShortName>MonsterHit2.wav</ShortName>
+					<Path>SFX/MonsterHit2_10C4C929.wem</Path>
 				</File>
 				<File Id="223459621" Language="SFX">
 					<ShortName>WoodBig1.wav</ShortName>
 					<Path>SFX/WoodBig1_10C4C929.wem</Path>
 				</File>
-				<File Id="284439750" Language="SFX">
-					<ShortName>Level2music.wav</ShortName>
-					<Path>SFX/Level2music_9B96ECC7.wem</Path>
+				<File Id="295119839" Language="SFX">
+					<ShortName>DeathAnimation.wav</ShortName>
+					<Path>SFX/DeathAnimation_10C4C929.wem</Path>
 				</File>
 				<File Id="299816113" Language="SFX">
 					<ShortName>SoulTheme.wav</ShortName>
@@ -130,21 +143,17 @@
 					<ShortName>Ceramic3.wav</ShortName>
 					<Path>SFX/Ceramic3_10C4C929.wem</Path>
 				</File>
-				<File Id="328393997" Language="SFX">
-					<ShortName>Level4music.wav</ShortName>
-					<Path>SFX/Level4music_9B96ECC7.wem</Path>
+				<File Id="334832916" Language="SFX">
+					<ShortName>MonsterTheme.wav</ShortName>
+					<Path>SFX/MonsterTheme_D79FB2B7.wem</Path>
 				</File>
-				<File Id="340749903" Language="SFX">
-					<ShortName>Level3music.wav</ShortName>
-					<Path>SFX/Level3music_9B96ECC7.wem</Path>
+				<File Id="363199118" Language="SFX">
+					<ShortName>HumanTransReverse.wav</ShortName>
+					<Path>SFX/HumanTransReverse_10C4C929.wem</Path>
 				</File>
 				<File Id="363701662" Language="SFX">
 					<ShortName>WoodBig2.wav</ShortName>
 					<Path>SFX/WoodBig2_10C4C929.wem</Path>
-				</File>
-				<File Id="364062423" Language="SFX">
-					<ShortName>Menu Music.wav</ShortName>
-					<Path>SFX/Menu Music_6296B0F9.wem</Path>
 				</File>
 				<File Id="404359527" Language="SFX">
 					<ShortName>Ceramic1.wav</ShortName>
@@ -166,10 +175,6 @@
 					<ShortName>Box plastic impact 1.wav</ShortName>
 					<Path>SFX/Box plastic impact 1_10C4C929.wem</Path>
 				</File>
-				<File Id="534304541" Language="SFX">
-					<ShortName>Level1music.wav</ShortName>
-					<Path>SFX/Level1music_9B96ECC7.wem</Path>
-				</File>
 				<File Id="546481007" Language="SFX">
 					<ShortName>Metal impact.wav</ShortName>
 					<Path>SFX/Metal impact_10C4C929.wem</Path>
@@ -182,9 +187,21 @@
 					<ShortName>Wood impact2.wav</ShortName>
 					<Path>SFX/Wood impact2_10C4C929.wem</Path>
 				</File>
+				<File Id="644201874" Language="SFX">
+					<ShortName>MonsterHit3.wav</ShortName>
+					<Path>SFX/MonsterHit3_10C4C929.wem</Path>
+				</File>
+				<File Id="651597293" Language="SFX">
+					<ShortName>SoulMovement.wav</ShortName>
+					<Path>SFX/SoulMovement_D79FB2B7.wem</Path>
+				</File>
 				<File Id="657946718" Language="SFX">
 					<ShortName>WoodVerySmall.wav</ShortName>
 					<Path>SFX/WoodVerySmall_10C4C929.wem</Path>
+				</File>
+				<File Id="680265880" Language="SFX">
+					<ShortName>LEVEL3.wav</ShortName>
+					<Path>SFX/LEVEL3_D79FB2B7.wem</Path>
 				</File>
 				<File Id="696233840" Language="SFX">
 					<ShortName>Smaller glass breaking.wav</ShortName>
@@ -194,9 +211,17 @@
 					<ShortName>SmallMetal2.wav</ShortName>
 					<Path>SFX/SmallMetal2_10C4C929.wem</Path>
 				</File>
+				<File Id="776801418" Language="SFX">
+					<ShortName>MonsterHit1.wav</ShortName>
+					<Path>SFX/MonsterHit1_10C4C929.wem</Path>
+				</File>
 				<File Id="791914296" Language="SFX">
 					<ShortName>CardboardSmall2.wav</ShortName>
 					<Path>SFX/CardboardSmall2_10C4C929.wem</Path>
+				</File>
+				<File Id="802420390" Language="SFX">
+					<ShortName>Human Transform.wav</ShortName>
+					<Path>SFX/Human Transform_10C4C929.wem</Path>
 				</File>
 				<File Id="811404097" Language="SFX">
 					<ShortName>CardboardBig1.wav</ShortName>
@@ -210,17 +235,21 @@
 					<ShortName>MonsterIdle.wav</ShortName>
 					<Path>SFX/MonsterIdle_D79FB2B7.wem</Path>
 				</File>
+				<File Id="893363618" Language="SFX">
+					<ShortName>LEVEL2.wav</ShortName>
+					<Path>SFX/LEVEL2_D79FB2B7.wem</Path>
+				</File>
 				<File Id="905019507" Language="SFX">
 					<ShortName>GuitarImpact.wav</ShortName>
 					<Path>SFX/GuitarImpact_10C4C929.wem</Path>
 				</File>
-				<File Id="908763424" Language="SFX">
-					<ShortName>Minigame2MainTheme.wav</ShortName>
-					<Path>SFX/Minigame2MainTheme_D79FB2B7.wem</Path>
-				</File>
 				<File Id="922497341" Language="SFX">
 					<ShortName>Monster impact.wav</ShortName>
 					<Path>SFX/Monster impact_10C4C929.wem</Path>
+				</File>
+				<File Id="925324564" Language="SFX">
+					<ShortName>LEVEL1.wav</ShortName>
+					<Path>SFX/LEVEL1_D79FB2B7.wem</Path>
 				</File>
 				<File Id="955037914" Language="SFX">
 					<ShortName>Fridge impact.wav</ShortName>
@@ -249,6 +278,10 @@
 				<File Id="1037106992" Language="SFX">
 					<ShortName>Glass breaking.wav</ShortName>
 					<Path>SFX/Glass breaking_10C4C929.wem</Path>
+				</File>
+				<File Id="1069206885" Language="SFX">
+					<ShortName>LEVEL4.wav</ShortName>
+					<Path>SFX/LEVEL4_D79FB2B7.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
