@@ -496,9 +496,62 @@
 				</MusicPlaylistContainer>
 				<MusicSwitchContainer Name="LevelsMusic" ID="{213187DB-47F4-40F4-836A-08637471652B}" ShortID="1047269474">
 					<PropertyList>
-						<Property Name="ContinuePlay" Type="bool" Value="False"/>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{6C2289C8-71CE-49B9-A446-B2D3F6481D29}" ShortID="798959299">
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{11B4B721-3C08-48A7-93CC-882BB20A8FE8}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C519D04C-0DFA-4CBB-A114-E1EC6EE706E2}"/>
 						</Reference>
@@ -577,6 +630,31 @@
 									</CueList>
 								</MusicSegment>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo MusicSyncType="2">
+										<StateGroupRef Name="LevelsMusic" ID="{335A9F51-4490-4601-8046-0809C8683A2F}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="LEVEL1" ID="{18BAF530-F1BF-458A-94B4-4627C00A2D82}"/>
+										<CustomState Name="" ID="{7F6E5649-0AED-4D62-92CC-2F2C557DAFF1}" ShortID="113082197"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="LEVEL4" ID="{C1743C31-27A2-46B2-A164-0770DFEA68A0}"/>
+										<CustomState Name="" ID="{EF1A9873-B800-4CCC-BED9-75F0E23EFE2C}" ShortID="1067339557"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="LEVEL2" ID="{B5F65403-2A25-4CB5-9C1C-F789E63D5F59}"/>
+										<CustomState Name="" ID="{1BCF1BA2-2303-425A-A272-48CFD0B299CC}" ShortID="919875851"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="LEVEL3" ID="{EA3EA3EB-C369-4E95-AA87-94FCA68C42A6}"/>
+										<CustomState Name="" ID="{393FF850-7C27-4D56-A6D4-17A2634341C9}" ShortID="189975717"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<TransitionList>
 								<MusicTransition Name="Root" ID="{BEF85540-C41D-4996-8B3D-4FA20F27F77D}">
 									<PropertyList>
@@ -677,6 +755,31 @@
 									</CueList>
 								</MusicSegment>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="LevelsMusic" ID="{335A9F51-4490-4601-8046-0809C8683A2F}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="LEVEL1" ID="{18BAF530-F1BF-458A-94B4-4627C00A2D82}"/>
+										<CustomState Name="" ID="{DF419387-AB79-42EF-ACA7-A9A9CA1885EE}" ShortID="885980957"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="LEVEL4" ID="{C1743C31-27A2-46B2-A164-0770DFEA68A0}"/>
+										<CustomState Name="" ID="{B8DB4ED1-2612-46AB-989D-C2026D73E94E}" ShortID="6587296"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="LEVEL2" ID="{B5F65403-2A25-4CB5-9C1C-F789E63D5F59}"/>
+										<CustomState Name="" ID="{447E5052-BA51-41B1-8C75-BBDFD2A8A1E0}" ShortID="116768049"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="LEVEL3" ID="{EA3EA3EB-C369-4E95-AA87-94FCA68C42A6}"/>
+										<CustomState Name="" ID="{309FD3F1-0112-4757-8283-0CF3CD5A3D7E}" ShortID="630819450"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<TransitionList>
 								<MusicTransition Name="Root" ID="{46C41B75-FF97-4946-9620-11217BFFC05A}">
 									<PropertyList>
@@ -777,6 +880,31 @@
 									</CueList>
 								</MusicSegment>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="LevelsMusic" ID="{335A9F51-4490-4601-8046-0809C8683A2F}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="LEVEL1" ID="{18BAF530-F1BF-458A-94B4-4627C00A2D82}"/>
+										<CustomState Name="" ID="{D8BCDC2E-72E7-4389-8575-B1DFCC131D89}" ShortID="1008163068"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="LEVEL4" ID="{C1743C31-27A2-46B2-A164-0770DFEA68A0}"/>
+										<CustomState Name="" ID="{6D3FC9AA-DCEB-435E-885E-A5BA798ED72E}" ShortID="509964037"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="LEVEL2" ID="{B5F65403-2A25-4CB5-9C1C-F789E63D5F59}"/>
+										<CustomState Name="" ID="{72ADE606-45A3-4AC0-BCA9-559D5AD9CC90}" ShortID="386129512"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="LEVEL3" ID="{EA3EA3EB-C369-4E95-AA87-94FCA68C42A6}"/>
+										<CustomState Name="" ID="{41C90C7C-2685-4B96-9699-AB9C77B54F72}" ShortID="275880943"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<TransitionList>
 								<MusicTransition Name="Root" ID="{A1E272C7-76E6-4A07-9486-0FEA7085DCE8}">
 									<PropertyList>
@@ -877,6 +1005,31 @@
 									</CueList>
 								</MusicSegment>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="LevelsMusic" ID="{335A9F51-4490-4601-8046-0809C8683A2F}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="LEVEL1" ID="{18BAF530-F1BF-458A-94B4-4627C00A2D82}"/>
+										<CustomState Name="" ID="{A99836DC-309B-41C0-A38B-468F07834607}" ShortID="36472405"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="LEVEL4" ID="{C1743C31-27A2-46B2-A164-0770DFEA68A0}"/>
+										<CustomState Name="" ID="{06871650-2228-40DD-BAC1-8978BDA4EC65}" ShortID="645231318"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="LEVEL2" ID="{B5F65403-2A25-4CB5-9C1C-F789E63D5F59}"/>
+										<CustomState Name="" ID="{C1C0983A-23E6-4CDF-9DA0-946F83683499}" ShortID="690517539"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="LEVEL3" ID="{EA3EA3EB-C369-4E95-AA87-94FCA68C42A6}"/>
+										<CustomState Name="" ID="{8C2C0508-BB26-406E-A2D9-D16136ED0E72}" ShortID="377953407"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<TransitionList>
 								<MusicTransition Name="Root" ID="{192897E9-21FB-49F4-B6E5-779C12872125}">
 									<PropertyList>
@@ -910,7 +1063,7 @@
 					</ChildrenList>
 					<StateInfo>
 						<StateGroupList>
-							<StateGroupInfo MusicSyncType="3">
+							<StateGroupInfo>
 								<StateGroupRef Name="LevelsMusic" ID="{335A9F51-4490-4601-8046-0809C8683A2F}"/>
 							</StateGroupInfo>
 						</StateGroupList>
