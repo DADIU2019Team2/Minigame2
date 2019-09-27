@@ -207,6 +207,7 @@ MonoBehaviour:
   monsterGravityDirection: 1
   monsterGravity: 2
   maxSpeed: 2
+  turnSpeed: 2
 --- !u!114 &2995901984201761879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -270,6 +271,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a56c6f3f8c2bf2f4e85ff50008fc7a52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  monsterController: {fileID: 0}
   jerk: {x: 0, y: 0, z: 0}
   acceleration: {x: 0, y: 0, z: 0}
   velocity: {x: 0, y: 0, z: 0}

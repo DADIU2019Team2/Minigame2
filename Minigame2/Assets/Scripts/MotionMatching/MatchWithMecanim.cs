@@ -241,12 +241,12 @@ public class MatchWithMecanim : MonoBehaviour
     void ShowCurve()
     {
         if (currentBestCurve.curve.Length == 0) return;
-        Debug.DrawLine(Vector3.zero,
-            currentBestCurve.curve[0].Position, Color.green);
+        Debug.DrawLine(transform.position,
+            transform.position+currentBestCurve.curve[0].Position, Color.green);
         for (var i = 0; i < currentBestCurve.curve.Length - 1; i++)
         {
-            Debug.DrawLine(currentBestCurve.curve[i].Position,
-                currentBestCurve.curve[i + 1].Position, Color.green);
+            Debug.DrawLine(transform.position+currentBestCurve.curve[i].Position,
+                transform.position+currentBestCurve.curve[i + 1].Position, Color.green);
         }
     }
 
