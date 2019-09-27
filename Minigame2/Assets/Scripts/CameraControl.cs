@@ -16,7 +16,7 @@ public class CameraControl : MonoBehaviour
     private Vector3 initialPosition;
     [SerializeField]
     private bool isStartOfLevel = true;
-    private bool hasCanvasFadedOut = false;
+    [SerializeField]private bool hasCanvasFadedOut = false;
 
 
 
