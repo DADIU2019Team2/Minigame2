@@ -2554,6 +2554,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a500d7aad7906f49a049d62e6acb264, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lastLevelPassFail: {fileID: 11400000, guid: c5d44c813ed567548bb4c98f2fc7d0d5, type: 2}
+  doneFadeOutEvent: {fileID: 11400000, guid: 324c49364cb45ac4c85ee3f5e1182899, type: 2}
   textTranistionArr:
   - {fileID: 84319837785417038}
   - {fileID: 239962951376745022}
@@ -2832,7 +2834,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Continue
+  m_text: Restart
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3303,7 +3305,7 @@ GameObject:
   - component: {fileID: 8182630541156899928}
   - component: {fileID: 8454670677507346561}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Continue Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3408,7 +3410,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8182630541156899928}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3560911833918228874}
+        m_MethodName: clickToContinue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &4531711183615260979
@@ -3460,7 +3473,7 @@ GameObject:
   - component: {fileID: 3231945429564949973}
   - component: {fileID: 2690324848760904080}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Continue button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3565,7 +3578,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3231945429564949973}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3560911833918228874}
+        m_MethodName: clickToContinue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &4667485396774975094
@@ -5112,7 +5136,7 @@ GameObject:
   - component: {fileID: 4475769100373452886}
   - component: {fileID: 4498485053330095576}
   m_Layer: 5
-  m_Name: Button
+  m_Name: ResetLevel button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5217,7 +5241,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4475769100373452886}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3560911833918228874}
+        m_MethodName: clickToRestartLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &6630593390852230688
@@ -6067,7 +6102,7 @@ GameObject:
   - component: {fileID: 8890780300757945183}
   - component: {fileID: 4877194617423246909}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: ContinueButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6172,7 +6207,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8890780300757945183}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3560911833918228874}
+        m_MethodName: clickToContinue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &7592393717466582555
