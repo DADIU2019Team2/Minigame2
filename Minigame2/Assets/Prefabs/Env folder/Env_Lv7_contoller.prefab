@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 38284288264698474}
   m_Layer: 0
-  m_Name: Evn_Lv7_contoller
+  m_Name: Env_Lv7_contoller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
