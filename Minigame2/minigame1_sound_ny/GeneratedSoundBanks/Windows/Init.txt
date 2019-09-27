@@ -7,14 +7,14 @@ Switch	ID	Name	Switch Group			Notes
 	2849147824	Medium	Weight			
 
 State Group	ID	Name			Wwise Object Path	Notes
-	1321655446	LevelMusic			\Default Work Unit\LevelMusic	
+	2871769893	LevelsMusic			\Default Work Unit\LevelsMusic	
 
 State	ID	Name	State Group			Notes
-	0	None	LevelMusic			
-	447814771	Level1Music	LevelMusic			
-	922141326	Level2Music	LevelMusic			
-	1420457448	Level4Music	LevelMusic			
-	2030041701	Level3Music	LevelMusic			
+	0	None	LevelsMusic			
+	2678230379	LEVEL4	LevelsMusic			
+	2678230380	LEVEL3	LevelsMusic			
+	2678230381	LEVEL2	LevelsMusic			
+	2678230382	LEVEL1	LevelsMusic			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	504532776	Brick			\Factory Reflect Acoustic Textures\Textures\Brick	
