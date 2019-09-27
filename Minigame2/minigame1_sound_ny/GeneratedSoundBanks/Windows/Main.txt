@@ -1,55 +1,74 @@
 Event	ID	Name			Wwise Object Path	Notes
 	26906972	Play_Metal_impact			\Default Work Unit\Play_Metal_impact	
+	125046271	Play_MonsterTheme			\Default Work Unit\Play_MonsterTheme	
+	222374123	Play_HumanBreath			\Default Work Unit\Play_HumanBreath	
 	230120564	Play_SoulMovement			\Default Work Unit\Play_SoulMovement	
 	236152504	Set_Game_Parameter_Music			\Default Work Unit\Set_Game_Parameter_Music	
-	565626987	Play_Level2music			\Default Work Unit\Play_Level2music	
+	656382953	Enable_State_LevelsMusic			\Default Work Unit\Enable_State_LevelsMusic	
 	681628992	Play_CardboardSmall3			\Default Work Unit\Play_CardboardSmall3	
 	681628993	Play_CardboardSmall2			\Default Work Unit\Play_CardboardSmall2	
 	681628994	Play_CardboardSmall1			\Default Work Unit\Play_CardboardSmall1	
 	785252386	Play_Fridge_impact			\Default Work Unit\Play_Fridge_impact	
-	839894203	Play_Level4musicloop			\Default Work Unit\Play_Level4musicloop	
 	864292832	Play_Wood_impact2			\Default Work Unit\Play_Wood_impact2	
 	904426889	Play_CouchRandom			\Default Work Unit\Play_CouchRandom	
 	913814820	Play_WoodBig3			\Default Work Unit\Play_WoodBig3	
 	913814821	Play_WoodBig2			\Default Work Unit\Play_WoodBig2	
 	913814822	Play_WoodBig1			\Default Work Unit\Play_WoodBig1	
-	1016171890	Set_State_Level3Music			\Default Work Unit\Set_State_Level3Music	
 	1144615181	Play_MetalImpact			\Default Work Unit\Play_MetalImpact	
+	1166548517	Play_HumanTransReverse			\Default Work Unit\Play_HumanTransReverse	
 	1373189448	Play_CardboardBig2			\Default Work Unit\Play_CardboardBig2	
 	1373189451	Play_CardboardBig1			\Default Work Unit\Play_CardboardBig1	
 	1389736157	Play_SmallMetal1			\Default Work Unit\Play_SmallMetal1	
 	1389736158	Play_SmallMetal2			\Default Work Unit\Play_SmallMetal2	
 	1470122796	Play_Monster_crawl_scrape1			\Default Work Unit\Play_Monster_crawl_scrape1	
+	1511572556	Play_MonsterHit1			\Default Work Unit\Play_MonsterHit1	
+	1511572558	Play_MonsterHit3			\Default Work Unit\Play_MonsterHit3	
+	1511572559	Play_MonsterHit2			\Default Work Unit\Play_MonsterHit2	
+	1713691436	Play_Human_Transform			\Default Work Unit\Play_Human_Transform	
 	1720134853	Play_Smaller_glass_breaking			\Default Work Unit\Play_Smaller_glass_breaking	
-	1822594163	Set_State_Level4Music			\Default Work Unit\Set_State_Level4Music	
 	1894735553	Play_Soul_Theme			\Default Work Unit\Play_Soul_Theme	
-	1946308780	Play_Level3music			\Default Work Unit\Play_Level3music	
+	1896628372	Play_DeathAnimation_01			\Default Work Unit\Play_DeathAnimation_01	
 	1978530290	Play_TempImpact			\Default Work Unit\Play_TempImpact	
 	2048554185	Play_Cardboard_impact			\Default Work Unit\Play_Cardboard_impact	
 	2062815940	Play_CeramicsRandom			\Default Work Unit\Play_CeramicsRandom	
 	2072427939	Play_Drum_collision			\Default Work Unit\Play_Drum_collision	
-	2076178249	Set_State_Level2Music			\Default Work Unit\Set_State_Level2Music	
+	2086049674	Set_NoHeadPhones			\Default Work Unit\Set_NoHeadPhones	
 	2142485738	Play_Float_theme			\Default Work Unit\Play_Float_theme	
-	2228153899	Play_Menu_Music			\Default Work Unit\Play_Menu_Music	
 	2306258661	Play_Box_plastic_impact_1			\Default Work Unit\Play_Box_plastic_impact_1	
 	2306258662	Play_Box_plastic_impact_2			\Default Work Unit\Play_Box_plastic_impact_2	
 	2361306256	Play_WoodMedium			\Default Work Unit\Play_WoodMedium	
 	2414642255	Play_FanAndLampRandom			\Default Work Unit\Play_FanAndLampRandom	
 	2424027906	Play_Glass_breaking			\Default Work Unit\Play_Glass_breaking	
+	2720241158	Play_DeathAnimation			\Default Work Unit\Play_DeathAnimation	
+	2773202280	Set_State_LEVEL2			\Default Work Unit\Set_State_LEVEL2	
+	2773202281	Set_State_LEVEL3			\Default Work Unit\Set_State_LEVEL3	
+	2773202283	Set_State_LEVEL1			\Default Work Unit\Set_State_LEVEL1	
+	2773202286	Set_State_LEVEL4			\Default Work Unit\Set_State_LEVEL4	
 	2776670769	Play_Couch_Impact			\Default Work Unit\Play_Couch_Impact	
-	2795236840	Set_State_Level1Music			\Default Work Unit\Set_State_Level1Music	
 	2899271694	Play_MonsterIdle			\Default Work Unit\Play_MonsterIdle	
 	2934994294	Play_WoodVerySmall			\Default Work Unit\Play_WoodVerySmall	
 	3025114257	Play_Gravity_shift			\Default Work Unit\Play_Gravity_shift	
-	3045698593	Play_Level4music			\Default Work Unit\Play_Level4music	
 	3061002342	Play_LampImpact			\Default Work Unit\Play_LampImpact	
 	3255294874	Play_Portal_enter_next_level			\Default Work Unit\Play_Portal_enter_next_level	
 	3390222318	Play_GuitarImpact			\Default Work Unit\Play_GuitarImpact	
-	3568813383	Play_Main_Theme			\Default Work Unit\Play_Main_Theme	
-	3605952550	Play_Level1music			\Default Work Unit\Play_Level1music	
+	3659125936	Play_LEVEL4			\Default Work Unit\Play_LEVEL4	
+	3659125941	Play_LEVEL1			\Default Work Unit\Play_LEVEL1	
+	3659125942	Play_LEVEL2			\Default Work Unit\Play_LEVEL2	
+	3659125943	Play_LEVEL3			\Default Work Unit\Play_LEVEL3	
 	3917470406	Play_Rhythm			\Default Work Unit\Play_Rhythm	
 	3939836301	Play_Monster_impact			\Default Work Unit\Play_Monster_impact	
 	4138451597	Set_Game_Parameter_World			\Default Work Unit\Set_Game_Parameter_World	
+	4191183084	Play_LevelsMusic			\Default Work Unit\Play_LevelsMusic	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2871769893	LevelsMusic			\Default Work Unit\LevelsMusic	
+
+State	ID	Name	State Group			Notes
+	0	None	LevelsMusic			
+	2678230379	LEVEL4	LevelsMusic			
+	2678230380	LEVEL3	LevelsMusic			
+	2678230381	LEVEL2	LevelsMusic			
+	2678230382	LEVEL1	LevelsMusic			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	3077794743	SoulMovement			\Default Work Unit\SoulMovement	
@@ -60,13 +79,18 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	55798599	CardboardSmall1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\CardboardSmall1_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\CardboardSmall1		65492
 	55922586	Cardboard_impact	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\Cardboard_impact_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\World\Cardboard_impact		190192
 	58788819	WoodTemp3	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\WoodBig3_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\TempImpact\WoodTemp3		198236
+	85547061	HumanBreath	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\HumanBreath_D79FB2B7.wem		\Actor-Mixer Hierarchy\World\SFX\Events\HumanBreath		1770472
 	109745358	Drum collision	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\Drum collision_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\World\Drum collision		118028
 	110022819	CardboardSmall3	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\CardboardSmall3_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\CardboardSmall3		65492
 	126058192	WoodMedium	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\WoodMedium_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\WoodMedium		75908
 	175084499	Ceramic2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\Ceramic2_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\CeramicsRandom\Ceramic2		57324
+	222473481	MonsterHit2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\MonsterHit2_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Events\MonsterHit2		483788
 	223459621	WoodBig1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\WoodBig1_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\CouchRandom\WoodBig1		161556
+	295119839	DeathAnimation	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\DeathAnimation_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Events\DeathAnimation		696628
 	299816113	SoulTheme	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\SoulTheme_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Soul Theme\SoulTheme\SoulTheme		6773824
 	312113423	Ceramic3	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\Ceramic3_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\CeramicsRandom\Ceramic3		61732
+	334832916	MonsterTheme	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\MonsterTheme_D79FB2B7.wem		\Interactive Music Hierarchy\Music\MonsterTheme\MonsterTheme\MonsterTheme		1693504
+	363199118	HumanTransReverse	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\HumanTransReverse_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Events\HumanTransReverse		767244
 	363701662	WoodTemp2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\WoodBig2_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\TempImpact\WoodTemp2		149580
 	404359527	Ceramic1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\Ceramic1_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\CeramicsRandom\Ceramic1		70540
 	424168267	Box plastic impact 2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\Box plastic impact 2_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\World\Box plastic impact 2		159736
@@ -76,15 +100,22 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	546481007	Metal impact	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\Metal impact_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\World\Metal impact		114724
 	596123147	CardboardBig2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\CardboardBig2_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\CardboardBig2		138920
 	625558375	Wood impact2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\Wood impact2_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\World\Wood impact2		118968
+	644201874	MonsterHit3	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\MonsterHit3_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Events\MonsterHit3		333836
+	651597293	SoulMovement	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\SoulMovement_D79FB2B7.wem		\Actor-Mixer Hierarchy\World\SFX\Movement\SoulMovement		352864
 	657946718	WoodVerySmall	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\WoodVerySmall_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\WoodVerySmall		72948
+	680265880	LEVEL3	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\LEVEL3_D79FB2B7.wem		\Interactive Music Hierarchy\Music\LevelsMusic\LEVEL3\LEVEL3\LEVEL3		6773824
 	696233840	Smaller glass breaking	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\Smaller glass breaking_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\World\Smaller glass breaking		352864
 	755554862	SmallMetal2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\SmallMetal2_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\SmallMetal2		123276
+	776801418	MonsterHit1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\MonsterHit1_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Events\MonsterHit1		348348
 	791914296	CardboardSmall2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\CardboardSmall2_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\CardboardSmall2		65492
+	802420390	Human Transform	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\Human Transform_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Events\Human Transform		767244
 	811404097	CardboardBig1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\CardboardBig1_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\CardboardBig1		156688
 	815449528	Portal enter next level	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\Portal enter next level_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\World\Portal enter next level		452532
 	826230485	MonsterIdle	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\MonsterIdle_D79FB2B7.wem		\Actor-Mixer Hierarchy\World\SFX\Movement\MonsterIdle		4957412
+	893363618	LEVEL2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\LEVEL2_D79FB2B7.wem		\Interactive Music Hierarchy\Music\LevelsMusic\LEVEL2\LEVEL2\LEVEL2		6773824
 	905019507	Temp3	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\GuitarImpact_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\TempImpact\Temp3		344560
 	922497341	Monster impact	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\Monster impact_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Events\Monster impact		309648
+	925324564	LEVEL1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\LEVEL1_D79FB2B7.wem		\Interactive Music Hierarchy\Music\LevelsMusic\LEVEL1\LEVEL1\LEVEL1		6773824
 	955037914	Fridge impact	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\Fridge impact_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\World\Fridge impact		121892
 	962014589	Float theme	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\Float theme_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\World\Float theme		11289664
 	968578251	Couch Impact	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\Couch Impact_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\World\Couch Impact		121892
@@ -92,4 +123,5 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1000857820	Monster crawl scrape1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\Monster crawl scrape1_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\World\Monster crawl scrape1		117688
 	1034822886	MetalImpact	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\MetalImpact_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\FanAndLampRandom\MetalImpact		184688
 	1037106992	Glass breaking	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\Glass breaking_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\World\Glass breaking		521740
+	1069206885	LEVEL4	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\LEVEL4_D79FB2B7.wem		\Interactive Music Hierarchy\Music\LevelsMusic\LEVEL4\LEVEL4\LEVEL4		6773824
 
