@@ -1,11 +1,11 @@
-﻿using System;
+﻿#if UNITY_EDITOR
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEditor.Animations;
 using UnityEngine;
 
-#if UNITY_EDITOR
 
 public class CurveExtractor : MonoBehaviour
 {
@@ -96,5 +96,4 @@ public class CurveExtractor : MonoBehaviour
         }
     }
 }
-
 #endif
