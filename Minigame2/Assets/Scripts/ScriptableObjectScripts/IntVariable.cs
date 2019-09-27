@@ -5,9 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "ScriptableObject/Variable/IntVar")]
 public class IntVariable : ScriptableObject
 {
-    [SerializeField] private bool isSetting;
-
-
+    //[SerializeField] private bool isSetting;
 
     public int myInt;
 
