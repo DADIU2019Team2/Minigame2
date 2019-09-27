@@ -5670,7 +5670,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 9032585162158728143}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 10
+  m_MaxValue: 100
   m_WholeNumbers: 1
   m_Value: 0
   m_OnValueChanged:
@@ -7879,7 +7879,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 4717574397162178564}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 10
+  m_MaxValue: 100
   m_WholeNumbers: 1
   m_Value: 0
   m_OnValueChanged:
