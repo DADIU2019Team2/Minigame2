@@ -49,8 +49,9 @@ public class MonsterController : MonoBehaviour
 
 
         _moveDirection = isMovingInXaxis ? Vector3.right * moveSign : Vector3.up * moveSign;
+        transform.localRotation = Quaternion.LookRotation(_moveDirection, transform.up);
         _moveDirection *= maxSpeed;
-
+        
         _gravDirection = gravityDirVector * monsterGravity;
         Debug.Log("Movedirection = " + _moveDirection);
         //monsterRb.AddForce(_gravDirection, ForceMode.Acceleration);
