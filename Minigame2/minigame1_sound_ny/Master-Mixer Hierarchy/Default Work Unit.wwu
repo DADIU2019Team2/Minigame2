@@ -4,9 +4,84 @@
 		<WorkUnit Name="Default Work Unit" ID="{50CA1337-8599-4971-9D3E-31B46F895C9D}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="BusVolume" Type="Real64">
+							<ValueList>
+								<Value>9</Value>
+							</ValueList>
+							<RTPCList>
+								<RTPC Name="" ID="{BC7D955E-A49D-4D12-892E-D544D4C81012}" ShortID="38734305">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="NoHeadPhones" ID="{F17CE9FA-1BAB-4042-8FB9-95ED43558FA9}" WorkUnitID="{D2B83B49-2C61-4AD0-AB96-36C6020424B3}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{13C677EF-C4D9-4270-883F-46711C2413C7}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-0.96609</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>-1.30471</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{A292D227-2084-4F73-AB74-E254D28E221A}" WorkUnitID="{755020AB-CAD2-4083-91BC-F7BA6CCEB255}"/>
+						</Reference>
+						<Reference Name="Effect0">
+							<Custom>
+								<Effect Name="Wwise_Parametric_EQ_(Custom)" ID="{86EF617F-8F93-44ED-8BC3-6C93C9AEDF5A}" ShortID="938698338" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+									<PropertyList>
+										<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+										<Property Name="FilterTypeBand2" Type="int32" Value="0"/>
+										<Property Name="FrequencyBand1" Type="Real32" Value="433"/>
+										<Property Name="FrequencyBand2" Type="Real32" Value="2794"/>
+										<Property Name="FrequencyBand3" Type="Real32" Value="20"/>
+										<Property Name="OnOffBand1" Type="bool">
+											<RTPCList>
+												<RTPC Name="" ID="{807DE48D-4F1A-45B5-9B42-139A107C7C91}" ShortID="523081435">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="NoHeadPhones" ID="{F17CE9FA-1BAB-4042-8FB9-95ED43558FA9}" WorkUnitID="{D2B83B49-2C61-4AD0-AB96-36C6020424B3}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{03183B99-9723-4FE0-B59C-B43528094043}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>1</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="OnOffBand3" Type="bool" Value="False"/>
+									</PropertyList>
+								</Effect>
+							</Custom>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

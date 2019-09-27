@@ -24,6 +24,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	1873957695	Anechoic			\Factory Reflect Acoustic Textures\Textures\Anechoic	
 	1970351858	Fabric			\Factory Reflect Acoustic Textures\Textures\Fabric	
 	2058049674	Wood			\Factory Reflect Acoustic Textures\Textures\Wood	
+	2169551381	NoHeadPhones			\Default Work Unit\NoHeadPhones	
 	2412606308	Carpet			\Factory Reflect Acoustic Textures\Textures\Carpet	
 	2609808943	World			\Default Work Unit\World	
 	2637588553	Tile			\Factory Reflect Acoustic Textures\Textures\Tile	
@@ -38,6 +39,9 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	2609808943	World			\Default Work Unit\Master Audio Bus\World	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Effect plug-ins	ID	Name	Type				Notes
+	938698338	Wwise_Parametric_EQ_(Custom)	Wwise Parametric EQ			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
