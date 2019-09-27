@@ -17,6 +17,8 @@ GameObject:
   - component: {fileID: 5246334111311661798}
   - component: {fileID: 1943412834684121497}
   - component: {fileID: 953340954687762994}
+  - component: {fileID: 2995901984201761879}
+  - component: {fileID: 9162776937881770060}
   m_Layer: 12
   m_Name: Monster Controller
   m_TagString: Untagged
@@ -205,6 +207,80 @@ MonoBehaviour:
   monsterGravityDirection: 1
   monsterGravity: 2
   maxSpeed: 2
+--- !u!114 &2995901984201761879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298475453732957568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fec62fbc36806044a6b0beccf2e88e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionDataFile: {fileID: 4900000, guid: 08f6b742d91fce542820995733c443f5, type: 3}
+  rootTransform: {fileID: 5704079682150994015}
+  curveThreshold: 0
+  curvePointWeights:
+  - 0
+  - 0
+  - 0
+  - 0
+  positionWeight: 1
+  forwardWeight: 1
+  positionToForwardRatio: 0.5
+  lFootPosWeight: 1
+  rFootPosWeight: 1
+  neckPosWeight: 1
+  lFootVelWeight: 1
+  rFootVelWeight: 1
+  neckVelWeight: 1
+  poseToVelocityRatio: 0.5
+  queryRate: 0.1
+  positiveBanWindow: 0
+  negativeBanwindow: 0
+  isMotionMatchingRunning: 0
+  bestDistance: 0
+  poseCandidates: 
+  currentBestCurve:
+    _uniqueId: -1
+    _motionName: invalid
+    _timeCode: -1
+    curve: []
+  currentPose:
+    _uniqueId: 0
+    _timeCode: 0
+    _motionName: 
+    leftFootPosition: {x: 0, y: 0, z: 0}
+    rightFootPosition: {x: 0, y: 0, z: 0}
+    neckPosition: {x: 0, y: 0, z: 0}
+    leftFootVelocity: {x: 0, y: 0, z: 0}
+    rightFootVelocity: {x: 0, y: 0, z: 0}
+    neckVelocity: {x: 0, y: 0, z: 0}
+--- !u!114 &9162776937881770060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298475453732957568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a56c6f3f8c2bf2f4e85ff50008fc7a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jerk: {x: 0, y: 0, z: 0}
+  acceleration: {x: 0, y: 0, z: 0}
+  velocity: {x: 0, y: 0, z: 0}
+  maxAcceleration: 0
+  maxVelocity: 0
+  fwdCurve:
+    _uniqueId: -1
+    _motionName: invalid
+    _timeCode: -1
+    curve: []
+  showFwdCurve: 1
 --- !u!1 &4835763955123894228
 GameObject:
   m_ObjectHideFlags: 0
@@ -363,11 +439,28 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6838957212640492958, guid: d54489bdcd859964b95daebdda7a39ef,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 595b3188123457d40bdfb426851ebf07, type: 2}
+    - target: {fileID: 6838957212640492958, guid: d54489bdcd859964b95daebdda7a39ef,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6862211707653836516, guid: d54489bdcd859964b95daebdda7a39ef, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d54489bdcd859964b95daebdda7a39ef, type: 3}
 --- !u!4 &7437454058297517637 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3580778355956343710, guid: d54489bdcd859964b95daebdda7a39ef,
+    type: 3}
+  m_PrefabInstance: {fileID: 6234776282630129115}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5704079682150994015 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1850603144179946884, guid: d54489bdcd859964b95daebdda7a39ef,
     type: 3}
   m_PrefabInstance: {fileID: 6234776282630129115}
   m_PrefabAsset: {fileID: 0}
