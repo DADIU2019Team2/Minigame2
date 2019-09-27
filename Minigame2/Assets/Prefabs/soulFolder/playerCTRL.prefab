@@ -316,6 +316,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2524113447368688645}
   m_PrefabAsset: {fileID: 0}
+--- !u!23 &5195545196580825552 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -1504981713932161579, guid: afb7061e92cda034eaa2a0e75290a6ce,
+    type: 3}
+  m_PrefabInstance: {fileID: 2524113447368688645}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3893343050100847316
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -635,14 +641,49 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 255211197148127704, guid: 77e4e19b6e1d7c04594a0316e6a775e1,
         type: 3}
-      propertyPath: ShapeModule.m_MeshRenderer
-      value: 
-      objectReference: {fileID: 1686942246170214972}
+      propertyPath: ColorModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 255211197148127704, guid: 77e4e19b6e1d7c04594a0316e6a775e1,
         type: 3}
-      propertyPath: InitialModule.maxNumParticles
-      value: 50
+      propertyPath: ColorModule.gradient.maxGradient.key2.a
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 255211197148127704, guid: 77e4e19b6e1d7c04594a0316e6a775e1,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.atime1
+      value: 3855
+      objectReference: {fileID: 0}
+    - target: {fileID: 255211197148127704, guid: 77e4e19b6e1d7c04594a0316e6a775e1,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.atime2
+      value: 48766
+      objectReference: {fileID: 0}
+    - target: {fileID: 255211197148127704, guid: 77e4e19b6e1d7c04594a0316e6a775e1,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.m_NumAlphaKeys
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 255211197148127704, guid: 77e4e19b6e1d7c04594a0316e6a775e1,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key3.a
+      value: 0.015686275
+      objectReference: {fileID: 0}
+    - target: {fileID: 255211197148127704, guid: 77e4e19b6e1d7c04594a0316e6a775e1,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.atime3
+      value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 255211197148127704, guid: 77e4e19b6e1d7c04594a0316e6a775e1,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key0.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 255211197148127704, guid: 77e4e19b6e1d7c04594a0316e6a775e1,
+        type: 3}
+      propertyPath: ShapeModule.m_MeshRenderer
+      value: 
+      objectReference: {fileID: 5195545196580825552}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77e4e19b6e1d7c04594a0316e6a775e1, type: 3}
 --- !u!4 &2868379484660174194 stripped
@@ -738,12 +779,6 @@ PrefabInstance:
 --- !u!4 &4111424568555963635 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: afb7061e92cda034eaa2a0e75290a6ce,
-    type: 3}
-  m_PrefabInstance: {fileID: 8967795034871967721}
-  m_PrefabAsset: {fileID: 0}
---- !u!23 &1686942246170214972 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: -1504981713932161579, guid: afb7061e92cda034eaa2a0e75290a6ce,
     type: 3}
   m_PrefabInstance: {fileID: 8967795034871967721}
   m_PrefabAsset: {fileID: 0}
