@@ -931,6 +931,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: lv.envir
       objectReference: {fileID: 0}
+    - target: {fileID: 3589695012674582237, guid: 1202d1b8e2a8da843bd032f39c71f285,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7618931455823865118, guid: 1202d1b8e2a8da843bd032f39c71f285,
         type: 3}
       propertyPath: m_LocalPosition.x
