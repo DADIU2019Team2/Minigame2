@@ -22,7 +22,7 @@ public class LoadLevel : MonoBehaviour
     public void loadNextLevel()
     {
         int curSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        if (curSceneIndex + 1 <= SceneManager.sceneCount-1)
+        if (curSceneIndex + 1 <= SceneManager.sceneCountInBuildSettings-1)
         {
             loadLevel(curSceneIndex + 1);
         }
