@@ -24,6 +24,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1511572556	Play_MonsterHit1			\Default Work Unit\Play_MonsterHit1	
 	1511572558	Play_MonsterHit3			\Default Work Unit\Play_MonsterHit3	
 	1511572559	Play_MonsterHit2			\Default Work Unit\Play_MonsterHit2	
+	1575918696	Play_KickAccel			\Default Work Unit\Play_KickAccel	
 	1713691436	Play_Human_Transform			\Default Work Unit\Play_Human_Transform	
 	1720134853	Play_Smaller_glass_breaking			\Default Work Unit\Play_Smaller_glass_breaking	
 	1894735553	Play_Soul_Theme			\Default Work Unit\Play_Soul_Theme	
@@ -39,6 +40,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2361306256	Play_WoodMedium			\Default Work Unit\Play_WoodMedium	
 	2414642255	Play_FanAndLampRandom			\Default Work Unit\Play_FanAndLampRandom	
 	2424027906	Play_Glass_breaking			\Default Work Unit\Play_Glass_breaking	
+	2496174970	Play_StoneImpactRandom			\Default Work Unit\Play_StoneImpactRandom	
 	2720241158	Play_DeathAnimation			\Default Work Unit\Play_DeathAnimation	
 	2773202280	Set_State_LEVEL2			\Default Work Unit\Set_State_LEVEL2	
 	2773202281	Set_State_LEVEL3			\Default Work Unit\Set_State_LEVEL3	
@@ -84,18 +86,22 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	110022819	CardboardSmall3	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\CardboardSmall3_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\CardboardSmall3		65492
 	126058192	WoodMedium	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\WoodMedium_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\WoodMedium		75908
 	175084499	Ceramic2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\Ceramic2_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\CeramicsRandom\Ceramic2		57324
+	216083020	StoneImpact4	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\StoneImpact4_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\StoneImpactRandom\StoneImpact4		319588
 	222473481	MonsterHit2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\MonsterHit2_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Events\MonsterHit2		483788
 	223459621	WoodBig1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\WoodBig1_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\CouchRandom\WoodBig1		161556
 	295119839	DeathAnimation	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\DeathAnimation_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Events\DeathAnimation		696628
 	299816113	SoulTheme	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\SoulTheme_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Soul Theme\SoulTheme\SoulTheme		6773824
 	312113423	Ceramic3	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\Ceramic3_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\CeramicsRandom\Ceramic3		61732
 	334832916	MonsterTheme	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\MonsterTheme_D79FB2B7.wem		\Interactive Music Hierarchy\Music\MonsterTheme\MonsterTheme\MonsterTheme		1693504
+	351571267	KickAccel	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\KickAccel_D79FB2B7.wem		\Interactive Music Hierarchy\Music\KickAccel\KickAccel\KickAccel		423424
 	363199118	HumanTransReverse	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\HumanTransReverse_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Events\HumanTransReverse		767244
 	363701662	WoodTemp2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\WoodBig2_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\TempImpact\WoodTemp2		149580
+	377075046	StoneImpact2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\StoneImpact2_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\StoneImpactRandom\StoneImpact2		227096
 	404359527	Ceramic1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\Ceramic1_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\CeramicsRandom\Ceramic1		70540
 	424168267	Box plastic impact 2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\Box plastic impact 2_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\World\Box plastic impact 2		159736
 	469028307	Temp1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\MetalImpact2_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\TempImpact\Temp1		245196
 	495507765	SmallMetal1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\SmallMetal1_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\SmallMetal1		138164
+	516934991	StoneImpact1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\StoneImpact1_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\StoneImpactRandom\StoneImpact1		164032
 	523084725	Box plastic impact 1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\Box plastic impact 1_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\World\Box plastic impact 1		219608
 	546481007	Metal impact	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\Metal impact_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\World\Metal impact		114724
 	596123147	CardboardBig2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\CardboardBig2_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\CardboardBig2		138920
@@ -106,6 +112,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	680265880	LEVEL3	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\LEVEL3_D79FB2B7.wem		\Interactive Music Hierarchy\Music\LevelsMusic\LEVEL3\LEVEL3\LEVEL3		6773824
 	696233840	Smaller glass breaking	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\Smaller glass breaking_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\World\Smaller glass breaking		352864
 	755554862	SmallMetal2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\SmallMetal2_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\SmallMetal2		123276
+	769534999	StoneImpact3	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\StoneImpact3_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\StoneImpactRandom\StoneImpact3		210276
 	776801418	MonsterHit1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\MonsterHit1_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Events\MonsterHit1		348348
 	791914296	CardboardSmall2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\CardboardSmall2_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\CardboardSmall2		65492
 	802420390	Human Transform	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\Human Transform_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Events\Human Transform		767244

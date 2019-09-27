@@ -35,6 +35,7 @@
 						<ObjectRef Name="Enable_State_LevelsMusic" ID="{E989210E-0A59-4641-989A-ABC963B8BBA3}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_MonsterHit2" ID="{8E603516-A6D6-464D-B113-42EE96434AF7}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Monster_impact" ID="{0BBD2ED9-7094-4696-81B8-392D4C179567}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_StoneImpactRandom" ID="{8EA0E794-59A3-46E1-B2FC-9FCFD419DB92}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Fridge_impact" ID="{E1188F74-5E13-474A-84BA-2B5EE607F2B4}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Set_State_LEVEL1" ID="{41C91F0E-6F65-4752-BD3B-D5E03C0258AD}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_FanAndLampRandom" ID="{258A32DF-617A-4846-8F18-2A8E44033C79}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
@@ -55,6 +56,7 @@
 						<ObjectRef Name="Play_Gravity_shift" ID="{C84F1AB5-5246-4E19-A78C-E5CF9488D731}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_LEVEL1" ID="{92BB6C6A-119A-4E64-8BDC-8A773327FCAC}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Human_Transform" ID="{AF01CE78-F645-4E79-892B-7A420FBFEA48}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_KickAccel" ID="{504E6034-B69D-4E89-B615-038627CBE776}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_WoodVerySmall" ID="{5DEB0748-498A-4E93-BCB9-B57E433E4525}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_MonsterIdle" ID="{7AE4CEA3-2F64-4EC7-9FFA-36A1A8DBFFAA}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_MonsterHit1" ID="{E270C076-7E98-4ECB-9853-C7C7B948D6EF}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
