@@ -28,7 +28,7 @@ public class InitialiseSliderAndWwiseValue : MonoBehaviour
     public void SetRTCPValue()
     {
         Debug.Log("int : " +_int.GetInt());
-        AkSoundEngine.SetRTPCValue(RTPCName, _int.GetInt()*10);
+        AkSoundEngine.SetRTPCValue(RTPCName, _int.GetInt());
     }
 }
 
