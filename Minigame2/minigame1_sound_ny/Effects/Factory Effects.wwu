@@ -637,8 +637,90 @@
 										<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
 										<Property Name="FrequencyBand1" Type="Real32" Value="1000"/>
 										<Property Name="FrequencyBand3" Type="Real32" Value="10000"/>
-										<Property Name="OnOffBand1" Type="bool" Value="False"/>
-										<Property Name="OnOffBand3" Type="bool" Value="False"/>
+										<Property Name="OnOffBand1" Type="bool" Value="False">
+											<RTPCList>
+												<RTPC Name="" ID="{C5F7B149-A325-4D15-A8A0-34175E5FC304}" ShortID="674354341">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="NoHeadPhones" ID="{F17CE9FA-1BAB-4042-8FB9-95ED43558FA9}" WorkUnitID="{D2B83B49-2C61-4AD0-AB96-36C6020424B3}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{ED80D7DF-BF80-4848-9FA4-803CDB39BA23}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>1</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="OnOffBand2" Type="bool">
+											<RTPCList>
+												<RTPC Name="" ID="{1CDF8305-AEE7-4C78-A2B2-64E980064C65}" ShortID="124877592">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="NoHeadPhones" ID="{F17CE9FA-1BAB-4042-8FB9-95ED43558FA9}" WorkUnitID="{D2B83B49-2C61-4AD0-AB96-36C6020424B3}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{20EFC418-134D-4B53-A3F4-FA55A075C251}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>1</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="OnOffBand3" Type="bool" Value="False">
+											<RTPCList>
+												<RTPC Name="" ID="{D6A35A96-2813-428D-AE1D-B9F66BAAF887}" ShortID="298627756">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="NoHeadPhones" ID="{F17CE9FA-1BAB-4042-8FB9-95ED43558FA9}" WorkUnitID="{D2B83B49-2C61-4AD0-AB96-36C6020424B3}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{B0728071-FDCD-445E-8934-7EA49555B6D3}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>1</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
 										<Property Name="QFactorBand2" Type="Real32" Value="0.5"/>
 									</PropertyList>
 								</Effect>
@@ -657,7 +739,7 @@
 										<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
 										<Property Name="FilterTypeBand2" Type="int32" Value="3"/>
 										<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
-										<Property Name="FrequencyBand1" Type="Real32" Value="500"/>
+										<Property Name="FrequencyBand1" Type="Real32" Value="476"/>
 										<Property Name="OnOffBand2" Type="bool" Value="False"/>
 									</PropertyList>
 								</Effect>
