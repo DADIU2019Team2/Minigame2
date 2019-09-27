@@ -13,6 +13,6 @@ public class SoulThemeAcceleration : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       AkSoundEngine.SetRTPCValue("SoulTheme",this.gameObject.GetComponent<Rigidbody>().velocity.magnitude); 
+       AkSoundEngine.SetRTPCValue("Rhythm",this.gameObject.GetComponent<Rigidbody>().velocity.magnitude); 
     }
 }
