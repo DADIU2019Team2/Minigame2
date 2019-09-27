@@ -17,13 +17,13 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: f710a5ab47598e40a45535372c67d1ae
     GuidInternal: 
-    m_lastTime: -8586340090264775808
+    m_lastTime: -8586321062404775808
     List: []
   - PhysicalPath: Virtual Acoustics/Factory Reflect Acoustic Textures.wwu
     ParentPhysicalPath: 
     guid: 6b663d46a83ca54f8b4a5fef12b883f6
     GuidInternal: 
-    m_lastTime: -8586340090254775808
+    m_lastTime: -8586321062404775808
     List:
     - name: Acoustic_Banner
       guid: f2532d2fccda8e408b8898b1b52a26d6
@@ -184,14 +184,14 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 3713ca50998571499d3e31b46f895c9d
     GuidInternal: 
-    m_lastTime: -8586332422494775808
+    m_lastTime: -8586320361214775808
     List: []
   BankWwu:
   - PhysicalPath: SoundBanks/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: f92c26f321240f4f9309ee83162c4682
     GuidInternal: 
-    m_lastTime: -8586322756674775808
+    m_lastTime: -8586320392694775808
     List:
     - name: Main
       guid: 27021db6c3a9b64b929f67caad76d52f
@@ -207,8 +207,20 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 5d06e612f0eec94ab85bb5de10ac826d
     GuidInternal: 
-    m_lastTime: -8586322756674775808
+    m_lastTime: -8586320371184775808
     List:
+    - name: Enable_State_LevelsMusic
+      guid: 0e2189e9590a4146989aabc963b8bba3
+      id: 656382953
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enable_State_LevelsMusic
+        ObjectType: 3
+      Path: Default Work Unit/Enable_State_LevelsMusic
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Play_Box_plastic_impact_1
       guid: 9db3e28a319b724f8654b55212d56b77
       id: 2306258661
@@ -341,6 +353,30 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.032156
       minDuration: 0.654839
+    - name: Play_DeathAnimation
+      guid: 611e63f21ba74341941181f8d019a13d
+      id: 2720241158
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_DeathAnimation
+        ObjectType: 3
+      Path: Default Work Unit/Play_DeathAnimation
+      maxAttenuation: 0
+      maxDuration: 3.948776
+      minDuration: 3.948776
+    - name: Play_DeathAnimation_01
+      guid: 1e37d4743c48184c9ec5e42198f51438
+      id: 1896628372
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_DeathAnimation_01
+        ObjectType: 3
+      Path: Default Work Unit/Play_DeathAnimation_01
+      maxAttenuation: 0
+      maxDuration: 3.948776
+      minDuration: 3.948776
     - name: Play_Drum_collision
       guid: 2e26be9b620ff4408822c5947ea89534
       id: 2072427939
@@ -425,6 +461,42 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.952925
       minDuration: 1.952925
+    - name: Play_Human_Transform
+      guid: 78ce01af45f6794e892b7a420fbfea48
+      id: 1713691436
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Human_Transform
+        ObjectType: 3
+      Path: Default Work Unit/Play_Human_Transform
+      maxAttenuation: 0
+      maxDuration: 4.349093
+      minDuration: 4.349093
+    - name: Play_HumanBreath
+      guid: 2e6f9d66658d6540900c9414c3f208d5
+      id: 222374123
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_HumanBreath
+        ObjectType: 3
+      Path: Default Work Unit/Play_HumanBreath
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_HumanTransReverse
+      guid: 5fb27ea79b89cb4d8a0f2331139ae4a6
+      id: 1166548517
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_HumanTransReverse
+        ObjectType: 3
+      Path: Default Work Unit/Play_HumanTransReverse
+      maxAttenuation: 0
+      maxDuration: 4.349093
+      minDuration: 4.349093
     - name: Play_LampImpact
       guid: 41111e033c5f4e4285d2f645b6b8d715
       id: 3061002342
@@ -437,90 +509,66 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.633026
       minDuration: 0.633026
-    - name: Play_Level1music
-      guid: 25372e25825aa74a8e193c089d868ee0
-      id: 3605952550
+    - name: Play_LEVEL1
+      guid: 6a6cbb929a11644e8bdc8a773327fcac
+      id: 3659125941
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Play_Level1music
+      - ElementName: Play_LEVEL1
         ObjectType: 3
-      Path: Default Work Unit/Play_Level1music
+      Path: Default Work Unit/Play_LEVEL1
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_Level2music
-      guid: b391feb386bead4cb7bcae2844c50249
-      id: 565626987
+    - name: Play_LEVEL2
+      guid: 424e05274caa5241b2af47605f4f6660
+      id: 3659125942
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Play_Level2music
+      - ElementName: Play_LEVEL2
         ObjectType: 3
-      Path: Default Work Unit/Play_Level2music
+      Path: Default Work Unit/Play_LEVEL2
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_Level3music
-      guid: 56e6eb448c44dd4eb6206d67565671d1
-      id: 1946308780
+    - name: Play_LEVEL3
+      guid: 6000241f9261e743adc456320f52a7cc
+      id: 3659125943
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Play_Level3music
+      - ElementName: Play_LEVEL3
         ObjectType: 3
-      Path: Default Work Unit/Play_Level3music
+      Path: Default Work Unit/Play_LEVEL3
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_Level4music
-      guid: 38633deab6fc9541ad7c7375de439c18
-      id: 3045698593
+    - name: Play_LEVEL4
+      guid: 042e30a68c46834da8a9006664830b45
+      id: 3659125936
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Play_Level4music
+      - ElementName: Play_LEVEL4
         ObjectType: 3
-      Path: Default Work Unit/Play_Level4music
+      Path: Default Work Unit/Play_LEVEL4
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_Level4musicloop
-      guid: 5cab06ef57186d4bb117239c3c09c7b8
-      id: 839894203
+    - name: Play_LevelsMusic
+      guid: 260e1c9a6058f643b34aa35f7a0977e8
+      id: 4191183084
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Play_Level4musicloop
+      - ElementName: Play_LevelsMusic
         ObjectType: 3
-      Path: Default Work Unit/Play_Level4musicloop
+      Path: Default Work Unit/Play_LevelsMusic
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_Main_Theme
-      guid: 8ffaab07d694f548a6bc9018cc654fff
-      id: 3568813383
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Play_Main_Theme
-        ObjectType: 3
-      Path: Default Work Unit/Play_Main_Theme
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Play_Menu_Music
-      guid: 33663cf5f8b7904aa57037c19e104e0e
-      id: 2228153899
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Play_Menu_Music
-        ObjectType: 3
-      Path: Default Work Unit/Play_Menu_Music
-      maxAttenuation: 0
-      maxDuration: 32
-      minDuration: 32
     - name: Play_Metal_impact
       guid: 413b83ea7b6e1d4aa7d6355cc5ad5fc5
       id: 26906972
@@ -545,18 +593,6 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.716232
       minDuration: 0.716232
-    - name: Play_MetalImpact2
-      guid: 804db15ee11cad44bf4788b9eb7ec6dd
-      id: 1936521029
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Play_MetalImpact2
-        ObjectType: 3
-      Path: Default Work Unit/Play_MetalImpact2
-      maxAttenuation: 0
-      maxDuration: 0.950957
-      minDuration: 0.950957
     - name: Play_Monster_crawl_scrape1
       guid: bd1dfb07432a1044908822269eb6e11e
       id: 1470122796
@@ -570,7 +606,7 @@ MonoBehaviour:
       maxDuration: 0.666803
       minDuration: 0.666803
     - name: Play_Monster_impact
-      guid: e8c17d3d610cac4989775fb8b0bcfaac
+      guid: d92ebd0b9470964681b8392d4c179567
       id: 3939836301
       PathAndIcons:
       - ElementName: Default Work Unit
@@ -581,18 +617,42 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.755011
       minDuration: 1.755011
-    - name: Play_Monster_impact_01
-      guid: dd183030f6b4434fb4abe95133c9224e
-      id: 852515177
+    - name: Play_MonsterHit1
+      guid: 76c070e2987ecb4e9853c7c7b948d6ef
+      id: 1511572556
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Play_Monster_impact_01
+      - ElementName: Play_MonsterHit1
         ObjectType: 3
-      Path: Default Work Unit/Play_Monster_impact_01
+      Path: Default Work Unit/Play_MonsterHit1
       maxAttenuation: 0
-      maxDuration: 1.755011
-      minDuration: 1.755011
+      maxDuration: 1.974399
+      minDuration: 1.974399
+    - name: Play_MonsterHit2
+      guid: 1635608ed6a64d46b11342ee96434af7
+      id: 1511572559
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_MonsterHit2
+        ObjectType: 3
+      Path: Default Work Unit/Play_MonsterHit2
+      maxAttenuation: 0
+      maxDuration: 2.7422
+      minDuration: 2.7422
+    - name: Play_MonsterHit3
+      guid: dae8e358dc88fa4d9b6ac8d2d78a191f
+      id: 1511572558
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_MonsterHit3
+        ObjectType: 3
+      Path: Default Work Unit/Play_MonsterHit3
+      maxAttenuation: 0
+      maxDuration: 1.892132
+      minDuration: 1.892132
     - name: Play_MonsterIdle
       guid: a3cee47a642fc74e9ffa36a1a8dbffaa
       id: 2899271694
@@ -605,15 +665,15 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_Phone
-      guid: 1147c759dfa7f04baee5b2c9e10f25b3
-      id: 190234274
+    - name: Play_MonsterTheme
+      guid: 98eb059dd052fd459b18c7af83648d77
+      id: 125046271
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Play_Phone
+      - ElementName: Play_MonsterTheme
         ObjectType: 3
-      Path: Default Work Unit/Play_Phone
+      Path: Default Work Unit/Play_MonsterTheme
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -629,18 +689,18 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 2.565011
       minDuration: 2.565011
-    - name: Play_Portal_enter_next_level_01
-      guid: 6425a3898b4b67429d9670620f0a1ce1
-      id: 3500064728
+    - name: Play_Rhythm
+      guid: ca6faff35021924dbcd23ee387c5137f
+      id: 3917470406
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Play_Portal_enter_next_level_01
+      - ElementName: Play_Rhythm
         ObjectType: 3
-      Path: Default Work Unit/Play_Portal_enter_next_level_01
+      Path: Default Work Unit/Play_Rhythm
       maxAttenuation: 0
-      maxDuration: 2.565011
-      minDuration: 2.565011
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Smaller_glass_breaking
       guid: 9d2a40b9452fd54f9230e334b5f15c90
       id: 1720134853
@@ -690,7 +750,7 @@ MonoBehaviour:
       maxDuration: -1
       minDuration: -1
     - name: Play_SoulMovement
-      guid: 5822bcc2a250424c93504156caf49829
+      guid: 751942aee2d4244a907983f08adcf058
       id: 230120564
       PathAndIcons:
       - ElementName: Default Work Unit
@@ -701,18 +761,6 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_SoulMovement_01
-      guid: b464cc47c4c8074a967c944accec0958
-      id: 4243950682
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Play_SoulMovement_01
-        ObjectType: 3
-      Path: Default Work Unit/Play_SoulMovement_01
-      maxAttenuation: 0
-      maxDuration: 4.25
-      minDuration: 4.25
     - name: Play_TempImpact
       guid: 78fbc6139d0b1943a6b1b0c7e80d0691
       id: 1978530290
@@ -821,51 +869,63 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
-    - name: Set_State_Level1Music
-      guid: 8e46a2737b7a7749b59a51eca3e3ec50
-      id: 2795236840
+    - name: Set_NoHeadPhones
+      guid: 0c81959e8f89e345be1c8ba33aacd093
+      id: 2086049674
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Set_State_Level1Music
+      - ElementName: Set_NoHeadPhones
         ObjectType: 3
-      Path: Default Work Unit/Set_State_Level1Music
+      Path: Default Work Unit/Set_NoHeadPhones
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
-    - name: Set_State_Level2Music
-      guid: da8f9b950bedaf448e2a70b515c412aa
-      id: 2076178249
+    - name: Set_State_LEVEL1
+      guid: 0e1fc941656f5247bd3bd5e03c0258ad
+      id: 2773202283
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Set_State_Level2Music
+      - ElementName: Set_State_LEVEL1
         ObjectType: 3
-      Path: Default Work Unit/Set_State_Level2Music
+      Path: Default Work Unit/Set_State_LEVEL1
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
-    - name: Set_State_Level3Music
-      guid: f14acbc61d277142b7e65c8ef0508e8f
-      id: 1016171890
+    - name: Set_State_LEVEL2
+      guid: 3e372c5d8a56754f9dc4137d9fd18439
+      id: 2773202280
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Set_State_Level3Music
+      - ElementName: Set_State_LEVEL2
         ObjectType: 3
-      Path: Default Work Unit/Set_State_Level3Music
+      Path: Default Work Unit/Set_State_LEVEL2
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
-    - name: Set_State_Level4Music
-      guid: cc8153b8f9e32040b4230ae2fb28e4e6
-      id: 1822594163
+    - name: Set_State_LEVEL3
+      guid: 22108bec6cf94a4dbb56301ddff70812
+      id: 2773202281
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Set_State_Level4Music
+      - ElementName: Set_State_LEVEL3
         ObjectType: 3
-      Path: Default Work Unit/Set_State_Level4Music
+      Path: Default Work Unit/Set_State_LEVEL3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Set_State_LEVEL4
+      guid: 870efca22c70f142bf6c2f5a976f6145
+      id: 2773202286
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Set_State_LEVEL4
+        ObjectType: 3
+      Path: Default Work Unit/Set_State_LEVEL4
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -874,7 +934,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 493bb8d2612cd04aab9636c6020424b3
     GuidInternal: 
-    m_lastTime: -8586323586374775808
+    m_lastTime: -8586321062434775808
     List:
     - name: Music
       guid: 7e6db5316f1a8c47a7229b4f05b3525e
@@ -885,6 +945,15 @@ MonoBehaviour:
       - ElementName: Music
         ObjectType: 13
       Path: Default Work Unit/Music
+    - name: NoHeadPhones
+      guid: fae97cf1ab1b42408fb995ed43558fa9
+      id: 2169551381
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: NoHeadPhones
+        ObjectType: 13
+      Path: Default Work Unit/NoHeadPhones
     - name: SoulMovement
       guid: a438026bb26ddf4ca0ce410114a0c3f8
       id: 3077794743
@@ -916,7 +985,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 225213d7dbd1d042adc0930743567776
     GuidInternal: 
-    m_lastTime: -8586340090264775808
+    m_lastTime: -8586321062434775808
     List:
     - name: Playback_Rate
       guid: e37e38283ac11643b9c3db5c521624af
@@ -940,7 +1009,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 5577163b42fb8b4598bf96f557afb3b9
     GuidInternal: 
-    m_lastTime: -8586340090264775808
+    m_lastTime: -8586321062434775808
     List:
     - name: SS_Air_Fear
       guid: 59062ef746431c4ea1b1dab46a05101e
@@ -1036,7 +1105,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 97bdcb0b5177774a85bb6ac940f8cc3f
     GuidInternal: 
-    m_lastTime: -8586340090264775808
+    m_lastTime: -8586321062434775808
     List:
     - name: Density_FA_SSGrain
       guid: 9ef2b363f3048748ba1a4d7694644b24
@@ -1096,51 +1165,51 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 63506a07dfeb3e4fa4a5b04480a5b11a
     GuidInternal: 
-    m_lastTime: -8586335740774775808
+    m_lastTime: -8586321062434775808
     List: []
   StateWwu:
   - PhysicalPath: States/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: f72a159793ee4749af10afaa9503e672
     GuidInternal: 
-    m_lastTime: -8586323650674775808
+    m_lastTime: -8586320371184775808
     List:
-    - name: LevelMusic
-      guid: 08ff3fc85be82945a5fc00a1602748d9
-      id: 1321655446
+    - name: LevelsMusic
+      guid: 519f5a339044014680460809c8683a2f
+      id: 2871769893
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: LevelMusic
+      - ElementName: LevelsMusic
         ObjectType: 9
-      Path: Default Work Unit/LevelMusic
+      Path: Default Work Unit/LevelsMusic
       values:
-      - name: Level1Music
-        guid: dcd1c1cf02b0a1408af0a455f8a83da4
-        id: 447814771
+      - name: LEVEL1
+        guid: 30f5ba18bff18a4594b44627c00a2d82
+        id: 2678230382
         PathAndIcons:
-        - ElementName: Level1Music
+        - ElementName: LEVEL1
           ObjectType: 8
-      - name: Level2Music
-        guid: 71ba13e1f9e27643ad86841dd0185baf
-        id: 922141326
+      - name: LEVEL2
+        guid: 0354f6b5252ab54c9c1cf789e63d5f59
+        id: 2678230381
         PathAndIcons:
-        - ElementName: Level2Music
+        - ElementName: LEVEL2
           ObjectType: 8
-      - name: Level3Music
-        guid: c4ca989aa4959d4c985c21b3427582a3
-        id: 2030041701
+      - name: LEVEL3
+        guid: eba33eea69c3954eaa8794fca68c42a6
+        id: 2678230380
         PathAndIcons:
-        - ElementName: Level3Music
+        - ElementName: LEVEL3
           ObjectType: 8
-      - name: Level4Music
-        guid: 1c34b3306c5d9c4389d6db2d7f647ba5
-        id: 1420457448
+      - name: LEVEL4
+        guid: 313c74c1a227b246a1640770dfea68a0
+        id: 2678230379
         PathAndIcons:
-        - ElementName: Level4Music
+        - ElementName: LEVEL4
           ObjectType: 8
       - name: None
-        guid: 9df139034ffe60449991d28979bde680
+        guid: ea0b11430d03e14da55e957cbb8578dd
         id: 748895195
         PathAndIcons:
         - ElementName: None
@@ -1153,7 +1222,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 33ec5e5dfa142f41a50479a839216276
     GuidInternal: 
-    m_lastTime: -8586323586374775808
+    m_lastTime: -8586321062404775808
     List:
     - name: Weight
       guid: 94d50922573a8d489f45714979b9c308
@@ -1191,7 +1260,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 589b52fa4d63a541956816c3c25183f3
     GuidInternal: 
-    m_lastTime: -8586332484264775808
+    m_lastTime: -8586321062404775808
     List: []
   ExpandedItems:
   - /minigame1_sound_ny
