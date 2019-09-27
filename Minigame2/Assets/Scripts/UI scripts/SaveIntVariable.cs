@@ -11,5 +11,6 @@ public class SaveIntVariable : MonoBehaviour
     {
         int _int = Mathf.RoundToInt(value);
         intVar.setInt(_int);
+        GetComponent<InitialiseSliderAndWwiseValue>().SetRTCPValue();
     }
 }

@@ -12,9 +12,13 @@ public class MonsterController : MonoBehaviour
 {
     public Transform playerTransform;
     public gravityDirection monsterGravityDirection;
+
     public enum gravityDirection
     {
-        Up, Down, Left, Right
+        Up,
+        Down,
+        Left,
+        Right
     };
 
     private bool isMovingInXaxis;
@@ -23,25 +27,26 @@ public class MonsterController : MonoBehaviour
     public float monsterGravity;
     private Vector3 gravityDirVector;
     [Range(0, 10f)] public float maxSpeed;
-
+    [Range(0, 10f)] public float turnSpeed;
     private Vector3 _moveDirection, _gravDirection;
+
     // Start is called before the first frame update
     private void Awake()
     {
         _controller = GetComponent<CharacterController>();
-        playerTransform = GameObject.FindWithTag("Player").transform;
+//        playerTransform = GameObject.FindWithTag("Player").transform;
 
         SetMonsterGravityDirection(monsterGravityDirection);
     }
 
 
-
     // Update is called once per frame
     private void FixedUpdate()
     {
-
         Vector3 playerSubMonsterPos = (playerTransform.position - transform.position).normalized;
-        int moveSign = isMovingInXaxis ? (int)Mathf.Sign(playerSubMonsterPos.x) : (int)Mathf.Sign(playerSubMonsterPos.y);
+        int moveSign = isMovingInXaxis
+            ? (int) Mathf.Sign(playerSubMonsterPos.x)
+            : (int) Mathf.Sign(playerSubMonsterPos.y);
         Debug.Log("moveSign is: " + moveSign);
 
 
@@ -49,17 +54,22 @@ public class MonsterController : MonoBehaviour
 
 
         _moveDirection = isMovingInXaxis ? Vector3.right * moveSign : Vector3.up * moveSign;
+        /*Vector3 lookDirection = isMovingInXaxis ? Vector3.right * moveSign : Vector3.up * moveSign;
+        lookDirection.z = Random.Range(-1f, 1f);*/
+        Quaternion targetRot = Quaternion.LookRotation(_moveDirection, transform.up);
+        transform.localRotation = Quaternion.Slerp(transform.localRotation, targetRot, turnSpeed * Time.deltaTime);
         _moveDirection *= maxSpeed;
 
         _gravDirection = gravityDirVector * monsterGravity;
         Debug.Log("Movedirection = " + _moveDirection);
         //monsterRb.AddForce(_gravDirection, ForceMode.Acceleration);
-        _controller.Move(_moveDirection*Time.fixedDeltaTime + _gravDirection);
-
-
-
+        _controller.Move(_moveDirection * Time.deltaTime + _gravDirection);
     }
 
+    public Vector3 GetMoveDirection()
+    {
+        return _moveDirection;
+    }
 
     //Change direction of monsters gravity and its orientation in world space.
     public void SetMonsterGravityDirection(gravityDirection monsterGravityDirection)
@@ -87,7 +97,6 @@ public class MonsterController : MonoBehaviour
                 gravityDirVector = Vector3.right;
                 isMovingInXaxis = false;
                 return;
-
         }
     }
 }
