@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6675706947066473593
+--- !u!1 &8094029441698099177
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,51 +8,50 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2639592690200414696}
-  - component: {fileID: 4438105598221113642}
-  - component: {fileID: 2249269252268723140}
+  - component: {fileID: 8143034205165845980}
+  - component: {fileID: 5988125591649893898}
   m_Layer: 0
-  m_Name: Red Point
+  m_Name: Violet Spot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2639592690200414696
+--- !u!4 &8143034205165845980
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6675706947066473593}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.465576, y: -3.7866325, z: -0.48072082}
+  m_GameObject: {fileID: 8094029441698099177}
+  m_LocalRotation: {x: 0.06979524, y: -0.045829248, z: -0.04987413, w: 0.9952592}
+  m_LocalPosition: {x: 6.745694, y: 0.81631255, z: -11.917051}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!108 &4438105598221113642
+  m_LocalEulerAnglesHint: {x: 7.721, y: -5.6860003, z: -6.122}
+--- !u!108 &5988125591649893898
 Light:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6675706947066473593}
+  m_GameObject: {fileID: 8094029441698099177}
   m_Enabled: 1
   serializedVersion: 9
-  m_Type: 2
-  m_Color: {r: 1, g: 0.23921569, b: 0.37254903, a: 1}
-  m_Intensity: 4.7
-  m_Range: 2.5216591
-  m_SpotAngle: 30
+  m_Type: 0
+  m_Color: {r: 0.76862746, g: 0.26274508, b: 0.43009412, a: 1}
+  m_Intensity: 229.36
+  m_Range: 14.7
+  m_SpotAngle: 99.93491
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 1
+    m_Strength: 0.177
     m_Bias: 0.02
     m_NormalBias: 0.1
     m_NearPlane: 0.1
@@ -92,22 +91,3 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!95 &2249269252268723140
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6675706947066473593}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4e2e3aab621e4a94c85e53ed71485b99, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
