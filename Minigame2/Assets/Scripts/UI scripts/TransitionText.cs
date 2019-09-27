@@ -4,7 +4,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 using MiniGame2.Events;
-[RequireComponent(typeof(LoadLevel),typeof(CanvasGroup))]
+[RequireComponent(typeof(LoadLevel), typeof(CanvasGroup))]
 public class TransitionText : MonoBehaviour
 {
     [SerializeField] private IntVariable lastLevelPassFail;
@@ -26,11 +26,11 @@ public class TransitionText : MonoBehaviour
         //DontDestroyOnLoad(this.gameObject);
         canvasGroup = GetComponent<CanvasGroup>();
         loadLevel = GetComponent<LoadLevel>();
-        if(SceneManager.GetActiveScene().buildIndex - 1 < 0)
+        if (SceneManager.GetActiveScene().buildIndex - 1 < 0)
         {
             return;
         }
-        if(lastLevelPassFail.GetInt() == 1)
+        if (lastLevelPassFail.GetInt() == 1)
         {
             ActivateTransitionText(SceneManager.GetActiveScene().buildIndex - 1);
         }
@@ -121,7 +121,6 @@ public class TransitionText : MonoBehaviour
             currentTranistionObject.SetActive(false);
         }
         Time.timeScale = 1;
-        this.gameObject.GetComponent<LoadLevel>().loadNextLevel();
     }
 
     IEnumerator fadeIn(CanvasGroup _canvas, float fadeTime)
@@ -130,10 +129,10 @@ public class TransitionText : MonoBehaviour
         //_canvas.alpha = 0f; //make sure it's "off" from the start
         //Debug.Log("Am i called more than once?");
 
-        while(_canvas.alpha < 1)
+        while (_canvas.alpha < 1)
         {
             //Debug.Log("Does this happen alot?");
-            float targetAlpha = currentTime/fadeTime;
+            float targetAlpha = currentTime / fadeTime;
             _canvas.alpha = targetAlpha;
             yield return new WaitForSecondsRealtime(0);//waits for next frame
             currentTime += Time.unscaledDeltaTime;
@@ -155,6 +154,8 @@ public class TransitionText : MonoBehaviour
         }
         doneFadeOutEvent.Raise();
         yield return new WaitForSeconds(1);
+        DeactivateDeathText();
+        DeactivateLevelText();
         //Destroy(gameObject);
     }
 }

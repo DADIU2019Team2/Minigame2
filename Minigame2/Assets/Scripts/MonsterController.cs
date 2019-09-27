@@ -27,14 +27,17 @@ public class MonsterController : MonoBehaviour
     public float monsterGravity;
     private Vector3 gravityDirVector;
     [Range(0, 10f)] public float maxSpeed;
+    private float threshhold = 0.1f; //Distance between monster and player threshhold, under which the monster wont move.
+    private float initialZPos;
     [Range(0, 10f)] public float turnSpeed;
     private Vector3 _moveDirection, _gravDirection;
 
     // Start is called before the first frame update
     private void Awake()
     {
+        initialZPos = transform.position.z;
         _controller = GetComponent<CharacterController>();
-//        playerTransform = GameObject.FindWithTag("Player").transform;
+        playerTransform = GameObject.FindWithTag("Player").transform;
 
         SetMonsterGravityDirection(monsterGravityDirection);
     }
@@ -48,22 +51,30 @@ public class MonsterController : MonoBehaviour
             ? (int) Mathf.Sign(playerSubMonsterPos.x)
             : (int) Mathf.Sign(playerSubMonsterPos.y);
         Debug.Log("moveSign is: " + moveSign);
-
-
         //transform.LookAt(playerPositionInMonsterHeight);
 
-
         _moveDirection = isMovingInXaxis ? Vector3.right * moveSign : Vector3.up * moveSign;
+        bool isDistanceToPlayerLargerThanThreshhold = (isMovingInXaxis ? Mathf.Abs(playerSubMonsterPos.x) > threshhold : Mathf.Abs(playerSubMonsterPos.y) > threshhold);
+        if (isDistanceToPlayerLargerThanThreshhold)
+        {
+            _moveDirection *= maxSpeed;
+        }
+        else
+        {
+            _moveDirection *= 0;
+        }
         /*Vector3 lookDirection = isMovingInXaxis ? Vector3.right * moveSign : Vector3.up * moveSign;
         lookDirection.z = Random.Range(-1f, 1f);*/
         Quaternion targetRot = Quaternion.LookRotation(_moveDirection, transform.up);
         transform.localRotation = Quaternion.Slerp(transform.localRotation, targetRot, turnSpeed * Time.deltaTime);
-        _moveDirection *= maxSpeed;
 
         _gravDirection = gravityDirVector * monsterGravity;
         Debug.Log("Movedirection = " + _moveDirection);
         //monsterRb.AddForce(_gravDirection, ForceMode.Acceleration);
-        _controller.Move(_moveDirection * Time.deltaTime + _gravDirection);
+        _controller.Move(_moveDirection * Time.fixedDeltaTime + _gravDirection);
+
+        transform.position = new Vector3(transform.position.x, transform.position.y, initialZPos); //To prevent moving on the Z-axis through collisions.
+
     }
 
     public Vector3 GetMoveDirection()
