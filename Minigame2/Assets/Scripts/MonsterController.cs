@@ -12,9 +12,13 @@ public class MonsterController : MonoBehaviour
 {
     public Transform playerTransform;
     public gravityDirection monsterGravityDirection;
+
     public enum gravityDirection
     {
-        Up, Down, Left, Right
+        Up,
+        Down,
+        Left,
+        Right
     };
 
     private bool isMovingInXaxis;
@@ -25,7 +29,9 @@ public class MonsterController : MonoBehaviour
     [Range(0, 10f)] public float maxSpeed;
     private float threshhold = 0.1f; //Distance between monster and player threshhold, under which the monster wont move.
     private float initialZPos;
+    [Range(0, 10f)] public float turnSpeed;
     private Vector3 _moveDirection, _gravDirection;
+
     // Start is called before the first frame update
     private void Awake()
     {
@@ -37,19 +43,17 @@ public class MonsterController : MonoBehaviour
     }
 
 
-
     // Update is called once per frame
     private void FixedUpdate()
     {
-
         Vector3 playerSubMonsterPos = (playerTransform.position - transform.position).normalized;
-        int moveSign = isMovingInXaxis ? (int)Mathf.Sign(playerSubMonsterPos.x) : (int)Mathf.Sign(playerSubMonsterPos.y);
+        int moveSign = isMovingInXaxis
+            ? (int) Mathf.Sign(playerSubMonsterPos.x)
+            : (int) Mathf.Sign(playerSubMonsterPos.y);
         Debug.Log("moveSign is: " + moveSign);
         //transform.LookAt(playerPositionInMonsterHeight);
 
         _moveDirection = isMovingInXaxis ? Vector3.right * moveSign : Vector3.up * moveSign;
-        transform.localRotation = Quaternion.LookRotation(_moveDirection, transform.up);
-
         bool isDistanceToPlayerLargerThanThreshhold = (isMovingInXaxis ? Mathf.Abs(playerSubMonsterPos.x) > threshhold : Mathf.Abs(playerSubMonsterPos.y) > threshhold);
         if (isDistanceToPlayerLargerThanThreshhold)
         {
@@ -59,6 +63,10 @@ public class MonsterController : MonoBehaviour
         {
             _moveDirection *= 0;
         }
+        /*Vector3 lookDirection = isMovingInXaxis ? Vector3.right * moveSign : Vector3.up * moveSign;
+        lookDirection.z = Random.Range(-1f, 1f);*/
+        Quaternion targetRot = Quaternion.LookRotation(_moveDirection, transform.up);
+        transform.localRotation = Quaternion.Slerp(transform.localRotation, targetRot, turnSpeed * Time.deltaTime);
 
         _gravDirection = gravityDirVector * monsterGravity;
         Debug.Log("Movedirection = " + _moveDirection);
@@ -100,7 +108,6 @@ public class MonsterController : MonoBehaviour
                 gravityDirVector = Vector3.right;
                 isMovingInXaxis = false;
                 return;
-
         }
     }
 }

@@ -29,7 +29,8 @@ public class CurvePredictor : MonoBehaviour
     {
         acceleration = monsterController.GetMoveDirection();
         velocity = Vector3.ClampMagnitude(velocity + acceleration * Time.deltaTime, maxVelocity);
-        fwdPoints = SimulateLocalCurve(1f, 0.25f);
+//        fwdPoints = SimulateLocalCurve(1f, 0.25f);
+        fwdPoints = SimulateLerpedCurve();
         fwdCurve = new MotionCurve(-1, "controlCurve", 0, fwdPoints);
         if (showFwdCurve)
         {
@@ -63,17 +64,40 @@ public class CurvePredictor : MonoBehaviour
         return tempCurvePoints;
     }
 
+    public CurvePoint[] SimulateLerpedCurve()
+    {
+        Vector3 monsterForward = monsterController.transform.forward;
+        Quaternion monsterRotation = monsterController.transform.localRotation;
+        Vector3 moveDir = monsterController.GetMoveDirection().normalized;
+        Quaternion targetRotation = Quaternion.LookRotation(moveDir,transform.up);
+        CurvePoint[] tempCurvePoints = new CurvePoint[4];
+        Vector3 prevPoint = Vector3.zero;
+        for (int i = 0; i < tempCurvePoints.Length; i++)
+        {
+            Vector3 tempPos = prevPoint + Quaternion.Slerp(monsterRotation, targetRotation, i * 0.25f + 0.25f) * Vector3.forward * 0.1f;
+            
+            Vector3 tempFwd = (tempPos - prevPoint).normalized;
+            
+            prevPoint = tempPos;
+            tempPos = transform.worldToLocalMatrix.MultiplyVector(tempPos);
+            tempFwd = transform.worldToLocalMatrix.MultiplyVector(tempFwd);
+            tempCurvePoints[i] = new CurvePoint(tempPos,tempFwd);
+        }
+
+        return tempCurvePoints;
+    }
+
     private void DrawCurrentFwdCurve(Color color)
     {
-        Debug.DrawLine(Vector3.zero, fwdPoints[0].Position, color);
+        Debug.DrawLine(transform.position, transform.position+fwdPoints[0].Position, color);
         for (int i = 0; i < fwdPoints.Length - 1; i++)
         {
-            Debug.DrawLine(fwdPoints[i].Position, fwdPoints[i + 1].Position, color);
+            Debug.DrawLine(transform.position+fwdPoints[i].Position, transform.position+fwdPoints[i + 1].Position, color);
         }
 
         foreach (var p in fwdPoints)
         {
-            Debug.DrawLine(p.Position, p.Position + p.Forward * 0.2f, Color.yellow);
+            Debug.DrawLine(transform.position+p.Position, transform.position+p.Position + p.Forward * 0.2f, Color.yellow);
         }
     }
 }

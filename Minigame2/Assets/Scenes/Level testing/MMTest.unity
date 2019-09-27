@@ -3678,6 +3678,21 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 681635010}
+    - target: {fileID: 953340954687762994, guid: 5b006143a93c39c47b41f52aa7059a0c,
+        type: 3}
+      propertyPath: monsterGravityDirection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 953340954687762994, guid: 5b006143a93c39c47b41f52aa7059a0c,
+        type: 3}
+      propertyPath: maxSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 953340954687762994, guid: 5b006143a93c39c47b41f52aa7059a0c,
+        type: 3}
+      propertyPath: turnSpeed
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6337598933765247758, guid: 5b006143a93c39c47b41f52aa7059a0c,
         type: 3}
       propertyPath: m_Enabled
@@ -3717,6 +3732,41 @@ PrefabInstance:
       propertyPath: motionDataFile
       value: 
       objectReference: {fileID: 4900000, guid: 08f6b742d91fce542820995733c443f5, type: 3}
+    - target: {fileID: 2995901984201761879, guid: 5b006143a93c39c47b41f52aa7059a0c,
+        type: 3}
+      propertyPath: curveThreshold
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995901984201761879, guid: 5b006143a93c39c47b41f52aa7059a0c,
+        type: 3}
+      propertyPath: positiveBanWindow
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995901984201761879, guid: 5b006143a93c39c47b41f52aa7059a0c,
+        type: 3}
+      propertyPath: negativeBanwindow
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995901984201761879, guid: 5b006143a93c39c47b41f52aa7059a0c,
+        type: 3}
+      propertyPath: curvePointWeights.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995901984201761879, guid: 5b006143a93c39c47b41f52aa7059a0c,
+        type: 3}
+      propertyPath: curvePointWeights.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995901984201761879, guid: 5b006143a93c39c47b41f52aa7059a0c,
+        type: 3}
+      propertyPath: curvePointWeights.Array.data[2]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995901984201761879, guid: 5b006143a93c39c47b41f52aa7059a0c,
+        type: 3}
+      propertyPath: curvePointWeights.Array.data[3]
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3785962395491869925, guid: 5b006143a93c39c47b41f52aa7059a0c,
         type: 3}
       propertyPath: m_Enabled
