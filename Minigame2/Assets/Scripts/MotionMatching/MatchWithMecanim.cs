@@ -48,7 +48,7 @@ public class MatchWithMecanim : MonoBehaviour
     [Range(0, 50)] public int positiveBanWindow;
     [Range(0, 50)] public int negativeBanwindow;
 
-    public bool isMotionMatchingRunning;
+    public bool isMotionMatchingRunning;    
     public float bestDistance;
     public List<int> poseCandidates;
     public MotionCurve currentBestCurve;
