@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Done Levels/Level 01.unity
     guid: c3e74d5973c3fa7459606e37c6f72fd8
   - enabled: 1
+    path: Assets/Scenes/Level testing/Level 02.unity
+    guid: d258ef5fc9524dd4f8b83eb9aa3f666f
+  - enabled: 1
     path: Assets/Scenes/Done Levels/Level 03.unity
     guid: ef9c6285c282e4c4db50d6ced0120dd3
   - enabled: 1

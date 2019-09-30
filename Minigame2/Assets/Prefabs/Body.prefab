@@ -140,6 +140,7 @@ GameObject:
   - component: {fileID: 7498563314979404565}
   - component: {fileID: 2525105468624332620}
   - component: {fileID: 6812775229957202614}
+  - component: {fileID: 10410484}
   m_Layer: 0
   m_Name: BodyEventlistener
   m_TagString: Untagged
@@ -177,8 +178,8 @@ MonoBehaviour:
   unityEventResponse:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8284330650746059686}
-        m_MethodName: Play
+      - m_Target: {fileID: 10410484}
+        m_MethodName: FlipBool
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -206,8 +207,8 @@ MonoBehaviour:
   unityEventResponse:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8284330650746059686}
-        m_MethodName: Play
+      - m_Target: {fileID: 10410484}
+        m_MethodName: FlipBool
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -235,8 +236,8 @@ MonoBehaviour:
   unityEventResponse:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8284330650746059686}
-        m_MethodName: Play
+      - m_Target: {fileID: 10410484}
+        m_MethodName: FlipBool
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -248,6 +249,19 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: MiniGame2.Events.UnityVoidEvent, Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &10410484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757243700741769953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc66a3deceb469b49a2e7ee0dbd69473, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 8284330650746059686}
 --- !u!1 &760302552939867590
 GameObject:
   m_ObjectHideFlags: 0
@@ -261,8 +275,8 @@ GameObject:
   - component: {fileID: 1545310545392113679}
   - component: {fileID: 6726105369857928925}
   - component: {fileID: 3319554068049592367}
-  - component: {fileID: 8486740812436362479}
-  - component: {fileID: 5173746894275611335}
+  - component: {fileID: 27704075}
+  - component: {fileID: 27704076}
   m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
@@ -374,7 +388,7 @@ MonoBehaviour:
   eventIdInternal: 0
   valueGuidInternal: 
   m_callbackDataInternal: {fileID: 0}
---- !u!114 &8486740812436362479
+--- !u!114 &27704075
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -388,6 +402,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   leaveSoundName: HumanTransReverse
 --- !u!114 &5173746894275611335
+  m_Script: {fileID: 11500000, guid: 540f020ccf7add242920ce0c441a0e5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkInteractionBy: 1
+  triggerEventOn: 0
+  onEnterEvent: {fileID: 11400000, guid: edbbe4450859c4a49b8f3ba616203861, type: 2}
+  onExitEvent: {fileID: 0}
+  collidableObject: {fileID: 0}
+  tagToLookFor: 
+  isOneTimeEvent: 0
+--- !u!114 &27704076
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -400,6 +425,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &6322117990400652743
+  m_Script: {fileID: 11500000, guid: 8826a87feb8f4f74ead6bae77603a757, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 17682ffb1ae04814ba2b5f01693d41f9, type: 2}
+  unityEventResponse:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8284330650746059686}
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: human_soulLeave
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: MiniGame2.Events.UnityVoidEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!1 &3465752877590757129
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -530,13 +576,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: corpse_CTRL
       objectReference: {fileID: 0}
-    - target: {fileID: 7820146292133500028, guid: 78c13b8f0fbf11b4d9a0698c39ff1908,
+    - target: {fileID: 2687371366623792582, guid: 78c13b8f0fbf11b4d9a0698c39ff1908,
         type: 3}
-      propertyPath: m_Enabled
-      value: 1
+      propertyPath: m_ApplyRootMotion
+      value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 7820146292133500028, guid: 78c13b8f0fbf11b4d9a0698c39ff1908, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78c13b8f0fbf11b4d9a0698c39ff1908, type: 3}
 --- !u!4 &6174455497275707238 stripped
 Transform:
