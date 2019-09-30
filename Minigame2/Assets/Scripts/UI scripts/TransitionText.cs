@@ -75,6 +75,17 @@ public class TransitionText : MonoBehaviour
         }
     }
 
+    public void delayedActivateTransitionTextForNextLevel(float _delay)
+    {
+        StartCoroutine(DelayedActivateTransitionTextForNextLevel(_delay));
+    }
+
+    IEnumerator DelayedActivateTransitionTextForNextLevel(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        ActivateTransitionTextForNextLevel();
+    }
+
     public void ActivateTransitionTextForNextLevel()
     {
         int sceneIndexToActivate = SceneManager.GetActiveScene().buildIndex;

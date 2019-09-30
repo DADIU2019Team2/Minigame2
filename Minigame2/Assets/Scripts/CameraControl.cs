@@ -20,25 +20,24 @@ public class CameraControl : MonoBehaviour
     [SerializeField] private GameObject transitionSoul;
     private Animator bodyAnimator;
     public VoidEvent cameraTransitionStartedEvent;
-    
+
 
     private void Start()
     {
         timeSinceLevelStarted = 0;
-        isStartOfLevel = true; 
+        isStartOfLevel = true;
         zPos = transform.position.z;
         player = GameObject.FindGameObjectWithTag("Player");
         targetTransform = player.transform;
         player.SetActive(false);
-        
+
         GameObject body = GameObject.Find("Body");
-        bodyPosition = body.transform.position;
-        
+        if (body != null) { bodyPosition = body.transform.position; }
         transitionSoul.transform.position = new Vector3(transitionSoul.transform.position.x, transitionSoul.transform.position.y, player.transform.position.z);
 
         initialPosition = new Vector3(bodyPosition.x, bodyPosition.y + 1.5f, zPos);
         transform.position = initialPosition;
-        
+
     }
 
 
@@ -63,13 +62,18 @@ public class CameraControl : MonoBehaviour
         }
         else
         {
-            FindObjectOfType<Gravity>().gameObject.SetActive(true);
+            if (player.activeSelf)
+            {
+                temp.x = targetTransform.position.x;
+                temp.y = targetTransform.position.y;
+                temp.z = this.transform.position.z;
+                this.transform.position = temp;
+                return;
+            }
+            FindObjectOfType<Gravity>().enabled = true;
             player.SetActive(true);
             Destroy(transitionSoul, 2);
-            temp.x = targetTransform.position.x;
-            temp.y = targetTransform.position.y;
-            temp.z = this.transform.position.z;
-            this.transform.position = temp;
+
         }
         timeSinceLevelStarted += Time.deltaTime;
     }
