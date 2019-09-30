@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1666242319965706139}
-  - component: {fileID: 2485721560988991104}
   - component: {fileID: -557362817704129532}
   - component: {fileID: -9087385508413813168}
   - component: {fileID: -1671684088251629840}
@@ -37,33 +36,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2485721560988991104
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2880710481725592346}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9cb881f00002840fb9f5f3becb0c08ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  InitializationSettings: {fileID: 11400000, guid: 55ae3d39c15254a81a7c696275a98e93,
-    type: 2}
-  basePath: 
-  language: 
-  defaultPoolSize: 0
-  lowerPoolSize: 0
-  streamingPoolSize: 0
-  memoryCutoffThreshold: 0
-  monitorPoolSize: 0
-  monitorQueuePoolSize: 0
-  callbackManagerBufferSize: 0
-  spatialAudioPoolSize: 0
-  maxSoundPropagationDepth: 0
-  diffractionFlags: 11
-  engineLogging: 0
 --- !u!114 &-557362817704129532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166,7 +138,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 0c77dc488e6204cd4a3ec61dcf4314d4,
+    WwiseObjectReference: {fileID: 11400000, guid: 859c9e32af80a1e4088d509d6da1794e,
       type: 2}
   useCallbacks: 0
   Callbacks: []
@@ -196,7 +168,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: e577b1bff02624bf998d7917be7d7578,
+    WwiseObjectReference: {fileID: 11400000, guid: 105a3f92e79e6d1419a7ed7b61bc3e78,
       type: 2}
   useCallbacks: 0
   Callbacks: []

@@ -76,7 +76,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8826a87feb8f4f74ead6bae77603a757, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameEvent: {fileID: 11400000, guid: baa73d7520addad408f215aadc70f6bc, type: 2}
+  gameEvent: {fileID: 0}
   unityEventResponse:
     m_PersistentCalls:
       m_Calls:
@@ -427,12 +427,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 540f020ccf7add242920ce0c441a0e5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  checkInteractionBy: 1
+  checkInteractionBy: 0
   triggerEventOn: 0
-  onEnterEvent: {fileID: 11400000, guid: baa73d7520addad408f215aadc70f6bc, type: 2}
+  onEnterEvent: {fileID: 0}
   onExitEvent: {fileID: 0}
   collidableObject: {fileID: 0}
-  tagToLookFor: 
+  tagToLookFor: Monster
   isOneTimeEvent: 0
 --- !u!95 &8500038902765548695
 Animator:
