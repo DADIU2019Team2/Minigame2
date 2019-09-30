@@ -37,6 +37,7 @@ namespace AK
         static const AkUniqueID PLAY_HUMAN_TRANSFORM = 1713691436U;
         static const AkUniqueID PLAY_HUMANBREATH = 222374123U;
         static const AkUniqueID PLAY_HUMANTRANSREVERSE = 1166548517U;
+        static const AkUniqueID PLAY_KICKACCEL = 1575918696U;
         static const AkUniqueID PLAY_LAMPIMPACT = 3061002342U;
         static const AkUniqueID PLAY_LEVEL1 = 3659125941U;
         static const AkUniqueID PLAY_LEVEL2 = 3659125942U;
@@ -59,6 +60,7 @@ namespace AK
         static const AkUniqueID PLAY_SMALLMETAL2 = 1389736158U;
         static const AkUniqueID PLAY_SOUL_THEME = 1894735553U;
         static const AkUniqueID PLAY_SOULMOVEMENT = 230120564U;
+        static const AkUniqueID PLAY_STONEIMPACTRANDOM = 2496174970U;
         static const AkUniqueID PLAY_TEMPIMPACT = 1978530290U;
         static const AkUniqueID PLAY_WOOD_IMPACT2 = 864292832U;
         static const AkUniqueID PLAY_WOODBIG1 = 913814822U;

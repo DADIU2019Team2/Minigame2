@@ -22,6 +22,7 @@ public class CameraControl : MonoBehaviour
 
     private void Start()
     {
+        timeSinceLevelStarted = 0;
         isStartOfLevel = true;
         initialPosition = transform.position;
         targetTransform = GameObject.FindGameObjectWithTag("Player").transform;
@@ -39,7 +40,7 @@ public class CameraControl : MonoBehaviour
 
         float zPos = transform.position.z;
         float t = timeSinceLevelStarted / startOfLevelTransitionTime;
-        Debug.Log("Time: " + t);
+        //Debug.Log("Time: " + t);
         isStartOfLevel = (t <= 0.99f);
         if (isStartOfLevel)
         {
@@ -60,6 +61,7 @@ public class CameraControl : MonoBehaviour
 
     public void CanvasFadedOutEventResponse()
     {
+        Debug.Log("Called canvas fadeout event-response on camera");
         hasCanvasFadedOut = true;
     }
 }

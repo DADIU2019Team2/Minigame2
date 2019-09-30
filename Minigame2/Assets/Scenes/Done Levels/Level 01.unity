@@ -1064,8 +1064,73 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5355982775992455725, guid: a0fe22cae3fcda4449b25e152704f468,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3473688543278802186, guid: a0fe22cae3fcda4449b25e152704f468,
+        type: 3}
+      propertyPath: textTranistionArr.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3473688543278802186, guid: a0fe22cae3fcda4449b25e152704f468,
+        type: 3}
+      propertyPath: textTranistionArr.Array.data[3]
+      value: 
+      objectReference: {fileID: 1754989134}
+    - target: {fileID: 3473688543278802186, guid: a0fe22cae3fcda4449b25e152704f468,
+        type: 3}
+      propertyPath: textTranistionArr.Array.data[4]
+      value: 
+      objectReference: {fileID: 1754989133}
+    - target: {fileID: 3473688543278802186, guid: a0fe22cae3fcda4449b25e152704f468,
+        type: 3}
+      propertyPath: textTranistionArr.Array.data[2]
+      value: 
+      objectReference: {fileID: 1754989135}
+    - target: {fileID: 3473688543278802186, guid: a0fe22cae3fcda4449b25e152704f468,
+        type: 3}
+      propertyPath: textTranistionArr.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3473688543278802186, guid: a0fe22cae3fcda4449b25e152704f468,
+        type: 3}
+      propertyPath: textTranistionArr.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0fe22cae3fcda4449b25e152704f468, type: 3}
+--- !u!114 &1754989132 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3473688543278802186, guid: a0fe22cae3fcda4449b25e152704f468,
+    type: 3}
+  m_PrefabInstance: {fileID: 1754989131}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a500d7aad7906f49a049d62e6acb264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1754989133 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4922956934832782869, guid: a0fe22cae3fcda4449b25e152704f468,
+    type: 3}
+  m_PrefabInstance: {fileID: 1754989131}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1754989134 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 147323740295061182, guid: a0fe22cae3fcda4449b25e152704f468,
+    type: 3}
+  m_PrefabInstance: {fileID: 1754989131}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1754989135 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 32777898454911438, guid: a0fe22cae3fcda4449b25e152704f468,
+    type: 3}
+  m_PrefabInstance: {fileID: 1754989131}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1782176991
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1152,7 +1217,6 @@ GameObject:
   - component: {fileID: 1881274984}
   - component: {fileID: 1881274983}
   - component: {fileID: 1881274982}
-  - component: {fileID: 1881274985}
   m_Layer: 0
   m_Name: EventListener
   m_TagString: Untagged
@@ -1188,13 +1252,13 @@ MonoBehaviour:
   unityEventResponse:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1881274982}
-        m_MethodName: loadNextLevel
+      - m_Target: {fileID: 1754989132}
+        m_MethodName: ActivateTransitionTextForNextLevel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1215,46 +1279,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1881274985
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1881274981}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8826a87feb8f4f74ead6bae77603a757, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameEvent: {fileID: 11400000, guid: 5bcc9b15ce3f3bb42a69b91b4f918759, type: 2}
-  unityEventResponse:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: Play
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 2
-          m_StringArgument: Learning lvl gate opening
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_MethodName: Play
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: buttonPress
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: MiniGame2.Events.UnityVoidEvent, Assembly-CSharp, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &1896383812
 GameObject:
   m_ObjectHideFlags: 0
@@ -1459,5 +1483,20 @@ PrefabInstance:
       propertyPath: collidableObject
       value: 
       objectReference: {fileID: 1226773955}
+    - target: {fileID: 6174455497275707238, guid: 0935d5e7b63ffe847adce2a4d6068988,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6174455497275707238, guid: 0935d5e7b63ffe847adce2a4d6068988,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6174455497275707238, guid: 0935d5e7b63ffe847adce2a4d6068988,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0935d5e7b63ffe847adce2a4d6068988, type: 3}

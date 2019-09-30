@@ -818,6 +818,38 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_StoneImpactRandom" ID="{8EA0E794-59A3-46E1-B2FC-9FCFD419DB92}">
+					<ChildrenList>
+						<Action Name="" ID="{BF75A9D1-365D-482D-BC73-1D9F21D0C132}" ShortID="562973546">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="StoneImpactRandom" ID="{122EE70C-06A4-49BC-BE37-5A66D80AFCC9}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C9442F5B-ECED-46C6-A13C-1E8FA45938C0}" ShortID="540700842">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="StoneImpactRandom" ID="{122EE70C-06A4-49BC-BE37-5A66D80AFCC9}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_KickAccel" ID="{504E6034-B69D-4E89-B615-038627CBE776}">
+					<ChildrenList>
+						<Action Name="" ID="{AE4F2F34-2221-4635-93B6-C15361E611E4}" ShortID="859906443">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="KickAccel" ID="{7925C22E-2A93-46A7-B6D2-E2A690E49A00}" WorkUnitID="{B275BE2C-211A-498B-AEB5-B3A279B58F59}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -44,7 +44,7 @@ public class TransitionText : MonoBehaviour
         if (canvasGroup.gameObject.activeInHierarchy)
         {
             StartCoroutine(fadeOut(canvasGroup, transitionFadeTime));
-            Debug.Log("Should fade out now");
+            //Debug.Log("Should fade out now");
         }
         lastLevelPassFail.setInt(0);
     }
@@ -57,7 +57,7 @@ public class TransitionText : MonoBehaviour
             ActivateDeathText();
         }
     }*/
-    private void ActivateTransitionText(int sceneIndexToActivate)
+    public void ActivateTransitionText(int sceneIndexToActivate)
     {
         Time.timeScale = 0;
         StartCoroutine(fadeIn(canvasGroup, transitionFadeTime));
@@ -74,7 +74,31 @@ public class TransitionText : MonoBehaviour
             item.OnLanguageChange();
         }
     }
-    private void ActivateDeathText()
+
+    public void ActivateTransitionTextForNextLevel()
+    {
+        int sceneIndexToActivate = SceneManager.GetActiveScene().buildIndex;
+        if (textTranistionArr[sceneIndexToActivate] == null)
+        {
+            return;
+        }
+        Time.timeScale = 0;
+        StartCoroutine(fadeIn(canvasGroup, transitionFadeTime));
+        if (currentTranistionObject != null)
+        {
+            currentTranistionObject.SetActive(false);
+        }
+
+        textTranistionArr[sceneIndexToActivate].SetActive(true);
+        currentTranistionObject = textTranistionArr[sceneIndexToActivate];
+        Component[] gui = currentTranistionObject.GetComponentsInChildren<AutoTranslator>();
+        foreach (AutoTranslator item in gui)
+        {
+            item.OnLanguageChange();
+        }
+    }
+
+    public void ActivateDeathText()
     {
         Time.timeScale = 0;
         StartCoroutine(fadeIn(canvasGroup, transitionFadeTime));
@@ -153,9 +177,11 @@ public class TransitionText : MonoBehaviour
             currentTime += Time.unscaledDeltaTime;
         }
         doneFadeOutEvent.Raise();
-        yield return new WaitForSeconds(1);
+        Debug.Log("SUP");
         DeactivateDeathText();
         DeactivateLevelText();
+
+
         //Destroy(gameObject);
     }
 }
