@@ -48,42 +48,42 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	3077794743	SoulMovement			\Default Work Unit\SoulMovement	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	12698480	AccelRhythm	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\AccelRhythm_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Rhythm\AccelRhythm\AccelRhythm		6773824
-	58788819	WoodBig3	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\WoodBig3_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\CouchRandom\WoodBig3		198236
-	85547061	HumanBreath	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\HumanBreath_D79FB2B7.wem		\Actor-Mixer Hierarchy\World\SFX\Events\HumanBreath		1770472
-	109745358	Drum collision	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\Drum collision_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\World\Drum collision		118028
-	119384932	Human Transform	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\Human Transform_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Events\Human Transform		767244
-	175084499	Ceramic2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\Ceramic2_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\CeramicsRandom\Ceramic2		57324
-	216083020	StoneImpact4	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\StoneImpact4_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\StoneImpactRandom\StoneImpact4		319588
-	222473481	MonsterHit2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\MonsterHit2_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Events\MonsterHit2		483788
-	223459621	WoodBig1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\WoodBig1_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\CouchRandom\WoodBig1		161556
-	226953210	MonsterFootstep1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\MonsterFootstep1_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Movement\MonsterFootsteps\MonsterFootstep1		99072
-	295119839	DeathAnimation	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\DeathAnimation_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Events\DeathAnimation		696628
-	299816113	SoulTheme	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\SoulTheme_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Soul Theme\SoulTheme\SoulTheme		6773824
-	312113423	Ceramic3	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\Ceramic3_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\CeramicsRandom\Ceramic3		61732
-	334832916	MonsterTheme	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\MonsterTheme_D79FB2B7.wem		\Interactive Music Hierarchy\Music\MonsterTheme\MonsterTheme\MonsterTheme		1693504
-	351571267	KickAccel	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\KickAccel_D79FB2B7.wem		\Interactive Music Hierarchy\Music\KickAccel\KickAccel\KickAccel		423424
-	363701662	WoodBig2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\WoodBig2_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\CouchRandom\WoodBig2		149580
-	377075046	StoneImpact2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\StoneImpact2_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\StoneImpactRandom\StoneImpact2		227096
-	404359527	Ceramic1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\Ceramic1_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\CeramicsRandom\Ceramic1		70540
-	464144275	MonsterFootstep2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\MonsterFootstep2_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Movement\MonsterFootsteps\MonsterFootstep2		113508
-	469028307	MetalImpact2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\MetalImpact2_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\FanAndLampRandom\MetalImpact2		245196
-	511445035	MonsterFootstep4	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\MonsterFootstep4_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Movement\MonsterFootsteps\MonsterFootstep4		115572
-	516934991	StoneImpact1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\StoneImpact1_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\StoneImpactRandom\StoneImpact1		164032
-	558319822	MonsterFootstep3	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\MonsterFootstep3_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Movement\MonsterFootsteps\MonsterFootstep3		115572
-	644201874	MonsterHit3	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\MonsterHit3_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Events\MonsterHit3		333836
-	651597293	SoulMovement	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\SoulMovement_D79FB2B7.wem		\Actor-Mixer Hierarchy\World\SFX\Movement\SoulMovement		352864
-	680265880	LEVEL3	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\LEVEL3_D79FB2B7.wem		\Interactive Music Hierarchy\Music\LevelsMusic\LEVEL5_6\LEVEL3\LEVEL3		6773824
-	769534999	StoneImpact3	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\StoneImpact3_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\StoneImpactRandom\StoneImpact3		210276
-	776801418	MonsterHit1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\MonsterHit1_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Events\MonsterHit1		348348
-	815449528	Portal enter next level	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\Portal enter next level_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\World\Portal enter next level		452532
-	825741798	HumanTransReverse	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\HumanTransReverse_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Events\HumanTransReverse		767244
-	826230485	MonsterIdle	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\MonsterIdle_D79FB2B7.wem		\Actor-Mixer Hierarchy\World\SFX\Movement\MonsterIdle		4957412
-	893363618	LEVEL2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\LEVEL2_D79FB2B7.wem		\Interactive Music Hierarchy\Music\LevelsMusic\LEVEL3_4\LEVEL2\LEVEL2		6773824
-	905019507	GuitarImpact	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\GuitarImpact_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\GuitarImpact		344560
-	922497341	Monster impact	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\Monster impact_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Events\Monster impact		309648
-	925324564	LEVEL1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\LEVEL1_D79FB2B7.wem		\Interactive Music Hierarchy\Music\LevelsMusic\LEVEL1_2\LEVEL1\LEVEL1		6773824
-	976289761	LampImpact	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\LampImpact_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\FanAndLampRandom\LampImpact		153196
-	1034822886	MetalImpact	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\MetalImpact_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\FanAndLampRandom\MetalImpact		184688
-	1069206885	LEVEL4	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\LEVEL4_D79FB2B7.wem		\Interactive Music Hierarchy\Music\LevelsMusic\LEVEL7_8\LEVEL4\LEVEL4		6773824
+	12698480	AccelRhythm	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\AccelRhythm_85C21AE7.wem		\Interactive Music Hierarchy\Music\Rhythm\AccelRhythm\AccelRhythm		900943
+	58788819	WoodBig3	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\WoodBig3_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\CouchRandom\WoodBig3		7249
+	85547061	HumanBreath	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\HumanBreath_CB105973.wem		\Actor-Mixer Hierarchy\World\SFX\Events\HumanBreath		65022
+	109745358	Drum collision	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\Drum collision_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\World\Drum collision		5270
+	119384932	Human Transform	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\Human Transform_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Events\Human Transform		35441
+	175084499	Ceramic2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\Ceramic2_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\CeramicsRandom\Ceramic2		3700
+	216083020	StoneImpact4	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\StoneImpact4_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\StoneImpactRandom\StoneImpact4		13839
+	222473481	MonsterHit2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\MonsterHit2_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Events\MonsterHit2		21938
+	223459621	WoodBig1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\WoodBig1_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\CouchRandom\WoodBig1		6109
+	226953210	MonsterFootstep1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\MonsterFootstep1_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Movement\MonsterFootsteps\MonsterFootstep1		4453
+	295119839	DeathAnimation	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\DeathAnimation_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Events\DeathAnimation		39333
+	299816113	SoulTheme	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\SoulTheme_85C21AE7.wem		\Interactive Music Hierarchy\Music\Soul Theme\SoulTheme\SoulTheme		808255
+	312113423	Ceramic3	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\Ceramic3_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\CeramicsRandom\Ceramic3		3590
+	334832916	MonsterTheme	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\MonsterTheme_85C21AE7.wem		\Interactive Music Hierarchy\Music\MonsterTheme\MonsterTheme\MonsterTheme		193241
+	351571267	KickAccel	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\KickAccel_85C21AE7.wem		\Interactive Music Hierarchy\Music\KickAccel\KickAccel\KickAccel		38581
+	363701662	WoodBig2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\WoodBig2_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\CouchRandom\WoodBig2		5830
+	377075046	StoneImpact2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\StoneImpact2_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\StoneImpactRandom\StoneImpact2		11611
+	404359527	Ceramic1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\Ceramic1_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\CeramicsRandom\Ceramic1		4023
+	464144275	MonsterFootstep2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\MonsterFootstep2_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Movement\MonsterFootsteps\MonsterFootstep2		5189
+	469028307	MetalImpact2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\MetalImpact2_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\FanAndLampRandom\MetalImpact2		7891
+	511445035	MonsterFootstep4	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\MonsterFootstep4_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Movement\MonsterFootsteps\MonsterFootstep4		4792
+	516934991	StoneImpact1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\StoneImpact1_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\StoneImpactRandom\StoneImpact1		8811
+	558319822	MonsterFootstep3	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\MonsterFootstep3_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Movement\MonsterFootsteps\MonsterFootstep3		5440
+	644201874	MonsterHit3	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\MonsterHit3_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Events\MonsterHit3		15921
+	651597293	SoulMovement	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\SoulMovement_CB105973.wem		\Actor-Mixer Hierarchy\World\SFX\Movement\SoulMovement		11915
+	680265880	LEVEL3	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\LEVEL3_85C21AE7.wem		\Interactive Music Hierarchy\Music\LevelsMusic\LEVEL5_6\LEVEL3\LEVEL3		805919
+	769534999	StoneImpact3	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\StoneImpact3_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\StoneImpactRandom\StoneImpact3		10484
+	776801418	MonsterHit1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\MonsterHit1_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Events\MonsterHit1		16332
+	815449528	Portal enter next level	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\Portal enter next level_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\World\Portal enter next level		19622
+	825741798	HumanTransReverse	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\HumanTransReverse_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Events\HumanTransReverse		36304
+	826230485	MonsterIdle	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\MonsterIdle_CB105973.wem		\Actor-Mixer Hierarchy\World\SFX\Movement\MonsterIdle		206753
+	893363618	LEVEL2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\LEVEL2_85C21AE7.wem		\Interactive Music Hierarchy\Music\LevelsMusic\LEVEL3_4\LEVEL2\LEVEL2		807273
+	905019507	GuitarImpact	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\GuitarImpact_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\GuitarImpact		15664
+	922497341	Monster impact	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\Monster impact_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Events\Monster impact		13907
+	925324564	LEVEL1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\LEVEL1_85C21AE7.wem		\Interactive Music Hierarchy\Music\LevelsMusic\LEVEL1_2\LEVEL1\LEVEL1		793564
+	976289761	LampImpact	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\LampImpact_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\FanAndLampRandom\LampImpact		6400
+	1034822886	MetalImpact	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\MetalImpact_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\FanAndLampRandom\MetalImpact		7232
+	1069206885	LEVEL4	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\LEVEL4_85C21AE7.wem		\Interactive Music Hierarchy\Music\LevelsMusic\LEVEL7_8\LEVEL4\LEVEL4		807739
 
