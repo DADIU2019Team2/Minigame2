@@ -97,7 +97,7 @@ LightmapSettings:
     m_ShowResolutionOverlay: 1
     m_ExportTrainingData: 0
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -794,6 +794,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1072607667 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 760302552939867590, guid: 0935d5e7b63ffe847adce2a4d6068988,
+    type: 3}
+  m_PrefabInstance: {fileID: 6322117989666685324}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1072607668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072607667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8826a87feb8f4f74ead6bae77603a757, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 0}
+  unityEventResponse:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: MiniGame2.Events.UnityVoidEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!4 &1097035922 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2149598759369848053, guid: a5424fc3fee56924980b9ed0945d60f6,
@@ -1883,11 +1907,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2311599301120693989, guid: c311fad379f16a345b8ccd82d7638118,
-        type: 3}
-      propertyPath: m_Name
-      value: BigRockStill
-      objectReference: {fileID: 0}
     - target: {fileID: 1607550363278370038, guid: c311fad379f16a345b8ccd82d7638118,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1943,6 +1962,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2311599301120693989, guid: c311fad379f16a345b8ccd82d7638118,
+        type: 3}
+      propertyPath: m_Name
+      value: BigRockStill
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c311fad379f16a345b8ccd82d7638118, type: 3}
 --- !u!1001 &5701059069846140480
@@ -1952,11 +1976,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7239977996794848137, guid: e816da5f59fc80f48a3159b9513382cf,
-        type: 3}
-      propertyPath: m_Name
-      value: Gate04_controller
-      objectReference: {fileID: 0}
     - target: {fileID: 3802654489830502160, guid: e816da5f59fc80f48a3159b9513382cf,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2011,6 +2030,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7239977996794848137, guid: e816da5f59fc80f48a3159b9513382cf,
+        type: 3}
+      propertyPath: m_Name
+      value: Gate04_controller
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e816da5f59fc80f48a3159b9513382cf, type: 3}
