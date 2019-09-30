@@ -124,11 +124,6 @@ public class MatchWithMecanim : MonoBehaviour
             StartMotionMatching();
         }
 
-        if (Input.GetKeyDown("k"))
-        {
-            PlayAttackAnim();
-        }
-        
         if(_animator.GetCurrentAnimatorStateInfo(0).IsName("MonsterGrab") && _animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1f)
         {
             isAttacking = false;
@@ -310,7 +305,7 @@ public class MatchWithMecanim : MonoBehaviour
             StartCoroutine(nameof(QueryForPose));
     }
 
-    void PlayAttackAnim()
+    public void PlayAttackAnim()
     {
         if (!isAttacking)
         {
@@ -319,7 +314,7 @@ public class MatchWithMecanim : MonoBehaviour
             isAttacking = true;
             StopMotionMatching();
             // Play the attack animation
-            _animator.CrossFade("MonsterGrab",0.3f);
+            _animator.CrossFade("MonsterGrab",0.1f);
         }
     }
 

@@ -21,6 +21,7 @@ public class MonsterController : MonoBehaviour
         Right
     };
 
+
     private bool isMovingInXaxis;
 
     private CharacterController _controller;
@@ -31,6 +32,7 @@ public class MonsterController : MonoBehaviour
     private float initialZPos;
     [Range(0, 10f)] public float turnSpeed;
     private Vector3 _moveDirection, _gravDirection;
+    public bool canMove;
 
     // Start is called before the first frame update
     private void Awake()
@@ -46,6 +48,8 @@ public class MonsterController : MonoBehaviour
     // Update is called once per frame
     private void FixedUpdate()
     {
+        if (!canMove)
+            return;
         Vector3 playerSubMonsterPos = (playerTransform.position - transform.position).normalized;
         int moveSign = isMovingInXaxis
             ? (int) Mathf.Sign(playerSubMonsterPos.x)
@@ -73,8 +77,9 @@ public class MonsterController : MonoBehaviour
         //monsterRb.AddForce(_gravDirection, ForceMode.Acceleration);
         _controller.Move(_moveDirection * Time.fixedDeltaTime + _gravDirection);
 
-        transform.position = new Vector3(transform.position.x, transform.position.y, initialZPos); //To prevent moving on the Z-axis through collisions.
-
+        var position = transform.position;
+        position = new Vector3(position.x, position.y, initialZPos); //To prevent moving on the Z-axis through collisions.
+        transform.position = position;
     }
 
     public Vector3 GetMoveDirection()

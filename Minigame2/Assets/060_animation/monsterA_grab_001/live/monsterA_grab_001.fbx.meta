@@ -41,8 +41,8 @@ ModelImporter:
       name: MonsterGrab
       takeName: Take 001
       internalID: 1827226128182048838
-      firstFrame: 0
-      lastFrame: 450
+      firstFrame: 85
+      lastFrame: 345
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -61,7 +61,23 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.06279543
+        functionName: SnapToMonster
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 323bb9e0d3ae4b541a27c8528b23afd0,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.68240345
+        functionName: KillPlayer
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 323bb9e0d3ae4b541a27c8528b23afd0,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}

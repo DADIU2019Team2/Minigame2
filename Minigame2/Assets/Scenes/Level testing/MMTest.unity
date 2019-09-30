@@ -360,7 +360,7 @@ PrefabInstance:
     - target: {fileID: 2149598759369848053, guid: a5424fc3fee56924980b9ed0945d60f6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.659
+      value: -1.79
       objectReference: {fileID: 0}
     - target: {fileID: 2149598759369848053, guid: a5424fc3fee56924980b9ed0945d60f6,
         type: 3}
@@ -3588,6 +3588,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monster Controller
       objectReference: {fileID: 0}
+    - target: {fileID: 298475453732957568, guid: 5b006143a93c39c47b41f52aa7059a0c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
     - target: {fileID: 3482798472496301321, guid: 5b006143a93c39c47b41f52aa7059a0c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3693,6 +3698,11 @@ PrefabInstance:
       propertyPath: turnSpeed
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 953340954687762994, guid: 5b006143a93c39c47b41f52aa7059a0c,
+        type: 3}
+      propertyPath: canMove
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6337598933765247758, guid: 5b006143a93c39c47b41f52aa7059a0c,
         type: 3}
       propertyPath: m_Enabled
@@ -3782,6 +3792,17 @@ PrefabInstance:
       propertyPath: maxAcceleration
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5436450671968568533, guid: 5b006143a93c39c47b41f52aa7059a0c,
+        type: 3}
+      propertyPath: killRange
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9055381994817698889, guid: 5b006143a93c39c47b41f52aa7059a0c,
+        type: 3}
+      propertyPath: killPlayerEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: aaaeb5299c739764fb03262711a07e6f,
+        type: 2}
     m_RemovedComponents:
     - {fileID: 3785962395491869925, guid: 5b006143a93c39c47b41f52aa7059a0c, type: 3}
     - {fileID: 701759783749339967, guid: 5b006143a93c39c47b41f52aa7059a0c, type: 3}
