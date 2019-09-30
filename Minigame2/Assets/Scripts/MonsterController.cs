@@ -58,6 +58,8 @@ public class MonsterController : MonoBehaviour
         //transform.LookAt(playerPositionInMonsterHeight);
 
         _moveDirection = isMovingInXaxis ? Vector3.right * moveSign : Vector3.up * moveSign;
+        Vector3 _lookDirection = isMovingInXaxis ? Vector3.right * moveSign : Vector3.up * moveSign;
+        
         bool isDistanceToPlayerLargerThanThreshhold = (isMovingInXaxis ? Mathf.Abs(playerSubMonsterPos.x) > threshhold : Mathf.Abs(playerSubMonsterPos.y) > threshhold);
         if (isDistanceToPlayerLargerThanThreshhold)
         {
@@ -69,17 +71,14 @@ public class MonsterController : MonoBehaviour
         }
         /*Vector3 lookDirection = isMovingInXaxis ? Vector3.right * moveSign : Vector3.up * moveSign;
         lookDirection.z = Random.Range(-1f, 1f);*/
-        Quaternion targetRot = Quaternion.LookRotation(_moveDirection, transform.up);
+        Quaternion targetRot = Quaternion.LookRotation(_lookDirection, transform.up);
         transform.localRotation = Quaternion.Slerp(transform.localRotation, targetRot, turnSpeed * Time.deltaTime);
 
         _gravDirection = gravityDirVector * monsterGravity;
         Debug.Log("Movedirection = " + _moveDirection);
         //monsterRb.AddForce(_gravDirection, ForceMode.Acceleration);
+        transform.position = new Vector3(transform.position.x, transform.position.y, initialZPos); //To prevent moving on the Z-axis through collisions.
         _controller.Move(_moveDirection * Time.fixedDeltaTime + _gravDirection);
-
-        var position = transform.position;
-        position = new Vector3(position.x, position.y, initialZPos); //To prevent moving on the Z-axis through collisions.
-        transform.position = position;
     }
 
     public Vector3 GetMoveDirection()
