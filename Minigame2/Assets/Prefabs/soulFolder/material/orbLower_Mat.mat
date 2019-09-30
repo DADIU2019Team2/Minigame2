@@ -94,7 +94,7 @@ Material:
     m_Colors:
     - Color_3FB6CEAB: {r: 1, g: 1, b: 1, a: 0}
     - Color_7F12D5CE: {r: 0.33255717, g: 0.7529412, b: 0.066666685, a: 0.019607844}
-    - Color_DC8A8BCF: {r: 0.6517846, g: 7.3229914, b: 1.5719512, a: 0}
+    - Color_DC8A8BCF: {r: 0.72846514, g: 5.2526174, b: 7.3229914, a: 0}
     - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
