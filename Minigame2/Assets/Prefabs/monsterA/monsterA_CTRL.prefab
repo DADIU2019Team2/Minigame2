@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8371120319324952119}
   - component: {fileID: 8423143075566056813}
   - component: {fileID: 97187265881775569}
+  - component: {fileID: 6077385740645098827}
   m_Layer: 0
   m_Name: monsterA_CTRL
   m_TagString: Untagged
@@ -136,6 +137,20 @@ MonoBehaviour:
   eventIdInternal: 0
   valueGuidInternal: 
   m_callbackDataInternal: {fileID: 0}
+--- !u!114 &6077385740645098827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570306964127060365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f91c09f80c9bd4d718cddd0b654732f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Debug_Enabled: 0
+  MonsterWalk: MonsterFootsteps
 --- !u!1001 &8437613020951428094
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -148,11 +163,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: monsterARig
       objectReference: {fileID: 0}
-    - target: {fileID: -669138640359905523, guid: cf47a0f7032227e4186382445fb36a93,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 614f0417a3b6b8541aac76c1e3ac292f, type: 2}
     - target: {fileID: -4216859302048453862, guid: cf47a0f7032227e4186382445fb36a93,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -208,6 +218,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -669138640359905523, guid: cf47a0f7032227e4186382445fb36a93,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 614f0417a3b6b8541aac76c1e3ac292f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf47a0f7032227e4186382445fb36a93, type: 3}
 --- !u!4 &3486587209213841636 stripped
