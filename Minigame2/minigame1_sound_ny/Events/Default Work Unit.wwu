@@ -188,39 +188,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_MonsterHit1" ID="{E270C076-7E98-4ECB-9853-C7C7B948D6EF}">
-					<ChildrenList>
-						<Action Name="" ID="{B6B24030-FA9A-46E3-8480-B20D899D73CE}" ShortID="297046443">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="MonsterHit1" ID="{6C3AD92D-DB95-49DE-B99E-FAA0FF939B73}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_MonsterHit2" ID="{8E603516-A6D6-464D-B113-42EE96434AF7}">
-					<ChildrenList>
-						<Action Name="" ID="{94B8004B-0131-4522-9D1A-9F9BB26082DB}" ShortID="41838852">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="MonsterHit2" ID="{EC9199D7-8FBC-44F1-9D6A-10EE332B06CF}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_MonsterHit3" ID="{58E3E8DA-88DC-4DFA-9B6A-C8D2D78A191F}">
-					<ChildrenList>
-						<Action Name="" ID="{3282E3F5-75C2-4F7B-80CE-90AD18F1564F}" ShortID="557410877">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="MonsterHit3" ID="{60C3D7E2-4E66-47C2-8E51-7ED4953B7126}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_SoulMovement" ID="{AE421975-D4E2-4A24-9079-83F08ADCF058}">
 					<ChildrenList>
 						<Action Name="" ID="{A850131D-F828-4E74-BE3B-889E73980586}" ShortID="358015616">
@@ -498,34 +465,67 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_HumanTransReverse" ID="{250E5DA2-CCF4-41FA-8BD6-622213FDD9ED}">
-					<ChildrenList>
-						<Action Name="" ID="{7A473C24-5438-491C-A195-A6358C5C532F}" ShortID="935304748">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="HumanTransReverse" ID="{6C33C1F1-F697-44D9-A672-87516A256C25}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_HumanTransform" ID="{ED9A7A81-8A8F-4851-9C5F-5869F87E2CC1}">
-					<ChildrenList>
-						<Action Name="" ID="{E848D8D8-15F3-49EC-8DDB-6EF0911BF817}" ShortID="442897745">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="HumanTransform" ID="{FB111261-9B0E-4704-AD20-D4DC88D7310C}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_MonsterFootsteps" ID="{13F49BF0-CBA8-4017-8D0D-DEB555A57691}">
 					<ChildrenList>
 						<Action Name="" ID="{7419C4B4-B193-4014-A883-BFA36000EB67}" ShortID="833018914">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="MonsterFootsteps" ID="{22DBC1B8-EE95-4A49-9FF5-16C552836178}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HumanTransform" ID="{8849DB10-40A4-4DB9-95FB-E2077C4A2FA2}">
+					<ChildrenList>
+						<Action Name="" ID="{8EF9EC93-2EBD-4336-9602-BC2AF905A185}" ShortID="165202516">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HumanTransform" ID="{0D3BFAB1-F18F-414E-8547-45E660B18922}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HumanTransReverse" ID="{9F116C2D-F4B9-48D6-96BF-A2D860A0E88A}">
+					<ChildrenList>
+						<Action Name="" ID="{2A8CDB9B-EE04-4617-B95E-1F892EF6600B}" ShortID="216058559">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HumanTransReverse" ID="{4A0E8E24-C6FE-48C5-B764-BBFCDDB5CC8B}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MonsterHit1" ID="{7AFE107E-0129-40CE-A71E-650E75AD1DEA}">
+					<ChildrenList>
+						<Action Name="" ID="{386E0541-A2AD-4925-BBF2-728F20AACBF2}" ShortID="1020920891">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MonsterHit1" ID="{F4114537-D270-4361-ABE3-AC37E4900291}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MonsterHit2" ID="{A7181A1C-88B9-405E-A902-0938C3B097FC}">
+					<ChildrenList>
+						<Action Name="" ID="{6071698D-3B7A-4638-B063-967155D92A67}" ShortID="260827550">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MonsterHit2" ID="{CAF611FD-10A6-44D1-B5E6-815E02E84CF7}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MonsterHit3" ID="{B7990A71-96A9-48A5-A7D5-6EE7FAFBADBC}">
+					<ChildrenList>
+						<Action Name="" ID="{3D25C445-FF24-42A6-8B0F-8BE137C33DA2}" ShortID="311790611">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MonsterHit3" ID="{E018BF12-3496-4909-B410-87A85134C406}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

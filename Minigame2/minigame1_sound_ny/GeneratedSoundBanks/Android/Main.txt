@@ -52,10 +52,9 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	58788819	WoodBig3	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\WoodBig3_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\CouchRandom\WoodBig3		7249
 	85547061	HumanBreath	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\HumanBreath_CB105973.wem		\Actor-Mixer Hierarchy\World\SFX\Events\HumanBreath		65022
 	109745358	Drum collision	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\Drum collision_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\World\Drum collision		5270
-	119384932	HumanTransform	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\Human Transform_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Events\HumanTransform		35441
 	175084499	Ceramic2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\Ceramic2_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\CeramicsRandom\Ceramic2		3700
+	183378042	MonsterHit1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\MonsterHit1_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Events\MonsterHit1		15923
 	216083020	StoneImpact4	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\StoneImpact4_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\StoneImpactRandom\StoneImpact4		13839
-	222473481	MonsterHit2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\MonsterHit2_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Events\MonsterHit2		21938
 	223459621	WoodBig1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\WoodBig1_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\CouchRandom\WoodBig1		6109
 	226953210	MonsterFootstep1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\MonsterFootstep1_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Movement\MonsterFootsteps\MonsterFootstep1		4453
 	295119839	DeathAnimation	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\DeathAnimation_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Events\DeathAnimation		33837
@@ -70,15 +69,16 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	469028307	MetalImpact2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\MetalImpact2_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\FanAndLampRandom\MetalImpact2		7891
 	511445035	MonsterFootstep4	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\MonsterFootstep4_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Movement\MonsterFootsteps\MonsterFootstep4		4792
 	516934991	StoneImpact1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\StoneImpact1_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\StoneImpactRandom\StoneImpact1		8811
+	539535291	MonsterHit3	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\MonsterHit3_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Events\MonsterHit3		12490
 	558319822	MonsterFootstep3	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\MonsterFootstep3_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Movement\MonsterFootsteps\MonsterFootstep3		5440
-	644201874	MonsterHit3	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\MonsterHit3_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Events\MonsterHit3		15921
 	651597293	SoulMovement	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\SoulMovement_CB105973.wem		\Actor-Mixer Hierarchy\World\SFX\Movement\SoulMovement		11915
 	680265880	LEVEL3	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\LEVEL3_85C21AE7.wem		\Interactive Music Hierarchy\Music\LevelsMusic\LEVEL5_6\LEVEL3\LEVEL3		805919
+	720446847	HumanTransform	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\HumanTransform_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Events\HumanTransform		42214
 	769534999	StoneImpact3	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\StoneImpact3_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\StoneImpactRandom\StoneImpact3		10484
-	776801418	MonsterHit1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\MonsterHit1_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Events\MonsterHit1		16332
+	815336868	MonsterHit2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\MonsterHit2_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Events\MonsterHit2		16578
 	815449528	Portal enter next level	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\Portal enter next level_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\World\Portal enter next level		19622
-	825741798	HumanTransReverse	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\HumanTransReverse_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Events\HumanTransReverse		36304
 	826230485	MonsterIdle	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\MonsterIdle_CB105973.wem		\Actor-Mixer Hierarchy\World\SFX\Movement\MonsterIdle		206753
+	883636570	HumanTransReverse	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\HumanTransReverse_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Events\HumanTransReverse		34744
 	893363618	LEVEL2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\LEVEL2_85C21AE7.wem		\Interactive Music Hierarchy\Music\LevelsMusic\LEVEL3_4\LEVEL2\LEVEL2		807273
 	905019507	GuitarImpact	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\GuitarImpact_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\GuitarImpact		15664
 	922497341	Monsterimpact	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Android\SFX\Monster impact_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Events\Monsterimpact		13907

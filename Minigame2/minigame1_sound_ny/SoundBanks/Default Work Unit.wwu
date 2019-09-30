@@ -7,11 +7,12 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Portal_enter_next_level" ID="{C5D3DBD7-472A-4015-B0F0-A95D5D2AB5A4}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_MonsterFootsteps" ID="{13F49BF0-CBA8-4017-8D0D-DEB555A57691}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_MonsterHit2" ID="{A7181A1C-88B9-405E-A902-0938C3B097FC}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_HumanBreath" ID="{669D6F2E-8D65-4065-900C-9414C3F208D5}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_MonsterHit1" ID="{7AFE107E-0129-40CE-A71E-650E75AD1DEA}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Drum_collision" ID="{9BBE262E-0F62-40F4-8822-C5947EA89534}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_DeathAnimation" ID="{F2631E61-A71B-4143-9411-81F8D019A13D}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_LEVEL3_4" ID="{27054E42-AA4C-4152-B2AF-47605F4F6660}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_HumanTransReverse" ID="{250E5DA2-CCF4-41FA-8BD6-622213FDD9ED}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Set_Game_Parameter_Music" ID="{4D8EFB55-03DA-4248-A1AA-308C978A5E5F}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Set_State_LEVEL4" ID="{A2FC0E87-702C-42F1-BF6C-2F5A976F6145}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_LEVEL5_6" ID="{1F240060-6192-43E7-ADC4-56320F52A7CC}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
@@ -19,22 +20,21 @@
 						<ObjectRef Name="Set_NoHeadPhones" ID="{9E95810C-898F-45E3-BE1C-8BA33AACD093}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_MonsterTheme" ID="{9D05EB98-52D0-45FD-9B18-C7AF83648D77}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Enable_State_LevelsMusic" ID="{E989210E-0A59-4641-989A-ABC963B8BBA3}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_MonsterHit2" ID="{8E603516-A6D6-464D-B113-42EE96434AF7}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Monsterimpact" ID="{0BBD2ED9-7094-4696-81B8-392D4C179567}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_StoneImpactRandom" ID="{8EA0E794-59A3-46E1-B2FC-9FCFD419DB92}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Set_State_LEVEL1" ID="{41C91F0E-6F65-4752-BD3B-D5E03C0258AD}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_FanAndLampRandom" ID="{258A32DF-617A-4846-8F18-2A8E44033C79}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_HumanTransform" ID="{ED9A7A81-8A8F-4851-9C5F-5869F87E2CC1}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_MonsterHit3" ID="{B7990A71-96A9-48A5-A7D5-6EE7FAFBADBC}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_HumanTransReverse" ID="{9F116C2D-F4B9-48D6-96BF-A2D860A0E88A}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_SoulMovement" ID="{AE421975-D4E2-4A24-9079-83F08ADCF058}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Set_State_LEVEL3" ID="{EC8B1022-F96C-4D4A-BB56-301DDFF70812}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Set_Game_Parameter_World" ID="{8C159C11-AE71-4D5D-8B41-FF8EB4B7D481}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_LEVEL7_8" ID="{A6302E04-468C-4D83-A8A9-006664830B45}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Rhythm" ID="{F3AF6FCA-2150-4D92-BCD2-3EE387C5137F}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_MonsterHit3" ID="{58E3E8DA-88DC-4DFA-9B6A-C8D2D78A191F}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_HumanTransform" ID="{8849DB10-40A4-4DB9-95FB-E2077C4A2FA2}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_LEVEL1_2" ID="{92BB6C6A-119A-4E64-8BDC-8A773327FCAC}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_KickAccel" ID="{504E6034-B69D-4E89-B615-038627CBE776}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_MonsterIdle" ID="{7AE4CEA3-2F64-4EC7-9FFA-36A1A8DBFFAA}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_MonsterHit1" ID="{E270C076-7E98-4ECB-9853-C7C7B948D6EF}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_GuitarImpact" ID="{7E926601-2164-4EEF-AB41-0864F37B2054}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_CouchRandom" ID="{B3301AE1-47EB-4F13-92EE-A41F576AC29C}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Soul_Theme" ID="{51FF5351-0196-4F60-8284-4A15F66478AA}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>

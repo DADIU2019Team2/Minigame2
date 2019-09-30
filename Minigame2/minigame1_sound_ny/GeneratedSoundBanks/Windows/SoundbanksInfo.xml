@@ -37,9 +37,9 @@
 				<Event Id="207037058" Name="Play_LEVEL5_6" ObjectPath="\Events\Default Work Unit\Play_LEVEL5_6" DurationType="Infinite"/>
 				<Event Id="3428530970" Name="Play_LEVEL7_8" ObjectPath="\Events\Default Work Unit\Play_LEVEL7_8" DurationType="Infinite"/>
 				<Event Id="3102081501" Name="Play_MonsterFootsteps" ObjectPath="\Events\Default Work Unit\Play_MonsterFootsteps" DurationType="OneShot" DurationMin="0.679133" DurationMax="0.792313"/>
-				<Event Id="1511572556" Name="Play_MonsterHit1" ObjectPath="\Events\Default Work Unit\Play_MonsterHit1" DurationType="OneShot" DurationMin="1.974399" DurationMax="1.974399"/>
-				<Event Id="1511572559" Name="Play_MonsterHit2" ObjectPath="\Events\Default Work Unit\Play_MonsterHit2" DurationType="OneShot" DurationMin="2.742200" DurationMax="2.742200"/>
-				<Event Id="1511572558" Name="Play_MonsterHit3" ObjectPath="\Events\Default Work Unit\Play_MonsterHit3" DurationType="OneShot" DurationMin="1.892132" DurationMax="1.892132"/>
+				<Event Id="1511572556" Name="Play_MonsterHit1" ObjectPath="\Events\Default Work Unit\Play_MonsterHit1" DurationType="OneShot" DurationMin="1.892132" DurationMax="1.892132"/>
+				<Event Id="1511572559" Name="Play_MonsterHit2" ObjectPath="\Events\Default Work Unit\Play_MonsterHit2" DurationType="OneShot" DurationMin="1.974399" DurationMax="1.974399"/>
+				<Event Id="1511572558" Name="Play_MonsterHit3" ObjectPath="\Events\Default Work Unit\Play_MonsterHit3" DurationType="OneShot" DurationMin="1.453379" DurationMax="1.453379"/>
 				<Event Id="2899271694" Name="Play_MonsterIdle" ObjectPath="\Events\Default Work Unit\Play_MonsterIdle" DurationType="Infinite"/>
 				<Event Id="1127170542" Name="Play_Monsterimpact" ObjectPath="\Events\Default Work Unit\Play_Monsterimpact" DurationType="OneShot" DurationMin="1.755011" DurationMax="1.755011"/>
 				<Event Id="125046271" Name="Play_MonsterTheme" ObjectPath="\Events\Default Work Unit\Play_MonsterTheme" DurationType="Infinite"/>
@@ -73,21 +73,17 @@
 					<ShortName>Drum collision.wav</ShortName>
 					<Path>SFX/Drum collision_451E9D95.wem</Path>
 				</File>
-				<File Id="119384932" Language="SFX">
-					<ShortName>Human Transform.wav</ShortName>
-					<Path>SFX/Human Transform_451E9D95.wem</Path>
-				</File>
 				<File Id="175084499" Language="SFX">
 					<ShortName>Ceramic2.wav</ShortName>
 					<Path>SFX/Ceramic2_451E9D95.wem</Path>
 				</File>
+				<File Id="183378042" Language="SFX">
+					<ShortName>MonsterHit1.wav</ShortName>
+					<Path>SFX/MonsterHit1_451E9D95.wem</Path>
+				</File>
 				<File Id="216083020" Language="SFX">
 					<ShortName>StoneImpact4.wav</ShortName>
 					<Path>SFX/StoneImpact4_451E9D95.wem</Path>
-				</File>
-				<File Id="222473481" Language="SFX">
-					<ShortName>MonsterHit2.wav</ShortName>
-					<Path>SFX/MonsterHit2_451E9D95.wem</Path>
 				</File>
 				<File Id="223459621" Language="SFX">
 					<ShortName>WoodBig1.wav</ShortName>
@@ -145,13 +141,13 @@
 					<ShortName>StoneImpact1.wav</ShortName>
 					<Path>SFX/StoneImpact1_451E9D95.wem</Path>
 				</File>
+				<File Id="539535291" Language="SFX">
+					<ShortName>MonsterHit3.wav</ShortName>
+					<Path>SFX/MonsterHit3_451E9D95.wem</Path>
+				</File>
 				<File Id="558319822" Language="SFX">
 					<ShortName>MonsterFootstep3.wav</ShortName>
 					<Path>SFX/MonsterFootstep3_451E9D95.wem</Path>
-				</File>
-				<File Id="644201874" Language="SFX">
-					<ShortName>MonsterHit3.wav</ShortName>
-					<Path>SFX/MonsterHit3_451E9D95.wem</Path>
 				</File>
 				<File Id="651597293" Language="SFX">
 					<ShortName>SoulMovement.wav</ShortName>
@@ -161,25 +157,29 @@
 					<ShortName>LEVEL3.wav</ShortName>
 					<Path>SFX/LEVEL3_85C21AE7.wem</Path>
 				</File>
+				<File Id="720446847" Language="SFX">
+					<ShortName>HumanTransform.wav</ShortName>
+					<Path>SFX/HumanTransform_451E9D95.wem</Path>
+				</File>
 				<File Id="769534999" Language="SFX">
 					<ShortName>StoneImpact3.wav</ShortName>
 					<Path>SFX/StoneImpact3_451E9D95.wem</Path>
 				</File>
-				<File Id="776801418" Language="SFX">
-					<ShortName>MonsterHit1.wav</ShortName>
-					<Path>SFX/MonsterHit1_451E9D95.wem</Path>
+				<File Id="815336868" Language="SFX">
+					<ShortName>MonsterHit2.wav</ShortName>
+					<Path>SFX/MonsterHit2_451E9D95.wem</Path>
 				</File>
 				<File Id="815449528" Language="SFX">
 					<ShortName>Portal enter next level.wav</ShortName>
 					<Path>SFX/Portal enter next level_451E9D95.wem</Path>
 				</File>
-				<File Id="825741798" Language="SFX">
-					<ShortName>HumanTransReverse.wav</ShortName>
-					<Path>SFX/HumanTransReverse_451E9D95.wem</Path>
-				</File>
 				<File Id="826230485" Language="SFX">
 					<ShortName>MonsterIdle.wav</ShortName>
 					<Path>SFX/MonsterIdle_CB105973.wem</Path>
+				</File>
+				<File Id="883636570" Language="SFX">
+					<ShortName>HumanTransReverse.wav</ShortName>
+					<Path>SFX/HumanTransReverse_451E9D95.wem</Path>
 				</File>
 				<File Id="893363618" Language="SFX">
 					<ShortName>LEVEL2.wav</ShortName>
