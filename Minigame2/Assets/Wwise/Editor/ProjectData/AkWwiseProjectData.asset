@@ -184,14 +184,14 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 3713ca50998571499d3e31b46f895c9d
     GuidInternal: 
-    m_lastTime: -8586320333004775808
+    m_lastTime: -8586320306124775808
     List: []
   BankWwu:
   - PhysicalPath: SoundBanks/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: f92c26f321240f4f9309ee83162c4682
     GuidInternal: 
-    m_lastTime: -8586320333004775808
+    m_lastTime: -8586320284044775808
     List:
     - name: Main
       guid: 27021db6c3a9b64b929f67caad76d52f
@@ -207,7 +207,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 5d06e612f0eec94ab85bb5de10ac826d
     GuidInternal: 
-    m_lastTime: -8586320333024775808
+    m_lastTime: -8586320257854775808
     List:
     - name: Enable_State_LevelsMusic
       guid: 0e2189e9590a4146989aabc963b8bba3
@@ -761,6 +761,18 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_StoneImpactRandom
+      guid: 94e7a08ea359e146b2fc9fcfd419db92
+      id: 2496174970
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_StoneImpactRandom
+        ObjectType: 3
+      Path: Default Work Unit/Play_StoneImpactRandom
+      maxAttenuation: 0
+      maxDuration: 1.811361
+      minDuration: 0.929524
     - name: Play_TempImpact
       guid: 78fbc6139d0b1943a6b1b0c7e80d0691
       id: 1978530290
@@ -934,7 +946,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 493bb8d2612cd04aab9636c6020424b3
     GuidInternal: 
-    m_lastTime: -8586320333024775808
+    m_lastTime: -8586320306134775808
     List:
     - name: Music
       guid: 7e6db5316f1a8c47a7229b4f05b3525e
@@ -1172,7 +1184,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: f72a159793ee4749af10afaa9503e672
     GuidInternal: 
-    m_lastTime: -8586320333004775808
+    m_lastTime: -8586320306114775808
     List:
     - name: LevelsMusic
       guid: 519f5a339044014680460809c8683a2f
