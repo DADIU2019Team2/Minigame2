@@ -24,7 +24,6 @@
       <Path>3DAssets</Path>
       <Path>Library</Path>
       <Path>Logs</Path>
-      <Path>Temp</Path>
       <Path>minigame1_sound_ny</Path>
       <Path>obj</Path>
     </explicitExcludes>
