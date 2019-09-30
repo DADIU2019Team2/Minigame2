@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1410412434519884674}
   - component: {fileID: 7983136243252017588}
   - component: {fileID: 4464550981540955469}
+  - component: {fileID: 2762066799502884322}
   m_Layer: 0
   m_Name: SmallRockStill
   m_TagString: Untagged
@@ -77,3 +78,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &2762066799502884322
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2722869602417439121}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0060195895, y: 0.006082723, z: 0.035182122}
+  m_Center: {x: 0.00008819135, y: 0.0025587813, z: -0.0007416642}
