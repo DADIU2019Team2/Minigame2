@@ -20,8 +20,8 @@ namespace AK
         static const AkUniqueID PLAY_DRUM_COLLISION = 2072427939U;
         static const AkUniqueID PLAY_FANANDLAMPRANDOM = 2414642255U;
         static const AkUniqueID PLAY_GUITARIMPACT = 3390222318U;
-        static const AkUniqueID PLAY_HUMAN_TRANSFORM = 1713691436U;
         static const AkUniqueID PLAY_HUMANBREATH = 222374123U;
+        static const AkUniqueID PLAY_HUMANTRANSFORM = 3212580163U;
         static const AkUniqueID PLAY_HUMANTRANSREVERSE = 1166548517U;
         static const AkUniqueID PLAY_KICKACCEL = 1575918696U;
         static const AkUniqueID PLAY_LEVEL1_2 = 207625506U;

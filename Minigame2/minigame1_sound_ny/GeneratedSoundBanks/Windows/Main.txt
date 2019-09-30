@@ -13,7 +13,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	1511572558	Play_MonsterHit3			\Default Work Unit\Play_MonsterHit3	
 	1511572559	Play_MonsterHit2			\Default Work Unit\Play_MonsterHit2	
 	1575918696	Play_KickAccel			\Default Work Unit\Play_KickAccel	
-	1713691436	Play_Human_Transform			\Default Work Unit\Play_Human_Transform	
 	1894735553	Play_Soul_Theme			\Default Work Unit\Play_Soul_Theme	
 	2062815940	Play_CeramicsRandom			\Default Work Unit\Play_CeramicsRandom	
 	2072427939	Play_Drum_collision			\Default Work Unit\Play_Drum_collision	
@@ -27,6 +26,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2773202286	Set_State_LEVEL4			\Default Work Unit\Set_State_LEVEL4	
 	2899271694	Play_MonsterIdle			\Default Work Unit\Play_MonsterIdle	
 	3102081501	Play_MonsterFootsteps			\Default Work Unit\Play_MonsterFootsteps	
+	3212580163	Play_HumanTransform			\Default Work Unit\Play_HumanTransform	
 	3255294874	Play_Portal_enter_next_level			\Default Work Unit\Play_Portal_enter_next_level	
 	3390222318	Play_GuitarImpact			\Default Work Unit\Play_GuitarImpact	
 	3428530970	Play_LEVEL7_8			\Default Work Unit\Play_LEVEL7_8	
@@ -52,7 +52,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	58788819	WoodBig3	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\WoodBig3_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\CouchRandom\WoodBig3		7249
 	85547061	HumanBreath	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\HumanBreath_CB105973.wem		\Actor-Mixer Hierarchy\World\SFX\Events\HumanBreath		65022
 	109745358	Drum collision	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\Drum collision_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\World\Drum collision		5270
-	119384932	Human Transform	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\Human Transform_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Events\Human Transform		35441
+	119384932	HumanTransform	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\Human Transform_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Events\HumanTransform		35441
 	175084499	Ceramic2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\Ceramic2_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\CeramicsRandom\Ceramic2		3700
 	216083020	StoneImpact4	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\StoneImpact4_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\StoneImpactRandom\StoneImpact4		13839
 	222473481	MonsterHit2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\MonsterHit2_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Events\MonsterHit2		21938

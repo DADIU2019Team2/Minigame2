@@ -24,7 +24,7 @@
 						<ObjectRef Name="Play_StoneImpactRandom" ID="{8EA0E794-59A3-46E1-B2FC-9FCFD419DB92}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Set_State_LEVEL1" ID="{41C91F0E-6F65-4752-BD3B-D5E03C0258AD}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_FanAndLampRandom" ID="{258A32DF-617A-4846-8F18-2A8E44033C79}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Human_Transform" ID="{ED9A7A81-8A8F-4851-9C5F-5869F87E2CC1}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_HumanTransform" ID="{ED9A7A81-8A8F-4851-9C5F-5869F87E2CC1}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_SoulMovement" ID="{AE421975-D4E2-4A24-9079-83F08ADCF058}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Set_State_LEVEL3" ID="{EC8B1022-F96C-4D4A-BB56-301DDFF70812}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Set_Game_Parameter_World" ID="{8C159C11-AE71-4D5D-8B41-FF8EB4B7D481}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>

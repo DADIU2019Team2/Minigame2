@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class PlayerDeath : MonoBehaviour // navn på script
 {
-    public string Playerdies = "DeathAnimation"; //navn på lydfil i orange
+public bool Debug_Enabled = false;      
+public string Playerdies = "DeathAnimation"; //navn på lydfil i orange
 
     // Start is called before the first frame update
     void Start()
@@ -14,6 +15,7 @@ public class PlayerDeath : MonoBehaviour // navn på script
     
     void DeathAnimation()    // Navn på lydfil
     {    
-        AkSoundEngine.PostEvent(Playerdies, gameObject);
+if (Debug_Enabled) { Debug.Log("PlayerDeath Triggered"); }           
+AkSoundEngine.PostEvent(Playerdies, gameObject);
     }
 }

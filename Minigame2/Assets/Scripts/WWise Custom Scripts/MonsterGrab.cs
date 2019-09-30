@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class MonsterGrab : MonoBehaviour // navn på script
 {
-    public string MonsterGrabEvent = "Monsterimpact"; //navn på lydfil i orange
+public bool Debug_Enabled = false;        
+public string MonsterGrabEvent = "Monsterimpact"; //navn på lydfil i orange
 
     // Start is called before the first frame update
     void Start()
@@ -14,6 +15,7 @@ public class MonsterGrab : MonoBehaviour // navn på script
     
     void Monsterimpact()    // Navn på lydfil
     {    
-        AkSoundEngine.PostEvent(MonsterGrabEvent, gameObject);
+if (Debug_Enabled) { Debug.Log("MonsterGrab Triggered"); }           
+AkSoundEngine.PostEvent(MonsterGrabEvent, gameObject);
     }
 }

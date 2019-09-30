@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class HumanTransformEvent : MonoBehaviour
 {
-    public string EnterSoulSound = "HumanTransform";
+public bool Debug_Enabled = false;      
+public string EnterSoulSound = "HumanTransform";
 
     // Start is called before the first frame update
     void Start()
@@ -14,6 +15,7 @@ public class HumanTransformEvent : MonoBehaviour
     
     void HumanTransform()    
     {    
-        AkSoundEngine.PostEvent(EnterSoulSound, gameObject);
+if (Debug_Enabled) { Debug.Log("HumanTransform Triggered"); }          
+AkSoundEngine.PostEvent(EnterSoulSound, gameObject);
     }
 }

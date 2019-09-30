@@ -509,12 +509,12 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Human_Transform" ID="{ED9A7A81-8A8F-4851-9C5F-5869F87E2CC1}">
+				<Event Name="Play_HumanTransform" ID="{ED9A7A81-8A8F-4851-9C5F-5869F87E2CC1}">
 					<ChildrenList>
 						<Action Name="" ID="{E848D8D8-15F3-49EC-8DDB-6EF0911BF817}" ShortID="442897745">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Human Transform" ID="{FB111261-9B0E-4704-AD20-D4DC88D7310C}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
+									<ObjectRef Name="HumanTransform" ID="{FB111261-9B0E-4704-AD20-D4DC88D7310C}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

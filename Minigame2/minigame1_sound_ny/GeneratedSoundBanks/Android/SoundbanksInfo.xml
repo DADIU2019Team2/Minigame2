@@ -28,8 +28,8 @@
 				<Event Id="2072427939" Name="Play_Drum_collision" ObjectPath="\Events\Default Work Unit\Play_Drum_collision" DurationType="OneShot" DurationMin="0.750624" DurationMax="0.750624"/>
 				<Event Id="2414642255" Name="Play_FanAndLampRandom" ObjectPath="\Events\Default Work Unit\Play_FanAndLampRandom" DurationType="OneShot" DurationMin="0.633026" DurationMax="0.950957"/>
 				<Event Id="3390222318" Name="Play_GuitarImpact" ObjectPath="\Events\Default Work Unit\Play_GuitarImpact" DurationType="OneShot" DurationMin="1.952925" DurationMax="1.952925"/>
-				<Event Id="1713691436" Name="Play_Human_Transform" ObjectPath="\Events\Default Work Unit\Play_Human_Transform" DurationType="OneShot" DurationMin="4.349093" DurationMax="4.349093"/>
 				<Event Id="222374123" Name="Play_HumanBreath" ObjectPath="\Events\Default Work Unit\Play_HumanBreath" DurationType="Infinite"/>
+				<Event Id="3212580163" Name="Play_HumanTransform" ObjectPath="\Events\Default Work Unit\Play_HumanTransform" DurationType="OneShot" DurationMin="4.349093" DurationMax="4.349093"/>
 				<Event Id="1166548517" Name="Play_HumanTransReverse" ObjectPath="\Events\Default Work Unit\Play_HumanTransReverse" DurationType="OneShot" DurationMin="4.349093" DurationMax="4.349093"/>
 				<Event Id="1575918696" Name="Play_KickAccel" ObjectPath="\Events\Default Work Unit\Play_KickAccel" DurationType="Infinite"/>
 				<Event Id="207625506" Name="Play_LEVEL1_2" ObjectPath="\Events\Default Work Unit\Play_LEVEL1_2" DurationType="Infinite"/>

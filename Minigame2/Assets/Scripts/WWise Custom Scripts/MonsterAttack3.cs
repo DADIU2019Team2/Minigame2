@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class MonsterAttack3 : MonoBehaviour // navn på script
 {
-    public string MonsterAttack33 = "MonsterHit3"; //navn på lydfil i orange
+public bool Debug_Enabled = false;        
+public string MonsterAttack33 = "MonsterHit3"; //navn på lydfil i orange
 
     // Start is called before the first frame update
     void Start()
@@ -14,6 +15,7 @@ public class MonsterAttack3 : MonoBehaviour // navn på script
     
     void MonsterHit3()    // Navn på lydfil
     {    
-        AkSoundEngine.PostEvent(MonsterAttack33, gameObject);
+if (Debug_Enabled) { Debug.Log("MonsterAttack3 Triggered"); }         
+AkSoundEngine.PostEvent(MonsterAttack33, gameObject);
     }
 }
