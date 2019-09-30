@@ -14,6 +14,7 @@ public class MatchWithMecanim : MonoBehaviour
     private Vector3 _prevRightFoot;
     private Vector3 _prevLeftFoot;
     private Vector3 _prevNeck;
+    private Vector3 _prevPosition;
     private MotionCurve[] _curves;
     private Pose[] _poses;
     private Queue<int> bannedFrames;
@@ -43,7 +44,7 @@ public class MatchWithMecanim : MonoBehaviour
     [Range(0f, 1f)] public float poseToVelocityRatio = 0.5f;
 
     //Animation change related stuff
-    [Range(0f,1f)] public float queryRate = 0.1f;
+    [Range(0f, 1f)] public float queryRate = 0.1f;
     [Range(0, 50)] public int positiveBanWindow;
     [Range(0, 50)] public int negativeBanwindow;
 
@@ -53,6 +54,13 @@ public class MatchWithMecanim : MonoBehaviour
     public MotionCurve currentBestCurve;
     public Pose currentPose;
 
+
+    public float trueSpeed;
+    private bool canIdle = true;
+    private bool canMotionMatch = true;
+    public bool isIdling;
+
+    public bool isAttacking;
     // Start is called before the first frame update
 
     private void Awake()
@@ -68,8 +76,13 @@ public class MatchWithMecanim : MonoBehaviour
 
     private void Start()
     {
-        if (!isMotionMatchingRunning)
-            StartCoroutine("QueryForPose");
+        StartMotionMatching();
+    }
+
+    private void FixedUpdate()
+    {
+        trueSpeed = Vector3.Magnitude(transform.position - _prevPosition) / Time.deltaTime;
+        _prevPosition = transform.position;
     }
 
     // Update is called once per frame
@@ -98,9 +111,26 @@ public class MatchWithMecanim : MonoBehaviour
         _prevRightFoot = rightFootInCharacterSpace;
         _prevNeck = neckInCharacterSpace;
 
-        if (bannedFrames.Count >= Mathf.RoundToInt(1/queryRate))
+        if (bannedFrames.Count >= Mathf.RoundToInt(1 / queryRate))
             bannedFrames.Dequeue();
 
+        if (trueSpeed < 0.1f && canIdle)
+        {
+            StartIdling();
+        }
+        else
+        {
+            isIdling = false;
+            StartMotionMatching();
+        }
+
+        if(_animator.GetCurrentAnimatorStateInfo(0).IsName("MonsterGrab") && _animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1f)
+        {
+            isAttacking = false;
+            canIdle = true;
+            canMotionMatch = true;
+            //StartMotionMatching();
+        }
         ShowCurve();
         //ShowPose();
     }
@@ -242,11 +272,49 @@ public class MatchWithMecanim : MonoBehaviour
     {
         if (currentBestCurve.curve.Length == 0) return;
         Debug.DrawLine(transform.position,
-            transform.position+currentBestCurve.curve[0].Position, Color.green);
+            transform.position + currentBestCurve.curve[0].Position, Color.green);
         for (var i = 0; i < currentBestCurve.curve.Length - 1; i++)
         {
-            Debug.DrawLine(transform.position+currentBestCurve.curve[i].Position,
-                transform.position+currentBestCurve.curve[i + 1].Position, Color.green);
+            Debug.DrawLine(transform.position + currentBestCurve.curve[i].Position,
+                transform.position + currentBestCurve.curve[i + 1].Position, Color.green);
+        }
+    }
+
+    void StartIdling()
+    {
+        //Stopping motion matching
+        StopMotionMatching();
+        if (!isIdling)
+        {
+            _animator.CrossFade("IdleLoop", 0.3f);
+        }
+
+        isIdling = true;
+    }
+
+    void StopMotionMatching()
+    {
+        if (isMotionMatchingRunning)
+            StopCoroutine(nameof(QueryForPose));
+        isMotionMatchingRunning = false;
+    }
+
+    void StartMotionMatching()
+    {
+        if (!isMotionMatchingRunning && canMotionMatch)
+            StartCoroutine(nameof(QueryForPose));
+    }
+
+    public void PlayAttackAnim()
+    {
+        if (!isAttacking)
+        {
+            canMotionMatch = false;
+            canIdle = false;
+            isAttacking = true;
+            StopMotionMatching();
+            // Play the attack animation
+            _animator.CrossFade("MonsterGrab",0.1f);
         }
     }
 
