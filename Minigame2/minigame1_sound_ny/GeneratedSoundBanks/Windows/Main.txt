@@ -58,7 +58,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	222473481	MonsterHit2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\MonsterHit2_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Events\MonsterHit2		21938
 	223459621	WoodBig1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\WoodBig1_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\CouchRandom\WoodBig1		6109
 	226953210	MonsterFootstep1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\MonsterFootstep1_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Movement\MonsterFootsteps\MonsterFootstep1		4453
-	295119839	DeathAnimation	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\DeathAnimation_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Events\DeathAnimation		39333
+	295119839	DeathAnimation	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\DeathAnimation_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Events\DeathAnimation		33837
 	299816113	SoulTheme	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\SoulTheme_85C21AE7.wem		\Interactive Music Hierarchy\Music\Soul Theme\SoulTheme\SoulTheme		808255
 	312113423	Ceramic3	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\Ceramic3_451E9D95.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\CeramicsRandom\Ceramic3		3590
 	334832916	MonsterTheme	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Windows\SFX\MonsterTheme_85C21AE7.wem		\Interactive Music Hierarchy\Music\MonsterTheme\MonsterTheme\MonsterTheme		193241
