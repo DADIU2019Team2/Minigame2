@@ -4,18 +4,18 @@ using UnityEngine;
 
 public class CameraMovementTriggerBox : MonoBehaviour
 {
-    public enum axis { x, y}
+    public enum axis { x, y, both}
     private axis axisToFollow; 
 
     public enum zoomControl { no, yes}
     [Header("Camera Controls")]
-    public zoomControl ShouldCameraUseZoom;
+    public zoomControl enableCamZoom;
     [SerializeField] private float timeTOReachTarget = 0.2f;
 
     private Transform cam;
     private Transform player;
     private Gravity gravity;
-    private Vector3 targetCamPos;
+    [SerializeField] private Vector3 targetCamPos;
     private Transform currentCameraTriggerBox;
     private Vector3 hiddenVelocity;
 
@@ -33,7 +33,7 @@ public class CameraMovementTriggerBox : MonoBehaviour
         cam = Camera.main.transform;
         player = GameObject.FindGameObjectWithTag("Player").transform;
         gravity = FindObjectOfType<Gravity>();
-        gravity.gameObject.SetActive(false); //make sure player can't move before cam is centered on him
+        gravity.enabled = false; //make sure player can't move before cam is centered on him
         hiddenVelocity = Vector3.zero;
     }
 
@@ -48,6 +48,7 @@ public class CameraMovementTriggerBox : MonoBehaviour
     // Update is called once per framee
     private void LateUpdate()
     {
+        Debug.Log("Late Update");
         if (!hasCanvasFadedOut)
         {
             return;
@@ -55,30 +56,32 @@ public class CameraMovementTriggerBox : MonoBehaviour
 
         float zPos = transform.position.z;
         float t = timeSinceLevelStarted / startOfLevelTransitionTime;
-        Debug.Log("Time: " + t);
         isStartOfLevel = (t <= 0.99f);
         if (isStartOfLevel)
         {
+            Debug.Log("Time: " + t);
             Vector3 newPosition = Vector3.Lerp(initialPosition, player.position, t);
             newPosition = new Vector3(newPosition.x, newPosition.y, zPos);
-            transform.position = newPosition;
-            targetCamPos = transform.position;
+            //transform.position = newPosition;
+            targetCamPos = newPosition;
+            smoothMoveCamera(1f);
+            Debug.Log("Trying to do the intro cam motion");
         }
         else
         {
-            if (gravity.gameObject.activeInHierarchy == false)
+            if (gravity.enabled == false)
                 activateGravity();
             //set target cam position
             setCameraTargetPosition();
             // smooth transition towards target pos
-            smoothMoveCamera();
+            smoothMoveCamera(timeTOReachTarget);
         }
         timeSinceLevelStarted += Time.deltaTime;
     }
 
-    private void smoothMoveCamera()
+    private void smoothMoveCamera(float smoothingTime)
     {
-        Vector3.SmoothDamp(transform.position, targetCamPos, ref hiddenVelocity, timeTOReachTarget);
+        transform.position = Vector3.SmoothDamp(transform.position, targetCamPos, ref hiddenVelocity, smoothingTime);
     }
 
     private void setCameraTargetPosition()
@@ -100,7 +103,13 @@ public class CameraMovementTriggerBox : MonoBehaviour
             targetCamPos.y = currentCameraTriggerBox.position.y;
         }
 
-        if (ShouldCameraUseZoom == zoomControl.yes)
+        if(axisToFollow == axis.both)
+        {
+            targetCamPos.x = currentCameraTriggerBox.position.x;
+            targetCamPos.y = currentCameraTriggerBox.position.y;
+        }
+
+        if (enableCamZoom == zoomControl.yes)
         {
             targetCamPos.z = currentCameraTriggerBox.position.z;
         }
@@ -112,7 +121,7 @@ public class CameraMovementTriggerBox : MonoBehaviour
 
     private void activateGravity()
     {
-        gravity.gameObject.SetActive(true);
+        gravity.enabled = true;
     }
 
     public void CanvasFadedOutEventResponse()
@@ -130,5 +139,13 @@ public class CameraMovementTriggerBox : MonoBehaviour
         {
             axisToFollow = axis.y;
         }
+        if (_axis.Equals("both"))
+        {
+            axisToFollow = axis.both;
+        }
+    }
+    public void setCurrentCamTriggerBox(Transform curTriggerBox)
+    {
+        currentCameraTriggerBox = curTriggerBox;
     }
 }
