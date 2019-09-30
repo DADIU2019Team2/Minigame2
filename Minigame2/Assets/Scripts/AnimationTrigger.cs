@@ -11,7 +11,7 @@ public class AnimationTrigger : MonoBehaviour
     public void FlipBool(string boolName)
     {
         animator.SetBool(boolName, true);
-
+        Destroy(GameObject.FindGameObjectWithTag("Player")); //Should be an event, but short on time.
         delayedActivateTransitionTextForNextLevel(delay);
     }
 
