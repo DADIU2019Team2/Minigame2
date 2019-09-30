@@ -26,10 +26,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Done Levels/Level 08.unity
     guid: 8e1ddb5460efaf14fa0a8375b5ae61d8
-  - enabled: 0
-    path: Assets/Scenes/Level testing/Gate prototype_002 LIGHTS.unity
-    guid: bafb5085a0f82b14a94375c6d79bd0e1
   - enabled: 1
-    path: Assets/Scenes/Level testing/Gate prototype_002.unity
-    guid: de2e225e8441d6d43a62beeba9d79e85
+    path: Assets/Scenes/Level testing/Level 07.unity
+    guid: d7e7919fc7fc163488d7a4ce003c9925
   m_configObjects: {}
