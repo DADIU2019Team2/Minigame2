@@ -45,6 +45,7 @@
 				<Event Id="1713691436" Name="Play_Human_Transform" ObjectPath="\Events\Default Work Unit\Play_Human_Transform" DurationType="OneShot" DurationMin="4.349093" DurationMax="4.349093"/>
 				<Event Id="222374123" Name="Play_HumanBreath" ObjectPath="\Events\Default Work Unit\Play_HumanBreath" DurationType="Infinite"/>
 				<Event Id="1166548517" Name="Play_HumanTransReverse" ObjectPath="\Events\Default Work Unit\Play_HumanTransReverse" DurationType="OneShot" DurationMin="4.349093" DurationMax="4.349093"/>
+				<Event Id="1575918696" Name="Play_KickAccel" ObjectPath="\Events\Default Work Unit\Play_KickAccel" DurationType="Infinite"/>
 				<Event Id="3061002342" Name="Play_LampImpact" ObjectPath="\Events\Default Work Unit\Play_LampImpact" DurationType="OneShot" DurationMin="0.633026" DurationMax="0.633026"/>
 				<Event Id="3659125941" Name="Play_LEVEL1" ObjectPath="\Events\Default Work Unit\Play_LEVEL1" DurationType="Infinite"/>
 				<Event Id="3659125942" Name="Play_LEVEL2" ObjectPath="\Events\Default Work Unit\Play_LEVEL2" DurationType="Infinite"/>
@@ -67,6 +68,7 @@
 				<Event Id="1389736158" Name="Play_SmallMetal2" ObjectPath="\Events\Default Work Unit\Play_SmallMetal2" DurationType="OneShot" DurationMin="0.641729" DurationMax="0.641729"/>
 				<Event Id="1894735553" Name="Play_Soul_Theme" ObjectPath="\Events\Default Work Unit\Play_Soul_Theme" DurationType="Infinite"/>
 				<Event Id="230120564" Name="Play_SoulMovement" ObjectPath="\Events\Default Work Unit\Play_SoulMovement" DurationType="Infinite"/>
+				<Event Id="2496174970" Name="Play_StoneImpactRandom" ObjectPath="\Events\Default Work Unit\Play_StoneImpactRandom" DurationType="OneShot" DurationMin="0.929524" DurationMax="1.811361"/>
 				<Event Id="1978530290" Name="Play_TempImpact" ObjectPath="\Events\Default Work Unit\Play_TempImpact" DurationType="OneShot" DurationMin="0.464366" DurationMax="1.952925"/>
 				<Event Id="864292832" Name="Play_Wood_impact2" ObjectPath="\Events\Default Work Unit\Play_Wood_impact2" DurationType="OneShot" DurationMin="0.674059" DurationMax="0.674059"/>
 				<Event Id="913814822" Name="Play_WoodBig1" ObjectPath="\Events\Default Work Unit\Play_WoodBig1" DurationType="OneShot" DurationMin="0.841104" DurationMax="0.841104"/>
@@ -123,6 +125,10 @@
 					<ShortName>Ceramic2.wav</ShortName>
 					<Path>SFX/Ceramic2_10C4C929.wem</Path>
 				</File>
+				<File Id="216083020" Language="SFX">
+					<ShortName>StoneImpact4.wav</ShortName>
+					<Path>SFX/StoneImpact4_10C4C929.wem</Path>
+				</File>
 				<File Id="222473481" Language="SFX">
 					<ShortName>MonsterHit2.wav</ShortName>
 					<Path>SFX/MonsterHit2_10C4C929.wem</Path>
@@ -147,6 +153,10 @@
 					<ShortName>MonsterTheme.wav</ShortName>
 					<Path>SFX/MonsterTheme_D79FB2B7.wem</Path>
 				</File>
+				<File Id="351571267" Language="SFX">
+					<ShortName>KickAccel.wav</ShortName>
+					<Path>SFX/KickAccel_D79FB2B7.wem</Path>
+				</File>
 				<File Id="363199118" Language="SFX">
 					<ShortName>HumanTransReverse.wav</ShortName>
 					<Path>SFX/HumanTransReverse_10C4C929.wem</Path>
@@ -154,6 +164,10 @@
 				<File Id="363701662" Language="SFX">
 					<ShortName>WoodBig2.wav</ShortName>
 					<Path>SFX/WoodBig2_10C4C929.wem</Path>
+				</File>
+				<File Id="377075046" Language="SFX">
+					<ShortName>StoneImpact2.wav</ShortName>
+					<Path>SFX/StoneImpact2_10C4C929.wem</Path>
 				</File>
 				<File Id="404359527" Language="SFX">
 					<ShortName>Ceramic1.wav</ShortName>
@@ -170,6 +184,10 @@
 				<File Id="495507765" Language="SFX">
 					<ShortName>SmallMetal1.wav</ShortName>
 					<Path>SFX/SmallMetal1_10C4C929.wem</Path>
+				</File>
+				<File Id="516934991" Language="SFX">
+					<ShortName>StoneImpact1.wav</ShortName>
+					<Path>SFX/StoneImpact1_10C4C929.wem</Path>
 				</File>
 				<File Id="523084725" Language="SFX">
 					<ShortName>Box plastic impact 1.wav</ShortName>
@@ -210,6 +228,10 @@
 				<File Id="755554862" Language="SFX">
 					<ShortName>SmallMetal2.wav</ShortName>
 					<Path>SFX/SmallMetal2_10C4C929.wem</Path>
+				</File>
+				<File Id="769534999" Language="SFX">
+					<ShortName>StoneImpact3.wav</ShortName>
+					<Path>SFX/StoneImpact3_10C4C929.wem</Path>
 				</File>
 				<File Id="776801418" Language="SFX">
 					<ShortName>MonsterHit1.wav</ShortName>

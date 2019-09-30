@@ -1,7 +1,9 @@
-﻿using System.Collections;
+﻿#if UNITY_EDITOR
+using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.Animations;
 using UnityEngine;
+
 
 public class MotionPreProcessor : MonoBehaviour
 {
@@ -207,3 +209,4 @@ public class MotionPreProcessor : MonoBehaviour
         }
     }
 }
+#endif

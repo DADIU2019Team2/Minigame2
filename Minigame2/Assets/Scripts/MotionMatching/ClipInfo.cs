@@ -1,8 +1,10 @@
 ﻿using UnityEditor;
 using UnityEngine;
+#if UNITY_EDITOR
 
 // Editor window for listing all float curves in an animation clip
 public class ClipInfo : EditorWindow
+
 {
     private AnimationClip clip;
 
@@ -27,3 +29,4 @@ public class ClipInfo : EditorWindow
         }
     }
 }
+#endif
