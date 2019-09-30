@@ -1834,7 +1834,7 @@
 										<ActiveSource Name="HumanBreath" ID="{66565B24-0955-4169-842E-212CB5C16A90}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Monster impact" ID="{0E9B4D4C-8105-4DBE-BF91-C4E3BCB123F8}" ShortID="948208221">
+								<Sound Name="Monsterimpact" ID="{0E9B4D4C-8105-4DBE-BF91-C4E3BCB123F8}" ShortID="948208221">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">

@@ -36,12 +36,12 @@
 				<Event Id="3429222474" Name="Play_LEVEL3_4" ObjectPath="\Events\Default Work Unit\Play_LEVEL3_4" DurationType="Infinite"/>
 				<Event Id="207037058" Name="Play_LEVEL5_6" ObjectPath="\Events\Default Work Unit\Play_LEVEL5_6" DurationType="Infinite"/>
 				<Event Id="3428530970" Name="Play_LEVEL7_8" ObjectPath="\Events\Default Work Unit\Play_LEVEL7_8" DurationType="Infinite"/>
-				<Event Id="3939836301" Name="Play_Monster_impact" ObjectPath="\Events\Default Work Unit\Play_Monster_impact" DurationType="OneShot" DurationMin="1.755011" DurationMax="1.755011"/>
 				<Event Id="3102081501" Name="Play_MonsterFootsteps" ObjectPath="\Events\Default Work Unit\Play_MonsterFootsteps" DurationType="OneShot" DurationMin="0.679133" DurationMax="0.792313"/>
 				<Event Id="1511572556" Name="Play_MonsterHit1" ObjectPath="\Events\Default Work Unit\Play_MonsterHit1" DurationType="OneShot" DurationMin="1.974399" DurationMax="1.974399"/>
 				<Event Id="1511572559" Name="Play_MonsterHit2" ObjectPath="\Events\Default Work Unit\Play_MonsterHit2" DurationType="OneShot" DurationMin="2.742200" DurationMax="2.742200"/>
 				<Event Id="1511572558" Name="Play_MonsterHit3" ObjectPath="\Events\Default Work Unit\Play_MonsterHit3" DurationType="OneShot" DurationMin="1.892132" DurationMax="1.892132"/>
 				<Event Id="2899271694" Name="Play_MonsterIdle" ObjectPath="\Events\Default Work Unit\Play_MonsterIdle" DurationType="Infinite"/>
+				<Event Id="1127170542" Name="Play_Monsterimpact" ObjectPath="\Events\Default Work Unit\Play_Monsterimpact" DurationType="OneShot" DurationMin="1.755011" DurationMax="1.755011"/>
 				<Event Id="125046271" Name="Play_MonsterTheme" ObjectPath="\Events\Default Work Unit\Play_MonsterTheme" DurationType="Infinite"/>
 				<Event Id="3255294874" Name="Play_Portal_enter_next_level" ObjectPath="\Events\Default Work Unit\Play_Portal_enter_next_level" DurationType="OneShot" DurationMin="2.565011" DurationMax="2.565011"/>
 				<Event Id="3917470406" Name="Play_Rhythm" ObjectPath="\Events\Default Work Unit\Play_Rhythm" DurationType="Infinite"/>

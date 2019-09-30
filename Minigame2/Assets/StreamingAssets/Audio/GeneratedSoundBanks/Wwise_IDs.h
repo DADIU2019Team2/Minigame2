@@ -28,12 +28,12 @@ namespace AK
         static const AkUniqueID PLAY_LEVEL3_4 = 3429222474U;
         static const AkUniqueID PLAY_LEVEL5_6 = 207037058U;
         static const AkUniqueID PLAY_LEVEL7_8 = 3428530970U;
-        static const AkUniqueID PLAY_MONSTER_IMPACT = 3939836301U;
         static const AkUniqueID PLAY_MONSTERFOOTSTEPS = 3102081501U;
         static const AkUniqueID PLAY_MONSTERHIT1 = 1511572556U;
         static const AkUniqueID PLAY_MONSTERHIT2 = 1511572559U;
         static const AkUniqueID PLAY_MONSTERHIT3 = 1511572558U;
         static const AkUniqueID PLAY_MONSTERIDLE = 2899271694U;
+        static const AkUniqueID PLAY_MONSTERIMPACT = 1127170542U;
         static const AkUniqueID PLAY_MONSTERTHEME = 125046271U;
         static const AkUniqueID PLAY_PORTAL_ENTER_NEXT_LEVEL = 3255294874U;
         static const AkUniqueID PLAY_RHYTHM = 3917470406U;

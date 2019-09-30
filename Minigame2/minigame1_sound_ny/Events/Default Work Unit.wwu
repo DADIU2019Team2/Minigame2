@@ -119,12 +119,12 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Monster_impact" ID="{0BBD2ED9-7094-4696-81B8-392D4C179567}">
+				<Event Name="Play_Monsterimpact" ID="{0BBD2ED9-7094-4696-81B8-392D4C179567}">
 					<ChildrenList>
 						<Action Name="" ID="{C0B73B63-6FD5-4734-B055-92463ED0361E}" ShortID="532321843">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Monster impact" ID="{0E9B4D4C-8105-4DBE-BF91-C4E3BCB123F8}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
+									<ObjectRef Name="Monsterimpact" ID="{0E9B4D4C-8105-4DBE-BF91-C4E3BCB123F8}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
