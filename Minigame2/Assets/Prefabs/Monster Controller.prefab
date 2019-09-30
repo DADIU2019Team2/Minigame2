@@ -14,16 +14,12 @@ GameObject:
   - component: {fileID: 8450692708451530035}
   - component: {fileID: 1851348616124872362}
   - component: {fileID: 3806989993412751302}
+  - component: {fileID: 5246334111311661798}
+  - component: {fileID: 1943412834684121497}
   - component: {fileID: 953340954687762994}
   - component: {fileID: 2995901984201761879}
   - component: {fileID: 9162776937881770060}
   - component: {fileID: 5436450671968568533}
-  - component: {fileID: 5681683527483824955}
-  - component: {fileID: 4766454554077944359}
-  - component: {fileID: 2709775121329227406}
-  - component: {fileID: 6830666040896838404}
-  - component: {fileID: 4050029952114271538}
-  - component: {fileID: -5516545638610057293}
   m_Layer: 12
   m_Name: Monster Controller
   m_TagString: Untagged
@@ -152,6 +148,50 @@ MonoBehaviour:
   eventIdInternal: 0
   valueGuidInternal: 
   m_callbackDataInternal: {fileID: 0}
+--- !u!114 &5246334111311661798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298475453732957568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53510122f7d5a4994af8d4ec1052df0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: d1bbb3b5
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 5ed663f8288514b5dbf326713754acae,
+      type: 2}
+  useCallbacks: 0
+  Callbacks: []
+  playingId: 0
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
+--- !u!114 &1943412834684121497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298475453732957568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5c4acf9ccddd4e7eb4d54e1b2c3d639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerObject: {fileID: -927199367670048503, guid: afb7061e92cda034eaa2a0e75290a6ce,
+    type: 3}
 --- !u!114 &953340954687762994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -248,7 +288,7 @@ MonoBehaviour:
     _timeCode: -1
     curve: []
   showFwdCurve: 1
---- !u!114 &5681683527483824955
+--- !u!114 &5436450671968568533
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -265,81 +305,6 @@ MonoBehaviour:
   monsterController: {fileID: 0}
   killRange: 0
   isAttacking: 0
-  m_Script: {fileID: 11500000, guid: 45ac798a1bf1e4bd79acb6e2fcd08e08, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Debug_Enabled: 0
-  MonsterGrabEvent: Monsterimpact
---- !u!114 &4766454554077944359
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 298475453732957568}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 842ae62fb835a4c8aa2c38c2752213b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Debug_Enabled: 0
-  MonsterAttack11: MonsterHit1
---- !u!114 &2709775121329227406
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 298475453732957568}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1943f6f3e2be4da085bdadff55ebf54, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Debug_Enabled: 0
-  MonsterAttack22: MonsterHit2
---- !u!114 &6830666040896838404
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 298475453732957568}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 299e91de8f5e642fc860d24c2804095f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Debug_Enabled: 0
-  MonsterAttack33: MonsterHit3
---- !u!114 &4050029952114271538
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 298475453732957568}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b9e905d0a347456e966fb16992ea29a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Debug_Enabled: 0
-  Playerdies: DeathAnimation
---- !u!114 &-5516545638610057293
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 298475453732957568}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f91c09f80c9bd4d718cddd0b654732f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Debug_Enabled: 1
-  MonsterWalk: MonsterFootsteps
 --- !u!1 &4835763955123894228
 GameObject:
   m_ObjectHideFlags: 0
