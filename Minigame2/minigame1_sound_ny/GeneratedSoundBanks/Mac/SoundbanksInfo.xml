@@ -32,10 +32,10 @@
 				<Event Id="222374123" Name="Play_HumanBreath" ObjectPath="\Events\Default Work Unit\Play_HumanBreath" DurationType="Infinite"/>
 				<Event Id="1166548517" Name="Play_HumanTransReverse" ObjectPath="\Events\Default Work Unit\Play_HumanTransReverse" DurationType="OneShot" DurationMin="4.349093" DurationMax="4.349093"/>
 				<Event Id="1575918696" Name="Play_KickAccel" ObjectPath="\Events\Default Work Unit\Play_KickAccel" DurationType="Infinite"/>
-				<Event Id="3659125941" Name="Play_LEVEL1" ObjectPath="\Events\Default Work Unit\Play_LEVEL1" DurationType="Infinite"/>
-				<Event Id="3659125942" Name="Play_LEVEL2" ObjectPath="\Events\Default Work Unit\Play_LEVEL2" DurationType="Infinite"/>
-				<Event Id="3659125943" Name="Play_LEVEL3" ObjectPath="\Events\Default Work Unit\Play_LEVEL3" DurationType="Infinite"/>
-				<Event Id="3659125936" Name="Play_LEVEL4" ObjectPath="\Events\Default Work Unit\Play_LEVEL4" DurationType="Infinite"/>
+				<Event Id="207625506" Name="Play_LEVEL1_2" ObjectPath="\Events\Default Work Unit\Play_LEVEL1_2" DurationType="Infinite"/>
+				<Event Id="3429222474" Name="Play_LEVEL3_4" ObjectPath="\Events\Default Work Unit\Play_LEVEL3_4" DurationType="Infinite"/>
+				<Event Id="207037058" Name="Play_LEVEL5_6" ObjectPath="\Events\Default Work Unit\Play_LEVEL5_6" DurationType="Infinite"/>
+				<Event Id="3428530970" Name="Play_LEVEL7_8" ObjectPath="\Events\Default Work Unit\Play_LEVEL7_8" DurationType="Infinite"/>
 				<Event Id="3939836301" Name="Play_Monster_impact" ObjectPath="\Events\Default Work Unit\Play_Monster_impact" DurationType="OneShot" DurationMin="1.755011" DurationMax="1.755011"/>
 				<Event Id="3102081501" Name="Play_MonsterFootsteps" ObjectPath="\Events\Default Work Unit\Play_MonsterFootsteps" DurationType="OneShot" DurationMin="0.679133" DurationMax="0.792313"/>
 				<Event Id="1511572556" Name="Play_MonsterHit1" ObjectPath="\Events\Default Work Unit\Play_MonsterHit1" DurationType="OneShot" DurationMin="1.974399" DurationMax="1.974399"/>

@@ -24,10 +24,10 @@ namespace AK
         static const AkUniqueID PLAY_HUMANBREATH = 222374123U;
         static const AkUniqueID PLAY_HUMANTRANSREVERSE = 1166548517U;
         static const AkUniqueID PLAY_KICKACCEL = 1575918696U;
-        static const AkUniqueID PLAY_LEVEL1 = 3659125941U;
-        static const AkUniqueID PLAY_LEVEL2 = 3659125942U;
-        static const AkUniqueID PLAY_LEVEL3 = 3659125943U;
-        static const AkUniqueID PLAY_LEVEL4 = 3659125936U;
+        static const AkUniqueID PLAY_LEVEL1_2 = 207625506U;
+        static const AkUniqueID PLAY_LEVEL3_4 = 3429222474U;
+        static const AkUniqueID PLAY_LEVEL5_6 = 207037058U;
+        static const AkUniqueID PLAY_LEVEL7_8 = 3428530970U;
         static const AkUniqueID PLAY_MONSTER_IMPACT = 3939836301U;
         static const AkUniqueID PLAY_MONSTERFOOTSTEPS = 3102081501U;
         static const AkUniqueID PLAY_MONSTERHIT1 = 1511572556U;
