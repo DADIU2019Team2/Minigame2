@@ -54,7 +54,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C519D04C-0DFA-4CBB-A114-E1EC6EE706E2}"/>
+							<ObjectRef Name="Music" ID="{08FDB012-76EA-4B17-8E15-1346299DFDFB}" WorkUnitID="{BD581FC9-1F19-43E9-A933-6021A0AF10B3}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Music" ID="{6E3BDB51-A7C7-4346-8565-D5E3C77F02E6}" WorkUnitID="{50CA1337-8599-4971-9D3E-31B46F895C9D}"/>
@@ -212,7 +212,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C519D04C-0DFA-4CBB-A114-E1EC6EE706E2}"/>
+							<ObjectRef Name="Music" ID="{08FDB012-76EA-4B17-8E15-1346299DFDFB}" WorkUnitID="{BD581FC9-1F19-43E9-A933-6021A0AF10B3}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Music" ID="{6E3BDB51-A7C7-4346-8565-D5E3C77F02E6}" WorkUnitID="{50CA1337-8599-4971-9D3E-31B46F895C9D}"/>
@@ -388,7 +388,7 @@
 							</Custom>
 						</Reference>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C519D04C-0DFA-4CBB-A114-E1EC6EE706E2}"/>
+							<ObjectRef Name="Music" ID="{08FDB012-76EA-4B17-8E15-1346299DFDFB}" WorkUnitID="{BD581FC9-1F19-43E9-A933-6021A0AF10B3}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Music" ID="{6E3BDB51-A7C7-4346-8565-D5E3C77F02E6}" WorkUnitID="{50CA1337-8599-4971-9D3E-31B46F895C9D}"/>
@@ -553,14 +553,14 @@
 							</Custom>
 						</Reference>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C519D04C-0DFA-4CBB-A114-E1EC6EE706E2}"/>
+							<ObjectRef Name="Music" ID="{08FDB012-76EA-4B17-8E15-1346299DFDFB}" WorkUnitID="{BD581FC9-1F19-43E9-A933-6021A0AF10B3}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Music" ID="{6E3BDB51-A7C7-4346-8565-D5E3C77F02E6}" WorkUnitID="{50CA1337-8599-4971-9D3E-31B46F895C9D}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<MusicPlaylistContainer Name="LEVEL1" ID="{D7D8B143-94C4-4DD0-B726-966D16D3B43A}" ShortID="320628036">
+						<MusicPlaylistContainer Name="LEVEL1_2" ID="{D7D8B143-94C4-4DD0-B726-966D16D3B43A}" ShortID="320628036">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C519D04C-0DFA-4CBB-A114-E1EC6EE706E2}"/>
@@ -685,7 +685,7 @@
 								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
-						<MusicPlaylistContainer Name="LEVEL2" ID="{BE2D2887-F1A6-4440-A2FB-3CE5BB0C4714}" ShortID="671398250">
+						<MusicPlaylistContainer Name="LEVEL3_4" ID="{BE2D2887-F1A6-4440-A2FB-3CE5BB0C4714}" ShortID="671398250">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C519D04C-0DFA-4CBB-A114-E1EC6EE706E2}"/>
@@ -810,7 +810,7 @@
 								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
-						<MusicPlaylistContainer Name="LEVEL3" ID="{BBA3D755-8413-4ABF-96D8-7067DB87D8FA}" ShortID="409696006">
+						<MusicPlaylistContainer Name="LEVEL5_6" ID="{BBA3D755-8413-4ABF-96D8-7067DB87D8FA}" ShortID="409696006">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C519D04C-0DFA-4CBB-A114-E1EC6EE706E2}"/>
@@ -935,7 +935,7 @@
 								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
-						<MusicPlaylistContainer Name="LEVEL4" ID="{5E21912D-40E4-4859-B226-30409A912E8E}" ShortID="720898931">
+						<MusicPlaylistContainer Name="LEVEL7_8" ID="{5E21912D-40E4-4859-B226-30409A912E8E}" ShortID="720898931">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C519D04C-0DFA-4CBB-A114-E1EC6EE706E2}"/>
@@ -1108,7 +1108,7 @@
 								<PathElementRef Name="LEVEL1" ID="{18BAF530-F1BF-458A-94B4-4627C00A2D82}"/>
 							</Path>
 							<AudioNodeInfo>
-								<AudioNodeRef Name="LEVEL1" ID="{D7D8B143-94C4-4DD0-B726-966D16D3B43A}" WorkUnitID="{B275BE2C-211A-498B-AEB5-B3A279B58F59}" Platform="Linked"/>
+								<AudioNodeRef Name="LEVEL1_2" ID="{D7D8B143-94C4-4DD0-B726-966D16D3B43A}" WorkUnitID="{B275BE2C-211A-498B-AEB5-B3A279B58F59}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 						<Entry>
@@ -1116,7 +1116,7 @@
 								<PathElementRef Name="LEVEL2" ID="{B5F65403-2A25-4CB5-9C1C-F789E63D5F59}"/>
 							</Path>
 							<AudioNodeInfo>
-								<AudioNodeRef Name="LEVEL2" ID="{BE2D2887-F1A6-4440-A2FB-3CE5BB0C4714}" WorkUnitID="{B275BE2C-211A-498B-AEB5-B3A279B58F59}" Platform="Linked"/>
+								<AudioNodeRef Name="LEVEL3_4" ID="{BE2D2887-F1A6-4440-A2FB-3CE5BB0C4714}" WorkUnitID="{B275BE2C-211A-498B-AEB5-B3A279B58F59}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 						<Entry>
@@ -1124,7 +1124,7 @@
 								<PathElementRef Name="LEVEL3" ID="{EA3EA3EB-C369-4E95-AA87-94FCA68C42A6}"/>
 							</Path>
 							<AudioNodeInfo>
-								<AudioNodeRef Name="LEVEL3" ID="{BBA3D755-8413-4ABF-96D8-7067DB87D8FA}" WorkUnitID="{B275BE2C-211A-498B-AEB5-B3A279B58F59}" Platform="Linked"/>
+								<AudioNodeRef Name="LEVEL5_6" ID="{BBA3D755-8413-4ABF-96D8-7067DB87D8FA}" WorkUnitID="{B275BE2C-211A-498B-AEB5-B3A279B58F59}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 						<Entry>
@@ -1132,7 +1132,7 @@
 								<PathElementRef Name="LEVEL4" ID="{C1743C31-27A2-46B2-A164-0770DFEA68A0}"/>
 							</Path>
 							<AudioNodeInfo>
-								<AudioNodeRef Name="LEVEL4" ID="{5E21912D-40E4-4859-B226-30409A912E8E}" WorkUnitID="{B275BE2C-211A-498B-AEB5-B3A279B58F59}" Platform="Linked"/>
+								<AudioNodeRef Name="LEVEL7_8" ID="{5E21912D-40E4-4859-B226-30409A912E8E}" WorkUnitID="{B275BE2C-211A-498B-AEB5-B3A279B58F59}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>
@@ -1188,10 +1188,10 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C519D04C-0DFA-4CBB-A114-E1EC6EE706E2}"/>
+							<ObjectRef Name="Music" ID="{08FDB012-76EA-4B17-8E15-1346299DFDFB}" WorkUnitID="{BD581FC9-1F19-43E9-A933-6021A0AF10B3}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50CA1337-8599-4971-9D3E-31B46F895C9D}"/>
+							<ObjectRef Name="Music" ID="{6E3BDB51-A7C7-4346-8565-D5E3C77F02E6}" WorkUnitID="{50CA1337-8599-4971-9D3E-31B46F895C9D}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
