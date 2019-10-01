@@ -170,7 +170,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 5ed663f8288514b5dbf326713754acae,
+    WwiseObjectReference: {fileID: 11400000, guid: 6b66e8c4631fb44578edaccf629d2783,
       type: 2}
   useCallbacks: 0
   Callbacks: []
@@ -409,6 +409,24 @@ MonoBehaviour:
   collidableObject: {fileID: 0}
   tagToLookFor: 
   isOneTimeEvent: 1
+--- !u!114 &4685423237764420246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5818614151483320108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 100581de753c74634af0100da5b6579f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Debug_Enabled: 0
+  MonsterImpactEvent: MonsterImpact
+  SoundEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &9055381994817698889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -445,8 +463,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: b3ff99302aee4401c91128be44d4599a,
-      type: 2}
+    WwiseObjectReference: {fileID: 0}
   useCallbacks: 0
   Callbacks: []
   playingId: 0

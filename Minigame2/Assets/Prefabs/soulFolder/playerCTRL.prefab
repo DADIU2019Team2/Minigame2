@@ -14,10 +14,10 @@ GameObject:
   - component: {fileID: 7484849343169710093}
   - component: {fileID: 4988710803042995878}
   - component: {fileID: 6735970744030879793}
-  - component: {fileID: 8288979606149154376}
   - component: {fileID: 7282163650144659059}
   - component: {fileID: 826655755673197548}
   - component: {fileID: 8713974612012722558}
+  - component: {fileID: 1643610365375548810}
   m_Layer: 11
   m_Name: playerCTRL
   m_TagString: Player
@@ -136,35 +136,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 234a92c85ff6d48bbb78261232c2b2dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &8288979606149154376
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6498891905812155943}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53510122f7d5a4994af8d4ec1052df0e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  enableActionOnEvent: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
-  useCallbacks: 0
-  Callbacks: []
-  playingId: 0
-  soundEmitterObject: {fileID: 0}
-  transitionDuration: 0
-  eventIdInternal: 0
-  valueGuidInternal: 
-  m_callbackDataInternal: {fileID: 0}
 --- !u!114 &7282163650144659059
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -219,6 +190,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 910d18394bde3406bb7e00440d94de6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1643610365375548810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6498891905812155943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53510122f7d5a4994af8d4ec1052df0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1c4d83a0106b63c4dae17c821f05fca5,
+      type: 2}
+  useCallbacks: 0
+  Callbacks: []
+  playingId: 0
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
 --- !u!1001 &2524113447368688645
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -532,7 +533,7 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
-    - target: {fileID: 1658055349339581451, guid: 453a24babbfccaf47ae7511ea6020094,
+    - target: {fileID: 1034452372374031725, guid: 453a24babbfccaf47ae7511ea6020094,
         type: 3}
       propertyPath: m_Layer
       value: 11

@@ -1,6 +1,157 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{2D9FB39F-E4EB-444D-93EC-83B161BC7B1F}" SchemaVersion="94">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{2D9FB39F-E4EB-444D-93EC-83B161BC7B1F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{2D9FB39F-E4EB-444D-93EC-83B161BC7B1F}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{E693E2BD-894B-4349-8AD2-8074E482FF72}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="LEVEL1" ID="{D7D8B143-94C4-4DD0-B726-966D16D3B43A}" WorkUnitID="{B275BE2C-211A-498B-AEB5-B3A279B58F59}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="DeathAnimation" ID="{8D3EDD46-70D9-4DD4-893F-97E6EA9D09CA}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="StoneImpactRandom" ID="{122EE70C-06A4-49BC-BE37-5A66D80AFCC9}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="LEVEL2" ID="{BE2D2887-F1A6-4440-A2FB-3CE5BB0C4714}" WorkUnitID="{B275BE2C-211A-498B-AEB5-B3A279B58F59}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="HumanTransform" ID="{17CBB7C9-F173-45A1-BF08-AAD501DBDB2B}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="LEVEL3" ID="{BBA3D755-8413-4ABF-96D8-7067DB87D8FA}" WorkUnitID="{B275BE2C-211A-498B-AEB5-B3A279B58F59}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="HumanTransReverse" ID="{732CEC11-1F7F-40CC-A64A-966E39F57805}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="LEVEL4" ID="{5E21912D-40E4-4859-B226-30409A912E8E}" WorkUnitID="{B275BE2C-211A-498B-AEB5-B3A279B58F59}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MonsterTheme" ID="{20CCFD9A-F579-486C-933C-32538CEFCBE1}" WorkUnitID="{B275BE2C-211A-498B-AEB5-B3A279B58F59}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MonsterFootsteps" ID="{D5EC9741-63F5-4ECC-9D05-6F958FB355E3}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MonsterIdle" ID="{9B2EC45C-562B-413E-B7A8-DE42EA4E6B31}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="NoHeadPhones" ID="{F17CE9FA-1BAB-4042-8FB9-95ED43558FA9}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Turbulence" ID="{EDA87B19-73AA-40A0-9F19-2073606DB710}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Proximity_FA_SSGrain" ID="{05F1ABB4-7338-42BC-A378-B1E2B12EE3CB}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Simulation_FA_SSGrain" ID="{71905071-0A79-42FE-9CD6-C631171DC3A4}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Playback_Rate" ID="{28387EE3-C13A-4316-B9C3-DB5C521624AF}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Month" ID="{09E2B445-C4A3-447F-B3CA-818A1D925EF7}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RPM" ID="{9112AA05-F577-44FD-9F4E-4424158129E6}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_RPM" ID="{A34890AB-B9D5-4526-A64D-5290C43EF2DC}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Immersion_FA_SSGrain" ID="{3F41E622-166C-4532-BEF7-1DC9FF7EAB94}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="World" ID="{DCFDD614-00A7-45C5-B784-BF570902D5E0}"/>
+							<Value>37.6698014629049</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Instrument_FA_SSGrain" ID="{6279AF44-C082-4608-981E-9A63D1EE7555}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Fury" ID="{A2AE79DC-CA3A-46BA-9652-9986C322A87B}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Size" ID="{1329EBEF-A193-472E-A38C-64668B494879}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Storm" ID="{E93F8CDB-06D1-4737-ACAF-7CD44BBED783}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Music" ID="{31B56D7E-1A6F-478C-A722-9B4F05B3525E}"/>
+							<Value>49.8955067920585</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Density_FA_SSGrain" ID="{63B3F29E-04F3-4887-BA1A-4D7694644B24}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Presence" ID="{E3B7811A-7B2F-490F-B44F-5FE51B468041}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RPM_FA_SSGrain" ID="{C092E65B-E5C4-4C55-8A68-576E98BBFF39}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_TimeOfDay" ID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Weight" ID="{0FE6F053-3430-4CBC-92F4-5A142BA73F59}"/>
+							<Value>73.1418918918919</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SoulMovement" ID="{6B0238A4-6DB2-4CDF-A0CE-410114A0C3F8}"/>
+							<Value>2.13166144200627</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Freefall" ID="{2F2DFE37-4F9E-4D94-83D8-53CCA39781AD}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Fear" ID="{F72E0659-4346-4E1C-A1B1-DAB46A05101E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="LEVEL1" ID="{18BAF530-F1BF-458A-94B4-4627C00A2D82}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Big" ID="{C8DB9513-C52E-43C4-AD1E-79D559F75C73}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
