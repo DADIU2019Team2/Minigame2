@@ -20,10 +20,14 @@ public class CameraControl : MonoBehaviour
     [SerializeField] private GameObject transitionSoul;
     private Animator bodyAnimator;
     public VoidEvent cameraTransitionStartedEvent;
+    [SerializeField] private VoidEvent cameraTransitionEndedEvent;
+    private bool transitionHasEnded = false;
+    private bool raisedEvent = false;
 
 
     private void Start()
     {
+        raisedEvent = false;
         timeSinceLevelStarted = 0;
         isStartOfLevel = true;
         zPos = transform.position.z;
@@ -37,7 +41,7 @@ public class CameraControl : MonoBehaviour
 
         initialPosition = new Vector3(bodyPosition.x, bodyPosition.y + 1.5f, zPos);
         transform.position = initialPosition;
-
+        transitionHasEnded = false;
     }
 
 
@@ -58,10 +62,20 @@ public class CameraControl : MonoBehaviour
             Vector3 newPosition = Vector3.Lerp(initialPosition, targetTransform.position, t);
             newPosition = new Vector3(newPosition.x, newPosition.y, zPos);
             transform.position = newPosition;
-            cameraTransitionStartedEvent.Raise();
+            if (!raisedEvent)
+            {
+                cameraTransitionStartedEvent.Raise();
+                raisedEvent = true;
+            }
+
         }
         else
         {
+            if (!transitionHasEnded)
+            {
+                transitionHasEnded = true;
+                cameraTransitionEndedEvent.Raise();
+            }
             if (player.activeSelf)
             {
                 temp.x = targetTransform.position.x;

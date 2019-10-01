@@ -315,6 +315,8 @@ MonoBehaviour:
   transitionSoul: {fileID: 5181645740167874836}
   cameraTransitionStartedEvent: {fileID: 11400000, guid: 17682ffb1ae04814ba2b5f01693d41f9,
     type: 2}
+  cameraTransitionEndedEvent: {fileID: 11400000, guid: a40abcfdd0be774439720c1fa63f25df,
+    type: 2}
 --- !u!114 &8605401697571578954
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -334,6 +336,8 @@ MonoBehaviour:
   isStartOfLevel: 1
   hasCanvasFadedOut: 0
   isUsingTriggerBoxes: 1
+  cameraTransitionEndedEvent: {fileID: 11400000, guid: a40abcfdd0be774439720c1fa63f25df,
+    type: 2}
 --- !u!114 &2080065358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1580,16 +1584,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3584644479660998}
     m_Modifications:
-    - target: {fileID: 1497355406021178016, guid: 77e4e19b6e1d7c04594a0316e6a775e1,
-        type: 3}
-      propertyPath: m_Name
-      value: Particle System
-      objectReference: {fileID: 0}
-    - target: {fileID: 1497355406021178016, guid: 77e4e19b6e1d7c04594a0316e6a775e1,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5241844698846513529, guid: 77e4e19b6e1d7c04594a0316e6a775e1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1643,6 +1637,16 @@ PrefabInstance:
     - target: {fileID: 5241844698846513529, guid: 77e4e19b6e1d7c04594a0316e6a775e1,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497355406021178016, guid: 77e4e19b6e1d7c04594a0316e6a775e1,
+        type: 3}
+      propertyPath: m_Name
+      value: Particle System
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497355406021178016, guid: 77e4e19b6e1d7c04594a0316e6a775e1,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 255211197148127704, guid: 77e4e19b6e1d7c04594a0316e6a775e1,

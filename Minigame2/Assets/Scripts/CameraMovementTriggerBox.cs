@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using MiniGame2.Events;
 
 public class CameraMovementTriggerBox : MonoBehaviour
 {
@@ -28,6 +29,9 @@ public class CameraMovementTriggerBox : MonoBehaviour
     private bool isStartOfLevel = true;
     [SerializeField] private bool hasCanvasFadedOut = false;
     [SerializeField] private bool isUsingTriggerBoxes = true;
+
+    [SerializeField] private VoidEvent cameraTransitionEndedEvent;
+    private bool transitionHasEnded = false;
 
     private void Awake()
     {
@@ -71,6 +75,11 @@ public class CameraMovementTriggerBox : MonoBehaviour
         }
         else
         {
+            if (!transitionHasEnded)
+            {
+                transitionHasEnded = true;
+                cameraTransitionEndedEvent.Raise();
+            }
             if (gravity.enabled == false)
                 activateGravity();
             //set target cam position
