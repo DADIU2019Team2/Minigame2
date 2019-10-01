@@ -289,7 +289,7 @@
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>4</Value>
+								<Value>1</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -297,9 +297,6 @@
 						<Reference Name="Attenuation">
 							<Custom>
 								<Attenuation Name="Attenuation (Custom)" ID="{427560F7-4C19-461A-8B79-632DA3602500}" ShortID="901766984">
-									<PropertyList>
-										<Property Name="RadiusMax" Type="Real64" Value="40"/>
-									</PropertyList>
 									<CurveUsageInfoList>
 										<VolumeDryUsage>
 											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -314,7 +311,32 @@
 															<Flags>5</Flags>
 														</Point>
 														<Point>
-															<XPos>40</XPos>
+															<XPos>15.079375</XPos>
+															<YPos>-0.29615</YPos>
+															<Flags>0</Flags>
+														</Point>
+														<Point>
+															<XPos>32.85715</XPos>
+															<YPos>-0.96468</YPos>
+															<Flags>0</Flags>
+														</Point>
+														<Point>
+															<XPos>49.841275</XPos>
+															<YPos>-1.96074</YPos>
+															<Flags>0</Flags>
+														</Point>
+														<Point>
+															<XPos>64.920625</XPos>
+															<YPos>-3.46213</YPos>
+															<Flags>0</Flags>
+														</Point>
+														<Point>
+															<XPos>81.5873</XPos>
+															<YPos>-7.43388</YPos>
+															<Flags>0</Flags>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
 															<YPos>-200</YPos>
 															<Flags>37</Flags>
 														</Point>
@@ -341,7 +363,37 @@
 															<Flags>5</Flags>
 														</Point>
 														<Point>
-															<XPos>40</XPos>
+															<XPos>23.49205</XPos>
+															<YPos>11</YPos>
+															<Flags>0</Flags>
+														</Point>
+														<Point>
+															<XPos>35.07835</XPos>
+															<YPos>19</YPos>
+															<Flags>0</Flags>
+														</Point>
+														<Point>
+															<XPos>48.41268</XPos>
+															<YPos>27</YPos>
+															<Flags>0</Flags>
+														</Point>
+														<Point>
+															<XPos>59.20634</XPos>
+															<YPos>37</YPos>
+															<Flags>0</Flags>
+														</Point>
+														<Point>
+															<XPos>74.7619</XPos>
+															<YPos>53</YPos>
+															<Flags>0</Flags>
+														</Point>
+														<Point>
+															<XPos>89.5238</XPos>
+															<YPos>74</YPos>
+															<Flags>0</Flags>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
 															<YPos>100</YPos>
 															<Flags>37</Flags>
 														</Point>
@@ -370,9 +422,9 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<MusicSegment Name="MonsterTheme" ID="{8141EBA8-80AD-4E07-81FF-97E908F01F2D}" ShortID="744742355">
+						<MusicSegment Name="MonsterTheme" ID="{59708D54-1995-4B46-AB82-0A26BE63824D}" ShortID="425637551">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="9600"/>
+								<Property Name="EndPosition" Type="Real64" Value="9578.66213151928"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -383,20 +435,20 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicTrack Name="MonsterTheme" ID="{9E19E5FA-9D89-4EB1-AF08-56AC101DD72A}" ShortID="321392182">
+								<MusicTrack Name="MonsterTheme" ID="{9417579E-589D-48DF-A15A-256315F34DA3}" ShortID="24725276">
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50CA1337-8599-4971-9D3E-31B46F895C9D}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="MonsterTheme" ID="{CDCCF322-D7F3-4C2F-A89D-371A99F52FDA}" ShortID="334832916">
+										<AudioFileSource Name="MonsterTheme" ID="{CD08A417-171C-4305-8755-C59D5C1F5F66}" ShortID="626825740">
 											<Language>SFX</Language>
 											<AudioFile>MonsterTheme.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<TransitionList>
-										<MusicTransition Name="Root" ID="{5566F81F-705D-40F1-B7DD-DA9C79EB8B8D}">
+										<MusicTransition Name="Root" ID="{4288CAC6-E33D-4658-A574-CCC96F61A6BE}">
 											<PropertyList>
 												<Property Name="IsFolder" Type="bool" Value="True"/>
 											</PropertyList>
@@ -404,15 +456,15 @@
 										</MusicTransition>
 									</TransitionList>
 									<SequenceList>
-										<MusicTrackSequence Name="" ID="{30B182A5-3FD0-4A6B-AF20-31152B24CB58}">
+										<MusicTrackSequence Name="" ID="{0021DEB6-A78B-48F4-8757-45FEA5905105}">
 											<ClipList>
-												<MusicClip Name="MonsterTheme" ID="{3F925BB1-9D61-4115-8560-F3DADC0C5703}">
+												<MusicClip Name="MonsterTheme" ID="{A9F32550-7BB9-4912-AD48-C29F703A3A48}">
 													<PropertyList>
-														<Property Name="EndTrimOffset" Type="Real64" Value="9600"/>
+														<Property Name="EndTrimOffset" Type="Real64" Value="9578.66213151928"/>
 														<Property Name="FadeInMode" Type="int16" Value="0"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="31.5098468271335"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="20.9598733731282"/>
 													</PropertyList>
-													<AudioSourceRef Name="MonsterTheme" ID="{CDCCF322-D7F3-4C2F-A89D-371A99F52FDA}"/>
+													<AudioSourceRef Name="MonsterTheme" ID="{CD08A417-171C-4305-8755-C59D5C1F5F66}"/>
 												</MusicClip>
 											</ClipList>
 										</MusicTrackSequence>
@@ -420,11 +472,11 @@
 								</MusicTrack>
 							</ChildrenList>
 							<CueList>
-								<MusicCue Name="Entry Cue" ID="{6C0F1367-FE23-4D6B-9B53-39AC6D4F0AA5}"/>
-								<MusicCue Name="Exit Cue" ID="{40D30BD3-2678-4739-AD26-7D4FFEAAFE52}">
+								<MusicCue Name="Entry Cue" ID="{72550E1E-AD85-4F1D-8936-68CC5DE34154}"/>
+								<MusicCue Name="Exit Cue" ID="{D0F2043E-5FA8-47A3-A2DD-F11974BF47CE}">
 									<PropertyList>
 										<Property Name="CueType" Type="int16" Value="1"/>
-										<Property Name="TimeMs" Type="Real64" Value="9600"/>
+										<Property Name="TimeMs" Type="Real64" Value="9578.66213151928"/>
 									</PropertyList>
 								</MusicCue>
 							</CueList>
@@ -458,12 +510,12 @@
 								<Property Name="LoopCount" Type="int16" Value="0"/>
 							</PropertyList>
 							<ChildrenList>
-								<MusicPlaylistItem Name="" ID="{4F5F7953-4AEE-4623-8B05-42424F1A81FB}" ShortID="336029020">
+								<MusicPlaylistItem Name="" ID="{2331EAEA-471B-49C7-9750-4A01F2667E46}" ShortID="972767669">
 									<PropertyList>
 										<Property Name="LoopCount" Type="int16" Value="0"/>
 										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 									</PropertyList>
-									<SegmentRef Name="MonsterTheme" ID="{8141EBA8-80AD-4E07-81FF-97E908F01F2D}"/>
+									<SegmentRef Name="MonsterTheme" ID="{59708D54-1995-4B46-AB82-0A26BE63824D}"/>
 								</MusicPlaylistItem>
 							</ChildrenList>
 						</MusicPlaylistItem>

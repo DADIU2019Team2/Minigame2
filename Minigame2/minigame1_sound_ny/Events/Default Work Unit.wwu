@@ -110,27 +110,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_MonsterTheme" ID="{9D05EB98-52D0-45FD-9B18-C7AF83648D77}">
-					<ChildrenList>
-						<Action Name="" ID="{8FC773F8-BDE4-4141-81AD-E37270852D6E}" ShortID="758920167">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="MonsterTheme" ID="{20CCFD9A-F579-486C-933C-32538CEFCBE1}" WorkUnitID="{B275BE2C-211A-498B-AEB5-B3A279B58F59}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{D65FFAD6-8CF6-4BA1-B228-B2DB7A2AFC2C}" ShortID="256337125">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="MonsterTheme" ID="{20CCFD9A-F579-486C-933C-32538CEFCBE1}" WorkUnitID="{B275BE2C-211A-498B-AEB5-B3A279B58F59}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_HumanBreath" ID="{669D6F2E-8D65-4065-900C-9414C3F208D5}">
 					<ChildrenList>
 						<Action Name="" ID="{AAD1B4F5-3142-4A1C-9507-8F5715595A7F}" ShortID="55176487">
@@ -554,6 +533,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="HumanTransReverse" ID="{732CEC11-1F7F-40CC-A64A-966E39F57805}" WorkUnitID="{BEB6C068-14C7-4147-840B-567D7D8043BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MonsterTheme" ID="{400B7E5A-DDAA-463C-9954-7D5156A570A0}">
+					<ChildrenList>
+						<Action Name="" ID="{A10F5901-71C2-4707-9C84-77366FF21021}" ShortID="175742809">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MonsterTheme" ID="{59708D54-1995-4B46-AB82-0A26BE63824D}" WorkUnitID="{B275BE2C-211A-498B-AEB5-B3A279B58F59}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -17,7 +17,7 @@
 						<ObjectRef Name="Play_LevelsMusic" ID="{9A1C0E26-5860-43F6-B34A-A35F7A0977E8}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Monster_crawl_scrape1" ID="{07FB1DBD-2A43-4410-9088-22269EB6E11E}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Set_NoHeadPhones" ID="{9E95810C-898F-45E3-BE1C-8BA33AACD093}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_MonsterTheme" ID="{9D05EB98-52D0-45FD-9B18-C7AF83648D77}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_MonsterTheme" ID="{400B7E5A-DDAA-463C-9954-7D5156A570A0}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Enable_State_LevelsMusic" ID="{E989210E-0A59-4641-989A-ABC963B8BBA3}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_StoneImpactRandom" ID="{8EA0E794-59A3-46E1-B2FC-9FCFD419DB92}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Set_State_LEVEL1" ID="{41C91F0E-6F65-4752-BD3B-D5E03C0258AD}" WorkUnitID="{12E6065D-EEF0-4AC9-B85B-B5DE10AC826D}" Filter="7" Origin="Manual"/>

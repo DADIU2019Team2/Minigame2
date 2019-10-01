@@ -40,7 +40,7 @@
 				<Event Id="1511572558" Name="Play_MonsterHit3" ObjectPath="\Events\Default Work Unit\Play_MonsterHit3" DurationType="OneShot" DurationMin="1.453379" DurationMax="1.453379"/>
 				<Event Id="2899271694" Name="Play_MonsterIdle" ObjectPath="\Events\Default Work Unit\Play_MonsterIdle" DurationType="Infinite"/>
 				<Event Id="1127170542" Name="Play_MonsterImpact" ObjectPath="\Events\Default Work Unit\Play_MonsterImpact" DurationType="OneShot" DurationMin="1.755011" DurationMax="1.755011"/>
-				<Event Id="125046271" Name="Play_MonsterTheme" ObjectPath="\Events\Default Work Unit\Play_MonsterTheme" DurationType="Infinite"/>
+				<Event Id="125046271" Name="Play_MonsterTheme" ObjectPath="\Events\Default Work Unit\Play_MonsterTheme" DurationType="OneShot" DurationMin="9.578662" DurationMax="9.578662"/>
 				<Event Id="3917470406" Name="Play_Rhythm" ObjectPath="\Events\Default Work Unit\Play_Rhythm" DurationType="Infinite"/>
 				<Event Id="1894735553" Name="Play_Soul_Theme" ObjectPath="\Events\Default Work Unit\Play_Soul_Theme" DurationType="Infinite"/>
 				<Event Id="230120564" Name="Play_SoulMovement" ObjectPath="\Events\Default Work Unit\Play_SoulMovement" DurationType="Infinite"/>
@@ -78,10 +78,6 @@
 					<ShortName>SoulTheme.wav</ShortName>
 					<Path>SFX/SoulTheme_D79FB2B7.wem</Path>
 				</File>
-				<File Id="334832916" Language="SFX">
-					<ShortName>MonsterTheme.wav</ShortName>
-					<Path>SFX/MonsterTheme_D79FB2B7.wem</Path>
-				</File>
 				<File Id="351571267" Language="SFX">
 					<ShortName>KickAccel.wav</ShortName>
 					<Path>SFX/KickAccel_D79FB2B7.wem</Path>
@@ -109,6 +105,10 @@
 				<File Id="551432788" Language="SFX">
 					<ShortName>MonsterHit1.wav</ShortName>
 					<Path>SFX/MonsterHit1_10C4C929.wem</Path>
+				</File>
+				<File Id="626825740" Language="SFX">
+					<ShortName>MonsterTheme.wav</ShortName>
+					<Path>SFX/MonsterTheme_D79FB2B7.wem</Path>
 				</File>
 				<File Id="640481895" Language="SFX">
 					<ShortName>MonsterHit3.wav</ShortName>
