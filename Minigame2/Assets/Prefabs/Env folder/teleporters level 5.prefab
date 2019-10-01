@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 8266741485830416572}
   - component: {fileID: 8266741485830416571}
   - component: {fileID: 8266741485830416570}
-  m_Layer: 0
+  - component: {fileID: 916314686}
+  m_Layer: 14
   m_Name: telport (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8266741485830416568}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.36, y: -17.58, z: -15.07}
+  m_LocalPosition: {x: 0.48, y: -13.69, z: -15.07}
   m_LocalScale: {x: 1, y: 0.13095, z: 3.6355138}
   m_Children: []
   m_Father: {fileID: 8266741485897936978}
@@ -87,7 +88,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8266741485830416568}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -104,8 +105,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 758454aadc7d3664fbceb92aba982bed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Exit: {fileID: 8266741485830416568}
+  Exit: {fileID: 8266741486788960879}
   gravityDir: 1
+--- !u!54 &916314686
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8266741485830416568}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &8266741485897936977
 GameObject:
   m_ObjectHideFlags: 0
@@ -115,7 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8266741485897936978}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: teleporters level 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -153,7 +170,8 @@ GameObject:
   - component: {fileID: 8266741486081108074}
   - component: {fileID: 8266741486081108073}
   - component: {fileID: 8266741486081108072}
-  m_Layer: 0
+  - component: {fileID: 1794751587}
+  m_Layer: 14
   m_Name: telport (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -168,7 +186,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8266741486081108086}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.31, y: 7.68, z: -15.07}
+  m_LocalPosition: {x: 0.437, y: 8.67, z: -15.07}
   m_LocalScale: {x: 1, y: 0.13095, z: 3.6355138}
   m_Children: []
   m_Father: {fileID: 8266741485897936978}
@@ -227,7 +245,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8266741486081108086}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -245,7 +263,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Exit: {fileID: 8266741487008522198}
-  gravityDir: 3
+  gravityDir: 1
+--- !u!54 &1794751587
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8266741486081108086}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &8266741486788960879
 GameObject:
   m_ObjectHideFlags: 0
@@ -259,7 +293,8 @@ GameObject:
   - component: {fileID: 8266741486788960867}
   - component: {fileID: 8266741486788960866}
   - component: {fileID: 8266741486788960865}
-  m_Layer: 0
+  - component: {fileID: 1843975897}
+  m_Layer: 14
   m_Name: telport (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -274,7 +309,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8266741486788960879}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.05, y: -19, z: -15.07}
+  m_LocalPosition: {x: -1.91, y: -18.85, z: -15.07}
   m_LocalScale: {x: 1, y: 0.13095, z: 3.6355138}
   m_Children: []
   m_Father: {fileID: 8266741485897936978}
@@ -333,7 +368,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8266741486788960879}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -350,8 +385,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 758454aadc7d3664fbceb92aba982bed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Exit: {fileID: 8266741486788960879}
-  gravityDir: 1
+  Exit: {fileID: 8266741485830416568}
+  gravityDir: 3
+--- !u!54 &1843975897
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8266741486788960879}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &8266741487008522198
 GameObject:
   m_ObjectHideFlags: 0
@@ -365,7 +416,8 @@ GameObject:
   - component: {fileID: 8266741487008522185}
   - component: {fileID: 8266741487008522184}
   - component: {fileID: 8266741487008522199}
-  m_Layer: 0
+  - component: {fileID: 2145500580}
+  m_Layer: 14
   m_Name: telport
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -380,7 +432,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8266741487008522198}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.78, y: 4.7, z: -15.07}
+  m_LocalPosition: {x: -9.34, y: 4.7, z: -15.07}
   m_LocalScale: {x: 1, y: 0.13095, z: 3.6355138}
   m_Children: []
   m_Father: {fileID: 8266741485897936978}
@@ -439,7 +491,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8266741487008522198}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -457,4 +509,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Exit: {fileID: 8266741486081108086}
-  gravityDir: 0
+  gravityDir: 3
+--- !u!54 &2145500580
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8266741487008522198}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
