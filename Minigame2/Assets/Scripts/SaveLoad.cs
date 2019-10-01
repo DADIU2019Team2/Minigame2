@@ -11,7 +11,14 @@ public static class SaveLoad
 
     public static void Save()
     {
-        Game.current.lastLevelBeaten = SceneManager.GetActiveScene().buildIndex;
+        if (SceneManager.GetActiveScene().buildIndex+1 < SceneManager.sceneCountInBuildSettings)
+        {
+        Game.current.lastLevelBeaten = SceneManager.GetActiveScene().buildIndex+1;
+        }
+        else
+        {
+            Game.current.lastLevelBeaten = SceneManager.GetActiveScene().buildIndex
+        }
         Debug.Log("SAVING");
         saveGame = Game.current;
         BinaryFormatter bf = new BinaryFormatter();
