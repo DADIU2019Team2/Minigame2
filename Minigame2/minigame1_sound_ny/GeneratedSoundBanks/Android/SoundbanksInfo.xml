@@ -56,115 +56,115 @@
 			<IncludedMemoryFiles>
 				<File Id="2613177" Language="SFX">
 					<ShortName>MonsterFootstep1.wav</ShortName>
-					<Path>SFX/MonsterFootstep1_10C4C929.wem</Path>
+					<Path>SFX/MonsterFootstep1_6296B0F9.wem</Path>
 				</File>
 				<File Id="12698480" Language="SFX">
 					<ShortName>AccelRhythm.wav</ShortName>
-					<Path>SFX/AccelRhythm_D79FB2B7.wem</Path>
+					<Path>SFX/AccelRhythm_9B96ECC7.wem</Path>
 				</File>
 				<File Id="85547061" Language="SFX">
 					<ShortName>HumanBreath.wav</ShortName>
-					<Path>SFX/HumanBreath_D79FB2B7.wem</Path>
+					<Path>SFX/HumanBreath_9B96ECC7.wem</Path>
 				</File>
 				<File Id="216083020" Language="SFX">
 					<ShortName>StoneImpact4.wav</ShortName>
-					<Path>SFX/StoneImpact4_10C4C929.wem</Path>
+					<Path>SFX/StoneImpact4_6296B0F9.wem</Path>
 				</File>
 				<File Id="295119839" Language="SFX">
 					<ShortName>DeathAnimation.wav</ShortName>
-					<Path>SFX/DeathAnimation_10C4C929.wem</Path>
+					<Path>SFX/DeathAnimation_6296B0F9.wem</Path>
 				</File>
 				<File Id="299816113" Language="SFX">
 					<ShortName>SoulTheme.wav</ShortName>
-					<Path>SFX/SoulTheme_D79FB2B7.wem</Path>
+					<Path>SFX/SoulTheme_9B96ECC7.wem</Path>
 				</File>
 				<File Id="351571267" Language="SFX">
 					<ShortName>KickAccel.wav</ShortName>
-					<Path>SFX/KickAccel_D79FB2B7.wem</Path>
+					<Path>SFX/KickAccel_9B96ECC7.wem</Path>
 				</File>
 				<File Id="367108007" Language="SFX">
 					<ShortName>MonsterFootstep4.wav</ShortName>
-					<Path>SFX/MonsterFootstep4_10C4C929.wem</Path>
+					<Path>SFX/MonsterFootstep4_6296B0F9.wem</Path>
 				</File>
 				<File Id="377075046" Language="SFX">
 					<ShortName>StoneImpact2.wav</ShortName>
-					<Path>SFX/StoneImpact2_10C4C929.wem</Path>
+					<Path>SFX/StoneImpact2_6296B0F9.wem</Path>
 				</File>
 				<File Id="398687344" Language="SFX">
 					<ShortName>HumanTransform.wav</ShortName>
-					<Path>SFX/HumanTransform_10C4C929.wem</Path>
+					<Path>SFX/HumanTransform_6296B0F9.wem</Path>
 				</File>
 				<File Id="450873443" Language="SFX">
 					<ShortName>MonsterFootstep2.wav</ShortName>
-					<Path>SFX/MonsterFootstep2_10C4C929.wem</Path>
+					<Path>SFX/MonsterFootstep2_6296B0F9.wem</Path>
 				</File>
 				<File Id="516934991" Language="SFX">
 					<ShortName>StoneImpact1.wav</ShortName>
-					<Path>SFX/StoneImpact1_10C4C929.wem</Path>
+					<Path>SFX/StoneImpact1_6296B0F9.wem</Path>
 				</File>
 				<File Id="551432788" Language="SFX">
 					<ShortName>MonsterHit1.wav</ShortName>
-					<Path>SFX/MonsterHit1_10C4C929.wem</Path>
+					<Path>SFX/MonsterHit1_6296B0F9.wem</Path>
 				</File>
 				<File Id="626825740" Language="SFX">
 					<ShortName>MonsterTheme.wav</ShortName>
-					<Path>SFX/MonsterTheme_D79FB2B7.wem</Path>
+					<Path>SFX/MonsterTheme_9B96ECC7.wem</Path>
 				</File>
 				<File Id="640481895" Language="SFX">
 					<ShortName>MonsterHit3.wav</ShortName>
-					<Path>SFX/MonsterHit3_10C4C929.wem</Path>
+					<Path>SFX/MonsterHit3_6296B0F9.wem</Path>
 				</File>
 				<File Id="651597293" Language="SFX">
 					<ShortName>SoulMovement.wav</ShortName>
-					<Path>SFX/SoulMovement_D79FB2B7.wem</Path>
+					<Path>SFX/SoulMovement_9B96ECC7.wem</Path>
 				</File>
 				<File Id="680265880" Language="SFX">
 					<ShortName>LEVEL3.wav</ShortName>
-					<Path>SFX/LEVEL3_D79FB2B7.wem</Path>
+					<Path>SFX/LEVEL3_9B96ECC7.wem</Path>
 				</File>
 				<File Id="685032695" Language="SFX">
 					<ShortName>HumanTransReverse.wav</ShortName>
-					<Path>SFX/HumanTransReverse_10C4C929.wem</Path>
+					<Path>SFX/HumanTransReverse_6296B0F9.wem</Path>
 				</File>
 				<File Id="769534999" Language="SFX">
 					<ShortName>StoneImpact3.wav</ShortName>
-					<Path>SFX/StoneImpact3_10C4C929.wem</Path>
+					<Path>SFX/StoneImpact3_6296B0F9.wem</Path>
 				</File>
 				<File Id="791656038" Language="SFX">
 					<ShortName>MonsterHit2.wav</ShortName>
-					<Path>SFX/MonsterHit2_10C4C929.wem</Path>
+					<Path>SFX/MonsterHit2_6296B0F9.wem</Path>
 				</File>
 				<File Id="826230485" Language="SFX">
 					<ShortName>MonsterIdle.wav</ShortName>
-					<Path>SFX/MonsterIdle_D79FB2B7.wem</Path>
+					<Path>SFX/MonsterIdle_9B96ECC7.wem</Path>
 				</File>
 				<File Id="893363618" Language="SFX">
 					<ShortName>LEVEL2.wav</ShortName>
-					<Path>SFX/LEVEL2_D79FB2B7.wem</Path>
+					<Path>SFX/LEVEL2_9B96ECC7.wem</Path>
 				</File>
 				<File Id="905019507" Language="SFX">
 					<ShortName>GuitarImpact.wav</ShortName>
-					<Path>SFX/GuitarImpact_10C4C929.wem</Path>
+					<Path>SFX/GuitarImpact_6296B0F9.wem</Path>
 				</File>
 				<File Id="922497341" Language="SFX">
 					<ShortName>Monster impact.wav</ShortName>
-					<Path>SFX/Monster impact_10C4C929.wem</Path>
+					<Path>SFX/Monster impact_6296B0F9.wem</Path>
 				</File>
 				<File Id="925324564" Language="SFX">
 					<ShortName>LEVEL1.wav</ShortName>
-					<Path>SFX/LEVEL1_D79FB2B7.wem</Path>
+					<Path>SFX/LEVEL1_9B96ECC7.wem</Path>
 				</File>
 				<File Id="997286215" Language="SFX">
 					<ShortName>MonsterFootstep3.wav</ShortName>
-					<Path>SFX/MonsterFootstep3_10C4C929.wem</Path>
+					<Path>SFX/MonsterFootstep3_6296B0F9.wem</Path>
 				</File>
 				<File Id="1000857820" Language="SFX">
 					<ShortName>Monster crawl scrape1.wav</ShortName>
-					<Path>SFX/Monster crawl scrape1_10C4C929.wem</Path>
+					<Path>SFX/Monster crawl scrape1_6296B0F9.wem</Path>
 				</File>
 				<File Id="1069206885" Language="SFX">
 					<ShortName>LEVEL4.wav</ShortName>
-					<Path>SFX/LEVEL4_D79FB2B7.wem</Path>
+					<Path>SFX/LEVEL4_9B96ECC7.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

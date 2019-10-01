@@ -45,32 +45,32 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	3077794743	SoulMovement			\Default Work Unit\SoulMovement	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	2613177	MonsterFootstep1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\MonsterFootstep1_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Movement\MonsterFootsteps\MonsterFootstep1		99072
-	12698480	AccelRhythm	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\AccelRhythm_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Rhythm\AccelRhythm\AccelRhythm		6773824
-	85547061	HumanBreath	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\HumanBreath_D79FB2B7.wem		\Actor-Mixer Hierarchy\World\SFX\Events\HumanBreath		1770472
-	216083020	StoneImpact4	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\StoneImpact4_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\StoneImpactRandom\StoneImpact4		319588
-	295119839	DeathAnimation	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\DeathAnimation_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Events\DeathAnimation		696628
-	299816113	SoulTheme	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\SoulTheme_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Soul Theme\SoulTheme\SoulTheme		6773824
-	351571267	KickAccel	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\KickAccel_D79FB2B7.wem		\Interactive Music Hierarchy\Music\KickAccel\KickAccel\KickAccel		423424
-	367108007	MonsterFootstep4	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\MonsterFootstep4_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Movement\MonsterFootsteps\MonsterFootstep4		115572
-	377075046	StoneImpact2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\StoneImpact2_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\StoneImpactRandom\StoneImpact2		227096
-	398687344	HumanTransform	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\HumanTransform_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Events\HumanTransform		649216
-	450873443	MonsterFootstep2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\MonsterFootstep2_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Movement\MonsterFootsteps\MonsterFootstep2		113508
-	516934991	StoneImpact1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\StoneImpact1_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\StoneImpactRandom\StoneImpact1		164032
-	551432788	MonsterHit1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\MonsterHit1_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Events\MonsterHit1		333836
-	626825740	MonsterTheme	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\MonsterTheme_D79FB2B7.wem		\Interactive Music Hierarchy\Music\MonsterTheme\MonsterTheme\MonsterTheme		1689740
-	640481895	MonsterHit3	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\MonsterHit3_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Events\MonsterHit3		256440
-	651597293	SoulMovement	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\SoulMovement_D79FB2B7.wem		\Actor-Mixer Hierarchy\World\SFX\Movement\SoulMovement		352864
-	680265880	LEVEL3	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\LEVEL3_D79FB2B7.wem		\Interactive Music Hierarchy\Music\LevelsMusic\LEVEL3\LEVEL3\LEVEL3		6773824
-	685032695	HumanTransReverse	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\HumanTransReverse_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Events\HumanTransReverse		590200
-	769534999	StoneImpact3	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\StoneImpact3_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\StoneImpactRandom\StoneImpact3		210276
-	791656038	MonsterHit2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\MonsterHit2_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Events\MonsterHit2		348348
-	826230485	MonsterIdle	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\MonsterIdle_D79FB2B7.wem		\Actor-Mixer Hierarchy\World\SFX\Movement\MonsterIdle		4957412
-	893363618	LEVEL2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\LEVEL2_D79FB2B7.wem		\Interactive Music Hierarchy\Music\LevelsMusic\LEVEL2\LEVEL2\LEVEL2		6773824
-	905019507	GuitarImpact	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\GuitarImpact_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\GuitarImpact		344560
-	922497341	MonsterImpact	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\Monster impact_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Events\MonsterImpact		309648
-	925324564	LEVEL1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\LEVEL1_D79FB2B7.wem		\Interactive Music Hierarchy\Music\LevelsMusic\LEVEL1\LEVEL1\LEVEL1		6773824
-	997286215	MonsterFootstep3	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\MonsterFootstep3_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\Movement\MonsterFootsteps\MonsterFootstep3		115572
-	1000857820	Monster crawl scrape1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\Monster crawl scrape1_10C4C929.wem		\Actor-Mixer Hierarchy\World\SFX\World\Monster crawl scrape1		117688
-	1069206885	LEVEL4	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\LEVEL4_D79FB2B7.wem		\Interactive Music Hierarchy\Music\LevelsMusic\LEVEL4\LEVEL4\LEVEL4		6773824
+	2613177	MonsterFootstep1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\MonsterFootstep1_6296B0F9.wem		\Actor-Mixer Hierarchy\World\SFX\Movement\MonsterFootsteps\MonsterFootstep1		7964
+	12698480	AccelRhythm	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\AccelRhythm_9B96ECC7.wem		\Interactive Music Hierarchy\Music\Rhythm\AccelRhythm\AccelRhythm		562910
+	85547061	HumanBreath	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\HumanBreath_9B96ECC7.wem		\Actor-Mixer Hierarchy\World\SFX\Events\HumanBreath		102728
+	216083020	StoneImpact4	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\StoneImpact4_6296B0F9.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\StoneImpactRandom\StoneImpact4		27306
+	295119839	DeathAnimation	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\DeathAnimation_6296B0F9.wem		\Actor-Mixer Hierarchy\World\SFX\Events\DeathAnimation		59059
+	299816113	SoulTheme	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\SoulTheme_9B96ECC7.wem		\Interactive Music Hierarchy\Music\Soul Theme\SoulTheme\SoulTheme		489197
+	351571267	KickAccel	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\KickAccel_9B96ECC7.wem		\Interactive Music Hierarchy\Music\KickAccel\KickAccel\KickAccel		18109
+	367108007	MonsterFootstep4	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\MonsterFootstep4_6296B0F9.wem		\Actor-Mixer Hierarchy\World\SFX\Movement\MonsterFootsteps\MonsterFootstep4		7733
+	377075046	StoneImpact2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\StoneImpact2_6296B0F9.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\StoneImpactRandom\StoneImpact2		18631
+	398687344	HumanTransform	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\HumanTransform_6296B0F9.wem		\Actor-Mixer Hierarchy\World\SFX\Events\HumanTransform		54933
+	450873443	MonsterFootstep2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\MonsterFootstep2_6296B0F9.wem		\Actor-Mixer Hierarchy\World\SFX\Movement\MonsterFootsteps\MonsterFootstep2		8195
+	516934991	StoneImpact1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\StoneImpact1_6296B0F9.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\StoneImpactRandom\StoneImpact1		15604
+	551432788	MonsterHit1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\MonsterHit1_6296B0F9.wem		\Actor-Mixer Hierarchy\World\SFX\Events\MonsterHit1		28150
+	626825740	MonsterTheme	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\MonsterTheme_9B96ECC7.wem		\Interactive Music Hierarchy\Music\MonsterTheme\MonsterTheme\MonsterTheme		129508
+	640481895	MonsterHit3	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\MonsterHit3_6296B0F9.wem		\Actor-Mixer Hierarchy\World\SFX\Events\MonsterHit3		21311
+	651597293	SoulMovement	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\SoulMovement_9B96ECC7.wem		\Actor-Mixer Hierarchy\World\SFX\Movement\SoulMovement		23265
+	680265880	LEVEL3	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\LEVEL3_9B96ECC7.wem		\Interactive Music Hierarchy\Music\LevelsMusic\LEVEL3\LEVEL3\LEVEL3		502522
+	685032695	HumanTransReverse	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\HumanTransReverse_6296B0F9.wem		\Actor-Mixer Hierarchy\World\SFX\Events\HumanTransReverse		48448
+	769534999	StoneImpact3	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\StoneImpact3_6296B0F9.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\StoneImpactRandom\StoneImpact3		17282
+	791656038	MonsterHit2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\MonsterHit2_6296B0F9.wem		\Actor-Mixer Hierarchy\World\SFX\Events\MonsterHit2		27049
+	826230485	MonsterIdle	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\MonsterIdle_9B96ECC7.wem		\Actor-Mixer Hierarchy\World\SFX\Movement\MonsterIdle		343231
+	893363618	LEVEL2	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\LEVEL2_9B96ECC7.wem		\Interactive Music Hierarchy\Music\LevelsMusic\LEVEL2\LEVEL2\LEVEL2		500970
+	905019507	GuitarImpact	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\GuitarImpact_6296B0F9.wem		\Actor-Mixer Hierarchy\World\SFX\Object Impact\GuitarImpact		28771
+	922497341	MonsterImpact	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\Monster impact_6296B0F9.wem		\Actor-Mixer Hierarchy\World\SFX\Events\MonsterImpact		18540
+	925324564	LEVEL1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\LEVEL1_9B96ECC7.wem		\Interactive Music Hierarchy\Music\LevelsMusic\LEVEL1\LEVEL1\LEVEL1		493222
+	997286215	MonsterFootstep3	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\MonsterFootstep3_6296B0F9.wem		\Actor-Mixer Hierarchy\World\SFX\Movement\MonsterFootsteps\MonsterFootstep3		8336
+	1000857820	Monster crawl scrape1	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\Monster crawl scrape1_6296B0F9.wem		\Actor-Mixer Hierarchy\World\SFX\World\Monster crawl scrape1		12094
+	1069206885	LEVEL4	Y:\Documents\GitHub\Minigame2\Minigame2\minigame1_sound_ny\.cache\Mac\SFX\LEVEL4_9B96ECC7.wem		\Interactive Music Hierarchy\Music\LevelsMusic\LEVEL4\LEVEL4\LEVEL4		502235
 
