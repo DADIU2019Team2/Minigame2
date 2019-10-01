@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-1297892185138916097
+--- !u!114 &-6237955542691150894
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -57,8 +57,8 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_331E5934_Texture:
-        m_Texture: {fileID: 0}
+    - _SampleTexture2D_50E4A332_Texture:
+        m_Texture: {fileID: 2800000, guid: bb212b0ae79e1a947841e5860ea5e789, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_61E7A79C_Texture:
