@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CamTriggerBox : MonoBehaviour
 {
-    public enum axis { x , y, both};
+    public enum axis { x , y, Neither};
     public axis axisToFollow;
 
     private Transform mainCamera;
