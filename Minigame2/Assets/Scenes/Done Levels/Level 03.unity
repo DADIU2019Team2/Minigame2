@@ -603,6 +603,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5246334111311661798, guid: 5b006143a93c39c47b41f52aa7059a0c,
+        type: 3}
+      propertyPath: triggerList.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5246334111311661798, guid: 5b006143a93c39c47b41f52aa7059a0c,
+        type: 3}
+      propertyPath: triggerList.Array.data[1]
+      value: 1281810935
+      objectReference: {fileID: 0}
+    - target: {fileID: 5246334111311661798, guid: 5b006143a93c39c47b41f52aa7059a0c,
+        type: 3}
+      propertyPath: triggerList.Array.data[0]
+      value: 1281810935
+      objectReference: {fileID: 0}
     - target: {fileID: 9162776937881770060, guid: 5b006143a93c39c47b41f52aa7059a0c,
         type: 3}
       propertyPath: maxAcceleration
