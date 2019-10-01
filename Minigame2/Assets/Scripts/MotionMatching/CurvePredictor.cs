@@ -66,7 +66,6 @@ public class CurvePredictor : MonoBehaviour
 
     public CurvePoint[] SimulateLerpedCurve()
     {
-        Vector3 monsterForward = monsterController.transform.forward;
         Quaternion monsterRotation = monsterController.transform.localRotation;
         Vector3 moveDir = monsterController.GetMoveDirection().normalized;
         Quaternion targetRotation = Quaternion.LookRotation(moveDir,transform.up);

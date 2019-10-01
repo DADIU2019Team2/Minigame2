@@ -1,38 +1,66 @@
 Event	ID	Name			Wwise Object Path	Notes
+	26906972	Play_Metal_impact			\Default Work Unit\Play_Metal_impact	
 	125046271	Play_MonsterTheme			\Default Work Unit\Play_MonsterTheme	
-	207037058	Play_LEVEL5_6			\Default Work Unit\Play_LEVEL5_6	
-	207625506	Play_LEVEL1_2			\Default Work Unit\Play_LEVEL1_2	
 	222374123	Play_HumanBreath			\Default Work Unit\Play_HumanBreath	
 	230120564	Play_SoulMovement			\Default Work Unit\Play_SoulMovement	
 	236152504	Set_Game_Parameter_Music			\Default Work Unit\Set_Game_Parameter_Music	
 	656382953	Enable_State_LevelsMusic			\Default Work Unit\Enable_State_LevelsMusic	
+	681628992	Play_CardboardSmall3			\Default Work Unit\Play_CardboardSmall3	
+	681628993	Play_CardboardSmall2			\Default Work Unit\Play_CardboardSmall2	
+	681628994	Play_CardboardSmall1			\Default Work Unit\Play_CardboardSmall1	
+	785252386	Play_Fridge_impact			\Default Work Unit\Play_Fridge_impact	
+	864292832	Play_Wood_impact2			\Default Work Unit\Play_Wood_impact2	
 	904426889	Play_CouchRandom			\Default Work Unit\Play_CouchRandom	
-	1127170542	Play_Monsterimpact			\Default Work Unit\Play_Monsterimpact	
+	913814820	Play_WoodBig3			\Default Work Unit\Play_WoodBig3	
+	913814821	Play_WoodBig2			\Default Work Unit\Play_WoodBig2	
+	913814822	Play_WoodBig1			\Default Work Unit\Play_WoodBig1	
+	1144615181	Play_MetalImpact			\Default Work Unit\Play_MetalImpact	
 	1166548517	Play_HumanTransReverse			\Default Work Unit\Play_HumanTransReverse	
+	1373189448	Play_CardboardBig2			\Default Work Unit\Play_CardboardBig2	
+	1373189451	Play_CardboardBig1			\Default Work Unit\Play_CardboardBig1	
+	1389736157	Play_SmallMetal1			\Default Work Unit\Play_SmallMetal1	
+	1389736158	Play_SmallMetal2			\Default Work Unit\Play_SmallMetal2	
+	1470122796	Play_Monster_crawl_scrape1			\Default Work Unit\Play_Monster_crawl_scrape1	
 	1511572556	Play_MonsterHit1			\Default Work Unit\Play_MonsterHit1	
 	1511572558	Play_MonsterHit3			\Default Work Unit\Play_MonsterHit3	
 	1511572559	Play_MonsterHit2			\Default Work Unit\Play_MonsterHit2	
 	1575918696	Play_KickAccel			\Default Work Unit\Play_KickAccel	
+	1713691436	Play_Human_Transform			\Default Work Unit\Play_Human_Transform	
+	1720134853	Play_Smaller_glass_breaking			\Default Work Unit\Play_Smaller_glass_breaking	
 	1894735553	Play_Soul_Theme			\Default Work Unit\Play_Soul_Theme	
+	1896628372	Play_DeathAnimation_01			\Default Work Unit\Play_DeathAnimation_01	
+	1978530290	Play_TempImpact			\Default Work Unit\Play_TempImpact	
+	2048554185	Play_Cardboard_impact			\Default Work Unit\Play_Cardboard_impact	
 	2062815940	Play_CeramicsRandom			\Default Work Unit\Play_CeramicsRandom	
 	2072427939	Play_Drum_collision			\Default Work Unit\Play_Drum_collision	
 	2086049674	Set_NoHeadPhones			\Default Work Unit\Set_NoHeadPhones	
+	2142485738	Play_Float_theme			\Default Work Unit\Play_Float_theme	
+	2306258661	Play_Box_plastic_impact_1			\Default Work Unit\Play_Box_plastic_impact_1	
+	2306258662	Play_Box_plastic_impact_2			\Default Work Unit\Play_Box_plastic_impact_2	
+	2361306256	Play_WoodMedium			\Default Work Unit\Play_WoodMedium	
 	2414642255	Play_FanAndLampRandom			\Default Work Unit\Play_FanAndLampRandom	
+	2424027906	Play_Glass_breaking			\Default Work Unit\Play_Glass_breaking	
 	2496174970	Play_StoneImpactRandom			\Default Work Unit\Play_StoneImpactRandom	
 	2720241158	Play_DeathAnimation			\Default Work Unit\Play_DeathAnimation	
 	2773202280	Set_State_LEVEL2			\Default Work Unit\Set_State_LEVEL2	
 	2773202281	Set_State_LEVEL3			\Default Work Unit\Set_State_LEVEL3	
 	2773202283	Set_State_LEVEL1			\Default Work Unit\Set_State_LEVEL1	
 	2773202286	Set_State_LEVEL4			\Default Work Unit\Set_State_LEVEL4	
+	2776670769	Play_Couch_Impact			\Default Work Unit\Play_Couch_Impact	
 	2899271694	Play_MonsterIdle			\Default Work Unit\Play_MonsterIdle	
-	3102081501	Play_MonsterFootsteps			\Default Work Unit\Play_MonsterFootsteps	
-	3212580163	Play_HumanTransform			\Default Work Unit\Play_HumanTransform	
+	2934994294	Play_WoodVerySmall			\Default Work Unit\Play_WoodVerySmall	
+	3025114257	Play_Gravity_shift			\Default Work Unit\Play_Gravity_shift	
+	3061002342	Play_LampImpact			\Default Work Unit\Play_LampImpact	
 	3255294874	Play_Portal_enter_next_level			\Default Work Unit\Play_Portal_enter_next_level	
 	3390222318	Play_GuitarImpact			\Default Work Unit\Play_GuitarImpact	
-	3428530970	Play_LEVEL7_8			\Default Work Unit\Play_LEVEL7_8	
-	3429222474	Play_LEVEL3_4			\Default Work Unit\Play_LEVEL3_4	
+	3659125936	Play_LEVEL4			\Default Work Unit\Play_LEVEL4	
+	3659125941	Play_LEVEL1			\Default Work Unit\Play_LEVEL1	
+	3659125942	Play_LEVEL2			\Default Work Unit\Play_LEVEL2	
+	3659125943	Play_LEVEL3			\Default Work Unit\Play_LEVEL3	
 	3917470406	Play_Rhythm			\Default Work Unit\Play_Rhythm	
+	3939836301	Play_Monster_impact			\Default Work Unit\Play_Monster_impact	
 	4138451597	Set_Game_Parameter_World			\Default Work Unit\Set_Game_Parameter_World	
+	4191183084	Play_LevelsMusic			\Default Work Unit\Play_LevelsMusic	
 
 State Group	ID	Name			Wwise Object Path	Notes
 	2871769893	LevelsMusic			\Default Work Unit\LevelsMusic	

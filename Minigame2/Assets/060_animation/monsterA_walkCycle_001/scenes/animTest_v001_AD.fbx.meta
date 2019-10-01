@@ -58,11 +58,8 @@ ModelImporter:
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
-    animationRetargetingWarnings: "\nRetargeting quality report for clip 'Take 001':\n\tLeftLowerArm
-      average position error 0.6 mm and maximum position error 9.1 mm at time 30:23
-      (56.0%) Frame 923\n\tRightLowerArm average position error 1.3 mm and maximum
-      position error 16.2 mm at time 17:15 (31.8%) Frame 525\n"
-    animationDoRetargetingWarnings: 1
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
     animationCompression: 3
@@ -97,39 +94,7 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events:
-      - time: 0.41339487
-        functionName: MonsterWalk
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: f91c09f80c9bd4d718cddd0b654732f0,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.6096998
-        functionName: MonsterWalk
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: f91c09f80c9bd4d718cddd0b654732f0,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.78752893
-        functionName: MonsterWalk
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: f91c09f80c9bd4d718cddd0b654732f0,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.97459584
-        functionName: MonsterWalk
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: f91c09f80c9bd4d718cddd0b654732f0,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
+      events: []
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
@@ -158,23 +123,7 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events:
-      - time: 0.38106224
-        functionName: MonsterWalk
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: f91c09f80c9bd4d718cddd0b654732f0,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.75261635
-        functionName: MonsterWalk
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: f91c09f80c9bd4d718cddd0b654732f0,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
+      events: []
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
@@ -203,39 +152,7 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events:
-      - time: 0.19630502
-        functionName: MonsterWalk
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: f91c09f80c9bd4d718cddd0b654732f0,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.45265585
-        functionName: MonsterWalk
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: f91c09f80c9bd4d718cddd0b654732f0,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.72748256
-        functionName: MonsterWalk
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: f91c09f80c9bd4d718cddd0b654732f0,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.9607389
-        functionName: MonsterWalk
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: f91c09f80c9bd4d718cddd0b654732f0,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
+      events: []
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
@@ -264,23 +181,7 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events:
-      - time: 0.3510391
-        functionName: MonsterWalk
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: f91c09f80c9bd4d718cddd0b654732f0,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.78521955
-        functionName: MonsterWalk
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: f91c09f80c9bd4d718cddd0b654732f0,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
+      events: []
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
@@ -309,31 +210,7 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events:
-      - time: 0.19168624
-        functionName: MonsterWalk
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: f91c09f80c9bd4d718cddd0b654732f0,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.44572753
-        functionName: MonsterWalk
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: f91c09f80c9bd4d718cddd0b654732f0,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.87990797
-        functionName: MonsterWalk
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: f91c09f80c9bd4d718cddd0b654732f0,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
+      events: []
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
@@ -362,23 +239,7 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events:
-      - time: 0.2563507
-        functionName: MonsterWalk
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: f91c09f80c9bd4d718cddd0b654732f0,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.616455
-        functionName: MonsterWalk
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: f91c09f80c9bd4d718cddd0b654732f0,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
+      events: []
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
@@ -407,39 +268,7 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events:
-      - time: 0.10161661
-        functionName: MonsterWalk
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: f91c09f80c9bd4d718cddd0b654732f0,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.40684637
-        functionName: MonsterWalk
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: f91c09f80c9bd4d718cddd0b654732f0,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.60277116
-        functionName: MonsterWalk
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: f91c09f80c9bd4d718cddd0b654732f0,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.921478
-        functionName: MonsterWalk
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: f91c09f80c9bd4d718cddd0b654732f0,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
+      events: []
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
@@ -468,23 +297,7 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events:
-      - time: 0.1847573
-        functionName: MonsterWalk
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: f91c09f80c9bd4d718cddd0b654732f0,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.7125199
-        functionName: MonsterWalk
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: f91c09f80c9bd4d718cddd0b654732f0,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
+      events: []
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
@@ -513,31 +326,7 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events:
-      - time: 0.16628139
-        functionName: MonsterWalk
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: f91c09f80c9bd4d718cddd0b654732f0,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.5150113
-        functionName: MonsterWalk
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: f91c09f80c9bd4d718cddd0b654732f0,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.87528896
-        functionName: MonsterWalk
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: f91c09f80c9bd4d718cddd0b654732f0,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
+      events: []
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
@@ -566,31 +355,7 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events:
-      - time: 0.25866085
-        functionName: MonsterWalk
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: f91c09f80c9bd4d718cddd0b654732f0,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.63510454
-        functionName: MonsterWalk
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: f91c09f80c9bd4d718cddd0b654732f0,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.96535784
-        functionName: MonsterWalk
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: f91c09f80c9bd4d718cddd0b654732f0,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
+      events: []
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
@@ -619,31 +384,7 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events:
-      - time: 0.25635114
-        functionName: MonsterWalk
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: f91c09f80c9bd4d718cddd0b654732f0,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.62817556
-        functionName: MonsterWalk
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: f91c09f80c9bd4d718cddd0b654732f0,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.9399534
-        functionName: MonsterWalk
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: f91c09f80c9bd4d718cddd0b654732f0,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
+      events: []
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
@@ -672,23 +413,7 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events:
-      - time: 0.2702081
-        functionName: MonsterWalk
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: f91c09f80c9bd4d718cddd0b654732f0,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.74364895
-        functionName: MonsterWalk
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: f91c09f80c9bd4d718cddd0b654732f0,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
+      events: []
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
@@ -717,31 +442,7 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events:
-      - time: 0.21247059
-        functionName: MonsterWalk
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: f91c09f80c9bd4d718cddd0b654732f0,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.41108575
-        functionName: MonsterWalk
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: f91c09f80c9bd4d718cddd0b654732f0,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.7505777
-        functionName: MonsterWalk
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: f91c09f80c9bd4d718cddd0b654732f0,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
+      events: []
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}

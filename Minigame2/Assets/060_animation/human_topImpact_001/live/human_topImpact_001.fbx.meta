@@ -42,7 +42,7 @@ ModelImporter:
       name: human_topImpact
       takeName: Take 001
       internalID: 1827226128182048838
-      firstFrame: 0
+      firstFrame: 140
       lastFrame: 244
       wrapMode: 0
       orientationOffsetY: 0
@@ -62,15 +62,7 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events:
-      - time: 0.29099306
-        functionName: HumanTransform
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: ca2f2c77ecea04851a3baeec9e1e0264,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
+      events: []
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}

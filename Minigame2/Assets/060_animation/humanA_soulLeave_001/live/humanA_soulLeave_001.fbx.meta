@@ -17,7 +17,7 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
-    motionNodeName: Root
+    motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
@@ -42,7 +42,7 @@ ModelImporter:
       name: human_soulLeave
       takeName: Take 001
       internalID: 1827226128182048838
-      firstFrame: 0
+      firstFrame: 45
       lastFrame: 177
       wrapMode: 0
       orientationOffsetY: 0
@@ -63,7 +63,23 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
-      - time: 0.3565797
+      - time: 0.36027715
+        functionName: HumanTransform
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 53510122f7d5a4994af8d4ec1052df0e,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.35103926
+        functionName: HumanTransReverse
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 31c2037500d924b90983526041f21648,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.34411088
         functionName: HumanTransReverse
         data: 
         objectReferenceParameter: {fileID: 11500000, guid: 31c2037500d924b90983526041f21648,

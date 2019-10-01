@@ -41,9 +41,14 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="AnimationTrigger.cs" t="Include" />
+          <e p="buttonSaveFunctions.cs" t="Include" />
           <e p="CameraControl.cs" t="Include" />
+          <e p="CameraMovementTriggerBox.cs" t="Include" />
+          <e p="CamTriggerBox.cs" t="Include" />
           <e p="CharacterMaterialShifter.cs" t="Include" />
           <e p="DestroyObject.cs" t="Include" />
+          <e p="Game.cs" t="Include" />
           <e p="GameEvents" t="Include">
             <e p="CustomEvents" t="Include">
               <e p="UnityVoidEvent.cs" t="Include" />
@@ -69,6 +74,7 @@
             <e p="AutoTranslator.cs" t="Include" />
             <e p="LocalizationManager.cs" t="Include" />
           </e>
+          <e p="MonsterAttack.cs" t="Include" />
           <e p="MonsterController.cs" t="Include" />
           <e p="MotionMatching" t="Include">
             <e p="BaseCurveData.cs" t="Include" />
@@ -84,9 +90,13 @@
             <e p="Pose.cs" t="Include" />
           </e>
           <e p="PlayerInput.cs" t="Include" />
+          <e p="PlayerSnap.cs" t="Include" />
           <e p="Portals.cs" t="Include" />
           <e p="PushAwayOnSnap.cs" t="Include" />
+          <e p="SaveLoad.cs" t="Include" />
+          <e p="ScreenDimming.cs" t="Include" />
           <e p="ScriptableObjectScripts" t="Include">
+            <e p="BoolVariable.cs" t="Include" />
             <e p="DamagebleObject.cs" t="Include" />
             <e p="GravityGlobalValues.cs" t="Include" />
             <e p="IntVariable.cs" t="Include" />
@@ -96,19 +106,25 @@
           <e p="ToggleGameobjectActive.cs" t="Include" />
           <e p="UI scripts" t="Include">
             <e p="GravGlobalSliderInitial.cs" t="Include" />
-            <e p="InitialiseSliderValue.cs" t="Include" />
+            <e p="InitialiseSliderAndWwiseValue.cs" t="Include" />
             <e p="SaveIntVariable.cs" t="Include" />
             <e p="ShowSliderValue.cs" t="Include" />
             <e p="TransitionText.cs" t="Include" />
           </e>
           <e p="UseDamagebleObject.cs" t="Include" />
+          <e p="WWise Custom Scripts" t="Include">
+            <e p="HumanTransform.cs" t="Include" />
+            <e p="KickAccel.cs" t="Include" />
+            <e p="NewBehaviourScript.cs" t="Include" />
+            <e p="SoulLeaveSound.cs" t="Include" />
+            <e p="SoulMoveAcceleration.cs" t="Include" />
+            <e p="SoulMovementSound.cs" t="Include" />
+            <e p="SoulRhythmAccel.cs" t="Include" />
+          </e>
         </e>
         <e p="Shaders" t="Include">
           <e p="Empty.txt" t="Include" />
         </e>
-        <e p="SoulMoveAcceleration.cs" t="Include" />
-        <e p="SoulMovementSound.cs" t="Include" />
-        <e p="SoulThemeAcceleration.cs" t="Include" />
         <e p="Sprites" t="Include">
           <e p="Empty.txt" t="Include" />
         </e>

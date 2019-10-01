@@ -64,7 +64,7 @@ ModelImporter:
       curves: []
       events:
       - time: 0.50577366
-        functionName: HumanTransform
+        functionName: Human Transform
         data: 
         objectReferenceParameter: {fileID: 11500000, guid: ca2f2c77ecea04851a3baeec9e1e0264,
           type: 3}

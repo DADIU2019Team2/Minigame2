@@ -127,11 +127,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 8816980469838093084, guid: bf0ff1bb4d04c434eb7528dffd5a56e2,
-        type: 3}
-      propertyPath: m_Name
-      value: Post-process Volume
-      objectReference: {fileID: 0}
     - target: {fileID: 8816980469838093081, guid: bf0ff1bb4d04c434eb7528dffd5a56e2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -186,6 +181,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816980469838093084, guid: bf0ff1bb4d04c434eb7528dffd5a56e2,
+        type: 3}
+      propertyPath: m_Name
+      value: Post-process Volume
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf0ff1bb4d04c434eb7528dffd5a56e2, type: 3}
@@ -1050,12 +1050,12 @@ PrefabInstance:
     - target: {fileID: 1330917385848236634, guid: c9745fb98bb8ca342a8837e34f0bcd04,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.33
+      value: -12.18
       objectReference: {fileID: 0}
     - target: {fileID: 1330917385848236634, guid: c9745fb98bb8ca342a8837e34f0bcd04,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.1
+      value: -0.07
       objectReference: {fileID: 0}
     - target: {fileID: 1330917385848236634, guid: c9745fb98bb8ca342a8837e34f0bcd04,
         type: 3}
@@ -1107,8 +1107,12 @@ PrefabInstance:
       propertyPath: targetTransform
       value: 
       objectReference: {fileID: 1097035922}
-    m_RemovedComponents:
-    - {fileID: 1330917385848236629, guid: c9745fb98bb8ca342a8837e34f0bcd04, type: 3}
+    - target: {fileID: 8014894126110452717, guid: c9745fb98bb8ca342a8837e34f0bcd04,
+        type: 3}
+      propertyPath: startOfLevelTransitionTime
+      value: 0.2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9745fb98bb8ca342a8837e34f0bcd04, type: 3}
 --- !u!1 &1881274981
 GameObject:
@@ -1315,45 +1319,3 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1896383812}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &2080065353 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1330917385848236630, guid: c9745fb98bb8ca342a8837e34f0bcd04,
-    type: 3}
-  m_PrefabInstance: {fileID: 1782176991}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2080065358
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2080065353}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d9d9d990eb49441c8495a46f96f23a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isDefaultListener: 1
-  listenerId: 0
---- !u!114 &2080065361
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2080065353}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef6979905cbef4f2ea1aadd3013457a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_listeners:
-    initialListenerList: []
-    useDefaultListeners: 1
-  isEnvironmentAware: 0
-  isStaticObject: 0
-  m_positionOffsetData:
-    KeepMe: 0
-    positionOffset: {x: 0, y: 0, z: 0}
-  m_posOffsetData: {fileID: 0}
-  listenerMask: 1

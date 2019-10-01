@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 618fd193900e74df2871d99a264a6cc4, type: 3}
   m_Name: 0BBD2ED9-7094-4696-81B8-392D4C179567
   m_EditorClassIdentifier: 
-  objectName: Play_Monsterimpact
-  id: 1127170542
+  objectName: Play_Monster_impact
+  id: 3939836301
   guid: 0BBD2ED9-7094-4696-81B8-392D4C179567

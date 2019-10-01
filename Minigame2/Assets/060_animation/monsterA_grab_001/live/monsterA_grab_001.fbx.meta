@@ -5,7 +5,7 @@ ModelImporter:
   internalIDToNameTable:
   - first:
       74: 1827226128182048838
-    second: monsterA_grab
+    second: MonsterGrab
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -32,7 +32,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -41,14 +41,14 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: monsterA_grab
+      name: MonsterGrab
       takeName: Take 001
       internalID: 1827226128182048838
-      firstFrame: 0
-      lastFrame: 450
+      firstFrame: 85
+      lastFrame: 345
       wrapMode: 0
       orientationOffsetY: 0
-      level: 0
+      level: 1.1
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
@@ -65,42 +65,18 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
-      - time: 0.23094687
-        functionName: Monsterimpact
+      - time: 0.06279543
+        functionName: SnapToMonster
         data: 
-        objectReferenceParameter: {fileID: 11500000, guid: 45ac798a1bf1e4bd79acb6e2fcd08e08,
+        objectReferenceParameter: {fileID: 11500000, guid: 323bb9e0d3ae4b541a27c8528b23afd0,
           type: 3}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
-      - time: 0.2909931
-        functionName: Monsterhit1
+      - time: 0.68240345
+        functionName: KillPlayer
         data: 
-        objectReferenceParameter: {fileID: 11500000, guid: 842ae62fb835a4c8aa2c38c2752213b8,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.34642032
-        functionName: Monsterhit2
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: a1943f6f3e2be4da085bdadff55ebf54,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.3926097
-        functionName: Monsterhit3
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: 299e91de8f5e642fc860d24c2804095f,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.5796767
-        functionName: DeathAnimation
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: 3b9e905d0a347456e966fb16992ea29a,
+        objectReferenceParameter: {fileID: 11500000, guid: 323bb9e0d3ae4b541a27c8528b23afd0,
           type: 3}
         floatParameter: 0
         intParameter: 0
