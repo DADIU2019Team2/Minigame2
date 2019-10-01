@@ -63,7 +63,7 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
-      - time: 0.22568865
+      - time: 0.12095049
         functionName: HumanTransform
         data: 
         objectReferenceParameter: {fileID: 11500000, guid: ca2f2c77ecea04851a3baeec9e1e0264,
