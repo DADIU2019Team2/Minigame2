@@ -41,8 +41,11 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="AnimationTrigger.cs" t="Include" />
           <e p="buttonSaveFunctions.cs" t="Include" />
           <e p="CameraControl.cs" t="Include" />
+          <e p="CameraMovementTriggerBox.cs" t="Include" />
+          <e p="CamTriggerBox.cs" t="Include" />
           <e p="CharacterMaterialShifter.cs" t="Include" />
           <e p="DestroyObject.cs" t="Include" />
           <e p="Game.cs" t="Include" />
@@ -110,9 +113,13 @@
           </e>
           <e p="UseDamagebleObject.cs" t="Include" />
           <e p="WWise Custom Scripts" t="Include">
+            <e p="HumanTransform.cs" t="Include" />
+            <e p="KickAccel.cs" t="Include" />
+            <e p="NewBehaviourScript.cs" t="Include" />
+            <e p="SoulLeaveSound.cs" t="Include" />
             <e p="SoulMoveAcceleration.cs" t="Include" />
             <e p="SoulMovementSound.cs" t="Include" />
-            <e p="SoulThemeAcceleration.cs" t="Include" />
+            <e p="SoulRhythmAccel.cs" t="Include" />
           </e>
         </e>
         <e p="Shaders" t="Include">
