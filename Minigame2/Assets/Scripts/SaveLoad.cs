@@ -17,7 +17,7 @@ public static class SaveLoad
         }
         else
         {
-            Game.current.lastLevelBeaten = SceneManager.GetActiveScene().buildIndex
+            Game.current.lastLevelBeaten = SceneManager.GetActiveScene().buildIndex;
         }
         Debug.Log("SAVING");
         saveGame = Game.current;
