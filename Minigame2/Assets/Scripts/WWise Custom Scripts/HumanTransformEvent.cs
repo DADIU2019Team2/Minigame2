@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HumanTransform : MonoBehaviour
+public class HumanTransformEvent : MonoBehaviour
 {
     public string EnterSoulSound = "HumanTransform";
 
@@ -12,7 +12,7 @@ public class HumanTransform : MonoBehaviour
         AkSoundEngine.RegisterGameObj(gameObject);
     }
     
-    void HumanTransReverse()    
+    void HumanTransform()    
     {    
         AkSoundEngine.PostEvent(EnterSoulSound, gameObject);
     }
