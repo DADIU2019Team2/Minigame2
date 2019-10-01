@@ -19,7 +19,6 @@ GameObject:
   - component: {fileID: 2995901984201761879}
   - component: {fileID: 9162776937881770060}
   - component: {fileID: 5436450671968568533}
-  - component: {fileID: 1054587067}
   m_Layer: 12
   m_Name: Monster Controller
   m_TagString: Monster
@@ -193,7 +192,7 @@ MonoBehaviour:
   monsterGravity: 2
   maxSpeed: 2
   turnSpeed: 1
-  canMove: 1
+  canMove: 0
 --- !u!114 &2995901984201761879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -289,19 +288,6 @@ MonoBehaviour:
   monsterController: {fileID: 0}
   killRange: 2.5
   isAttacking: 0
---- !u!65 &1054587067
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 298475453732957568}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Size: {x: 4.5, y: 3.25, z: 1.34}
-  m_Center: {x: 0, y: 0.66, z: 0}
 --- !u!1 &4835763955123894228
 GameObject:
   m_ObjectHideFlags: 0

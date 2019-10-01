@@ -20,6 +20,8 @@ public class CameraControl : MonoBehaviour
     [SerializeField] private GameObject transitionSoul;
     private Animator bodyAnimator;
     public VoidEvent cameraTransitionStartedEvent;
+    [SerializeField] private VoidEvent cameraTransitionEndedEvent;
+    private bool transitionHasEnded = false;
 
 
     private void Start()
@@ -37,7 +39,7 @@ public class CameraControl : MonoBehaviour
 
         initialPosition = new Vector3(bodyPosition.x, bodyPosition.y + 1.5f, zPos);
         transform.position = initialPosition;
-
+        transitionHasEnded = false;
     }
 
 
@@ -62,6 +64,11 @@ public class CameraControl : MonoBehaviour
         }
         else
         {
+            if (!transitionHasEnded)
+            {
+                transitionHasEnded = true;
+                cameraTransitionEndedEvent.Raise();
+            }
             if (player.activeSelf)
             {
                 temp.x = targetTransform.position.x;
