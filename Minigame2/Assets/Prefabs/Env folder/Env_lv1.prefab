@@ -181,6 +181,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2634945601284165587, guid: 45566b04949645a44b39ae9e1c003dac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 18.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 2634945601284165587, guid: 45566b04949645a44b39ae9e1c003dac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.25
+      objectReference: {fileID: 0}
     - target: {fileID: 2681300201509578444, guid: 45566b04949645a44b39ae9e1c003dac,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -204,12 +214,12 @@ PrefabInstance:
     - target: {fileID: 2681300201509578444, guid: 45566b04949645a44b39ae9e1c003dac,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.35
+      value: 13.8
       objectReference: {fileID: 0}
     - target: {fileID: 2681300201509578444, guid: 45566b04949645a44b39ae9e1c003dac,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.41
+      value: 1.63
       objectReference: {fileID: 0}
     - target: {fileID: 2681300201509578444, guid: 45566b04949645a44b39ae9e1c003dac,
         type: 3}
@@ -230,16 +240,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 5.13
-      objectReference: {fileID: 0}
-    - target: {fileID: 2634945601284165587, guid: 45566b04949645a44b39ae9e1c003dac,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 18.17
-      objectReference: {fileID: 0}
-    - target: {fileID: 2634945601284165587, guid: 45566b04949645a44b39ae9e1c003dac,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -0.25
       objectReference: {fileID: 0}
     - target: {fileID: 6840655170280020374, guid: 45566b04949645a44b39ae9e1c003dac,
         type: 3}
@@ -309,22 +309,32 @@ PrefabInstance:
     - target: {fileID: 517388782494623002, guid: 45566b04949645a44b39ae9e1c003dac,
         type: 3}
       propertyPath: m_Intensity
-      value: 286
+      value: 161.4
       objectReference: {fileID: 0}
     - target: {fileID: 517388782494623002, guid: 45566b04949645a44b39ae9e1c003dac,
         type: 3}
       propertyPath: m_Range
-      value: 12.512481
+      value: 21.71987
       objectReference: {fileID: 0}
     - target: {fileID: 517388782494623002, guid: 45566b04949645a44b39ae9e1c003dac,
         type: 3}
       propertyPath: m_SpotAngle
-      value: 93.62283
+      value: 65.524704
       objectReference: {fileID: 0}
     - target: {fileID: 517388782494623002, guid: 45566b04949645a44b39ae9e1c003dac,
         type: 3}
       propertyPath: m_InnerSpotAngle
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2419412932904672121, guid: 45566b04949645a44b39ae9e1c003dac,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 24.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 2419412932904672121, guid: 45566b04949645a44b39ae9e1c003dac,
+        type: 3}
+      propertyPath: m_Range
+      value: 7.7372713
       objectReference: {fileID: 0}
     - target: {fileID: 9004144445545683520, guid: 45566b04949645a44b39ae9e1c003dac,
         type: 3}
@@ -344,12 +354,12 @@ PrefabInstance:
     - target: {fileID: 9004144445545683520, guid: 45566b04949645a44b39ae9e1c003dac,
         type: 3}
       propertyPath: m_Intensity
-      value: 160.69
+      value: 217.13
       objectReference: {fileID: 0}
     - target: {fileID: 9004144445545683520, guid: 45566b04949645a44b39ae9e1c003dac,
         type: 3}
       propertyPath: m_Range
-      value: 11.926433
+      value: 13.391021
       objectReference: {fileID: 0}
     - target: {fileID: 9004144445545683520, guid: 45566b04949645a44b39ae9e1c003dac,
         type: 3}
@@ -360,16 +370,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_BounceIntensity
       value: 9.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2419412932904672121, guid: 45566b04949645a44b39ae9e1c003dac,
-        type: 3}
-      propertyPath: m_Intensity
-      value: 24.09
-      objectReference: {fileID: 0}
-    - target: {fileID: 2419412932904672121, guid: 45566b04949645a44b39ae9e1c003dac,
-        type: 3}
-      propertyPath: m_Range
-      value: 7.7372713
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45566b04949645a44b39ae9e1c003dac, type: 3}
