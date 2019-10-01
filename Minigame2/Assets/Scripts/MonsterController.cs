@@ -34,6 +34,7 @@ public class MonsterController : MonoBehaviour
     private Vector3 _moveDirection, _gravDirection;
     public bool canMove;
 
+    private Vector3 _lookDirection;
     // Start is called before the first frame update
     private void Awake()
     {
@@ -58,7 +59,7 @@ public class MonsterController : MonoBehaviour
         //transform.LookAt(playerPositionInMonsterHeight);
 
         _moveDirection = isMovingInXaxis ? Vector3.right * moveSign : Vector3.up * moveSign;
-        Vector3 _lookDirection = isMovingInXaxis ? Vector3.right * moveSign : Vector3.up * moveSign;
+        _lookDirection = isMovingInXaxis ? Vector3.right * moveSign : Vector3.up * moveSign;
         
         bool isDistanceToPlayerLargerThanThreshhold = (isMovingInXaxis ? Mathf.Abs(playerSubMonsterPos.x) > threshhold : Mathf.Abs(playerSubMonsterPos.y) > threshhold);
         if (isDistanceToPlayerLargerThanThreshhold)
@@ -71,6 +72,9 @@ public class MonsterController : MonoBehaviour
         }
         /*Vector3 lookDirection = isMovingInXaxis ? Vector3.right * moveSign : Vector3.up * moveSign;
         lookDirection.z = Random.Range(-1f, 1f);*/
+        Quaternion lookModifier =
+            isMovingInXaxis ? Quaternion.Euler(0, 1f * moveSign, 0) : Quaternion.Euler(-1f * moveSign, 0, 0);
+        _lookDirection = lookModifier * _lookDirection;
         Quaternion targetRot = Quaternion.LookRotation(_lookDirection, transform.up);
         transform.localRotation = Quaternion.Slerp(transform.localRotation, targetRot, turnSpeed * Time.deltaTime);
 
@@ -83,7 +87,7 @@ public class MonsterController : MonoBehaviour
 
     public Vector3 GetMoveDirection()
     {
-        return _moveDirection;
+        return _lookDirection;
     }
 
     //Change direction of monsters gravity and its orientation in world space.

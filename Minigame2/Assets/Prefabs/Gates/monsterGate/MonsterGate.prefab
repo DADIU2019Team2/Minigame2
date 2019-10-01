@@ -76,7 +76,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8826a87feb8f4f74ead6bae77603a757, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameEvent: {fileID: 0}
+  gameEvent: {fileID: 11400000, guid: 5bcc9b15ce3f3bb42a69b91b4f918759, type: 2}
   unityEventResponse:
     m_PersistentCalls:
       m_Calls:
