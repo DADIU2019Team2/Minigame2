@@ -204,12 +204,12 @@ PrefabInstance:
     - target: {fileID: 2681300201509578444, guid: 45566b04949645a44b39ae9e1c003dac,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.343
+      value: 14.35
       objectReference: {fileID: 0}
     - target: {fileID: 2681300201509578444, guid: 45566b04949645a44b39ae9e1c003dac,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.948
+      value: 1.41
       objectReference: {fileID: 0}
     - target: {fileID: 2681300201509578444, guid: 45566b04949645a44b39ae9e1c003dac,
         type: 3}
@@ -234,12 +234,12 @@ PrefabInstance:
     - target: {fileID: 2634945601284165587, guid: 45566b04949645a44b39ae9e1c003dac,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 18.01
+      value: 18.17
       objectReference: {fileID: 0}
     - target: {fileID: 2634945601284165587, guid: 45566b04949645a44b39ae9e1c003dac,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.73
+      value: -0.25
       objectReference: {fileID: 0}
     - target: {fileID: 6840655170280020374, guid: 45566b04949645a44b39ae9e1c003dac,
         type: 3}
@@ -309,12 +309,22 @@ PrefabInstance:
     - target: {fileID: 517388782494623002, guid: 45566b04949645a44b39ae9e1c003dac,
         type: 3}
       propertyPath: m_Intensity
-      value: 187.4
+      value: 286
       objectReference: {fileID: 0}
     - target: {fileID: 517388782494623002, guid: 45566b04949645a44b39ae9e1c003dac,
         type: 3}
       propertyPath: m_Range
-      value: 18.220942
+      value: 12.512481
+      objectReference: {fileID: 0}
+    - target: {fileID: 517388782494623002, guid: 45566b04949645a44b39ae9e1c003dac,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 93.62283
+      objectReference: {fileID: 0}
+    - target: {fileID: 517388782494623002, guid: 45566b04949645a44b39ae9e1c003dac,
+        type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9004144445545683520, guid: 45566b04949645a44b39ae9e1c003dac,
         type: 3}
@@ -334,12 +344,12 @@ PrefabInstance:
     - target: {fileID: 9004144445545683520, guid: 45566b04949645a44b39ae9e1c003dac,
         type: 3}
       propertyPath: m_Intensity
-      value: 93.11
+      value: 160.69
       objectReference: {fileID: 0}
     - target: {fileID: 9004144445545683520, guid: 45566b04949645a44b39ae9e1c003dac,
         type: 3}
       propertyPath: m_Range
-      value: 9.8880415
+      value: 11.926433
       objectReference: {fileID: 0}
     - target: {fileID: 9004144445545683520, guid: 45566b04949645a44b39ae9e1c003dac,
         type: 3}
