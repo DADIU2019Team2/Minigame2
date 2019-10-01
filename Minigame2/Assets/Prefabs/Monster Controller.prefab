@@ -9,16 +9,17 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3482798472496301321}
+  - component: {fileID: 953340954687762994}
   - component: {fileID: 6208729817045904754}
   - component: {fileID: 8450692708451530035}
   - component: {fileID: 1851348616124872362}
   - component: {fileID: 3806989993412751302}
   - component: {fileID: 5246334111311661798}
   - component: {fileID: 1943412834684121497}
-  - component: {fileID: 953340954687762994}
   - component: {fileID: 2995901984201761879}
   - component: {fileID: 9162776937881770060}
   - component: {fileID: 5436450671968568533}
+  - component: {fileID: 45434066423101827}
   m_Layer: 12
   m_Name: Monster Controller
   m_TagString: Monster
@@ -42,6 +43,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &953340954687762994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298475453732957568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a2001fc07ee0f843bcede73480be3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTransform: {fileID: 0}
+  monsterGravityDirection: 1
+  monsterGravity: 2
+  maxSpeed: 2
+  turnSpeed: 1
+  canMove: 0
 --- !u!143 &6208729817045904754
 CharacterController:
   m_ObjectHideFlags: 0
@@ -175,24 +194,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggerObject: {fileID: -927199367670048503, guid: afb7061e92cda034eaa2a0e75290a6ce,
     type: 3}
---- !u!114 &953340954687762994
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 298475453732957568}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a2001fc07ee0f843bcede73480be3f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerTransform: {fileID: 0}
-  monsterGravityDirection: 1
-  monsterGravity: 2
-  maxSpeed: 2
-  turnSpeed: 1
-  canMove: 0
 --- !u!114 &2995901984201761879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -288,6 +289,35 @@ MonoBehaviour:
   monsterController: {fileID: 0}
   killRange: 2.5
   isAttacking: 0
+--- !u!114 &45434066423101827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298475453732957568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8826a87feb8f4f74ead6bae77603a757, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: a40abcfdd0be774439720c1fa63f25df, type: 2}
+  unityEventResponse:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 953340954687762994}
+        m_MethodName: setCanMove
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+    m_TypeName: MiniGame2.Events.UnityVoidEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &4835763955123894228
 GameObject:
   m_ObjectHideFlags: 0
