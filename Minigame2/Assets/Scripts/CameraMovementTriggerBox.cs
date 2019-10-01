@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraMovementTriggerBox : MonoBehaviour
 {
-    public enum axis { x, y, both}
+    public enum axis { x, y, Neither}
     private axis axisToFollow; 
 
     public enum zoomControl { no, yes}
@@ -27,6 +27,7 @@ public class CameraMovementTriggerBox : MonoBehaviour
     [SerializeField]
     private bool isStartOfLevel = true;
     [SerializeField] private bool hasCanvasFadedOut = false;
+    [SerializeField] private bool isUsingTriggerBoxes = true;
 
     private void Awake()
     {
@@ -35,6 +36,7 @@ public class CameraMovementTriggerBox : MonoBehaviour
         gravity = FindObjectOfType<Gravity>();
         gravity.enabled = false; //make sure player can't move before cam is centered on him
         hiddenVelocity = Vector3.zero;
+        axisToFollow = axis.Neither;
     }
 
     private void Start()
@@ -86,35 +88,44 @@ public class CameraMovementTriggerBox : MonoBehaviour
 
     private void setCameraTargetPosition()
     {
-        if (axisToFollow == axis.x)
+        if (isUsingTriggerBoxes)
+        {
+            if (axisToFollow == axis.x)
+            {
+                targetCamPos.x = player.position.x;
+            }
+            else
+            {
+                targetCamPos.x = currentCameraTriggerBox.position.x;
+            }
+            if (axisToFollow == axis.y)
+            {
+                targetCamPos.y = player.position.y;
+            }
+            else
+            {
+                targetCamPos.y = currentCameraTriggerBox.position.y;
+            }
+
+            if(axisToFollow == axis.Neither)
+            {
+                targetCamPos.x = player.position.x;
+                targetCamPos.y = player.position.y;
+            }
+
+            if (enableCamZoom == zoomControl.yes)
+            {
+                targetCamPos.z = currentCameraTriggerBox.position.z;
+            }
+            else
+            {
+                targetCamPos.z = transform.position.z;
+            }
+        }
+        else
         {
             targetCamPos.x = player.position.x;
-        }
-        else
-        {
-            targetCamPos.x = currentCameraTriggerBox.position.x;
-        }
-        if (axisToFollow == axis.y)
-        {
             targetCamPos.y = player.position.y;
-        }
-        else
-        {
-            targetCamPos.y = currentCameraTriggerBox.position.y;
-        }
-
-        if(axisToFollow == axis.both)
-        {
-            targetCamPos.x = currentCameraTriggerBox.position.x;
-            targetCamPos.y = currentCameraTriggerBox.position.y;
-        }
-
-        if (enableCamZoom == zoomControl.yes)
-        {
-            targetCamPos.z = currentCameraTriggerBox.position.z;
-        }
-        else
-        {
             targetCamPos.z = transform.position.z;
         }
     }
@@ -141,7 +152,7 @@ public class CameraMovementTriggerBox : MonoBehaviour
         }
         if (_axis.Equals("both"))
         {
-            axisToFollow = axis.both;
+            axisToFollow = axis.Neither;
         }
     }
     public void setCurrentCamTriggerBox(Transform curTriggerBox)
