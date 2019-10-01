@@ -118,4 +118,9 @@ public class MonsterController : MonoBehaviour
                 return;
         }
     }
+
+    public void setCanMove(bool myBool)
+    {
+        canMove = myBool;
+    }
 }
