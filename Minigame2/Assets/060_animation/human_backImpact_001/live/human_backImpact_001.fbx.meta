@@ -42,7 +42,7 @@ ModelImporter:
       name: human_backImpact
       takeName: Take 001
       internalID: 1827226128182048838
-      firstFrame: 0
+      firstFrame: 90
       lastFrame: 224
       wrapMode: 0
       orientationOffsetY: 0
