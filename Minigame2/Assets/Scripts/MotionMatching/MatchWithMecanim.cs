@@ -15,8 +15,8 @@ public class MatchWithMecanim : MonoBehaviour
     private Vector3 _prevLeftFoot;
     private Vector3 _prevNeck;
     private Vector3 _prevPosition;
-    private MotionCurve[] _curves;
-    private Pose[] _poses;
+    public MotionCurve[] _curves;
+    public Pose[] _poses;
     private Queue<int> bannedFrames;
 
     public TextAsset motionDataFile;
