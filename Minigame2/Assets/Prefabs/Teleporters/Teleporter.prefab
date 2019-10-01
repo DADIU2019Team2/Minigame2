@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 5751748003810830393}
   - component: {fileID: 5751748003810830392}
   - component: {fileID: 5751748003810830391}
-  m_Layer: 14
+  m_Layer: 0
   m_Name: teleport_platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
