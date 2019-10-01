@@ -828,6 +828,11 @@
 								<RandomSequenceContainer Name="MonsterFootsteps" ID="{D5EC9741-63F5-4ECC-9D05-6F958FB355E3}" ShortID="266740761">
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1411,6 +1416,11 @@
 								<RandomSequenceContainer Name="StoneImpactRandom" ID="{122EE70C-06A4-49BC-BE37-5A66D80AFCC9}" ShortID="934627551">
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1753,7 +1763,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>9</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1833,6 +1843,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="HumanTransform" ID="{17CBB7C9-F173-45A1-BF08-AAD501DBDB2B}" ShortID="703833968">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C519D04C-0DFA-4CBB-A114-E1EC6EE706E2}"/>
@@ -1852,6 +1869,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="HumanTransReverse" ID="{732CEC11-1F7F-40CC-A64A-966E39F57805}" ShortID="649888314">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C519D04C-0DFA-4CBB-A114-E1EC6EE706E2}"/>
