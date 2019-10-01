@@ -73,6 +73,46 @@ ModelImporter:
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
+      - time: 0.073903
+        functionName: MonsterImpact
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 100581de753c74634af0100da5b6579f,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.16166285
+        functionName: MonsterHit1
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: bbfb634687dd342fabc4c20575b48bb2,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.25635102
+        functionName: MonsterHit2
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 88406496c9e294fe89d17086124ea21e,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.35334873
+        functionName: MonsterHit3
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 1868edc5bd60f4304a941f6b4175708a,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.68147767
+        functionName: DeathAnimation
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 9efa8a1f2e825497c820ccbe1340dab5,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       - time: 0.68240345
         functionName: KillPlayer
         data: 

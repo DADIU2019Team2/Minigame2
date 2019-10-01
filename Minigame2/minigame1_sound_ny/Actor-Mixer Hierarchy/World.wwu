@@ -11,6 +11,9 @@
 						<Reference Name="Attenuation">
 							<Custom>
 								<Attenuation Name="Attenuation (Custom)" ID="{8015E972-C825-46F9-804C-C76455736ABE}" ShortID="249498917">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="45"/>
+									</PropertyList>
 									<CurveUsageInfoList>
 										<VolumeDryUsage>
 											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -25,7 +28,7 @@
 															<Flags>5</Flags>
 														</Point>
 														<Point>
-															<XPos>100</XPos>
+															<XPos>45</XPos>
 															<YPos>-8.21983</YPos>
 															<Flags>37</Flags>
 														</Point>
@@ -52,7 +55,7 @@
 															<Flags>5</Flags>
 														</Point>
 														<Point>
-															<XPos>100</XPos>
+															<XPos>45</XPos>
 															<YPos>40</YPos>
 															<Flags>37</Flags>
 														</Point>
@@ -73,7 +76,7 @@
 															<Flags>5</Flags>
 														</Point>
 														<Point>
-															<XPos>100</XPos>
+															<XPos>45</XPos>
 															<YPos>100</YPos>
 															<Flags>37</Flags>
 														</Point>
@@ -499,206 +502,6 @@
 								</Sound>
 							</ChildrenList>
 						</ActorMixer>
-						<RandomSequenceContainer Name="TempImpact" ID="{6BE26B29-FED6-4CD2-9A6F-B0CF16C01E8A}" ShortID="622809595">
-							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C519D04C-0DFA-4CBB-A114-E1EC6EE706E2}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="World" ID="{8C3EEA4D-73F0-4D58-A48A-41CC095FBA00}" WorkUnitID="{50CA1337-8599-4971-9D3E-31B46F895C9D}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="WoodTemp1" ID="{DE66EC11-AD21-4257-B85F-5B653FA70414}" ShortID="519914573">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C519D04C-0DFA-4CBB-A114-E1EC6EE706E2}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50CA1337-8599-4971-9D3E-31B46F895C9D}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="WoodBig1" ID="{93327CCB-5170-40E0-8B9A-C154E93D5038}" ShortID="338546102">
-											<Language>SFX</Language>
-											<AudioFile>WoodBig1.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="223459621"/>
-											</ConvertedFileIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="WoodBig1" ID="{93327CCB-5170-40E0-8B9A-C154E93D5038}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="WoodTemp2" ID="{8CDAAFFB-C595-41F2-811F-D2614497EC34}" ShortID="70947866">
-									<PropertyList>
-										<Property Name="Pitch" Type="int32">
-											<ValueList>
-												<Value>400</Value>
-											</ValueList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>4</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C519D04C-0DFA-4CBB-A114-E1EC6EE706E2}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50CA1337-8599-4971-9D3E-31B46F895C9D}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="WoodBig2" ID="{ED5E9A7B-6332-4B0D-B3D2-83428605F73D}" ShortID="57515379">
-											<Language>SFX</Language>
-											<AudioFile>WoodBig2.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="363701662"/>
-											</ConvertedFileIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="WoodBig2" ID="{ED5E9A7B-6332-4B0D-B3D2-83428605F73D}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="WoodTemp3" ID="{572C9531-BA87-41B5-AC85-A424E87BBD8D}" ShortID="435481327">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>3</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C519D04C-0DFA-4CBB-A114-E1EC6EE706E2}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50CA1337-8599-4971-9D3E-31B46F895C9D}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="WoodBig3" ID="{F70FAD99-886E-4BCA-A314-5ACABD871C9D}" ShortID="170724148">
-											<Language>SFX</Language>
-											<AudioFile>WoodBig3.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="58788819"/>
-											</ConvertedFileIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="WoodBig3" ID="{F70FAD99-886E-4BCA-A314-5ACABD871C9D}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="WoodTemp4" ID="{3505EADC-1F6A-4826-9862-8D104A7CEDAB}" ShortID="21877844">
-									<PropertyList>
-										<Property Name="Pitch" Type="int32">
-											<ValueList>
-												<Value>-280</Value>
-											</ValueList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>1</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C519D04C-0DFA-4CBB-A114-E1EC6EE706E2}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50CA1337-8599-4971-9D3E-31B46F895C9D}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="WoodMedium" ID="{76B7A568-A640-4282-B44E-8512F6849A21}" ShortID="251650480">
-											<Language>SFX</Language>
-											<AudioFile>WoodMedium.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="126058192"/>
-											</ConvertedFileIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="WoodMedium" ID="{76B7A568-A640-4282-B44E-8512F6849A21}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Temp3" ID="{593FEB18-C0CF-43F1-A4BB-C38C4BBAC7D7}" ShortID="832697259">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C519D04C-0DFA-4CBB-A114-E1EC6EE706E2}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50CA1337-8599-4971-9D3E-31B46F895C9D}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="GuitarImpact" ID="{904AEF20-DB73-4746-A048-28738D801372}" ShortID="9005834">
-											<Language>SFX</Language>
-											<AudioFile>GuitarImpact.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="905019507"/>
-											</ConvertedFileIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="GuitarImpact" ID="{904AEF20-DB73-4746-A048-28738D801372}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Temp2" ID="{0607F1F3-1D89-4F7B-A2D9-7ABDF826D953}" ShortID="88192975">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C519D04C-0DFA-4CBB-A114-E1EC6EE706E2}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50CA1337-8599-4971-9D3E-31B46F895C9D}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="LampImpact" ID="{E421213C-9421-4ACC-AEE3-8504355B49D4}" ShortID="517420037">
-											<Language>SFX</Language>
-											<AudioFile>LampImpact.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="976289761"/>
-											</ConvertedFileIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="LampImpact" ID="{E421213C-9421-4ACC-AEE3-8504355B49D4}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Temp1" ID="{C1C09D44-D148-4294-AA34-09244CB23EC7}" ShortID="309857504">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C519D04C-0DFA-4CBB-A114-E1EC6EE706E2}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50CA1337-8599-4971-9D3E-31B46F895C9D}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="MetalImpact2" ID="{4D7E3C98-6C46-4F5B-B8A3-1955F5265971}" ShortID="1028562749">
-											<Language>SFX</Language>
-											<AudioFile>MetalImpact2.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="469028307"/>
-											</ConvertedFileIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="MetalImpact2" ID="{4D7E3C98-6C46-4F5B-B8A3-1955F5265971}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</RandomSequenceContainer>
 						<SwitchContainer Name="Weight" ID="{EF08C042-E984-4367-84E7-67B5FB4E8404}" ShortID="609223197">
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -958,12 +761,12 @@
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>1.52978</XPos>
+																<XPos>0.76489</XPos>
 																<YPos>320</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
-																<XPos>6</XPos>
+																<XPos>3</XPos>
 																<YPos>465</YPos>
 																<Flags>37</Flags>
 															</Point>
@@ -994,7 +797,7 @@
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>6</XPos>
+																<XPos>3</XPos>
 																<YPos>3.52183</YPos>
 																<Flags>37</Flags>
 															</Point>
@@ -1022,6 +825,172 @@
 										<ActiveSource Name="SoulMovement" ID="{ADFBA6AB-AECD-4C85-AB31-1850F6B46331}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<RandomSequenceContainer Name="MonsterFootsteps" ID="{D5EC9741-63F5-4ECC-9D05-6F958FB355E3}" ShortID="266740761">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<Custom>
+												<Attenuation Name="Attenuation (Custom)" ID="{E5054BAC-F1EE-478D-ACD6-748144B17435}" ShortID="34475588">
+													<PropertyList>
+														<Property Name="RadiusMax" Type="Real64" Value="40"/>
+													</PropertyList>
+													<CurveUsageInfoList>
+														<VolumeDryUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeDry" ID="{2F11BB90-B633-48AB-A19C-A46FCB3628C0}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>40</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeDryUsage>
+														<VolumeWetGameUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetGameUsage>
+														<VolumeWetUserUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetUserUsage>
+														<LowPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="LowPassFilter" ID="{3181D67B-BE32-475F-B1B1-1005DCB12840}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="65537"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>40</XPos>
+																			<YPos>100</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</LowPassFilterUsage>
+														<HighPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighPassFilterUsage>
+														<SpreadUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</FocusUsage>
+													</CurveUsageInfoList>
+												</Attenuation>
+											</Custom>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C519D04C-0DFA-4CBB-A114-E1EC6EE706E2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50CA1337-8599-4971-9D3E-31B46F895C9D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="MonsterFootstep1" ID="{3E759060-695B-45E8-A3D9-1CCDEC8DFCFB}" ShortID="371628443">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C519D04C-0DFA-4CBB-A114-E1EC6EE706E2}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50CA1337-8599-4971-9D3E-31B46F895C9D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MonsterFootstep1" ID="{2C4EAA91-AA9C-442D-889C-CA5E25E421D1}" ShortID="2613177">
+													<Language>SFX</Language>
+													<AudioFile>MonsterFootstep1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MonsterFootstep1" ID="{2C4EAA91-AA9C-442D-889C-CA5E25E421D1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MonsterFootstep2" ID="{5C24A1E7-A8FF-41E9-8D0D-C836465BDDA3}" ShortID="483386146">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C519D04C-0DFA-4CBB-A114-E1EC6EE706E2}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50CA1337-8599-4971-9D3E-31B46F895C9D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MonsterFootstep2" ID="{34C958EA-B990-49F8-8F70-4A8C306E77B1}" ShortID="450873443">
+													<Language>SFX</Language>
+													<AudioFile>MonsterFootstep2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MonsterFootstep2" ID="{34C958EA-B990-49F8-8F70-4A8C306E77B1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MonsterFootstep3" ID="{86FFE5B8-424E-4253-85A4-BDA7123F2300}" ShortID="272948162">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C519D04C-0DFA-4CBB-A114-E1EC6EE706E2}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50CA1337-8599-4971-9D3E-31B46F895C9D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MonsterFootstep3" ID="{C2192494-6DBD-4427-AB1C-7B2E36502388}" ShortID="997286215">
+													<Language>SFX</Language>
+													<AudioFile>MonsterFootstep3.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MonsterFootstep3" ID="{C2192494-6DBD-4427-AB1C-7B2E36502388}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MonsterFootstep4" ID="{47B634B1-B838-4695-9355-B7517A13BE4D}" ShortID="34669087">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C519D04C-0DFA-4CBB-A114-E1EC6EE706E2}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50CA1337-8599-4971-9D3E-31B46F895C9D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MonsterFootstep4" ID="{94BC96DC-A0E2-4BFA-9937-DA4D2F3182AE}" ShortID="367108007">
+													<Language>SFX</Language>
+													<AudioFile>MonsterFootstep4.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MonsterFootstep4" ID="{94BC96DC-A0E2-4BFA-9937-DA4D2F3182AE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="Object Impact" ID="{F37FE47A-3E34-45C8-AAC0-54D53DDF75AD}" ShortID="50190435">
@@ -1515,6 +1484,14 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="StoneImpactRandom" ID="{122EE70C-06A4-49BC-BE37-5A66D80AFCC9}" ShortID="934627551">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C519D04C-0DFA-4CBB-A114-E1EC6EE706E2}"/>
@@ -1642,25 +1619,6 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Human Transform" ID="{B6FA5C70-87E2-446B-878C-72085CAB7146}" ShortID="448034581">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C519D04C-0DFA-4CBB-A114-E1EC6EE706E2}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50CA1337-8599-4971-9D3E-31B46F895C9D}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Human Transform" ID="{9573830A-0FF7-4018-9C93-7137AE33936E}" ShortID="802420390">
-											<Language>SFX</Language>
-											<AudioFile>Human Transform.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Human Transform" ID="{9573830A-0FF7-4018-9C93-7137AE33936E}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="HumanBreath" ID="{91C3DEB9-A23A-48C3-9345-76D2BEB47C3B}" ShortID="592037519">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
@@ -1758,26 +1716,7 @@
 										<ActiveSource Name="HumanBreath" ID="{66565B24-0955-4169-842E-212CB5C16A90}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="HumanTransReverse" ID="{51622876-B535-4F24-9CEE-8C6129789DEA}" ShortID="555368144">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C519D04C-0DFA-4CBB-A114-E1EC6EE706E2}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50CA1337-8599-4971-9D3E-31B46F895C9D}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="HumanTransReverse" ID="{7FCC5870-9E74-4974-A3BC-454716A0F4CD}" ShortID="363199118">
-											<Language>SFX</Language>
-											<AudioFile>HumanTransReverse.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="HumanTransReverse" ID="{7FCC5870-9E74-4974-A3BC-454716A0F4CD}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Monster impact" ID="{0E9B4D4C-8105-4DBE-BF91-C4E3BCB123F8}" ShortID="948208221">
+								<Sound Name="MonsterImpact" ID="{0E9B4D4C-8105-4DBE-BF91-C4E3BCB123F8}" ShortID="948208221">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
@@ -1890,64 +1829,14 @@
 										<ActiveSource Name="Monster impact" ID="{38440D0B-730B-41F3-9281-A734AD729D2B}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="MonsterHit1" ID="{6C3AD92D-DB95-49DE-B99E-FAA0FF939B73}" ShortID="942815981">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C519D04C-0DFA-4CBB-A114-E1EC6EE706E2}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50CA1337-8599-4971-9D3E-31B46F895C9D}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="MonsterHit1" ID="{95364893-CCB9-4B8D-807D-6B987EFD1AD0}" ShortID="776801418">
-											<Language>SFX</Language>
-											<AudioFile>MonsterHit1.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="MonsterHit1" ID="{95364893-CCB9-4B8D-807D-6B987EFD1AD0}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="MonsterHit2" ID="{EC9199D7-8FBC-44F1-9D6A-10EE332B06CF}" ShortID="483752447">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C519D04C-0DFA-4CBB-A114-E1EC6EE706E2}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50CA1337-8599-4971-9D3E-31B46F895C9D}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="MonsterHit2" ID="{97F32966-B716-4E09-85FC-213264483CE6}" ShortID="222473481">
-											<Language>SFX</Language>
-											<AudioFile>MonsterHit2.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="MonsterHit2" ID="{97F32966-B716-4E09-85FC-213264483CE6}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="MonsterHit3" ID="{60C3D7E2-4E66-47C2-8E51-7ED4953B7126}" ShortID="92674420">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C519D04C-0DFA-4CBB-A114-E1EC6EE706E2}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50CA1337-8599-4971-9D3E-31B46F895C9D}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="MonsterHit3" ID="{1B8A5585-4D59-466A-8077-B42E16AB575C}" ShortID="644201874">
-											<Language>SFX</Language>
-											<AudioFile>MonsterHit3.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="MonsterHit3" ID="{1B8A5585-4D59-466A-8077-B42E16AB575C}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="DeathAnimation" ID="{8D3EDD46-70D9-4DD4-893F-97E6EA9D09CA}" ShortID="583652687">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C519D04C-0DFA-4CBB-A114-E1EC6EE706E2}"/>
@@ -1964,6 +1853,115 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="DeathAnimation" ID="{223D03D0-B8B3-42FA-B5C1-A78D0DF4242C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MonsterHit1" ID="{FD17DC68-09A5-4A34-B8B1-17D30B7DD764}" ShortID="804723924">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C519D04C-0DFA-4CBB-A114-E1EC6EE706E2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50CA1337-8599-4971-9D3E-31B46F895C9D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MonsterHit1" ID="{477B9E0B-AF06-4478-874E-E3A691067066}" ShortID="551432788">
+											<Language>SFX</Language>
+											<AudioFile>MonsterHit1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MonsterHit1" ID="{477B9E0B-AF06-4478-874E-E3A691067066}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MonsterHit2" ID="{CAE9112A-B0BD-42B5-BBBD-77A0017A361A}" ShortID="447534919">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C519D04C-0DFA-4CBB-A114-E1EC6EE706E2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50CA1337-8599-4971-9D3E-31B46F895C9D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MonsterHit2" ID="{70B6980F-A89F-4A3F-8F7D-9437B15E7B75}" ShortID="791656038">
+											<Language>SFX</Language>
+											<AudioFile>MonsterHit2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MonsterHit2" ID="{70B6980F-A89F-4A3F-8F7D-9437B15E7B75}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MonsterHit3" ID="{C575EEA6-C20B-4FC2-A77C-F450B1C5FDF5}" ShortID="17074075">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C519D04C-0DFA-4CBB-A114-E1EC6EE706E2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50CA1337-8599-4971-9D3E-31B46F895C9D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MonsterHit3" ID="{80A0092E-D8F1-4520-B91E-A90B6A9BAFBB}" ShortID="640481895">
+											<Language>SFX</Language>
+											<AudioFile>MonsterHit3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MonsterHit3" ID="{80A0092E-D8F1-4520-B91E-A90B6A9BAFBB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="HumanTransform" ID="{17CBB7C9-F173-45A1-BF08-AAD501DBDB2B}" ShortID="703833968">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C519D04C-0DFA-4CBB-A114-E1EC6EE706E2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50CA1337-8599-4971-9D3E-31B46F895C9D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="HumanTransform" ID="{B220E8F3-5D51-4C17-B309-71A5E7F87CF1}" ShortID="398687344">
+											<Language>SFX</Language>
+											<AudioFile>HumanTransform.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="HumanTransform" ID="{B220E8F3-5D51-4C17-B309-71A5E7F87CF1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="HumanTransReverse" ID="{732CEC11-1F7F-40CC-A64A-966E39F57805}" ShortID="649888314">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C519D04C-0DFA-4CBB-A114-E1EC6EE706E2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50CA1337-8599-4971-9D3E-31B46F895C9D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="HumanTransReverse" ID="{566F697A-64EB-41B7-81E7-B7A2AEB622FC}" ShortID="685032695">
+											<Language>SFX</Language>
+											<AudioFile>HumanTransReverse.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="HumanTransReverse" ID="{566F697A-64EB-41B7-81E7-B7A2AEB622FC}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

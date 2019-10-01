@@ -22,10 +22,12 @@ public class CameraControl : MonoBehaviour
     public VoidEvent cameraTransitionStartedEvent;
     [SerializeField] private VoidEvent cameraTransitionEndedEvent;
     private bool transitionHasEnded = false;
+    private bool raisedEvent = false;
 
 
     private void Start()
     {
+        raisedEvent = false;
         timeSinceLevelStarted = 0;
         isStartOfLevel = true;
         zPos = transform.position.z;
@@ -60,7 +62,12 @@ public class CameraControl : MonoBehaviour
             Vector3 newPosition = Vector3.Lerp(initialPosition, targetTransform.position, t);
             newPosition = new Vector3(newPosition.x, newPosition.y, zPos);
             transform.position = newPosition;
-            cameraTransitionStartedEvent.Raise();
+            if (!raisedEvent)
+            {
+                cameraTransitionStartedEvent.Raise();
+                raisedEvent = true;
+            }
+
         }
         else
         {
