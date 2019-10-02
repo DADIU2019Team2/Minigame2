@@ -7,7 +7,7 @@ public class CameraControl : MonoBehaviour
 {
     public Transform targetTransform;
     Vector3 temp = new Vector3();
-
+    [SerializeField] private GameObject fakeSoulParticles;
     public float startOfLevelTransitionTime = 3;
     private float timeSinceLevelStarted = 0f;
     float zPos;
@@ -78,6 +78,9 @@ public class CameraControl : MonoBehaviour
                 cameraTransitionEndedEvent.Raise(); 
                 FindObjectOfType<Gravity>().enabled = true;
                 player.SetActive(true);
+                fakeSoulParticles.transform.SetParent(null);
+                fakeSoulParticles.transform.Translate(0,0,-2000f);
+                Destroy(fakeSoulParticles, 6f);
                 Destroy(transitionSoul, 2);
             }
             if (player.activeSelf)

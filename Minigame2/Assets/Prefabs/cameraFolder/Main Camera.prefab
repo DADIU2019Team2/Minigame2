@@ -309,6 +309,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetTransform: {fileID: 0}
+  fakeSoulParticles: {fileID: 7381323226599846296}
   startOfLevelTransitionTime: 3
   isStartOfLevel: 1
   hasCanvasFadedOut: 0
@@ -1696,6 +1697,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77e4e19b6e1d7c04594a0316e6a775e1, type: 3}
+--- !u!1 &7381323226599846296 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1497355406021178016, guid: 77e4e19b6e1d7c04594a0316e6a775e1,
+    type: 3}
+  m_PrefabInstance: {fileID: 8261878337760510776}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4185765347337898561 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5241844698846513529, guid: 77e4e19b6e1d7c04594a0316e6a775e1,
