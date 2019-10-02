@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 9183476770267124827}
   - component: {fileID: 6731057902458935181}
   m_Layer: 0
-  m_Name: Purple Spot01
+  m_Name: Purple Spot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -76,7 +76,7 @@ Light:
   m_Cookie: {fileID: 0}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
-  m_RenderMode: 0
+  m_RenderMode: 2
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
