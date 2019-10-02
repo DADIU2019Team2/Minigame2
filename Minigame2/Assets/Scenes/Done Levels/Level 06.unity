@@ -334,6 +334,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8816980469838093084, guid: bf0ff1bb4d04c434eb7528dffd5a56e2,
+        type: 3}
+      propertyPath: m_Name
+      value: Post-process Volume
+      objectReference: {fileID: 0}
     - target: {fileID: 8816980469838093081, guid: bf0ff1bb4d04c434eb7528dffd5a56e2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -388,11 +393,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8816980469838093084, guid: bf0ff1bb4d04c434eb7528dffd5a56e2,
-        type: 3}
-      propertyPath: m_Name
-      value: Post-process Volume
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf0ff1bb4d04c434eb7528dffd5a56e2, type: 3}
@@ -3371,6 +3371,16 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 953340954687762994, guid: 5b006143a93c39c47b41f52aa7059a0c,
+        type: 3}
+      propertyPath: monsterGravityDirection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436450671968568533, guid: 5b006143a93c39c47b41f52aa7059a0c,
+        type: 3}
+      propertyPath: killRange
+      value: 2.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3175286377087639186, guid: 5b006143a93c39c47b41f52aa7059a0c,
         type: 3}
       propertyPath: m_Layer
@@ -3630,16 +3640,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 953340954687762994, guid: 5b006143a93c39c47b41f52aa7059a0c,
-        type: 3}
-      propertyPath: monsterGravityDirection
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5436450671968568533, guid: 5b006143a93c39c47b41f52aa7059a0c,
-        type: 3}
-      propertyPath: killRange
-      value: 2.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b006143a93c39c47b41f52aa7059a0c, type: 3}
@@ -4793,6 +4793,11 @@ PrefabInstance:
       propertyPath: targetTransform
       value: 
       objectReference: {fileID: 1097035922}
+    - target: {fileID: 1330917385848236635, guid: c9745fb98bb8ca342a8837e34f0bcd04,
+        type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 114487
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1330917385848236629, guid: c9745fb98bb8ca342a8837e34f0bcd04, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c9745fb98bb8ca342a8837e34f0bcd04, type: 3}

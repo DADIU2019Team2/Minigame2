@@ -310,12 +310,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2524113447368688645}
   m_PrefabAsset: {fileID: 0}
---- !u!23 &5195545196580825552 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: -1504981713932161579, guid: afb7061e92cda034eaa2a0e75290a6ce,
-    type: 3}
-  m_PrefabInstance: {fileID: 2524113447368688645}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3893343050100847316
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -627,7 +621,7 @@ PrefabInstance:
         type: 3}
       propertyPath: ShapeModule.m_MeshRenderer
       value: 
-      objectReference: {fileID: 5195545196580825552}
+      objectReference: {fileID: 1686942246170214972}
     - target: {fileID: 255211197148127704, guid: 77e4e19b6e1d7c04594a0316e6a775e1,
         type: 3}
       propertyPath: ColorModule.enabled
@@ -763,6 +757,12 @@ PrefabInstance:
 --- !u!4 &4111424568555963635 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: afb7061e92cda034eaa2a0e75290a6ce,
+    type: 3}
+  m_PrefabInstance: {fileID: 8967795034871967721}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1686942246170214972 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -1504981713932161579, guid: afb7061e92cda034eaa2a0e75290a6ce,
     type: 3}
   m_PrefabInstance: {fileID: 8967795034871967721}
   m_PrefabAsset: {fileID: 0}

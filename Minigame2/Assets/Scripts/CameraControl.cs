@@ -69,12 +69,16 @@ public class CameraControl : MonoBehaviour
             }
 
         }
-        else
+        else if (player != null)
         {
+
             if (!transitionHasEnded)
             {
                 transitionHasEnded = true;
-                cameraTransitionEndedEvent.Raise();
+                cameraTransitionEndedEvent.Raise(); 
+                FindObjectOfType<Gravity>().enabled = true;
+                player.SetActive(true);
+                Destroy(transitionSoul, 2);
             }
             if (player.activeSelf)
             {
@@ -84,9 +88,7 @@ public class CameraControl : MonoBehaviour
                 this.transform.position = temp;
                 return;
             }
-            FindObjectOfType<Gravity>().enabled = true;
-            player.SetActive(true);
-            Destroy(transitionSoul, 2);
+
 
         }
         timeSinceLevelStarted += Time.deltaTime;
